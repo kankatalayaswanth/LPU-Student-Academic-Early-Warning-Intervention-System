@@ -44,6 +44,10 @@ In compliance with strict modern enterprise design guidelines (modeled after Lin
 ACADEMIC EARLY-WARNING & INTERVENTION SYSTEM/
 ├── .streamlit/
 │   └── config.toml               # Streamlit enterprise theme settings
+├── Application Outcome Images/   # High-resolution dashboard outcome screenshots
+│   ├── Executive Overview.png
+│   ├── Student Risk & SHAP Profiler.png
+│   └── Model Performance &EDA Lab.png
 ├── artifacts/                    # Pre-computed models & evaluation metrics
 │   ├── best_model_pipeline.joblib# Serialized winning Tuned XGBoost Pipeline
 │   ├── shap_explainer.joblib     # Serialized TreeExplainer SHAP artifact
@@ -73,7 +77,20 @@ ACADEMIC EARLY-WARNING & INTERVENTION SYSTEM/
 
 ---
 
-## 4. Dataset Schema & Synthetic Generation (`src/data_prep.py`)
+## 4. Application Outcome Previews
+
+### Executive Academic Overview Dashboard
+![Executive Overview Dashboard](Application%20Outcome%20Images/Executive%20Overview.png)
+
+### Individual Student Risk & TreeSHAP Profiler
+![Student Risk & SHAP Profiler](Application%20Outcome%20Images/Student%20Risk%20%26%20SHAP%20Profiler.png)
+
+### Supervised Learning Diagnostic & EDA Laboratory
+![Model Performance & EDA Lab](Application%20Outcome%20Images/Model%20Performance%20%26EDA%20Lab.png)
+
+---
+
+## 5. Dataset Schema & Synthetic Generation (`src/data_prep.py`)
 
 The dataset comprises **2,500 undergraduate student records** across 7 major LPU academic departments. The synthesis incorporates genuine covariance structures, latent diligence/ability factors, 3% missingness across numerical features (to demonstrate robust imputation), and realistic outliers (to demonstrate IQR clipping):
 
