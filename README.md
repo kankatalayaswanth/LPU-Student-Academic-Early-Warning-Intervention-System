@@ -235,7 +235,3 @@ streamlit run app.py
 Open your browser at `http://localhost:8501`.
 
 ---
-
-**Answer**: 
-1. **Feature Exclusion**: All protected demographic and socio-economic attributes (gender, caste, state of origin, parental income) are deliberately excluded from the feature space.
-2. **Human-in-the-Loop Governance**: The system is legally formulated as decision support. No automated adverse academic action (e.g., examination debarment) can occur without manual review and ratification by the Faculty Academic Advisory Committee.
