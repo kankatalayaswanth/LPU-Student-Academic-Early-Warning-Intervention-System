@@ -220,7 +220,7 @@ pip install -r requirements.txt
 ```bash
 python src/data_prep.py
 ```
-*Outputs: `data/student_academic_data.csv` (2,500 records) and `data/sample_batch_upload.csv` (50 test records).*
+*Outputs: `data/student_academic_data.csv` (2,500 records)
 
 ### Step 3: Execute the Training, Tuning & Serialization Pipeline
 ```bash
@@ -236,23 +236,6 @@ Open your browser at `http://localhost:8501`.
 
 ---
 
-## 10. Viva Defense & Examination Guide (INT395)
-
-### Q1: How did you ensure your model does not suffer from data leakage?
-**Answer**: Data leakage was prevented by executing a strict stratified train/val/test split (70%/15%/15%) on the raw DataFrame *before* fitting any transformer. The median imputers, standard scalers, and IQR outlier boundaries were learned solely from the training set. Furthermore, SMOTE oversampling was wrapped inside an `imblearn.pipeline.Pipeline`, ensuring synthetic samples were generated only within the training folds during cross-validation.
-
-### Q2: Why choose XGBoost over a Deep Neural Network or Random Forest?
-**Answer**: On tabular academic datasets of this scale (2,500 records), tree-based gradient boosting models (XGBoost/LightGBM) consistently outperform deep networks because they do not require massive sample sizes to establish inductive bias, handle heterogeneous numerical/categorical features seamlessly, and natively support exact, tree-based Shapley value computation via TreeSHAP in polynomial time $O(TLD^2)$. Random Forest performed strongly (83.5% accuracy), but XGBoost provided superior gradient-guided regularization (`subsample=0.8`, `colsample_bytree=0.8`, `learning_rate=0.04`).
-
-### Q3: Why is SMOTE preferred over simple random oversampling or class weights?
-**Answer**: Random oversampling merely duplicates existing minority samples, leading to severe overfitting. Class weights shift the loss function but can destabilize tree split criteria in boosting. SMOTE synthesizes new, plausible instances by interpolating along the feature line segments connecting $k$-nearest minority neighbors ($k=5$), effectively expanding the decision boundary of the high-risk class without memorizing individual records.
-
-### Q4: How does SHAP TreeExplainer work mathematically?
-**Answer**: SHAP assigns each feature an attribution value $\phi_i$ satisfying four fundamental game-theoretic axioms: Efficiency, Symmetry, Dummy (Null player), and Additivity:
-$$\phi_i(x) = \sum_{S \subseteq F \setminus \{i\}} \frac{|S|!(|F| - |S| - 1)!}{|F|!} \left[ f_x(S \cup \{i\}) - f_x(S) \right]$$
-While KernelSHAP approximates this exponentially, Lundberg's **TreeSHAP** leverages the tree structure to compute exact conditional expectations in polynomial time by recursively traversing tree paths, enabling instantaneous local attribution inside the web dashboard.
-
-### Q5: What institutional safeguards prevent algorithmic bias?
 **Answer**: 
 1. **Feature Exclusion**: All protected demographic and socio-economic attributes (gender, caste, state of origin, parental income) are deliberately excluded from the feature space.
 2. **Human-in-the-Loop Governance**: The system is legally formulated as decision support. No automated adverse academic action (e.g., examination debarment) can occur without manual review and ratification by the Faculty Academic Advisory Committee.
