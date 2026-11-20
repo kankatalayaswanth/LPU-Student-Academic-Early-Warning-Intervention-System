@@ -13,7 +13,7 @@
 
 In contemporary tertiary education systems like **Lovely Professional University (LPU)**, early detection of academic vulnerability is essential to prevent course failure, student debarment due to attendance shortages, and long-term degree attrition. Traditional institutional interventions typically occur **post-facto**—only after End-Term examinations when it is too late to rescue a student's semester GPA.
 
-The **LPU Student Academic Early-Warning & Intervention System** transforms this paradigm by deploying an end-to-end Supervised Machine Learning surveillance framework. By processing real-time academic telemetry across continuous assessments (CA1, CA2, CA3), mid-term examinations, digital LMS portal engagement, assignment completion rates, class participation, and attendance compliance, the system:
+The **LPU Student Academic Early-Warning & Intervention System** transforms this paradigm by deploying an end-to-end Supervised Machine Learning surveillance framework. By processing real-time academic telemetry across continuous assessments (CA1, CA2, CA3), mid-term examinations, assignment completion rates, class participation, and attendance compliance, the system:
 1. Predicts individual student risk level (`Low`, `Medium`, `High`) with **78.6% High-Risk Recall** and **0.946 ROC-AUC (OVR)**.
 2. Demystifies model decisions using **SHAP (SHapley Additive exPlanations) TreeExplainer** to highlight the exact academic deficiencies elevating student risk.
 3. Automatically triggers **prioritized, rule-based Faculty & Mentor Action Plans** compliant with university regulatory codes (e.g., LPU Academic Regulations Section 14.1 Attendance Policy, Remedial Peer-Tutoring Cell, and Academic Probation Advising).
@@ -106,7 +106,6 @@ The dataset comprises **2,500 undergraduate student records** across 7 major LPU
 | `MidTerm_Marks` | Float | Mid-Term Examination (out of 100) | 10.0 - 100.0 (25% weight in LPU grade) |
 | `Prev_Sem_CGPA` | Float | Cumulative Grade Point Average | 3.80 - 9.95 (Scale: 0.00 - 10.00) |
 | `Assignment_Submission_Rate` | Float | On-time homework submission (%) | 15.0% - 100.0% |
-| `LMS_Logins_Per_Week` | Integer | University Moodle/LMS logins | 1 to 35 logins per week |
 | `Active_Backlogs` | Integer | Count of uncleared prerequisite courses | 0 to 5 backlogs (right-skewed) |
 | `Study_Hours_Per_Week` | Float | Self-reported independent study hours | 2.0 to 42.0 hours (with outliers up to 80) |
 | `Participation_Score` | Float | Tutorial and lab engagement score | 1.0 to 10.0 |
@@ -152,7 +151,7 @@ flowchart TD
 - **`CA_Average`**: $\frac{\text{CA1} + \text{CA2} + \text{CA3}}{3}$ provides the stable baseline of continuous evaluation.
 - **`CA_Trend`**: $\text{CA3} - \text{CA1}$ captures the student's dynamic semester momentum (distinguishing between academic recovery vs late-semester burnout).
 - **`Attendance_Shortage_Flag`**: Binary indicator where $\text{Attendance} < 75.0\%$ represents immediate examination debarment liability under LPU Section 14.1.
-- **`Engagement_Index`**: Blended score $(0.4 \times \frac{\text{LMS Logins}}{35} + 0.6 \times \frac{\text{Assignment Rate}}{100}) \times 100$ capturing digital platform diligence.
+- **`Engagement_Index`**: Blended score capturing overall coursework assignment and class tutorial participation diligence.
 
 ---
 
@@ -190,7 +189,7 @@ Local deficiencies are converted into concrete mentor tasks:
 - **Active Backlogs $\ge 1$** $\rightarrow$ **Critical Priority**: Cap on registration for supplementary elective credits; assignment of 5-year solved question banks; enrollment in Summer remedial coaching.
 - **Negative CA Trend ($\Delta < -5.0$) or CA Avg < 45** $\rightarrow$ **High Priority**: Pair student with Departmental Peer-Tutoring Cell for bi-weekly doubt-clearing sessions prior to End-Term exams.
 - **Mid-Term Marks < 45.0** $\rightarrow$ **High Priority**: Require attendance at 2 weekly faculty office hours for guided problem-solving.
-- **Assignment Rate < 65% or LMS Logins < 6/wk** $\rightarrow$ **Medium Priority**: LMS credential audit and 5-day supervised grace submission window.
+- **Assignment Rate < 65%** $\rightarrow$ **Medium Priority**: Coursework review and 5-day supervised grace submission window for overdue assignments.
 - **CGPA < 6.00** $\rightarrow$ **High Priority**: Academic Probation Mentorship protocol with bi-weekly progress reports submitted to Department Head.
 
 ---

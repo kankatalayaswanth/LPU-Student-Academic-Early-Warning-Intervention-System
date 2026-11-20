@@ -101,7 +101,6 @@ def explain_student_risk(student_df: pd.DataFrame, pipeline, explainer, feature_
         "MidTerm_Marks": "Mid-Term Marks",
         "Prev_Sem_CGPA": "Previous CGPA",
         "Assignment_Submission_Rate": "Assignment Submission Rate %",
-        "LMS_Logins_Per_Week": "LMS Logins / Week",
         "Active_Backlogs": "Active Backlogs Count",
         "Study_Hours_Per_Week": "Study Hours / Week",
         "Participation_Score": "Class Participation (1-10)",
@@ -111,6 +110,9 @@ def explain_student_risk(student_df: pd.DataFrame, pipeline, explainer, feature_
         "Attendance_Shortage_Flag": "Attendance Shortage Flag (<75%)"
     }
     
+    # Filter out LMS logins from SHAP display
+    shap_df = shap_df[~shap_df["Feature"].str.contains("LMS", case=False)].copy()
+
     shap_df["Display_Feature"] = shap_df["Feature"].apply(
         lambda x: feature_label_map.get(x, x.replace("Department_", "Dept: "))
     )
@@ -136,7 +138,6 @@ def generate_actionable_interventions(student_row: dict) -> list:
     cgpa = float(safe_val(student_row, "Prev_Sem_CGPA", 7.0))
     backlogs = int(safe_val(student_row, "Active_Backlogs", 0))
     assignments = float(safe_val(student_row, "Assignment_Submission_Rate", 75.0))
-    lms_logins = float(safe_val(student_row, "LMS_Logins_Per_Week", 14.0))
     study_hours = float(safe_val(student_row, "Study_Hours_Per_Week", 15.0))
     
     # 1. Debarment & Attendance Non-Compliance (LPU Policy Section 14.1)
@@ -192,15 +193,15 @@ def generate_actionable_interventions(student_row: dict) -> list:
             "metric": f"{midterm:.1f}/100 Mid-Term"
         })
 
-    # 5. Low Digital & Assignment Engagement
-    if assignments < 65.0 or lms_logins < 6:
+    # 5. Low Coursework & Assignment Engagement
+    if assignments < 65.0:
         interventions.append({
             "priority": "MEDIUM",
             "priority_color": "#D97706",
-            "category": "Digital Engagement",
-            "title": "LMS Access Audit & Assignment Grace Protocol",
-            "action": f"Low digital participation (LMS logins: {lms_logins:.0f}/week, Submissions: {assignments:.1f}%). IT/Mentor must verify student LMS credentials and extend a 5-day supervised grace submission window for overdue assignments.",
-            "metric": f"{assignments:.1f}% Submissions | {lms_logins:.0f} Logins/Wk"
+            "category": "Coursework Submissions",
+            "title": "Assignment Remediation & Submission Grace Protocol",
+            "action": f"Low assignment completion rate ({assignments:.1f}%). Faculty mentor to conduct coursework review and extend a 5-day supervised grace submission window for pending assignments.",
+            "metric": f"{assignments:.1f}% Submissions"
         })
 
     # 6. Low Cumulative Grade Point Average (Probation)

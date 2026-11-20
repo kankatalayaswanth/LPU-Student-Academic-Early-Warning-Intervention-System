@@ -1062,11 +1062,11 @@ elif "Batch Prediction" in page:
             st.error(f"Failed to read CSV: {e}")
 
     if batch_df is not None:
-        # Validate required columns
+        # Validate required columns (LMS logins completely excluded from requirements)
         req_cols = [
             "Department", "Semester", "Attendance_Pct", "CA1_Marks", "CA2_Marks",
             "CA3_Marks", "MidTerm_Marks", "Prev_Sem_CGPA", "Assignment_Submission_Rate",
-            "LMS_Logins_Per_Week", "Active_Backlogs", "Study_Hours_Per_Week", "Participation_Score"
+            "Active_Backlogs", "Study_Hours_Per_Week", "Participation_Score"
         ]
         missing_cols = [c for c in req_cols if c not in batch_df.columns]
         
@@ -1074,8 +1074,16 @@ elif "Batch Prediction" in page:
             st.error(f"Uploaded CSV is missing mandatory columns: {missing_cols}")
         else:
             with st.spinner("Processing batch through Scikit-Learn Pipeline & XGBoost..."):
-                # Clean inference dataframe
-                X_batch = batch_df[req_cols].copy()
+                # Clean inference dataframe & ensure pipeline expected feature structure
+                pipeline_features = [
+                    "Department", "Semester", "Attendance_Pct", "CA1_Marks", "CA2_Marks",
+                    "CA3_Marks", "MidTerm_Marks", "Prev_Sem_CGPA", "Assignment_Submission_Rate",
+                    "LMS_Logins_Per_Week", "Active_Backlogs", "Study_Hours_Per_Week", "Participation_Score"
+                ]
+                X_batch = batch_df[[c for c in req_cols if c in batch_df.columns]].copy()
+                if "LMS_Logins_Per_Week" not in X_batch.columns:
+                    X_batch["LMS_Logins_Per_Week"] = 14
+                X_batch = X_batch[pipeline_features]
                 
                 # Apply model
                 batch_probs = pipeline.predict_proba(X_batch)
@@ -1083,8 +1091,10 @@ elif "Batch Prediction" in page:
                 inv_map = {0: "Low", 1: "Medium", 2: "High"}
                 pred_labels = [inv_map[p] for p in batch_preds]
 
-                # Annotate dataframe
+                # Annotate dataframe (clean display without any LMS column)
                 res_df = batch_df.copy()
+                if "LMS_Logins_Per_Week" in res_df.columns:
+                    res_df = res_df.drop(columns=["LMS_Logins_Per_Week"])
                 res_df["Predicted_Risk"] = pred_labels
                 res_df["Prob_High_Risk"] = (batch_probs[:, 2] * 100).round(1)
                 res_df["Prob_Medium_Risk"] = (batch_probs[:, 1] * 100).round(1)
@@ -1257,6 +1267,10 @@ elif "Model Performance" in page:
             corr_dict = eda_stats.get("correlation_matrix", {})
             if corr_dict:
                 corr_df = pd.DataFrame(corr_dict)
+                if "LMS_Logins_Per_Week" in corr_df.columns:
+                    corr_df = corr_df.drop(columns=["LMS_Logins_Per_Week"], errors="ignore")
+                if "LMS_Logins_Per_Week" in corr_df.index:
+                    corr_df = corr_df.drop(index=["LMS_Logins_Per_Week"], errors="ignore")
                 fig_corr = px.imshow(
                     corr_df,
                     text_auto=".2f",
@@ -1344,7 +1358,8 @@ elif "Model Performance" in page:
             st.markdown("<div style='height: 1rem;'></div>", unsafe_allow_html=True)
             st.markdown("<b>Global Feature Importance (SHAP TreeExplainer across entire Cohort)</b>", unsafe_allow_html=True)
             if global_shap_data:
-                g_df = pd.DataFrame(global_shap_data).head(10).sort_values(by="High_Risk_Importance", ascending=True)
+                g_df = pd.DataFrame(global_shap_data)
+                g_df = g_df[~g_df["Feature"].str.contains("LMS", case=False)].head(10).sort_values(by="High_Risk_Importance", ascending=True)
                 fig_gshap = go.Figure(go.Bar(
                     x=g_df["High_Risk_Importance"],
                     y=g_df["Feature"],
@@ -1463,7 +1478,7 @@ elif "Model Performance" in page:
                 <div style="font-size: 0.875rem; color: #334155; line-height: 1.6;">
                     <ul>
                         <li><b>Critical False Negatives Analysis:</b> Students with borderline attendance (~76-78%) but severe drops in late CA assessments (e.g. CA3 &lt; 25) can occasionally be assigned to 'Medium Risk' rather than 'High Risk'. <i>Mitigation:</i> The threshold for mentor alert triggering is deliberately set to P(High) &gt; 35% in operational deployments.</li>
-                        <li><b>False Alarms Analysis:</b> Safe students who suffer a single missed assignment or irregular LMS logins are sometimes flagged as Medium. This is safe behavior since it triggers an advisory email without disciplinary sanctions.</li>
+                        <li><b>False Alarms Analysis:</b> Safe students who suffer a single missed assignment or irregular study patterns are sometimes flagged as Medium. This is safe behavior since it triggers an advisory email without disciplinary sanctions.</li>
                     </ul>
                 </div>
             </div>
@@ -1477,7 +1492,7 @@ elif "Model Performance" in page:
                 <ol>
                     <li><b>Strict Human-in-the-Loop Requirement:</b> Under university academic policy, the ML model serves solely as a decision-support advisory tool. No automated disciplinary sanctions, debarments, or grade penalties are ever executed without manual review by the Faculty Academic Advisory Committee.</li>
                     <li><b>Data Privacy & Access Control (FERPA & UGC Compliance):</b> Student marks, attendance records, and risk predictions are restricted to designated faculty mentors and heads of departments via role-based access control.</li>
-                    <li><b>Demographic Parity & Bias Mitigation:</b> The dataset and model exclude socio-economic, gender, and demographic attributes. Only academic progress telemetry (attendance, CAs, LMS logins) is utilized.</li>
+                    <li><b>Demographic Parity & Bias Mitigation:</b> The dataset and model exclude socio-economic, gender, and demographic attributes. Only academic progress telemetry (attendance, CAs, assignment submissions) is utilized.</li>
                     <li><b>Continuous Assessment Model Drift Monitoring:</b> The pipeline must be retrained every academic semester following Mid-Term examination results to adapt to curriculum updates.</li>
                 </ol>
             </div>
