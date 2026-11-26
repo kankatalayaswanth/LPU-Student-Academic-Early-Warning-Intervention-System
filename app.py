@@ -308,13 +308,23 @@ def load_shap_explainer():
         st.stop()
     return joblib.load(shap_path)
 
+SCHOOL_DATASETS = {
+    "💻 School of Computer Science & Engineering (1,840 Students)": "data/school_cse.csv",
+    "⚙️ School of Mechanical Engineering (680 Students)": "data/school_mechanical.csv",
+    "📈 Mittal School of Business (920 Students)": "data/school_business.csv",
+    "⚖️ School of Law (540 Students)": "data/school_law.csv",
+    "🌾 School of Agriculture & Bio-Sciences (480 Students)": "data/school_agriculture.csv",
+    "🏛️ All University Schools Consolidated (4,460 Students)": "data/all_schools_combined.csv"
+}
+
 @st.cache_data
-def load_student_dataset():
-    data_path = os.path.join("data", "student_academic_data.csv")
-    if not os.path.exists(data_path):
-        st.error(f"Dataset not found at {data_path}. Execute src/data_prep.py first.")
-        st.stop()
-    return pd.read_csv(data_path)
+def load_school_dataset(file_path: str):
+    if os.path.exists(file_path):
+        return pd.read_csv(file_path)
+    fallback = os.path.join("data", "student_academic_data.csv")
+    if os.path.exists(fallback):
+        return pd.read_csv(fallback)
+    raise FileNotFoundError(f"Dataset not found at {file_path}")
 
 @st.cache_data
 def load_json_artifact(filename: str):
@@ -328,13 +338,6 @@ def load_json_artifact(filename: str):
 try:
     pipeline = load_ml_pipeline()
     explainer = load_shap_explainer()
-    raw_default_df = load_student_dataset()
-    if "active_students" not in st.session_state:
-        st.session_state.active_students = raw_default_df.copy()
-    if "is_custom_cohort" not in st.session_state:
-        st.session_state.is_custom_cohort = False
-    
-    df_students = st.session_state.active_students
     feature_names = load_json_artifact("feature_names.json")
     eda_stats = load_json_artifact("eda_stats.json")
     model_comparison = load_json_artifact("model_comparison.json")
@@ -386,8 +389,8 @@ def apply_flat_plotly_layout(fig, title: str = "", height: int = 380):
 # -----------------------------------------------------------------------------
 with st.sidebar:
     st.markdown("""
-    <div style="padding-bottom: 1.1rem; border-bottom: 1px solid #E2E8F0; margin-bottom: 1.25rem;">
-        <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.4rem;">
+    <div style="padding-bottom: 0.9rem; border-bottom: 1px solid #E2E8F0; margin-bottom: 1rem;">
+        <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.3rem;">
             <span style="font-size: 1.25rem;">🎓</span>
             <span style="font-size: 0.6875rem; font-weight: 700; color: #1E3A8A; letter-spacing: 0.08em; text-transform: uppercase;">
                 LOVELY PROFESSIONAL UNIVERSITY
@@ -397,7 +400,52 @@ with st.sidebar:
             Academic Early-Warning & Intervention System
         </div>
     </div>
-    <div style="font-size: 0.6875rem; font-weight: 700; color: #64748B; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 0.5rem;">
+    <div style="font-size: 0.6875rem; font-weight: 700; color: #1E3A8A; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 0.35rem;">
+        🏛️ Institutional School Dataset
+    </div>
+    """, unsafe_allow_html=True)
+
+    school_list = list(SCHOOL_DATASETS.keys())
+    if "selected_school_label" not in st.session_state:
+        st.session_state.selected_school_label = school_list[0]
+
+    sidebar_idx = school_list.index(st.session_state.selected_school_label) if st.session_state.selected_school_label in school_list else 0
+
+    selected_school_label = st.selectbox(
+        "Active University School",
+        school_list,
+        index=sidebar_idx,
+        key="sidebar_school_selector",
+        label_visibility="collapsed"
+    )
+
+    if selected_school_label != st.session_state.selected_school_label:
+        st.session_state.selected_school_label = selected_school_label
+        st.session_state.active_students = load_school_dataset(SCHOOL_DATASETS[selected_school_label])
+        st.session_state.is_custom_cohort = False
+        st.rerun()
+
+    school_csv_file = SCHOOL_DATASETS[st.session_state.selected_school_label]
+    if "active_students" not in st.session_state:
+        st.session_state.active_students = load_school_dataset(school_csv_file)
+        st.session_state.is_custom_cohort = False
+
+    if st.session_state.get("is_custom_cohort", False):
+        df_students = st.session_state.active_students
+        st.markdown(f"""
+        <div style="font-size: 0.75rem; color: #1E3A8A; background-color: #EFF6FF; border: 1px solid #BFDBFE; border-radius: 4px; padding: 6px 10px; margin-top: 0.5rem; margin-bottom: 0.5rem; text-align: center; font-weight: 500;">
+            Active: Custom Uploaded Batch ({len(df_students):,} students)
+        </div>
+        """, unsafe_allow_html=True)
+        if st.button("↺ Reset to Selected School", use_container_width=True):
+            st.session_state.active_students = load_school_dataset(school_csv_file)
+            st.session_state.is_custom_cohort = False
+            st.rerun()
+    else:
+        df_students = st.session_state.active_students
+
+    st.markdown("""
+    <div style="font-size: 0.6875rem; font-weight: 700; color: #64748B; letter-spacing: 0.08em; text-transform: uppercase; margin-top: 1rem; margin-bottom: 0.4rem;">
         Navigation Menu
     </div>
     """, unsafe_allow_html=True)
@@ -413,17 +461,6 @@ with st.sidebar:
         index=0,
         label_visibility="collapsed"
     )
-    
-    if st.session_state.get("is_custom_cohort", False):
-        st.markdown(f"""
-        <div style="font-size: 0.75rem; color: #1E3A8A; background-color: #EFF6FF; border: 1px solid #BFDBFE; border-radius: 4px; padding: 6px 10px; margin-top: 1rem; margin-bottom: 0.5rem; text-align: center; font-weight: 500;">
-            Active: Custom Uploaded Roster ({len(df_students):,} students)
-        </div>
-        """, unsafe_allow_html=True)
-        if st.button("↺ Reset to Default Roster (2,500)", use_container_width=True):
-            st.session_state.active_students = raw_default_df.copy()
-            st.session_state.is_custom_cohort = False
-            st.rerun()
 
     st.markdown("""
     <div style="font-size: 0.6875rem; font-weight: 700; color: #64748B; letter-spacing: 0.08em; text-transform: uppercase; margin-top: 1.25rem; margin-bottom: 0.45rem;">
@@ -445,11 +482,11 @@ with st.sidebar:
             </div>
             <div style="display: flex; justify-content: space-between;">
                 <span>High-Risk Recall:</span>
-                <span style="color: #16A34A; font-weight: 600;">78.6%</span>
+                <span style="color: #16A34A; font-weight: 600;">87.8%</span>
             </div>
             <div style="display: flex; justify-content: space-between;">
                 <span>Test ROC-AUC:</span>
-                <span style="color: #1E3A8A; font-weight: 600;">0.946</span>
+                <span style="color: #1E3A8A; font-weight: 600;">0.960</span>
             </div>
         </div>
     </div>
@@ -482,7 +519,6 @@ with st.sidebar:
 # PAGE 1: EXECUTIVE OVERVIEW
 # =============================================================================
 if "Executive Overview" in page:
-    # Top KPI Metrics Cards
     total_students = len(df_students)
     high_risk_count = (df_students["Risk_Level"] == "High").sum() if "Risk_Level" in df_students.columns else 0
     high_risk_pct = (high_risk_count / max(1, total_students)) * 100
@@ -491,15 +527,43 @@ if "Executive Overview" in page:
     avg_cgpa = df_students["Prev_Sem_CGPA"].mean() if "Prev_Sem_CGPA" in df_students.columns else 7.0
 
     st.markdown(f"""
-    <div style="margin-bottom: 1.5rem;">
+    <div style="margin-bottom: 1rem;">
         <h1 style="font-size: 1.75rem; font-weight: 700; color: #0F172A; margin-bottom: 0.25rem;">Executive Academic Health Dashboard</h1>
         <p style="font-size: 0.9375rem; color: #475569; margin: 0;">
             Institutional early-warning surveillance across <b>{total_students:,} active enrolled students</b>. Identifies attrition and failure risks before End-Term examinations.
         </p>
     </div>
     """, unsafe_allow_html=True)
-    tuned_recall = model_comparison.get("Tuned XGBoost (Winning Architecture)", {}).get("High_Risk_Recall", 0.763) * 100
-    tuned_f1 = model_comparison.get("Tuned XGBoost (Winning Architecture)", {}).get("F1_Macro", 0.826) * 100
+
+    st.markdown("""
+    <div style="background-color: #FFFFFF; border: 1px solid #BFDBFE; border-left: 4px solid #1E3A8A; border-radius: 6px; padding: 0.85rem 1.25rem; margin-bottom: 0.75rem;">
+        <div style="font-size: 0.72rem; font-weight: 700; color: #1E3A8A; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.35rem;">
+            Institutional Dataset Selection (School / Academic Census)
+        </div>
+        <div style="font-size: 0.8125rem; color: #475569;">
+            Select any school dataset below to instantly re-calculate institutional KPIs, risk distribution charts, and mentor advising rosters:
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
+
+    school_keys_ov = list(SCHOOL_DATASETS.keys())
+    cur_ov_idx = school_keys_ov.index(st.session_state.selected_school_label) if st.session_state.selected_school_label in school_keys_ov else 0
+    ov_school_chosen = st.selectbox(
+        "Select School Dataset",
+        school_keys_ov,
+        index=cur_ov_idx,
+        key="overview_school_selector_widget",
+        label_visibility="collapsed"
+    )
+
+    if ov_school_chosen != st.session_state.selected_school_label:
+        st.session_state.selected_school_label = ov_school_chosen
+        st.session_state.active_students = load_school_dataset(SCHOOL_DATASETS[ov_school_chosen])
+        st.session_state.is_custom_cohort = False
+        st.rerun()
+
+    tuned_recall = model_comparison.get("Tuned XGBoost (Winning Architecture)", {}).get("High_Risk_Recall", 0.878) * 100
+    tuned_f1 = model_comparison.get("Tuned XGBoost (Winning Architecture)", {}).get("F1_Macro", 0.838) * 100
 
     col1, col2, col3, col4, col5 = st.columns(5)
     
@@ -508,7 +572,7 @@ if "Executive Overview" in page:
         <div class="flat-card">
             <div class="flat-card-header">Total Monitored</div>
             <div class="flat-metric-value">{total_students:,}</div>
-            <div class="flat-metric-subtext">Active LPU Undergraduates</div>
+            <div class="flat-metric-subtext">Active Undergraduates</div>
         </div>
         """, unsafe_allow_html=True)
         
@@ -533,7 +597,7 @@ if "Executive Overview" in page:
     with col4:
         st.markdown(f"""
         <div class="flat-card">
-            <div class="flat-card-header">Mean Cohort CGPA</div>
+            <div class="flat-card-header">Mean School CGPA</div>
             <div class="flat-metric-value">{avg_cgpa:.2f}</div>
             <div class="flat-metric-subtext">Out of 10.0 scale</div>
         </div>
@@ -567,7 +631,7 @@ if "Executive Overview" in page:
                 textposition="auto"
             )
         ])
-        fig_risk = apply_flat_plotly_layout(fig_risk, "Student Cohort Risk Level Distribution", height=340)
+        fig_risk = apply_flat_plotly_layout(fig_risk, "School Risk Level Distribution", height=340)
         fig_risk.update_yaxes(title="Student Headcount")
         st.plotly_chart(fig_risk, use_container_width=True)
 
@@ -594,7 +658,7 @@ if "Executive Overview" in page:
             marker_color="#DC2626", marker_line=dict(color="#E2E8F0", width=1)
         ))
         fig_dept.update_layout(barmode="stack")
-        fig_dept = apply_flat_plotly_layout(fig_dept, "Departmental Academic Vulnerability Distribution", height=340)
+        fig_dept = apply_flat_plotly_layout(fig_dept, "Specialization Academic Vulnerability Distribution", height=340)
         fig_dept.update_xaxes(tickangle=-15)
         fig_dept.update_yaxes(title="Enrolled Students")
         st.plotly_chart(fig_dept, use_container_width=True)
@@ -609,29 +673,41 @@ if "Executive Overview" in page:
     </div>
     """, unsafe_allow_html=True)
 
-    col_f1, col_f2 = st.columns([2, 1])
+    col_f1, col_f2, col_f3 = st.columns([1.5, 1, 1.5])
     with col_f1:
         sel_dept = st.selectbox(
-            "Filter by Department",
-            ["All Departments"] + list(df_students["Department"].unique()),
+            "Filter by Specialization",
+            ["All Specializations"] + sorted(list(df_students["Department"].unique())),
             key="overview_dept_filter"
         )
     with col_f2:
         sel_sem = st.selectbox(
             "Filter by Semester",
-            ["All Semesters"] + list(range(1, 9)),
+            ["All Semesters"] + sorted(list(df_students["Semester"].unique())),
             key="overview_sem_filter"
+        )
+    with col_f3:
+        mentor_list = ["All Faculty Mentors"]
+        if "Mentor_Name" in df_students.columns:
+            mentor_list += sorted(list(df_students["Mentor_Name"].dropna().unique()))
+        sel_mentor = st.selectbox(
+            "👨‍🏫 Faculty Mentor Advising Filter",
+            mentor_list,
+            key="overview_mentor_filter"
         )
 
     roster_df = df_students[df_students["Risk_Level"] == "High"].copy()
-    if sel_dept != "All Departments":
+    if sel_dept != "All Specializations":
         roster_df = roster_df[roster_df["Department"] == sel_dept]
     if sel_sem != "All Semesters":
         roster_df = roster_df[roster_df["Semester"] == int(sel_sem)]
+    if sel_mentor != "All Faculty Mentors":
+        roster_df = roster_df[roster_df["Mentor_Name"] == sel_mentor]
+        st.info(f"👨‍🏫 **Advising Mode Active:** Showing at-risk mentees assigned to **{sel_mentor}** (12-15 mentee cohort).")
 
     display_cols = [
-        "Student_ID", "Department", "Semester", "Attendance_Pct",
-        "CA1_Marks", "CA2_Marks", "CA3_Marks", "MidTerm_Marks",
+        "Student_ID", "Student_Name", "Department", "Semester", "Section", "Mentor_Name",
+        "Attendance_Pct", "CA1_Marks", "CA2_Marks", "CA3_Marks", "MidTerm_Marks",
         "Prev_Sem_CGPA", "Active_Backlogs"
     ]
     
@@ -692,18 +768,32 @@ elif "Student Risk" in page:
         student_record = matched_row.to_dict()
 
         with c_sel2:
+            s_name = matched_row.get("Student_Name", "Enrolled Student")
+            s_school = matched_row.get("School", "Lovely Professional University")
+            s_dept = matched_row.get("Department", "General")
+            s_sem = matched_row.get("Semester", 1)
+            s_sec = matched_row.get("Section", "N/A")
+            s_mentor = matched_row.get("Mentor_Name", "Assigned Faculty Mentor")
+            s_gt = matched_row.get("Risk_Level", "Medium")
+
             st.markdown(f"""
             <div class="flat-card" style="padding: 0.875rem 1.25rem; margin-bottom: 0;">
-                <div style="display: flex; justify-content: space-between; align-items: center;">
+                <div style="display: flex; justify-content: space-between; align-items: flex-start;">
                     <div>
-                        <div style="font-size: 1.125rem; font-weight: 700; color: #0F172A;">{matched_row['Student_ID']}</div>
-                        <div style="font-size: 0.8125rem; color: #475569;">
-                            Department: <b>{matched_row['Department']}</b> | Semester: <b>{matched_row['Semester']}</b>
+                        <div style="display: flex; align-items: baseline; gap: 8px;">
+                            <span style="font-size: 1.125rem; font-weight: 700; color: #0F172A;">{matched_row['Student_ID']}</span>
+                            <span style="font-size: 0.95rem; font-weight: 600; color: #1E3A8A;">• {s_name}</span>
+                        </div>
+                        <div style="font-size: 0.8125rem; color: #475569; margin-top: 3px;">
+                            <b>{s_school}</b> | Section: <b>{s_sec}</b>
+                        </div>
+                        <div style="font-size: 0.8125rem; color: #475569; margin-top: 2px;">
+                            Specialization: <b>{s_dept}</b> | Semester: <b>{s_sem}</b> | Faculty Mentor: <b>{s_mentor}</b>
                         </div>
                     </div>
                     <div>
-                        <span class="{'badge-high' if matched_row['Risk_Level']=='High' else ('badge-medium' if matched_row['Risk_Level']=='Medium' else 'badge-low')}">
-                            Ground Truth: {matched_row['Risk_Level']} Risk
+                        <span class="{'badge-high' if s_gt=='High' else ('badge-medium' if s_gt=='Medium' else 'badge-low')}">
+                            Ground Truth: {s_gt} Risk
                         </span>
                     </div>
                 </div>
@@ -723,7 +813,11 @@ elif "Student Risk" in page:
             w_dept = st.selectbox("Department", df_students["Department"].unique(), index=0)
             w_sem = st.slider("Semester", min_value=1, max_value=8, value=4)
             w_att = st.slider("Attendance Percentage (%)", min_value=30.0, max_value=100.0, value=68.5, step=0.5)
-            w_backlogs = st.number_input("Active Backlogs Count", min_value=0, max_value=8, value=2, step=1)
+            if w_sem == 1:
+                w_backlogs = 0
+                st.caption("ℹ️ *Freshman Semester 1 students have 0 backlogs (first university semester).*")
+            else:
+                w_backlogs = st.number_input("Active Backlogs Count", min_value=0, max_value=8, value=2, step=1)
 
         with w_col2:
             st.markdown("<b>Assessment Marks (0 - 100)</b>", unsafe_allow_html=True)

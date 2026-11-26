@@ -1,102 +1,211 @@
 """
 LPU Student Academic Early-Warning & Intervention System
-Module: Data Acquisition and Synthetic Generation
+Module: Multi-School Data Acquisition & Synthetic Generation
 File: src/data_prep.py
 
-Generates a realistic, non-toy student academic dataset (2,500 records)
-with authentic academic correlations, class imbalance, 3% missingness,
-and realistic outliers for rigorous pre-processing demonstration.
+Generates realistic university academic records across 5 distinct LPU Schools:
+1. School of Computer Science & Engineering (CSE) - 1,840 students (348 High Risk ~ 18.9%)
+2. School of Mechanical Engineering (MEC) - 680 students (131 High Risk ~ 19.3%)
+3. Mittal School of Business (MSB) - 920 students (167 High Risk ~ 18.2%)
+4. School of Law (LAW) - 540 students (98 High Risk ~ 18.1%)
+5. School of Agriculture & Bio-Sciences (AGR) - 480 students (89 High Risk ~ 18.5%)
+Total Master University Census: 4,460 students (833 High Risk ~ 18.7%).
+
+Domain Validation Rules:
+- Semester 1 freshmen have strictly 0 backlogs (they have not taken prior university exams).
+- Unique, prefixed Student IDs per school (e.g., CSE-2024-1001, MEC-2024-1001, MSB-2024-1001, etc.).
+- Realistic faculty mentor assignment: each mentor oversees 12-15 assigned mentees.
+- Non-round, realistic clinical risk distribution (e.g. 348 in CSE, 131 in MEC).
+- Strictly zero unverified study hours / zero LMS login tracking.
 """
 
 import os
 import numpy as np
 import pandas as pd
 
-# Set deterministic random seed
-SEED = 42
-np.random.seed(SEED)
-
-DEPARTMENTS = [
-    "Computer Science & Engineering",
-    "Information Technology",
-    "Electronics & Communication",
-    "Mechanical Engineering",
-    "Civil Engineering",
-    "Management & Commerce",
-    "Biotechnology"
+FIRST_NAMES = [
+    "Aarav", "Vivaan", "Aditya", "Vihaan", "Arjun", "Sai", "Reyansh", "Ayaan", "Krishna", "Ishaan",
+    "Shaurya", "Atharva", "Advik", "Pranav", "Advaith", "Aaryan", "Dhruv", "Kabir", "Ritvik", "Darsh",
+    "Ananya", "Diya", "Gauri", "Kavya", "Isha", "Aditi", "Meera", "Riya", "Sneha", "Tanvi",
+    "Pooja", "Shreya", "Neha", "Simran", "Deepika", "Kritika", "Anushka", "Nandini", "Avani", "Tara",
+    "Rohan", "Manish", "Kartik", "Karan", "Siddharth", "Varun", "Abhinav", "Mayank", "Nikhil", "Gaurav"
 ]
 
-DEPT_WEIGHTS = [0.38, 0.16, 0.14, 0.10, 0.08, 0.08, 0.06]
+LAST_NAMES = [
+    "Sharma", "Verma", "Patel", "Gupta", "Singh", "Kumar", "Mehta", "Rao", "Joshi", "Nair",
+    "Reddy", "Chauhan", "Malhotra", "Kapoor", "Bhatia", "Saxena", "Chopra", "Das", "Sen", "Iyer",
+    "Gill", "Dhillon", "Kaur", "Trivedi", "Mishra", "Sethi", "Deshmukh", "Bhatt", "Chahal", "Sandhu"
+]
 
-def generate_student_dataset(n_samples: int = 2500, random_state: int = 42) -> pd.DataFrame:
-    """
-    Generates realistic academic records reflecting Lovely Professional University (LPU)
-    academic evaluation structures (CAs, Mid-Terms, Attendance, LMS activity, Backlogs).
-    """
-    rng = np.random.RandomState(random_state)
-    
-    # Student IDs
-    student_ids = [f"LPU12{i+1:04d}" for i in range(n_samples)]
-    
-    # Academic demographics
-    departments = rng.choice(DEPARTMENTS, size=n_samples, p=DEPT_WEIGHTS)
-    semesters = rng.choice(list(range(1, 9)), size=n_samples, p=[0.15, 0.18, 0.18, 0.16, 0.13, 0.10, 0.06, 0.04])
-    
+SCHOOL_CONFIG = {
+    "School of Computer Science & Engineering": {
+        "prefix": "CSE",
+        "n_samples": 1840,
+        "target_high": 348,     # 18.91%
+        "target_med": 392,      # 21.30%
+        "seed": 42,
+        "departments": [
+            "B.Tech CSE (Core)",
+            "B.Tech CSE (AI & Data Science)",
+            "B.Tech CSE (Cyber Security)",
+            "B.Tech CSE (Cloud Computing)",
+            "B.Tech CSE (Full Stack Web)"
+        ],
+        "dept_weights": [0.35, 0.25, 0.15, 0.15, 0.10],
+        "sections": ["K23-CS-A", "K23-CS-B", "K23-CS-C", "K23-CS-D", "K23-CS-E", "K23-CS-F", "K23-CS-G", "K23-CS-H", "K23-CS-I", "K23-CS-J"],
+        "mentor_pool_size": 130  # ~14 students per mentor
+    },
+    "School of Mechanical Engineering": {
+        "prefix": "MEC",
+        "n_samples": 680,
+        "target_high": 131,     # 19.26%
+        "target_med": 142,      # 20.88%
+        "seed": 43,
+        "departments": [
+            "B.Tech Mechanical Engineering",
+            "B.Tech Mechatronics & Automation",
+            "B.Tech Automobile Engineering",
+            "B.Tech Robotics & AI"
+        ],
+        "dept_weights": [0.40, 0.25, 0.20, 0.15],
+        "sections": ["K23-ME-A", "K23-ME-B", "K23-ME-C", "K23-ME-D"],
+        "mentor_pool_size": 50   # ~13.6 students per mentor
+    },
+    "Mittal School of Business": {
+        "prefix": "MSB",
+        "n_samples": 920,
+        "target_high": 167,     # 18.15%
+        "target_med": 194,      # 21.09%
+        "seed": 44,
+        "departments": [
+            "BBA (General Management)",
+            "BBA (Financial Analytics)",
+            "BBA (Digital Marketing)",
+            "MBA (Integrated Business)"
+        ],
+        "dept_weights": [0.35, 0.25, 0.20, 0.20],
+        "sections": ["K23-MB-A", "K23-MB-B", "K23-MB-C", "K23-MB-D", "K23-MB-E"],
+        "mentor_pool_size": 68   # ~13.5 students per mentor
+    },
+    "School of Law": {
+        "prefix": "LAW",
+        "n_samples": 540,
+        "target_high": 98,      # 18.15%
+        "target_med": 118,      # 21.85%
+        "seed": 45,
+        "departments": [
+            "B.A. LL.B. (Hons)",
+            "BBA LL.B. (Hons)",
+            "LL.B. (Core Law)",
+            "LL.M. (Corporate Law)"
+        ],
+        "dept_weights": [0.40, 0.30, 0.20, 0.10],
+        "sections": ["K23-LW-A", "K23-LW-B", "K23-LW-C"],
+        "mentor_pool_size": 40   # ~13.5 students per mentor
+    },
+    "School of Agriculture & Bio-Sciences": {
+        "prefix": "AGR",
+        "n_samples": 480,
+        "target_high": 89,      # 18.54%
+        "target_med": 102,      # 21.25%
+        "seed": 46,
+        "departments": [
+            "B.Sc. (Hons) Agriculture",
+            "B.Tech Biotechnology",
+            "B.Sc. Food Technology",
+            "B.Sc. Microbiology"
+        ],
+        "dept_weights": [0.45, 0.25, 0.15, 0.15],
+        "sections": ["K23-AG-A", "K23-AG-B", "K23-AG-C"],
+        "mentor_pool_size": 35   # ~13.7 students per mentor
+    }
+}
+
+def generate_mentors_for_school(prefix: str, count: int, seed: int):
+    """Generates a realistic list of university faculty mentors with specific group codes."""
+    rng = np.random.RandomState(seed + 100)
+    titles = ["Dr.", "Prof.", "Assoc. Prof."]
+    mentors = []
+    for i in range(count):
+        title = rng.choice(titles, p=[0.55, 0.30, 0.15])
+        f = rng.choice(FIRST_NAMES)
+        l = rng.choice(LAST_NAMES)
+        mentors.append(f"{title} {f} {l} ({prefix}-{i+1:02d})")
+    return mentors
+
+def generate_single_school(school_name: str, config: dict) -> pd.DataFrame:
+    """Generates an authentic school dataset respecting domain constraints."""
+    n = config["n_samples"]
+    rng = np.random.RandomState(config["seed"])
+    prefix = config["prefix"]
+
+    # Student IDs: e.g. CSE-2024-1001, MEC-2024-1001, etc.
+    student_ids = [f"{prefix}-2024-{1000 + i + 1}" for i in range(n)]
+    first_names = rng.choice(FIRST_NAMES, size=n)
+    last_names = rng.choice(LAST_NAMES, size=n)
+    student_names = [f"{f} {l}" for f, l in zip(first_names, last_names)]
+
+    # Departments (specializations) and Semesters
+    departments = rng.choice(config["departments"], size=n, p=config["dept_weights"])
+    semesters = rng.choice(list(range(1, 9)), size=n, p=[0.16, 0.18, 0.18, 0.16, 0.12, 0.10, 0.06, 0.04])
+    sections = rng.choice(config["sections"], size=n)
+
+    # Faculty mentor allocation (Strictly 12 to 15 students per mentor)
+    mentors_list = generate_mentors_for_school(prefix, config["mentor_pool_size"], config["seed"])
+    mentor_assignments = [mentors_list[i % len(mentors_list)] for i in range(n)]
+
     # Latent academic capability factor (Gaussian standard normal)
-    latent_ability = rng.normal(loc=0.0, scale=1.0, size=n_samples)
-    
-    # Latent diligence / study habit factor (correlated with ability)
-    latent_diligence = 0.65 * latent_ability + rng.normal(loc=0.0, scale=0.6, size=n_samples)
-    
+    latent_ability = rng.normal(loc=0.0, scale=1.0, size=n)
+    latent_diligence = 0.65 * latent_ability + rng.normal(loc=0.0, scale=0.6, size=n)
+
     # Attendance Percentage (Base ~ 78%, capped at 100, sensitive to diligence)
-    # LPU mandatory cutoff is 75%
-    raw_attendance = 76.0 + 11.5 * latent_diligence + rng.normal(0, 5.0, size=n_samples)
+    raw_attendance = 76.0 + 11.5 * latent_diligence + rng.normal(0, 5.0, size=n)
     attendance_pct = np.clip(raw_attendance, 35.0, 100.0).round(1)
-    
-    # Previous Semester CGPA (scale 0-10, realistic mean ~ 7.1)
-    raw_cgpa = 7.15 + 1.20 * latent_ability + 0.30 * latent_diligence + rng.normal(0, 0.45, size=n_samples)
+
+    # Previous Semester CGPA (scale 0-10, realistic mean ~ 7.15)
+    # For Semester 1, this represents standardized qualifying baseline (10+2 / entrance normalized)
+    raw_cgpa = 7.15 + 1.20 * latent_ability + 0.30 * latent_diligence + rng.normal(0, 0.45, size=n)
     prev_sem_cgpa = np.clip(raw_cgpa, 3.8, 9.95).round(2)
-    
+
     # Continuous Assessments (CA1, CA2, CA3 on 0-100 scale)
-    # Model student trajectory (some improve, some decay)
-    ca_base = 62.0 + 14.0 * latent_ability + 8.0 * latent_diligence + rng.normal(0, 7.0, size=n_samples)
-    
-    # CA1 (early semester)
-    ca1 = np.clip(ca_base + rng.normal(0, 6.0, size=n_samples), 12.0, 100.0).round(1)
-    
-    # CA2 (mid semester, attendance effect begins showing)
+    ca_base = 62.0 + 14.0 * latent_ability + 8.0 * latent_diligence + rng.normal(0, 7.0, size=n)
+    ca1 = np.clip(ca_base + rng.normal(0, 6.0, size=n), 12.0, 100.0).round(1)
+
     ca2_shift = (attendance_pct - 75.0) * 0.15
-    ca2 = np.clip(ca_base + ca2_shift + rng.normal(1.0, 5.5, size=n_samples), 10.0, 100.0).round(1)
-    
-    # CA3 (late semester - student burnout vs exam push)
-    fatigue_or_push = rng.choice([-6.0, 0.0, 5.0], size=n_samples, p=[0.25, 0.50, 0.25])
-    ca3 = np.clip(ca_base + ca2_shift + fatigue_or_push + rng.normal(0, 6.5, size=n_samples), 8.0, 100.0).round(1)
-    
-    # Mid-Term Marks (0-100 scale, strong predictor)
-    midterm_base = 0.45 * ca1 + 0.45 * ca2 + 3.0 * (prev_sem_cgpa - 7.0) + rng.normal(0, 6.0, size=n_samples)
+    ca2 = np.clip(ca_base + ca2_shift + rng.normal(1.0, 5.5, size=n), 10.0, 100.0).round(1)
+
+    fatigue_or_push = rng.choice([-6.0, 0.0, 5.0], size=n, p=[0.25, 0.50, 0.25])
+    ca3 = np.clip(ca_base + ca2_shift + fatigue_or_push + rng.normal(0, 6.5, size=n), 8.0, 100.0).round(1)
+
+    # Mid-Term Marks (0-100 scale)
+    midterm_base = 0.45 * ca1 + 0.45 * ca2 + 3.0 * (prev_sem_cgpa - 7.0) + rng.normal(0, 6.0, size=n)
     midterm_marks = np.clip(midterm_base, 10.0, 100.0).round(1)
-    
+
     # Assignment Submission Rate (% 0-100)
-    raw_assignments = 75.0 + 15.0 * latent_diligence + rng.normal(0, 6.0, size=n_samples)
+    raw_assignments = 75.0 + 15.0 * latent_diligence + rng.normal(0, 6.0, size=n)
     assignment_rate = np.clip(raw_assignments, 15.0, 100.0).round(1)
-    
-    # Participation Score (1.0 to 10.0 in classroom discussions and laboratory engagement)
-    raw_part = 6.0 + 1.6 * latent_diligence + rng.normal(0, 1.2, size=n_samples)
+
+    # Participation Score (1.0 to 10.0)
+    raw_part = 6.0 + 1.6 * latent_diligence + rng.normal(0, 1.2, size=n)
     participation = np.clip(raw_part, 1.0, 10.0).round(1)
-    
-    # Active Backlogs (0 to 6, heavily skewed towards 0)
-    # Strongly inverse with CGPA and diligence
-    backlog_prob_base = np.clip(0.35 - 0.04 * prev_sem_cgpa - 0.08 * latent_diligence, 0.02, 0.85)
-    backlogs = np.zeros(n_samples, dtype=int)
-    for i in range(n_samples):
-        if rng.rand() < backlog_prob_base[i]:
-            backlogs[i] = rng.choice([1, 2, 3, 4, 5], p=[0.55, 0.25, 0.12, 0.05, 0.03])
-    
+
+    # ACTIVE BACKLOGS LOGIC (Domain-Guaranteed):
+    # - Semester 1 freshmen have strictly 0 backlogs (they have not taken any prior university finals!)
+    # - Semester 2 students can have at most 1-2 backlogs from Sem 1.
+    # - Semester >= 3 students can have 0 to 5 backlogs.
+    backlogs = np.zeros(n, dtype=int)
+    for i in range(n):
+        if semesters[i] == 1:
+            backlogs[i] = 0
+        elif semesters[i] == 2:
+            if rng.rand() < 0.20:
+                backlogs[i] = rng.choice([1, 2], p=[0.75, 0.25])
+        else:
+            if rng.rand() < 0.30:
+                backlogs[i] = rng.choice([1, 2, 3, 4, 5], p=[0.55, 0.25, 0.12, 0.05, 0.03])
+
     # Ground Truth Risk Score Synthesis
-    # Composite risk index based on realistic university academic indicators:
-    # Attendance compliance, Mid-Terms, Continuous Assessments, CGPA, Backlogs, Assignment rate, Participation
     ca_avg = (ca1 + ca2 + ca3) / 3.0
-    
     risk_index = (
         - 0.38 * ((attendance_pct - 75.0) / 15.0)
         - 0.32 * ((midterm_marks - 50.0) / 20.0)
@@ -105,24 +214,29 @@ def generate_student_dataset(n_samples: int = 2500, random_state: int = 42) -> p
         + 0.40 * (backlogs / 2.0)
         - 0.20 * ((assignment_rate - 70.0) / 20.0)
         - 0.14 * ((participation - 6.0) / 2.0)
-        + rng.normal(0, 0.35, size=n_samples)
+        + rng.normal(0, 0.35, size=n)
     )
+
+    # Order students by risk_index to assign exact, realistic non-round counts
+    sorted_indices = np.argsort(risk_index)[::-1] # Highest risk first
+    target_high = config["target_high"]
+    target_med = config["target_med"]
+
+    risk_labels = np.array(["Low"] * n, dtype=object)
+    high_idx = sorted_indices[:target_high]
+    med_idx = sorted_indices[target_high:target_high + target_med]
     
-    # Natural academic clinical risk thresholds (not artificially forced round percentiles):
-    # Generates a realistic ~14.8% high-risk rate representing students facing debarment or failure
-    risk_labels = []
-    for r in risk_index:
-        if r >= 1.17:
-            risk_labels.append("High")
-        elif r >= 0.18:
-            risk_labels.append("Medium")
-        else:
-            risk_labels.append("Low")
-            
+    risk_labels[high_idx] = "High"
+    risk_labels[med_idx] = "Medium"
+
     df = pd.DataFrame({
         "Student_ID": student_ids,
+        "Student_Name": student_names,
+        "School": school_name,
         "Department": departments,
         "Semester": semesters,
+        "Section": sections,
+        "Mentor_Name": mentor_assignments,
         "Attendance_Pct": attendance_pct,
         "CA1_Marks": ca1,
         "CA2_Marks": ca2,
@@ -134,62 +248,76 @@ def generate_student_dataset(n_samples: int = 2500, random_state: int = 42) -> p
         "Participation_Score": participation,
         "Risk_Level": risk_labels
     })
-    
-    # Inject realistic entry outliers (0.8% of rows) to demonstrate IQR clipping
-    outlier_idx = rng.choice(n_samples, size=int(0.008 * n_samples), replace=False)
+
+    # Realistic outlier entry errors (0.8%)
+    outlier_idx = rng.choice(n, size=max(1, int(0.008 * n)), replace=False)
     for idx in outlier_idx[:len(outlier_idx)//2]:
-        df.loc[idx, "CA1_Marks"] = rng.choice([105.0, 110.0]) # Typo / data entry errors
+        df.loc[idx, "CA1_Marks"] = 105.0
     for idx in outlier_idx[len(outlier_idx)//2:]:
-        df.loc[idx, "MidTerm_Marks"] = rng.choice([105.0, 110.0])
-        
-    # Inject 3% missing values randomly in select numerical features to test SimpleImputer
-    num_cols_for_na = [
-        "Attendance_Pct", "CA2_Marks", "MidTerm_Marks", 
-        "Prev_Sem_CGPA", "Assignment_Submission_Rate"
-    ]
-    
+        df.loc[idx, "MidTerm_Marks"] = 105.0
+
+    # Inject 3% missingness in select columns for imputer testing
+    num_cols_for_na = ["Attendance_Pct", "CA2_Marks", "MidTerm_Marks", "Prev_Sem_CGPA", "Assignment_Submission_Rate"]
     for col in num_cols_for_na:
-        na_mask = rng.rand(n_samples) < 0.03
+        na_mask = rng.rand(n) < 0.03
         df.loc[na_mask, col] = np.nan
-        df.loc[na_mask, col] = np.nan
-        
+
     return df
 
 def generate_sample_batch_upload(df_full: pd.DataFrame, n_batch: int = 50, random_state: int = 99) -> pd.DataFrame:
-    """
-    Creates an unlabelled evaluation batch file (50 rows) for testing CSV batch upload in Streamlit.
-    """
-    # Sample a realistic stratified slice across departments
+    """Creates an unlabelled evaluation batch file (50 rows) for testing CSV batch upload in Streamlit."""
     batch_df = df_full.sample(n=n_batch, random_state=random_state).copy()
-    
-    # Modify IDs to show they are incoming/unseen students
-    batch_df["Student_ID"] = [f"LPU24_NEW_{i+1:03d}" for i in range(n_batch)]
-    
-    # Drop target label column
+    batch_df["Student_ID"] = [f"TEST-SECTION-{i+1:03d}" for i in range(n_batch)]
     batch_df = batch_df.drop(columns=["Risk_Level"])
-    
     return batch_df.reset_index(drop=True)
 
 def main():
     os.makedirs("data", exist_ok=True)
-    print("Generating LPU Academic Dataset (2,500 records)...")
-    df = generate_student_dataset(n_samples=2500, random_state=SEED)
-    
-    dataset_path = os.path.join("data", "student_academic_data.csv")
-    df.to_csv(dataset_path, index=False)
-    print(f"Saved dataset to: {dataset_path} ({df.shape[0]} rows, {df.shape[1]} columns)")
-    
-    print("\nClass Distribution:")
-    print(df["Risk_Level"].value_counts(normalize=True).round(3) * 100)
-    
-    print("\nMissing Values Count:")
-    print(df.isna().sum()[df.isna().sum() > 0])
-    
-    # Generate sample batch upload file
-    batch_df = generate_sample_batch_upload(df, n_batch=50, random_state=99)
+    print("Generating Multi-School Datasets for Lovely Professional University...")
+    all_dfs = []
+
+    file_map = {
+        "School of Computer Science & Engineering": "school_cse.csv",
+        "School of Mechanical Engineering": "school_mechanical.csv",
+        "Mittal School of Business": "school_business.csv",
+        "School of Law": "school_law.csv",
+        "School of Agriculture & Bio-Sciences": "school_agriculture.csv"
+    }
+
+    for school_name, config in SCHOOL_CONFIG.items():
+        df_school = generate_single_school(school_name, config)
+        filename = file_map[school_name]
+        filepath = os.path.join("data", filename)
+        df_school.to_csv(filepath, index=False)
+        all_dfs.append(df_school)
+
+        high_n = (df_school["Risk_Level"] == "High").sum()
+        total_n = len(df_school)
+        high_pct = high_n / total_n * 100
+        sem1_backlogs = df_school.loc[df_school["Semester"] == 1, "Active_Backlogs"].max()
+
+        print(f"  ✓ {school_name}: {total_n} students saved to {filepath}")
+        print(f"     High Risk: {high_n}/{total_n} ({high_pct:.1f}%), Sem 1 Max Backlogs: {sem1_backlogs}")
+
+    # Combine into unified master dataset (4,460 students)
+    master_df = pd.concat(all_dfs, ignore_index=True)
+    master_path = os.path.join("data", "all_schools_combined.csv")
+    master_df.to_csv(master_path, index=False)
+
+    # Also save as student_academic_data.csv for backward compatibility
+    legacy_path = os.path.join("data", "student_academic_data.csv")
+    master_df.to_csv(legacy_path, index=False)
+
+    total_master = len(master_df)
+    high_master = (master_df["Risk_Level"] == "High").sum()
+    print(f"\n✓ Master University Census: {total_master} students saved to {master_path}")
+    print(f"  Total High Risk: {high_master}/{total_master} ({high_master/total_master*100:.1f}%)")
+
+    # Sample section batch upload file
+    batch_df = generate_sample_batch_upload(master_df, n_batch=50, random_state=99)
     batch_path = os.path.join("data", "sample_batch_upload.csv")
     batch_df.to_csv(batch_path, index=False)
-    print(f"\nSaved sample batch upload file to: {batch_path} ({batch_df.shape[0]} rows)")
+    print(f"✓ Sample Section Batch: 50 students saved to {batch_path}")
 
 if __name__ == "__main__":
     main()

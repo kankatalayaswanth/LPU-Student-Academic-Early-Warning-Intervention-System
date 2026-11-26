@@ -1,51 +1,51 @@
-Student_ID,Department,Semester,Attendance_Pct,CA1_Marks,CA2_Marks,CA3_Marks,MidTerm_Marks,Prev_Sem_CGPA,Assignment_Submission_Rate,Active_Backlogs,Participation_Score
-LPU24_NEW_001,Information Technology,1,73.9,59.0,71.4,73.7,60.4,7.74,74.4,0,6.3
-LPU24_NEW_002,Civil Engineering,4,68.0,60.0,52.8,46.2,44.6,6.09,75.2,0,4.0
-LPU24_NEW_003,Computer Science & Engineering,6,72.2,48.7,59.2,56.5,41.5,5.91,69.8,0,5.5
-LPU24_NEW_004,Civil Engineering,1,74.7,64.7,68.7,63.0,61.3,7.44,70.9,0,7.8
-LPU24_NEW_005,Mechanical Engineering,2,51.3,24.4,20.8,16.8,20.1,4.89,50.0,0,3.6
-LPU24_NEW_006,Computer Science & Engineering,2,89.1,75.9,100.0,92.0,82.1,8.76,78.4,3,4.8
-LPU24_NEW_007,Management & Commerce,4,82.0,56.6,59.0,53.1,47.8,6.63,90.8,0,7.6
-LPU24_NEW_008,Computer Science & Engineering,7,91.3,78.5,88.8,81.8,86.2,8.56,95.7,0,6.2
-LPU24_NEW_009,Civil Engineering,2,75.9,54.6,56.6,46.3,65.0,6.18,75.5,0,3.9
-LPU24_NEW_010,Computer Science & Engineering,8,89.7,83.0,65.8,73.7,70.1,7.43,79.1,0,7.5
-LPU24_NEW_011,Biotechnology,8,87.0,96.0,100.0,100.0,99.4,9.35,96.3,0,10.0
-LPU24_NEW_012,Computer Science & Engineering,2,80.0,100.0,100.0,100.0,90.3,9.95,86.8,0,8.4
-LPU24_NEW_013,Biotechnology,2,100.0,100.0,93.3,100.0,100.0,9.15,100.0,0,10.0
-LPU24_NEW_014,Information Technology,6,94.1,97.6,81.4,96.6,82.2,8.04,91.9,0,7.1
-LPU24_NEW_015,Information Technology,3,61.1,46.6,47.5,34.2,41.8,5.71,65.1,0,2.1
-LPU24_NEW_016,Civil Engineering,6,85.8,100.0,100.0,100.0,92.8,9.41,98.0,0,5.3
-LPU24_NEW_017,Computer Science & Engineering,2,63.3,46.0,43.0,34.5,37.5,6.09,,0,4.4
-LPU24_NEW_018,Information Technology,5,100.0,83.4,91.3,97.0,83.9,9.52,93.8,0,9.8
-LPU24_NEW_019,Information Technology,1,58.2,41.4,32.1,44.1,33.6,4.63,53.3,0,3.9
-LPU24_NEW_020,Civil Engineering,1,90.1,73.5,66.5,65.3,52.1,5.34,94.4,0,7.5
-LPU24_NEW_021,Management & Commerce,6,53.4,16.6,11.3,9.1,10.0,4.65,34.6,1,2.7
-LPU24_NEW_022,Electronics & Communication,3,81.1,63.9,46.8,66.5,45.2,7.94,81.2,0,7.0
-LPU24_NEW_023,Civil Engineering,1,85.5,85.9,95.6,86.2,97.4,8.27,87.8,0,7.0
-LPU24_NEW_024,Electronics & Communication,3,81.2,77.9,75.9,69.9,72.5,9.24,87.8,0,8.9
-LPU24_NEW_025,Mechanical Engineering,8,100.0,100.0,100.0,100.0,100.0,9.95,100.0,0,7.9
-LPU24_NEW_026,Information Technology,1,75.5,48.3,57.8,48.3,40.9,6.28,69.2,0,4.4
-LPU24_NEW_027,Computer Science & Engineering,6,82.4,73.7,84.6,92.0,69.0,7.71,88.4,0,6.2
-LPU24_NEW_028,Civil Engineering,1,74.2,80.5,68.3,76.2,,8.13,83.5,0,6.4
-LPU24_NEW_029,Civil Engineering,1,86.1,81.1,92.6,88.4,87.5,9.31,79.0,0,5.3
-LPU24_NEW_030,Computer Science & Engineering,6,70.2,64.5,51.3,43.6,43.7,6.43,71.1,0,3.2
-LPU24_NEW_031,Computer Science & Engineering,2,95.9,100.0,100.0,100.0,95.8,9.63,84.1,0,6.3
-LPU24_NEW_032,Information Technology,3,78.8,72.0,69.9,63.6,65.1,7.17,79.3,0,4.9
-LPU24_NEW_033,Information Technology,2,88.1,95.7,100.0,100.0,100.0,9.44,84.7,0,7.8
-LPU24_NEW_034,Biotechnology,5,89.5,97.2,86.7,77.6,94.0,9.43,98.9,0,8.3
-LPU24_NEW_035,Computer Science & Engineering,4,82.3,66.2,81.8,78.8,72.1,9.38,83.9,0,6.0
-LPU24_NEW_036,Computer Science & Engineering,2,90.0,78.8,83.9,76.7,84.1,8.03,89.2,0,6.2
-LPU24_NEW_037,Computer Science & Engineering,2,85.1,89.4,78.6,77.8,94.9,7.66,68.2,0,5.9
-LPU24_NEW_038,Information Technology,7,65.2,33.4,34.6,29.0,38.4,5.2,56.8,1,3.8
-LPU24_NEW_039,Civil Engineering,3,83.2,62.3,62.8,56.2,,6.62,80.0,0,6.6
-LPU24_NEW_040,Management & Commerce,8,75.8,90.4,97.4,84.7,98.0,8.88,67.6,0,7.9
-LPU24_NEW_041,Biotechnology,7,65.1,45.2,50.8,54.8,41.7,5.39,65.1,0,6.5
-LPU24_NEW_042,Computer Science & Engineering,1,78.5,59.1,69.1,76.0,52.9,6.45,63.5,0,7.4
-LPU24_NEW_043,Biotechnology,2,90.2,88.1,77.8,77.5,82.3,8.34,91.2,0,8.9
-LPU24_NEW_044,Biotechnology,2,89.7,80.5,79.2,82.1,77.0,,98.0,0,8.0
-LPU24_NEW_045,Mechanical Engineering,1,78.1,51.8,61.6,59.4,50.8,6.12,71.7,0,7.1
-LPU24_NEW_046,Computer Science & Engineering,4,62.4,38.4,44.4,36.3,31.0,5.59,59.9,0,4.1
-LPU24_NEW_047,Computer Science & Engineering,2,56.3,19.8,10.0,12.0,10.0,5.03,39.6,0,1.9
-LPU24_NEW_048,Computer Science & Engineering,2,84.6,89.3,99.9,86.7,73.7,7.7,87.8,0,4.0
-LPU24_NEW_049,Biotechnology,3,86.1,53.9,66.1,61.9,55.6,7.71,74.8,0,6.2
-LPU24_NEW_050,Management & Commerce,6,80.4,84.6,80.8,77.5,74.4,6.81,85.9,0,6.7
+Student_ID,Student_Name,School,Department,Semester,Section,Mentor_Name,Attendance_Pct,CA1_Marks,CA2_Marks,CA3_Marks,MidTerm_Marks,Prev_Sem_CGPA,Assignment_Submission_Rate,Active_Backlogs,Participation_Score
+TEST-SECTION-001,Reyansh Kaur,School of Computer Science & Engineering,B.Tech CSE (Full Stack Web),7,K23-CS-C,Dr. Ritvik Bhatt (CSE-19),72.1,26.0,30.0,28.7,12.3,4.45,57.1,3,4.2
+TEST-SECTION-002,Dhruv Iyer,School of Law,LL.B. (Core Law),3,K23-LW-C,Dr. Vihaan Sethi (LAW-17),55.1,17.1,19.7,17.1,10.0,4.42,44.0,0,3.3
+TEST-SECTION-003,Gaurav Patel,School of Computer Science & Engineering,B.Tech CSE (Core),4,K23-CS-C,Assoc. Prof. Shreya Saxena (CSE-46),85.5,58.0,62.3,57.5,52.1,7.27,86.6,0,7.3
+TEST-SECTION-004,Kabir Sen,School of Computer Science & Engineering,B.Tech CSE (Core),1,K23-CS-G,Prof. Neha Singh (CSE-12),76.1,43.4,47.9,48.0,47.6,5.29,70.4,0,5.7
+TEST-SECTION-005,Rohan Singh,Mittal School of Business,BBA (Financial Analytics),7,K23-MB-A,Dr. Deepika Reddy (MSB-02),88.2,86.7,92.9,74.3,84.3,8.42,100.0,0,7.2
+TEST-SECTION-006,Riya Gill,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,1,K23-AG-B,Prof. Rohan Bhatt (AGR-31),78.1,46.4,45.5,56.3,47.5,6.87,76.1,0,4.2
+TEST-SECTION-007,Kritika Chopra,Mittal School of Business,BBA (General Management),2,K23-MB-A,Dr. Abhinav Kumar (MSB-45),89.6,65.7,74.8,60.8,58.2,8.22,83.3,0,5.9
+TEST-SECTION-008,Sneha Malhotra,Mittal School of Business,BBA (Digital Marketing),2,K23-MB-C,Dr. Siddharth Nair (MSB-29),68.4,27.6,33.7,36.7,19.2,5.77,68.8,0,3.7
+TEST-SECTION-009,Arjun Bhatia,School of Mechanical Engineering,B.Tech Mechatronics & Automation,4,K23-ME-B,Prof. Pooja Malhotra (MEC-45),70.8,51.5,57.3,50.3,47.4,6.98,61.6,0,4.1
+TEST-SECTION-010,Tanvi Chahal,School of Law,BBA LL.B. (Hons),2,K23-LW-C,Prof. Simran Sen (LAW-03),56.1,40.6,23.5,24.5,21.9,5.41,,0,4.3
+TEST-SECTION-011,Vihaan Saxena,Mittal School of Business,BBA (General Management),1,K23-MB-D,Dr. Vivaan Kaur (MSB-16),73.7,66.7,67.2,63.1,62.5,7.34,77.5,0,6.4
+TEST-SECTION-012,Diya Sharma,School of Mechanical Engineering,B.Tech Automobile Engineering,1,K23-ME-C,Dr. Simran Reddy (MEC-20),82.9,78.9,71.5,75.3,75.5,8.65,93.8,0,6.2
+TEST-SECTION-013,Shaurya Sen,School of Computer Science & Engineering,B.Tech CSE (Cloud Computing),5,K23-CS-C,Dr. Manish Malhotra (CSE-41),77.1,49.4,45.3,37.7,41.3,5.67,59.4,0,6.1
+TEST-SECTION-014,Anushka Chahal,School of Law,B.A. LL.B. (Hons),3,K23-LW-B,Dr. Anushka Deshmukh (LAW-08),70.0,53.5,,52.0,52.8,7.4,62.9,0,7.1
+TEST-SECTION-015,Kavya Iyer,School of Computer Science & Engineering,B.Tech CSE (AI & Data Science),1,K23-CS-C,Dr. Aarav Chopra (CSE-78),79.0,56.6,61.4,66.6,63.4,7.17,74.5,0,4.4
+TEST-SECTION-016,Meera Bhatt,School of Computer Science & Engineering,B.Tech CSE (Cloud Computing),5,K23-CS-F,Dr. Ritvik Mishra (CSE-99),79.4,55.6,61.1,53.6,54.9,6.93,66.8,1,5.4
+TEST-SECTION-017,Kabir Mishra,Mittal School of Business,BBA (Financial Analytics),3,K23-MB-D,Prof. Advaith Reddy (MSB-33),58.6,45.6,40.2,46.2,43.6,6.52,51.3,0,5.7
+TEST-SECTION-018,Nandini Kapoor,School of Law,BBA LL.B. (Hons),3,K23-LW-A,Dr. Kartik Reddy (LAW-24),59.7,51.1,69.9,72.6,54.6,6.52,70.2,0,6.1
+TEST-SECTION-019,Krishna Bhatia,School of Computer Science & Engineering,B.Tech CSE (Core),5,K23-CS-B,Dr. Ritvik Singh (CSE-49),84.4,75.1,78.4,71.8,62.3,7.41,82.1,0,7.7
+TEST-SECTION-020,Anushka Bhatt,School of Mechanical Engineering,B.Tech Mechanical Engineering,4,K23-ME-C,Dr. Advik Dhillon (MEC-07),61.5,45.8,46.8,58.0,34.7,6.3,56.9,0,4.1
+TEST-SECTION-021,Atharva Deshmukh,Mittal School of Business,BBA (General Management),3,K23-MB-C,Dr. Anushka Malhotra (MSB-24),41.1,26.7,35.3,8.0,22.4,3.8,39.1,0,2.7
+TEST-SECTION-022,Advik Kapoor,School of Computer Science & Engineering,B.Tech CSE (Cyber Security),3,K23-CS-G,Dr. Rohan Mehta (CSE-108),68.2,41.4,35.6,49.5,39.0,5.86,68.8,0,4.0
+TEST-SECTION-023,Shaurya Malhotra,Mittal School of Business,BBA (Digital Marketing),1,K23-MB-A,Dr. Sneha Joshi (MSB-37),,88.2,100.0,95.7,93.3,9.19,89.5,0,7.7
+TEST-SECTION-024,Anushka Nair,School of Computer Science & Engineering,B.Tech CSE (Core),8,K23-CS-E,Assoc. Prof. Dhruv Chauhan (CSE-28),,68.8,84.3,98.8,74.8,7.17,96.0,0,6.7
+TEST-SECTION-025,Abhinav Iyer,School of Mechanical Engineering,B.Tech Mechanical Engineering,1,K23-ME-A,Dr. Simran Reddy (MEC-20),96.4,72.5,90.7,81.9,78.5,8.26,,0,8.9
+TEST-SECTION-026,Aarav Trivedi,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,5,K23-AG-C,Assoc. Prof. Manish Kaur (AGR-12),75.3,46.3,56.8,56.1,44.7,7.07,60.7,3,5.5
+TEST-SECTION-027,Siddharth Iyer,School of Computer Science & Engineering,B.Tech CSE (AI & Data Science),3,K23-CS-B,Dr. Sai Joshi (CSE-79),78.1,80.3,78.0,67.8,77.6,9.02,69.1,0,3.8
+TEST-SECTION-028,Ayaan Mehta,School of Computer Science & Engineering,B.Tech CSE (Cyber Security),1,K23-CS-B,Dr. Diya Das (CSE-105),51.6,12.0,10.0,8.0,10.0,4.82,53.0,0,4.5
+TEST-SECTION-029,Simran Malhotra,School of Computer Science & Engineering,B.Tech CSE (Full Stack Web),2,K23-CS-D,Assoc. Prof. Siddharth Sen (CSE-23),74.8,65.6,54.3,43.4,57.6,6.35,63.9,1,4.9
+TEST-SECTION-030,Kartik Chopra,Mittal School of Business,BBA (Digital Marketing),2,K23-MB-E,Assoc. Prof. Rohan Chauhan (MSB-46),79.7,57.4,57.9,51.4,37.4,6.21,,1,7.9
+TEST-SECTION-031,Aditi Iyer,School of Mechanical Engineering,B.Tech Mechanical Engineering,2,K23-ME-C,Dr. Advik Patel (MEC-47),73.8,65.1,81.4,76.3,60.7,7.97,75.3,0,5.9
+TEST-SECTION-032,Neha Verma,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,7,K23-AG-A,Dr. Ayaan Kaur (AGR-19),60.7,54.8,,43.6,54.7,7.75,61.1,0,3.2
+TEST-SECTION-033,Karan Verma,School of Computer Science & Engineering,B.Tech CSE (AI & Data Science),8,K23-CS-H,Assoc. Prof. Karan Kumar (CSE-20),59.3,17.0,14.7,13.5,10.0,3.8,36.8,0,3.5
+TEST-SECTION-034,Ayaan Bhatia,School of Computer Science & Engineering,B.Tech CSE (Core),6,K23-CS-H,Dr. Ritvik Singh (CSE-49),82.2,73.6,65.8,78.7,72.2,7.86,78.5,0,4.8
+TEST-SECTION-035,Nikhil Das,School of Computer Science & Engineering,B.Tech CSE (Cloud Computing),1,K23-CS-I,Prof. Pooja Dhillon (CSE-05),71.2,65.8,61.9,56.9,55.9,6.09,56.4,0,4.4
+TEST-SECTION-036,Kavya Mishra,School of Computer Science & Engineering,B.Tech CSE (Cyber Security),7,K23-CS-D,Prof. Dhruv Das (CSE-02),81.9,63.1,63.5,57.9,55.9,8.21,69.0,1,5.9
+TEST-SECTION-037,Deepika Bhatia,Mittal School of Business,BBA (General Management),6,K23-MB-A,Prof. Nikhil Sharma (MSB-18),85.9,68.3,70.7,51.4,63.8,7.88,82.8,3,6.1
+TEST-SECTION-038,Darsh Saxena,School of Computer Science & Engineering,B.Tech CSE (AI & Data Science),2,K23-CS-J,Assoc. Prof. Gaurav Gupta (CSE-81),75.6,92.3,84.0,79.4,78.9,8.16,85.1,0,6.5
+TEST-SECTION-039,Riya Iyer,School of Law,B.A. LL.B. (Hons),2,K23-LW-C,Dr. Atharva Mishra (LAW-33),84.6,89.8,81.8,99.8,80.7,,100.0,0,9.8
+TEST-SECTION-040,Advik Nair,Mittal School of Business,MBA (Integrated Business),4,K23-MB-A,Prof. Kabir Patel (MSB-06),77.5,55.1,49.5,61.3,61.8,7.39,64.6,0,5.2
+TEST-SECTION-041,Ishaan Iyer,School of Computer Science & Engineering,B.Tech CSE (Full Stack Web),2,K23-CS-D,Dr. Reyansh Gill (CSE-119),71.1,67.2,,61.7,62.5,7.56,72.7,0,7.8
+TEST-SECTION-042,Kabir Patel,School of Computer Science & Engineering,B.Tech CSE (Cloud Computing),1,K23-CS-I,Assoc. Prof. Pooja Patel (CSE-77),94.0,95.7,96.8,100.0,100.0,9.56,99.6,0,8.6
+TEST-SECTION-043,Reyansh Kapoor,School of Law,LL.M. (Corporate Law),3,K23-LW-B,Dr. Atharva Mishra (LAW-33),81.8,90.4,85.6,88.1,78.3,7.9,84.4,0,7.1
+TEST-SECTION-044,Arjun Chahal,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,2,K23-AG-C,Dr. Aditya Dhillon (AGR-11),71.0,29.3,38.6,16.6,15.8,4.84,67.5,0,6.4
+TEST-SECTION-045,Karan Singh,Mittal School of Business,BBA (Financial Analytics),3,K23-MB-E,Prof. Nikhil Saxena (MSB-26),83.8,69.6,62.9,67.2,52.5,7.41,70.5,0,6.1
+TEST-SECTION-046,Deepika Mehta,Mittal School of Business,MBA (Integrated Business),3,K23-MB-E,Prof. Advaith Reddy (MSB-33),95.8,100.0,100.0,100.0,96.0,9.95,94.4,0,6.8
+TEST-SECTION-047,Advik Saxena,School of Computer Science & Engineering,B.Tech CSE (Cloud Computing),3,K23-CS-D,Dr. Advaith Gupta (CSE-127),87.2,74.1,80.5,83.3,66.8,5.95,91.9,0,7.2
+TEST-SECTION-048,Ishaan Sharma,School of Computer Science & Engineering,B.Tech CSE (Core),1,K23-CS-J,Dr. Siddharth Sethi (CSE-117),83.7,56.5,52.6,63.9,53.0,6.57,76.7,0,4.7
+TEST-SECTION-049,Gaurav Gill,School of Computer Science & Engineering,B.Tech CSE (AI & Data Science),1,K23-CS-I,Dr. Kabir Singh (CSE-11),61.1,54.8,,39.2,51.4,5.7,69.5,0,3.0
+TEST-SECTION-050,Aditi Reddy,School of Computer Science & Engineering,B.Tech CSE (Full Stack Web),2,K23-CS-I,Prof. Sai Gupta (CSE-58),71.3,38.6,45.2,42.4,35.0,6.11,67.9,0,4.2

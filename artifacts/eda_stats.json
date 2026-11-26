@@ -1,128 +1,198 @@
 {
   "class_distribution": {
     "counts": {
-      "Low": 1588,
-      "Medium": 517,
-      "High": 395
+      "Low": 2679,
+      "Medium": 948,
+      "High": 833
     },
     "percentages": {
-      "Low": 63.52,
-      "Medium": 20.68,
-      "High": 15.8
+      "Low": 60.07,
+      "Medium": 21.26,
+      "High": 18.68
     }
   },
   "department_risk": {
-    "Biotechnology": {
-      "High": 26,
-      "Low": 94,
-      "Medium": 35
+    "B.A. LL.B. (Hons)": {
+      "High": 43,
+      "Low": 131,
+      "Medium": 51
     },
-    "Civil Engineering": {
+    "B.Sc. (Hons) Agriculture": {
+      "High": 35,
+      "Low": 128,
+      "Medium": 34
+    },
+    "B.Sc. Food Technology": {
+      "High": 19,
+      "Low": 60,
+      "Medium": 17
+    },
+    "B.Sc. Microbiology": {
+      "High": 13,
+      "Low": 37,
+      "Medium": 21
+    },
+    "B.Tech Automobile Engineering": {
       "High": 32,
-      "Low": 113,
-      "Medium": 43
+      "Low": 84,
+      "Medium": 26
     },
-    "Computer Science & Engineering": {
-      "High": 135,
-      "Low": 605,
-      "Medium": 209
+    "B.Tech Biotechnology": {
+      "High": 22,
+      "Low": 64,
+      "Medium": 30
     },
-    "Electronics & Communication": {
-      "High": 55,
-      "Low": 243,
-      "Medium": 71
+    "B.Tech CSE (AI & Data Science)": {
+      "High": 80,
+      "Low": 280,
+      "Medium": 97
     },
-    "Information Technology": {
-      "High": 69,
-      "Low": 253,
-      "Medium": 68
+    "B.Tech CSE (Cloud Computing)": {
+      "High": 45,
+      "Low": 165,
+      "Medium": 70
     },
-    "Management & Commerce": {
-      "High": 38,
-      "Low": 129,
-      "Medium": 44
+    "B.Tech CSE (Core)": {
+      "High": 127,
+      "Low": 396,
+      "Medium": 131
     },
-    "Mechanical Engineering": {
-      "High": 40,
+    "B.Tech CSE (Cyber Security)": {
+      "High": 64,
       "Low": 151,
-      "Medium": 47
+      "Medium": 61
+    },
+    "B.Tech CSE (Full Stack Web)": {
+      "High": 32,
+      "Low": 108,
+      "Medium": 33
+    },
+    "B.Tech Mechanical Engineering": {
+      "High": 48,
+      "Low": 147,
+      "Medium": 63
+    },
+    "B.Tech Mechatronics & Automation": {
+      "High": 33,
+      "Low": 101,
+      "Medium": 36
+    },
+    "B.Tech Robotics & AI": {
+      "High": 18,
+      "Low": 75,
+      "Medium": 17
+    },
+    "BBA (Digital Marketing)": {
+      "High": 34,
+      "Low": 101,
+      "Medium": 38
+    },
+    "BBA (Financial Analytics)": {
+      "High": 44,
+      "Low": 142,
+      "Medium": 52
+    },
+    "BBA (General Management)": {
+      "High": 59,
+      "Low": 178,
+      "Medium": 63
+    },
+    "BBA LL.B. (Hons)": {
+      "High": 26,
+      "Low": 102,
+      "Medium": 32
+    },
+    "LL.B. (Core Law)": {
+      "High": 21,
+      "Low": 58,
+      "Medium": 22
+    },
+    "LL.M. (Corporate Law)": {
+      "High": 8,
+      "Low": 33,
+      "Medium": 13
+    },
+    "MBA (Integrated Business)": {
+      "High": 30,
+      "Low": 138,
+      "Medium": 41
     }
   },
   "numerical_summary": {
     "Attendance_Pct": {
-      "count": 2425.0,
-      "mean": 75.59,
-      "std": 11.26,
+      "count": 4337.0,
+      "mean": 75.82,
+      "std": 11.17,
       "min": 35.0,
-      "25%": 68.1,
-      "50%": 75.8,
-      "75%": 83.3,
+      "25%": 68.2,
+      "50%": 76.0,
+      "75%": 83.6,
       "max": 100.0
     },
     "CA1_Marks": {
-      "count": 2500.0,
-      "mean": 61.38,
-      "std": 21.26,
+      "count": 4460.0,
+      "mean": 61.71,
+      "std": 21.17,
       "min": 12.0,
-      "25%": 46.6,
-      "50%": 61.9,
-      "75%": 76.2,
-      "max": 110.0
+      "25%": 47.3,
+      "50%": 61.8,
+      "75%": 76.9,
+      "max": 105.0
     },
     "CA2_Marks": {
-      "count": 2418.0,
-      "mean": 61.98,
-      "std": 21.82,
+      "count": 4326.0,
+      "mean": 62.55,
+      "std": 21.76,
       "min": 10.0,
-      "25%": 47.2,
-      "50%": 63.05,
-      "75%": 77.8,
+      "25%": 47.42,
+      "50%": 62.7,
+      "75%": 78.57,
       "max": 100.0
     },
     "CA3_Marks": {
-      "count": 2500.0,
-      "mean": 60.56,
-      "std": 22.32,
+      "count": 4460.0,
+      "mean": 61.19,
+      "std": 22.41,
       "min": 8.0,
-      "25%": 45.6,
-      "50%": 61.0,
-      "75%": 76.5,
+      "25%": 45.2,
+      "50%": 61.4,
+      "75%": 77.3,
       "max": 100.0
     },
     "MidTerm_Marks": {
-      "count": 2425.0,
-      "mean": 55.87,
-      "std": 23.19,
+      "count": 4341.0,
+      "mean": 56.41,
+      "std": 23.21,
       "min": 10.0,
-      "25%": 39.5,
+      "25%": 39.7,
       "50%": 56.2,
-      "75%": 72.5,
-      "max": 110.0
+      "75%": 73.4,
+      "max": 105.0
     },
     "Prev_Sem_CGPA": {
-      "count": 2430.0,
-      "mean": 7.11,
-      "std": 1.43,
+      "count": 4312.0,
+      "mean": 7.12,
+      "std": 1.45,
       "min": 3.8,
-      "25%": 6.17,
-      "50%": 7.12,
-      "75%": 8.1,
+      "25%": 6.11,
+      "50%": 7.11,
+      "75%": 8.15,
       "max": 9.95
     },
     "Assignment_Submission_Rate": {
-      "count": 2432.0,
-      "mean": 74.3,
-      "std": 14.07,
-      "min": 27.0,
-      "25%": 64.8,
-      "50%": 74.2,
-      "75%": 84.5,
+      "count": 4313.0,
+      "mean": 74.81,
+      "std": 14.0,
+      "min": 20.5,
+      "25%": 65.3,
+      "50%": 75.0,
+      "75%": 85.0,
       "max": 100.0
     },
     "Active_Backlogs": {
-      "count": 2500.0,
-      "mean": 0.14,
-      "std": 0.54,
+      "count": 4460.0,
+      "mean": 0.39,
+      "std": 0.85,
       "min": 0.0,
       "25%": 0.0,
       "50%": 0.0,
@@ -130,11 +200,11 @@
       "max": 5.0
     },
     "Participation_Score": {
-      "count": 2500.0,
-      "mean": 5.94,
-      "std": 1.85,
+      "count": 4460.0,
+      "mean": 6.0,
+      "std": 1.82,
       "min": 1.0,
-      "25%": 4.7,
+      "25%": 4.8,
       "50%": 6.0,
       "75%": 7.2,
       "max": 10.0
@@ -144,135 +214,135 @@
     "Attendance_Pct": {
       "Attendance_Pct": 1.0,
       "CA1_Marks": 0.698,
-      "CA2_Marks": 0.727,
-      "CA3_Marks": 0.724,
-      "MidTerm_Marks": 0.693,
-      "Prev_Sem_CGPA": 0.667,
-      "Assignment_Submission_Rate": 0.791,
-      "Active_Backlogs": -0.204,
-      "Participation_Score": 0.681
+      "CA2_Marks": 0.73,
+      "CA3_Marks": 0.725,
+      "MidTerm_Marks": 0.698,
+      "Prev_Sem_CGPA": 0.675,
+      "Assignment_Submission_Rate": 0.788,
+      "Active_Backlogs": 0.007,
+      "Participation_Score": 0.666
     },
     "CA1_Marks": {
       "Attendance_Pct": 0.698,
       "CA1_Marks": 1.0,
-      "CA2_Marks": 0.905,
-      "CA3_Marks": 0.901,
-      "MidTerm_Marks": 0.908,
-      "Prev_Sem_CGPA": 0.837,
-      "Assignment_Submission_Rate": 0.683,
-      "Active_Backlogs": -0.187,
-      "Participation_Score": 0.598
+      "CA2_Marks": 0.91,
+      "CA3_Marks": 0.897,
+      "MidTerm_Marks": 0.911,
+      "Prev_Sem_CGPA": 0.836,
+      "Assignment_Submission_Rate": 0.703,
+      "Active_Backlogs": 0.003,
+      "Participation_Score": 0.589
     },
     "CA2_Marks": {
-      "Attendance_Pct": 0.727,
-      "CA1_Marks": 0.905,
+      "Attendance_Pct": 0.73,
+      "CA1_Marks": 0.91,
       "CA2_Marks": 1.0,
-      "CA3_Marks": 0.907,
-      "MidTerm_Marks": 0.904,
-      "Prev_Sem_CGPA": 0.839,
-      "Assignment_Submission_Rate": 0.708,
-      "Active_Backlogs": -0.198,
-      "Participation_Score": 0.609
+      "CA3_Marks": 0.904,
+      "MidTerm_Marks": 0.908,
+      "Prev_Sem_CGPA": 0.84,
+      "Assignment_Submission_Rate": 0.723,
+      "Active_Backlogs": 0.008,
+      "Participation_Score": 0.607
     },
     "CA3_Marks": {
-      "Attendance_Pct": 0.724,
-      "CA1_Marks": 0.901,
-      "CA2_Marks": 0.907,
+      "Attendance_Pct": 0.725,
+      "CA1_Marks": 0.897,
+      "CA2_Marks": 0.904,
       "CA3_Marks": 1.0,
-      "MidTerm_Marks": 0.883,
-      "Prev_Sem_CGPA": 0.835,
-      "Assignment_Submission_Rate": 0.698,
-      "Active_Backlogs": -0.216,
-      "Participation_Score": 0.611
+      "MidTerm_Marks": 0.877,
+      "Prev_Sem_CGPA": 0.827,
+      "Assignment_Submission_Rate": 0.714,
+      "Active_Backlogs": -0.004,
+      "Participation_Score": 0.601
     },
     "MidTerm_Marks": {
-      "Attendance_Pct": 0.693,
-      "CA1_Marks": 0.908,
-      "CA2_Marks": 0.904,
-      "CA3_Marks": 0.883,
+      "Attendance_Pct": 0.698,
+      "CA1_Marks": 0.911,
+      "CA2_Marks": 0.908,
+      "CA3_Marks": 0.877,
       "MidTerm_Marks": 1.0,
-      "Prev_Sem_CGPA": 0.845,
-      "Assignment_Submission_Rate": 0.686,
-      "Active_Backlogs": -0.197,
+      "Prev_Sem_CGPA": 0.849,
+      "Assignment_Submission_Rate": 0.701,
+      "Active_Backlogs": 0.014,
       "Participation_Score": 0.591
     },
     "Prev_Sem_CGPA": {
-      "Attendance_Pct": 0.667,
-      "CA1_Marks": 0.837,
-      "CA2_Marks": 0.839,
-      "CA3_Marks": 0.835,
-      "MidTerm_Marks": 0.845,
+      "Attendance_Pct": 0.675,
+      "CA1_Marks": 0.836,
+      "CA2_Marks": 0.84,
+      "CA3_Marks": 0.827,
+      "MidTerm_Marks": 0.849,
       "Prev_Sem_CGPA": 1.0,
-      "Assignment_Submission_Rate": 0.669,
-      "Active_Backlogs": -0.216,
+      "Assignment_Submission_Rate": 0.684,
+      "Active_Backlogs": 0.017,
       "Participation_Score": 0.575
     },
     "Assignment_Submission_Rate": {
-      "Attendance_Pct": 0.791,
-      "CA1_Marks": 0.683,
-      "CA2_Marks": 0.708,
-      "CA3_Marks": 0.698,
-      "MidTerm_Marks": 0.686,
-      "Prev_Sem_CGPA": 0.669,
+      "Attendance_Pct": 0.788,
+      "CA1_Marks": 0.703,
+      "CA2_Marks": 0.723,
+      "CA3_Marks": 0.714,
+      "MidTerm_Marks": 0.701,
+      "Prev_Sem_CGPA": 0.684,
       "Assignment_Submission_Rate": 1.0,
-      "Active_Backlogs": -0.227,
-      "Participation_Score": 0.667
+      "Active_Backlogs": 0.011,
+      "Participation_Score": 0.686
     },
     "Active_Backlogs": {
-      "Attendance_Pct": -0.204,
-      "CA1_Marks": -0.187,
-      "CA2_Marks": -0.198,
-      "CA3_Marks": -0.216,
-      "MidTerm_Marks": -0.197,
-      "Prev_Sem_CGPA": -0.216,
-      "Assignment_Submission_Rate": -0.227,
+      "Attendance_Pct": 0.007,
+      "CA1_Marks": 0.003,
+      "CA2_Marks": 0.008,
+      "CA3_Marks": -0.004,
+      "MidTerm_Marks": 0.014,
+      "Prev_Sem_CGPA": 0.017,
+      "Assignment_Submission_Rate": 0.011,
       "Active_Backlogs": 1.0,
-      "Participation_Score": -0.165
+      "Participation_Score": 0.007
     },
     "Participation_Score": {
-      "Attendance_Pct": 0.681,
-      "CA1_Marks": 0.598,
-      "CA2_Marks": 0.609,
-      "CA3_Marks": 0.611,
+      "Attendance_Pct": 0.666,
+      "CA1_Marks": 0.589,
+      "CA2_Marks": 0.607,
+      "CA3_Marks": 0.601,
       "MidTerm_Marks": 0.591,
       "Prev_Sem_CGPA": 0.575,
-      "Assignment_Submission_Rate": 0.667,
-      "Active_Backlogs": -0.165,
+      "Assignment_Submission_Rate": 0.686,
+      "Active_Backlogs": 0.007,
       "Participation_Score": 1.0
     }
   },
   "attendance_by_risk": {
     "High": {
-      "mean": 60.9,
-      "median": 60.9,
-      "std": 7.95
+      "mean": 62.23,
+      "median": 62.7,
+      "std": 7.35
     },
     "Low": {
-      "mean": 81.25,
-      "median": 80.7,
+      "mean": 81.89,
+      "median": 81.6,
       "std": 8.52
     },
     "Medium": {
-      "mean": 69.38,
-      "median": 69.4,
-      "std": 6.43
+      "mean": 70.7,
+      "median": 70.95,
+      "std": 6.4
     }
   },
   "cgpa_by_risk": {
     "High": {
-      "mean": 5.15,
-      "median": 5.16,
-      "std": 0.87
+      "mean": 5.31,
+      "median": 5.31,
+      "std": 0.91
     },
     "Low": {
-      "mean": 7.86,
-      "median": 7.78,
-      "std": 1.05
+      "mean": 7.94,
+      "median": 7.88,
+      "std": 1.07
     },
     "Medium": {
-      "mean": 6.27,
-      "median": 6.32,
-      "std": 0.74
+      "mean": 6.37,
+      "median": 6.36,
+      "std": 0.76
     }
   }
 }

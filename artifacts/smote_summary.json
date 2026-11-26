@@ -1,12 +1,12 @@
 {
   "before_smote": {
-    "Low": 1112,
-    "Medium": 361,
-    "High": 277
+    "Low": 1875,
+    "Medium": 664,
+    "High": 583
   },
   "after_smote": {
-    "Medium": 1112,
-    "Low": 1112,
-    "High": 1112
+    "Low": 1875,
+    "High": 1875,
+    "Medium": 1875
   }
 }

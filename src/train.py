@@ -179,7 +179,9 @@ def main():
     print("Saved: artifacts/eda_stats.json")
     
     # Prepare features and target
-    X = df.drop(columns=["Student_ID", "Risk_Level"])
+    meta_cols = ["Student_ID", "Student_Name", "School", "Section", "Mentor_Name", "Risk_Level"]
+    drop_cols = [c for c in meta_cols if c in df.columns]
+    X = df.drop(columns=drop_cols)
     y = df["Risk_Level"].map(TARGET_MAP)
     
     # 1. Stratified Splitting to strictly prevent data leakage
