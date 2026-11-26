@@ -1,481 +1,481 @@
 Student_ID,Student_Name,School,Department,Semester,Section,Mentor_Name,Attendance_Pct,CA1_Marks,CA2_Marks,CA3_Marks,MidTerm_Marks,Prev_Sem_CGPA,Assignment_Submission_Rate,Active_Backlogs,Participation_Score,Risk_Level
-AGR-2024-1001,Sai Gill,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,1,K23-AG-B,Dr. Kabir Chahal (AGR-01),60.8,40.3,31.2,26.8,24.2,5.48,63.5,0,3.1,High
-AGR-2024-1002,Rohan Kapoor,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,3,K23-AG-C,Prof. Ishaan Verma (AGR-02),65.9,38.6,45.0,34.0,40.4,5.89,56.2,3,1.7,High
-AGR-2024-1003,Darsh Dhillon,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,2,K23-AG-A,Dr. Tara Sandhu (AGR-03),72.5,58.6,60.0,70.9,58.4,6.24,71.5,0,7.8,Low
-AGR-2024-1004,Ritvik Patel,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,1,K23-AG-A,Dr. Ishaan Deshmukh (AGR-04),80.2,58.2,57.8,59.7,,6.18,69.0,0,5.7,Low
-AGR-2024-1005,Atharva Malhotra,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,5,K23-AG-B,Prof. Aditi Gupta (AGR-05),89.1,61.5,70.8,73.0,66.6,7.05,82.6,0,6.9,Low
-AGR-2024-1006,Tanvi Sandhu,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-A,Dr. Darsh Gill (AGR-06),90.8,76.4,73.8,75.4,66.2,,90.6,0,7.8,Low
-AGR-2024-1007,Riya Patel,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,5,K23-AG-A,Dr. Abhinav Sharma (AGR-07),62.2,36.4,41.4,36.7,22.9,6.46,55.3,0,4.4,High
-AGR-2024-1008,Dhruv Sharma,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-B,Dr. Atharva Saxena (AGR-08),80.1,43.9,31.1,59.9,30.4,4.81,65.9,0,5.1,Medium
-AGR-2024-1009,Karan Chopra,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,2,K23-AG-B,Dr. Mayank Sandhu (AGR-09),65.1,57.6,47.7,48.1,50.0,4.99,78.1,0,5.9,High
-AGR-2024-1010,Aditya Das,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,6,K23-AG-A,Dr. Pooja Mehta (AGR-10),81.1,61.4,70.6,64.8,57.6,7.78,80.5,1,6.4,Low
-AGR-2024-1011,Krishna Patel,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-A,Dr. Aditya Dhillon (AGR-11),60.8,64.1,61.7,46.8,55.0,7.17,58.6,2,2.5,High
-AGR-2024-1012,Neha Rao,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,7,K23-AG-A,Assoc. Prof. Manish Kaur (AGR-12),99.7,100.0,100.0,100.0,100.0,8.3,100.0,0,7.7,Low
-AGR-2024-1013,Shreya Sharma,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,2,K23-AG-B,Prof. Avani Iyer (AGR-13),80.7,39.3,33.9,32.5,34.8,5.96,69.8,0,4.7,Medium
-AGR-2024-1014,Gauri Sethi,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,1,K23-AG-B,Dr. Diya Malhotra (AGR-14),84.6,81.7,71.4,80.6,75.7,9.34,78.6,0,7.8,Low
-AGR-2024-1015,Deepika Iyer,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-A,Assoc. Prof. Neha Joshi (AGR-15),64.3,43.3,45.0,54.3,41.2,6.02,54.0,0,3.6,High
-AGR-2024-1016,Aaryan Gupta,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,5,K23-AG-C,Prof. Anushka Singh (AGR-16),70.3,64.8,64.8,59.8,57.2,7.87,78.8,0,5.6,Low
-AGR-2024-1017,Pooja Gill,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-C,Prof. Tanvi Mehta (AGR-17),78.5,66.6,70.2,61.1,72.2,7.59,96.0,0,8.8,Low
-AGR-2024-1018,Deepika Iyer,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,2,K23-AG-B,Dr. Varun Trivedi (AGR-18),88.3,82.5,81.9,74.9,75.3,,76.1,0,5.4,Low
-AGR-2024-1019,Aditya Kumar,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,1,K23-AG-A,Dr. Ayaan Kaur (AGR-19),74.7,56.7,70.1,69.5,56.5,7.55,63.9,0,4.9,Low
-AGR-2024-1020,Gauri Bhatia,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,1,K23-AG-C,Assoc. Prof. Aarav Chopra (AGR-20),77.1,51.1,53.1,44.2,32.8,5.46,80.4,0,6.9,Medium
-AGR-2024-1021,Kavya Iyer,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,7,K23-AG-B,Prof. Aaryan Sandhu (AGR-21),77.3,105.0,84.5,76.8,83.3,8.73,89.5,4,8.2,Low
-AGR-2024-1022,Krishna Bhatt,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,6,K23-AG-A,Prof. Isha Iyer (AGR-22),78.9,68.6,66.7,65.9,56.2,7.05,80.1,0,5.5,Low
-AGR-2024-1023,Nikhil Rao,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-A,Prof. Manish Das (AGR-23),,75.7,64.0,59.6,60.3,8.52,65.9,0,4.5,Medium
-AGR-2024-1024,Aditya Sandhu,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,6,K23-AG-B,Dr. Diya Bhatt (AGR-24),65.2,50.8,64.2,51.7,51.6,7.26,63.1,1,6.1,Medium
-AGR-2024-1025,Karan Bhatia,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,4,K23-AG-B,Prof. Reyansh Malhotra (AGR-25),60.6,46.6,36.8,44.5,52.5,6.46,66.4,0,2.7,Medium
-AGR-2024-1026,Karan Gill,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,2,K23-AG-B,Dr. Ritvik Sharma (AGR-26),74.8,60.7,66.2,79.7,58.9,7.28,83.4,0,7.6,Low
-AGR-2024-1027,Rohan Bhatia,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,2,K23-AG-B,Dr. Abhinav Singh (AGR-27),77.3,72.4,65.5,66.8,59.7,7.78,71.3,1,4.9,Low
-AGR-2024-1028,Krishna Chahal,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,5,K23-AG-C,Prof. Ishaan Trivedi (AGR-28),96.1,86.8,98.5,91.8,88.2,8.72,83.9,0,7.1,Low
-AGR-2024-1029,Advik Kaur,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,1,K23-AG-C,Prof. Gauri Patel (AGR-29),62.4,44.8,26.8,25.1,30.5,5.11,60.8,0,5.5,High
-AGR-2024-1030,Vivaan Trivedi,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,3,K23-AG-C,Prof. Shaurya Sharma (AGR-30),98.7,100.0,100.0,94.5,89.0,9.85,100.0,0,10.0,Low
-AGR-2024-1031,Sneha Das,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,3,K23-AG-C,Prof. Rohan Bhatt (AGR-31),87.7,87.4,95.8,99.2,82.1,8.93,89.5,0,7.8,Low
-AGR-2024-1032,Vivaan Singh,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,3,K23-AG-A,Dr. Tanvi Trivedi (AGR-32),87.7,75.3,86.3,64.9,93.6,7.71,82.0,2,7.0,Low
-AGR-2024-1033,Dhruv Patel,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,8,K23-AG-B,Dr. Meera Iyer (AGR-33),78.7,40.2,35.9,37.6,30.5,6.02,69.8,0,6.3,Medium
-AGR-2024-1034,Sneha Das,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,1,K23-AG-A,Prof. Ritvik Das (AGR-34),63.2,12.0,10.0,8.0,10.0,4.82,48.4,0,2.9,High
-AGR-2024-1035,Kavya Gill,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,8,K23-AG-B,Dr. Vihaan Reddy (AGR-35),70.3,41.7,37.5,26.8,39.8,6.21,70.2,0,8.3,High
-AGR-2024-1036,Dhruv Mehta,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,2,K23-AG-C,Dr. Kabir Chahal (AGR-01),84.4,61.0,73.6,74.3,67.0,8.46,79.9,1,6.6,Low
-AGR-2024-1037,Kabir Kumar,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,5,K23-AG-C,Prof. Ishaan Verma (AGR-02),57.9,40.5,30.0,24.5,33.4,6.21,60.0,0,3.9,Medium
-AGR-2024-1038,Sai Verma,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,4,K23-AG-B,Dr. Tara Sandhu (AGR-03),74.2,68.5,53.4,71.0,62.9,7.82,75.7,0,4.2,Low
-AGR-2024-1039,Neha Trivedi,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,6,K23-AG-B,Dr. Ishaan Deshmukh (AGR-04),,51.4,59.1,54.6,39.1,5.0,,1,7.0,High
-AGR-2024-1040,Dhruv Singh,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,3,K23-AG-C,Prof. Aditi Gupta (AGR-05),78.9,73.1,65.9,79.6,60.5,6.93,74.7,1,7.4,Low
-AGR-2024-1041,Gauri Kaur,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,6,K23-AG-C,Dr. Darsh Gill (AGR-06),62.0,42.8,30.8,43.3,21.3,5.31,65.6,0,1.7,High
-AGR-2024-1042,Pooja Chahal,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,1,K23-AG-A,Dr. Abhinav Sharma (AGR-07),88.7,76.0,76.1,92.6,74.8,,73.1,0,6.6,Low
-AGR-2024-1043,Advik Chauhan,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,3,K23-AG-B,Dr. Atharva Saxena (AGR-08),67.7,51.5,49.6,57.5,39.9,6.17,71.7,0,6.1,Medium
-AGR-2024-1044,Dhruv Kumar,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,2,K23-AG-C,Dr. Mayank Sandhu (AGR-09),78.6,48.1,50.8,70.0,39.8,6.96,67.7,0,6.8,Medium
-AGR-2024-1045,Gauri Bhatia,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,3,K23-AG-B,Dr. Pooja Mehta (AGR-10),75.5,92.3,72.8,86.1,71.1,7.42,69.5,0,7.3,Low
-AGR-2024-1046,Avani Saxena,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-B,Dr. Aditya Dhillon (AGR-11),75.7,68.2,70.9,73.8,61.5,6.91,85.4,0,7.7,Low
-AGR-2024-1047,Aarav Saxena,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,6,K23-AG-A,Assoc. Prof. Manish Kaur (AGR-12),62.5,21.2,32.3,36.6,20.1,6.31,67.2,4,3.7,High
-AGR-2024-1048,Ritvik Sandhu,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,5,K23-AG-B,Prof. Avani Iyer (AGR-13),92.1,76.9,85.8,91.0,71.7,8.4,90.9,1,5.7,Low
-AGR-2024-1049,Ayaan Kapoor,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,4,K23-AG-A,Dr. Diya Malhotra (AGR-14),65.4,40.6,43.0,31.3,36.0,5.35,71.0,0,6.5,Medium
-AGR-2024-1050,Meera Mehta,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-B,Assoc. Prof. Neha Joshi (AGR-15),100.0,100.0,100.0,100.0,98.4,9.95,100.0,0,10.0,Low
-AGR-2024-1051,Ishaan Verma,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,6,K23-AG-A,Prof. Anushka Singh (AGR-16),66.8,37.7,42.5,50.4,18.3,4.38,62.1,0,4.7,High
-AGR-2024-1052,Mayank Nair,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-A,Prof. Tanvi Mehta (AGR-17),91.7,91.8,96.3,100.0,91.4,9.41,92.9,1,6.2,Low
-AGR-2024-1053,Nikhil Sethi,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,7,K23-AG-B,Dr. Varun Trivedi (AGR-18),79.2,52.1,42.1,35.6,42.0,5.88,70.4,1,4.1,Medium
-AGR-2024-1054,Pooja Saxena,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,5,K23-AG-B,Dr. Ayaan Kaur (AGR-19),65.4,58.8,63.3,74.5,53.3,6.91,77.7,2,7.7,Medium
-AGR-2024-1055,Pooja Rao,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-C,Assoc. Prof. Aarav Chopra (AGR-20),80.0,51.9,63.5,69.6,47.8,7.37,90.9,0,7.1,Low
-AGR-2024-1056,Vihaan Sharma,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,4,K23-AG-B,Prof. Aaryan Sandhu (AGR-21),76.8,82.0,75.2,87.8,69.3,7.07,80.2,0,5.7,Low
-AGR-2024-1057,Shreya Dhillon,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,3,K23-AG-B,Prof. Isha Iyer (AGR-22),75.1,61.8,52.6,52.0,52.8,6.71,82.2,0,5.5,Low
-AGR-2024-1058,Anushka Dhillon,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,8,K23-AG-A,Prof. Manish Das (AGR-23),65.0,22.6,29.6,24.7,11.3,,61.7,0,4.3,High
-AGR-2024-1059,Abhinav Dhillon,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,2,K23-AG-B,Dr. Diya Bhatt (AGR-24),90.6,65.7,68.2,69.0,65.9,7.67,88.5,0,7.2,Low
-AGR-2024-1060,Sai Dhillon,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-C,Prof. Reyansh Malhotra (AGR-25),59.7,43.5,43.2,41.8,32.1,5.42,50.4,0,3.3,High
-AGR-2024-1061,Shreya Patel,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,4,K23-AG-A,Dr. Ritvik Sharma (AGR-26),88.7,92.2,88.0,80.2,87.3,9.53,91.9,0,5.2,Low
-AGR-2024-1062,Kritika Rao,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,6,K23-AG-C,Dr. Abhinav Singh (AGR-27),61.1,62.4,56.4,54.7,41.2,6.69,48.3,0,2.3,Medium
-AGR-2024-1063,Shreya Sandhu,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,7,K23-AG-B,Prof. Ishaan Trivedi (AGR-28),85.1,74.9,77.5,72.5,80.2,8.24,93.8,0,9.8,Low
-AGR-2024-1064,Reyansh Nair,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,2,K23-AG-C,Prof. Gauri Patel (AGR-29),80.6,81.6,87.4,94.6,86.2,,78.5,1,5.0,Low
-AGR-2024-1065,Kritika Chopra,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,6,K23-AG-C,Prof. Shaurya Sharma (AGR-30),62.9,58.5,55.3,63.7,53.6,6.91,63.4,0,5.5,Low
-AGR-2024-1066,Kabir Deshmukh,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,4,K23-AG-C,Prof. Rohan Bhatt (AGR-31),78.8,62.6,73.4,59.3,62.2,,72.6,1,5.6,Low
-AGR-2024-1067,Dhruv Chopra,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,2,K23-AG-A,Dr. Tanvi Trivedi (AGR-32),87.3,73.2,72.6,83.0,71.8,7.53,84.4,1,5.9,Low
-AGR-2024-1068,Aditya Bhatt,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,5,K23-AG-B,Dr. Meera Iyer (AGR-33),64.5,71.3,71.9,75.5,57.9,7.38,49.3,0,4.9,Medium
-AGR-2024-1069,Nandini Malhotra,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,1,K23-AG-C,Prof. Ritvik Das (AGR-34),74.7,62.7,62.8,51.9,59.6,6.51,67.2,0,5.5,Low
-AGR-2024-1070,Aditi Bhatia,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,5,K23-AG-C,Dr. Vihaan Reddy (AGR-35),81.3,63.6,67.8,63.8,58.1,8.74,86.5,0,7.3,Low
-AGR-2024-1071,Aarav Singh,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-C,Dr. Kabir Chahal (AGR-01),,14.0,10.0,8.0,10.0,3.99,44.3,1,1.0,High
-AGR-2024-1072,Aditya Rao,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,2,K23-AG-A,Prof. Ishaan Verma (AGR-02),87.8,80.2,91.9,80.0,73.3,8.92,84.4,0,4.6,Low
-AGR-2024-1073,Anushka Sandhu,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,5,K23-AG-B,Dr. Tara Sandhu (AGR-03),78.3,62.6,68.3,79.6,61.8,7.06,80.1,0,5.7,Low
-AGR-2024-1074,Sai Mishra,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-C,Dr. Ishaan Deshmukh (AGR-04),66.4,56.6,53.5,36.2,38.4,7.78,85.5,0,8.0,Medium
-AGR-2024-1075,Abhinav Singh,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,2,K23-AG-A,Prof. Aditi Gupta (AGR-05),,46.9,55.7,51.6,39.4,6.42,88.7,0,7.4,Low
-AGR-2024-1076,Ritvik Deshmukh,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,8,K23-AG-B,Dr. Darsh Gill (AGR-06),93.2,79.9,90.9,85.3,79.2,8.96,89.9,1,9.2,Low
-AGR-2024-1077,Sneha Sethi,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,5,K23-AG-C,Dr. Abhinav Sharma (AGR-07),72.5,78.2,89.2,79.5,80.9,7.55,71.2,0,3.5,Low
-AGR-2024-1078,Vihaan Gill,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,2,K23-AG-B,Dr. Atharva Saxena (AGR-08),81.9,63.8,77.3,74.9,58.5,8.31,73.5,0,7.4,Low
-AGR-2024-1079,Krishna Malhotra,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,8,K23-AG-B,Dr. Mayank Sandhu (AGR-09),93.7,73.6,82.7,85.7,83.6,8.34,90.5,0,8.7,Low
-AGR-2024-1080,Arjun Chauhan,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,6,K23-AG-C,Dr. Pooja Mehta (AGR-10),59.0,26.8,21.0,19.5,17.5,5.47,74.2,0,3.3,High
-AGR-2024-1081,Advik Iyer,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,6,K23-AG-C,Dr. Aditya Dhillon (AGR-11),93.9,82.4,85.4,76.5,69.0,7.14,77.8,0,4.2,Low
-AGR-2024-1082,Advaith Malhotra,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,1,K23-AG-A,Assoc. Prof. Manish Kaur (AGR-12),74.2,94.3,99.1,100.0,99.0,9.95,82.7,0,8.1,Low
-AGR-2024-1083,Ritvik Bhatt,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,1,K23-AG-B,Prof. Avani Iyer (AGR-13),84.1,57.7,66.7,65.6,57.2,,87.2,0,5.7,Low
-AGR-2024-1084,Kritika Das,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-C,Dr. Diya Malhotra (AGR-14),,45.0,44.7,57.2,40.4,5.18,55.7,0,3.8,High
-AGR-2024-1085,Mayank Kapoor,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,2,K23-AG-C,Assoc. Prof. Neha Joshi (AGR-15),71.2,40.1,39.3,41.6,44.9,5.98,79.8,2,6.5,Medium
-AGR-2024-1086,Kritika Bhatia,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,3,K23-AG-C,Prof. Anushka Singh (AGR-16),76.6,57.9,64.9,61.1,54.3,7.93,81.7,1,7.6,Low
-AGR-2024-1087,Kavya Chopra,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,2,K23-AG-A,Prof. Tanvi Mehta (AGR-17),78.3,42.7,54.7,48.3,32.6,5.81,64.5,0,4.6,Medium
-AGR-2024-1088,Sneha Kumar,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-A,Dr. Varun Trivedi (AGR-18),73.7,20.7,34.3,21.4,24.9,6.56,65.6,2,4.9,High
-AGR-2024-1089,Vihaan Dhillon,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,1,K23-AG-B,Dr. Ayaan Kaur (AGR-19),67.8,56.0,45.2,44.5,45.0,6.32,73.0,0,6.6,Medium
-AGR-2024-1090,Karan Gill,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,8,K23-AG-C,Assoc. Prof. Aarav Chopra (AGR-20),73.5,61.9,52.7,58.1,55.7,6.83,74.5,0,4.3,Medium
-AGR-2024-1091,Aditi Gill,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,5,K23-AG-A,Prof. Aaryan Sandhu (AGR-21),87.4,91.9,97.5,91.2,80.9,9.79,86.5,0,9.5,Low
-AGR-2024-1092,Reyansh Verma,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,5,K23-AG-C,Prof. Isha Iyer (AGR-22),80.5,87.7,70.7,82.3,72.9,8.15,89.5,0,8.9,Low
-AGR-2024-1093,Avani Nair,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,1,K23-AG-B,Prof. Manish Das (AGR-23),82.2,64.0,70.5,73.2,64.6,8.08,70.2,0,5.6,Low
-AGR-2024-1094,Kavya Sandhu,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-C,Dr. Diya Bhatt (AGR-24),75.6,49.9,45.9,48.5,29.4,4.91,73.0,1,3.8,Medium
-AGR-2024-1095,Shreya Reddy,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-C,Prof. Reyansh Malhotra (AGR-25),56.9,20.0,15.5,21.6,10.1,3.8,68.0,1,1.0,High
-AGR-2024-1096,Gauri Sethi,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,4,K23-AG-B,Dr. Ritvik Sharma (AGR-26),90.3,100.0,97.6,100.0,87.5,8.02,100.0,0,8.7,Low
-AGR-2024-1097,Sai Saxena,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-C,Dr. Abhinav Singh (AGR-27),73.8,41.2,50.6,41.5,42.2,6.72,75.9,0,5.4,Medium
-AGR-2024-1098,Manish Trivedi,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-B,Prof. Ishaan Trivedi (AGR-28),71.1,76.4,,81.0,71.3,,82.0,1,6.4,Low
-AGR-2024-1099,Varun Joshi,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,4,K23-AG-B,Prof. Gauri Patel (AGR-29),89.0,72.8,81.0,76.2,72.9,8.52,95.8,1,8.3,Low
-AGR-2024-1100,Tanvi Chauhan,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-A,Prof. Shaurya Sharma (AGR-30),86.5,86.0,82.1,71.0,88.2,7.26,,0,7.2,Low
-AGR-2024-1101,Kabir Bhatia,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,2,K23-AG-A,Prof. Rohan Bhatt (AGR-31),74.8,47.3,39.9,39.9,39.5,4.77,71.9,0,6.9,Medium
-AGR-2024-1102,Ayaan Reddy,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-B,Dr. Tanvi Trivedi (AGR-32),85.3,95.4,79.7,90.0,78.7,8.07,85.1,0,6.7,Low
-AGR-2024-1103,Sneha Das,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,7,K23-AG-B,Dr. Meera Iyer (AGR-33),73.4,58.6,59.1,44.4,55.7,6.31,74.1,2,4.6,Medium
-AGR-2024-1104,Ishaan Chauhan,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-B,Prof. Ritvik Das (AGR-34),76.7,98.0,100.0,98.4,99.3,9.05,60.3,0,5.6,Low
-AGR-2024-1105,Sai Bhatt,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,6,K23-AG-B,Dr. Vihaan Reddy (AGR-35),78.2,54.9,64.8,63.5,48.1,6.46,75.9,1,5.4,Low
-AGR-2024-1106,Ananya Mishra,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,5,K23-AG-C,Dr. Kabir Chahal (AGR-01),94.2,87.1,93.9,100.0,85.0,8.8,97.8,2,6.7,Low
-AGR-2024-1107,Diya Gill,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,5,K23-AG-A,Prof. Ishaan Verma (AGR-02),63.1,38.9,45.7,55.9,31.9,6.3,61.7,1,6.3,High
-AGR-2024-1108,Ishaan Mishra,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,1,K23-AG-C,Dr. Tara Sandhu (AGR-03),62.1,50.0,49.6,49.9,46.8,7.48,56.2,0,5.6,Medium
-AGR-2024-1109,Ananya Sen,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-A,Dr. Ishaan Deshmukh (AGR-04),84.4,88.6,84.6,86.8,81.8,8.85,78.4,0,6.6,Low
-AGR-2024-1110,Kavya Chahal,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,6,K23-AG-B,Prof. Aditi Gupta (AGR-05),72.5,90.4,82.2,82.2,89.6,,78.5,1,6.2,Low
-AGR-2024-1111,Simran Kumar,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-A,Dr. Darsh Gill (AGR-06),61.2,62.7,61.9,59.5,59.4,6.07,,1,2.9,Medium
-AGR-2024-1112,Shreya Joshi,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,3,K23-AG-B,Dr. Abhinav Sharma (AGR-07),61.3,14.1,10.0,8.0,10.0,4.23,43.7,0,3.4,High
-AGR-2024-1113,Anushka Patel,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-A,Dr. Atharva Saxena (AGR-08),69.8,70.2,63.0,51.9,62.9,6.42,75.6,0,7.5,Low
-AGR-2024-1114,Neha Sen,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-C,Dr. Mayank Sandhu (AGR-09),,52.5,42.3,60.8,42.1,5.79,70.9,0,5.0,Medium
-AGR-2024-1115,Shreya Mishra,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-B,Dr. Pooja Mehta (AGR-10),72.9,72.8,84.2,73.1,77.9,8.88,85.9,0,7.4,Low
-AGR-2024-1116,Sai Kumar,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,4,K23-AG-C,Dr. Aditya Dhillon (AGR-11),64.0,42.3,39.7,34.7,37.4,4.9,66.9,1,5.0,High
-AGR-2024-1117,Aaryan Dhillon,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,6,K23-AG-A,Assoc. Prof. Manish Kaur (AGR-12),78.7,66.4,56.7,61.8,59.9,7.8,72.6,0,5.3,Low
-AGR-2024-1118,Sneha Gill,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,2,K23-AG-A,Prof. Avani Iyer (AGR-13),52.0,12.0,,8.0,10.0,3.8,48.0,0,4.3,High
-AGR-2024-1119,Siddharth Patel,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,5,K23-AG-C,Dr. Diya Malhotra (AGR-14),79.7,60.2,74.7,58.6,57.5,7.72,81.7,0,6.2,Medium
-AGR-2024-1120,Tanvi Sharma,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,5,K23-AG-B,Assoc. Prof. Neha Joshi (AGR-15),82.2,55.9,58.6,55.6,64.7,7.19,69.9,0,6.4,Low
-AGR-2024-1121,Deepika Iyer,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,8,K23-AG-B,Prof. Anushka Singh (AGR-16),79.6,90.1,100.0,100.0,100.0,9.08,100.0,2,8.5,Low
-AGR-2024-1122,Pranav Kapoor,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,1,K23-AG-B,Prof. Tanvi Mehta (AGR-17),78.1,71.8,75.6,77.7,66.6,8.5,79.7,0,4.6,Low
-AGR-2024-1123,Gaurav Mishra,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-C,Dr. Varun Trivedi (AGR-18),,56.2,67.6,76.8,51.3,7.86,67.9,1,7.7,Low
-AGR-2024-1124,Vivaan Singh,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-A,Dr. Ayaan Kaur (AGR-19),65.9,31.9,44.9,39.3,40.5,6.32,54.6,1,2.7,High
-AGR-2024-1125,Tara Kaur,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-A,Assoc. Prof. Aarav Chopra (AGR-20),100.0,100.0,100.0,100.0,100.0,9.95,100.0,0,8.8,Low
-AGR-2024-1126,Varun Sandhu,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,5,K23-AG-C,Prof. Aaryan Sandhu (AGR-21),89.7,89.8,97.2,83.8,90.9,8.51,93.4,0,8.0,Low
-AGR-2024-1127,Simran Saxena,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,5,K23-AG-A,Prof. Isha Iyer (AGR-22),87.2,100.0,100.0,100.0,92.9,9.95,81.4,0,8.6,Low
-AGR-2024-1128,Gaurav Verma,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,3,K23-AG-A,Prof. Manish Das (AGR-23),78.9,65.3,58.6,67.0,60.3,7.25,74.2,0,4.5,Low
-AGR-2024-1129,Darsh Das,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,4,K23-AG-B,Dr. Diya Bhatt (AGR-24),70.3,43.9,59.5,55.5,56.3,5.86,67.7,0,7.0,Low
-AGR-2024-1130,Nandini Chopra,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,2,K23-AG-B,Prof. Reyansh Malhotra (AGR-25),76.5,69.1,63.2,61.4,60.7,7.48,73.3,1,6.0,Low
-AGR-2024-1131,Ritvik Das,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,2,K23-AG-A,Dr. Ritvik Sharma (AGR-26),86.0,69.6,61.0,79.0,66.2,7.21,72.1,0,6.5,Low
-AGR-2024-1132,Kritika Chauhan,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,3,K23-AG-C,Dr. Abhinav Singh (AGR-27),62.7,57.9,52.1,41.4,49.0,5.7,71.8,2,4.3,Medium
-AGR-2024-1133,Aarav Iyer,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,4,K23-AG-C,Prof. Ishaan Trivedi (AGR-28),73.9,53.7,44.9,41.6,37.4,6.82,69.2,0,5.5,Medium
-AGR-2024-1134,Deepika Verma,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-A,Prof. Gauri Patel (AGR-29),86.0,70.3,81.0,95.9,74.1,9.01,83.5,0,6.0,Low
-AGR-2024-1135,Aarav Bhatt,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,5,K23-AG-C,Prof. Shaurya Sharma (AGR-30),62.6,45.7,43.8,52.4,42.3,7.22,58.2,0,4.6,High
-AGR-2024-1136,Sai Sen,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,5,K23-AG-B,Prof. Rohan Bhatt (AGR-31),69.4,43.7,45.7,39.3,30.1,5.32,80.5,0,6.4,Medium
-AGR-2024-1137,Ananya Chauhan,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,3,K23-AG-C,Dr. Tanvi Trivedi (AGR-32),69.9,54.2,38.7,50.9,31.4,6.3,60.6,0,4.6,High
-AGR-2024-1138,Sneha Dhillon,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,3,K23-AG-B,Dr. Meera Iyer (AGR-33),71.7,50.8,47.9,41.8,43.1,7.02,77.5,0,6.1,Low
-AGR-2024-1139,Ishaan Deshmukh,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-C,Prof. Ritvik Das (AGR-34),92.4,100.0,97.8,100.0,90.4,9.36,100.0,0,10.0,Low
-AGR-2024-1140,Dhruv Sandhu,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,3,K23-AG-A,Dr. Vihaan Reddy (AGR-35),82.6,58.6,60.3,63.9,49.5,7.42,75.7,0,6.3,Low
-AGR-2024-1141,Aaryan Iyer,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-B,Dr. Kabir Chahal (AGR-01),88.8,93.0,98.8,100.0,90.6,9.32,86.1,2,7.5,Low
-AGR-2024-1142,Avani Chauhan,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,5,K23-AG-B,Prof. Ishaan Verma (AGR-02),89.9,65.4,67.8,85.2,54.3,6.91,81.8,0,6.6,Low
-AGR-2024-1143,Kartik Sandhu,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,5,K23-AG-B,Dr. Tara Sandhu (AGR-03),72.2,58.3,55.3,44.6,,6.9,77.9,0,7.3,Medium
-AGR-2024-1144,Nikhil Chauhan,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-A,Dr. Ishaan Deshmukh (AGR-04),61.9,42.6,36.2,42.1,30.9,5.4,60.5,1,3.4,High
-AGR-2024-1145,Darsh Bhatia,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,2,K23-AG-C,Prof. Aditi Gupta (AGR-05),85.5,73.0,58.8,70.4,63.7,7.54,,1,6.2,Low
-AGR-2024-1146,Atharva Chauhan,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-A,Dr. Darsh Gill (AGR-06),89.5,71.4,90.3,72.5,76.9,8.86,79.6,1,6.7,Low
-AGR-2024-1147,Siddharth Sen,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,3,K23-AG-B,Dr. Abhinav Sharma (AGR-07),68.0,36.4,50.9,52.2,34.6,5.71,68.0,1,5.2,Medium
-AGR-2024-1148,Simran Deshmukh,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-C,Dr. Atharva Saxena (AGR-08),64.9,64.7,67.2,54.2,67.2,7.38,82.6,0,7.7,Low
-AGR-2024-1149,Gaurav Verma,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-A,Dr. Mayank Sandhu (AGR-09),76.6,67.7,63.4,72.1,57.7,7.9,74.5,0,5.2,Low
-AGR-2024-1150,Dhruv Sen,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-A,Dr. Pooja Mehta (AGR-10),51.3,45.5,29.9,25.2,26.4,5.2,45.2,0,3.0,High
-AGR-2024-1151,Gaurav Chahal,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,5,K23-AG-C,Dr. Aditya Dhillon (AGR-11),70.3,75.7,72.2,69.3,74.8,7.41,68.4,0,6.4,Low
-AGR-2024-1152,Deepika Gill,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,5,K23-AG-B,Assoc. Prof. Manish Kaur (AGR-12),82.1,45.1,57.9,46.1,56.0,7.24,74.0,0,5.6,Low
-AGR-2024-1153,Darsh Gupta,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,1,K23-AG-A,Prof. Avani Iyer (AGR-13),,65.8,62.5,69.3,60.6,8.2,65.3,0,7.7,Low
-AGR-2024-1154,Pooja Sandhu,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,6,K23-AG-C,Dr. Diya Malhotra (AGR-14),55.1,12.0,10.0,8.0,10.0,4.18,54.2,0,1.9,High
-AGR-2024-1155,Kavya Chopra,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,1,K23-AG-B,Assoc. Prof. Neha Joshi (AGR-15),83.8,100.0,100.0,100.0,100.0,8.46,96.1,0,6.5,Low
-AGR-2024-1156,Manish Saxena,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,1,K23-AG-A,Prof. Anushka Singh (AGR-16),,55.1,81.2,65.5,62.3,6.38,66.1,0,5.0,Low
-AGR-2024-1157,Mayank Bhatia,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-C,Prof. Tanvi Mehta (AGR-17),65.6,53.0,52.7,53.1,46.1,7.0,55.0,1,4.5,Medium
-AGR-2024-1158,Vivaan Sandhu,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,1,K23-AG-B,Dr. Varun Trivedi (AGR-18),83.4,68.5,,72.1,66.1,8.26,80.5,0,7.7,Low
-AGR-2024-1159,Aditya Patel,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,1,K23-AG-A,Dr. Ayaan Kaur (AGR-19),79.0,67.7,66.2,60.7,55.2,6.39,79.4,0,6.1,Low
-AGR-2024-1160,Kavya Das,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-A,Assoc. Prof. Aarav Chopra (AGR-20),38.6,12.0,10.0,8.0,10.0,3.8,32.3,0,1.0,High
-AGR-2024-1161,Siddharth Nair,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,5,K23-AG-C,Prof. Aaryan Sandhu (AGR-21),69.9,27.8,41.1,38.3,19.9,3.8,53.1,0,3.0,High
-AGR-2024-1162,Rohan Bhatia,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-C,Prof. Isha Iyer (AGR-22),88.7,97.2,90.9,96.7,86.9,9.66,89.6,0,8.1,Low
-AGR-2024-1163,Diya Iyer,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,6,K23-AG-B,Prof. Manish Das (AGR-23),72.5,70.7,65.2,66.5,63.2,8.59,68.3,0,7.4,Low
-AGR-2024-1164,Vivaan Rao,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-B,Dr. Diya Bhatt (AGR-24),77.6,89.7,83.1,94.3,73.5,8.02,86.8,0,5.7,Low
-AGR-2024-1165,Advaith Nair,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,3,K23-AG-B,Prof. Reyansh Malhotra (AGR-25),91.5,78.5,82.2,82.6,69.2,7.53,72.6,1,8.1,Low
-AGR-2024-1166,Manish Das,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,1,K23-AG-C,Dr. Ritvik Sharma (AGR-26),92.1,100.0,100.0,100.0,85.6,9.95,96.7,0,8.6,Low
-AGR-2024-1167,Simran Chauhan,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,2,K23-AG-C,Dr. Abhinav Singh (AGR-27),60.9,35.2,42.8,40.6,30.5,6.63,77.8,0,4.2,Low
-AGR-2024-1168,Shaurya Trivedi,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,1,K23-AG-A,Prof. Ishaan Trivedi (AGR-28),79.8,40.3,37.6,33.3,35.0,5.53,83.4,0,5.0,Medium
-AGR-2024-1169,Avani Dhillon,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-A,Prof. Gauri Patel (AGR-29),55.9,49.4,46.8,52.4,43.7,7.35,61.1,0,1.8,High
-AGR-2024-1170,Kartik Sandhu,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-B,Prof. Shaurya Sharma (AGR-30),79.1,83.6,80.7,72.1,91.8,8.8,81.6,0,8.0,Low
-AGR-2024-1171,Riya Gill,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,1,K23-AG-B,Prof. Rohan Bhatt (AGR-31),78.1,46.4,45.5,56.3,47.5,6.87,76.1,0,4.2,Medium
-AGR-2024-1172,Advaith Joshi,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-C,Dr. Tanvi Trivedi (AGR-32),63.7,37.7,36.4,29.0,29.6,5.56,57.1,2,3.2,High
-AGR-2024-1173,Pranav Bhatia,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,8,K23-AG-C,Dr. Meera Iyer (AGR-33),79.1,60.8,67.7,59.6,56.6,7.66,69.8,0,6.7,Low
-AGR-2024-1174,Aaryan Verma,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,5,K23-AG-A,Prof. Ritvik Das (AGR-34),82.5,87.3,73.6,66.9,78.8,7.89,92.4,0,7.8,Low
-AGR-2024-1175,Mayank Sharma,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,7,K23-AG-C,Dr. Vihaan Reddy (AGR-35),79.0,87.8,86.9,79.8,80.8,,76.7,0,4.9,Low
-AGR-2024-1176,Simran Rao,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,1,K23-AG-C,Dr. Kabir Chahal (AGR-01),77.9,64.8,78.5,58.3,105.0,9.16,67.4,0,6.4,Low
-AGR-2024-1177,Nandini Rao,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-A,Prof. Ishaan Verma (AGR-02),94.8,100.0,100.0,100.0,97.2,9.95,95.2,0,7.8,Low
-AGR-2024-1178,Ayaan Nair,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-C,Dr. Tara Sandhu (AGR-03),61.0,62.3,54.1,69.3,67.4,7.27,61.6,0,7.1,Low
-AGR-2024-1179,Vihaan Patel,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,1,K23-AG-A,Dr. Ishaan Deshmukh (AGR-04),80.7,95.7,82.7,69.1,92.0,8.53,69.4,0,7.5,Low
-AGR-2024-1180,Isha Dhillon,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,8,K23-AG-A,Prof. Aditi Gupta (AGR-05),86.2,84.6,92.9,82.6,89.3,9.76,89.7,1,8.4,Low
-AGR-2024-1181,Isha Saxena,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,7,K23-AG-A,Dr. Darsh Gill (AGR-06),79.1,58.9,56.4,60.6,42.0,6.05,74.3,1,6.1,Medium
-AGR-2024-1182,Pranav Kumar,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,5,K23-AG-C,Dr. Abhinav Sharma (AGR-07),76.6,65.6,71.8,73.9,64.7,7.73,69.3,1,5.6,Medium
-AGR-2024-1183,Sai Gupta,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,7,K23-AG-A,Dr. Atharva Saxena (AGR-08),78.0,71.0,67.4,59.1,58.6,8.46,68.1,0,5.0,Low
-AGR-2024-1184,Meera Saxena,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,7,K23-AG-B,Dr. Mayank Sandhu (AGR-09),81.1,93.7,83.1,84.1,84.7,8.03,85.8,0,10.0,Low
-AGR-2024-1185,Ritvik Mehta,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-A,Dr. Pooja Mehta (AGR-10),67.5,55.3,59.3,39.3,49.3,5.47,77.6,2,8.5,Medium
-AGR-2024-1186,Sneha Mishra,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,7,K23-AG-A,Dr. Aditya Dhillon (AGR-11),77.4,81.3,92.1,90.9,82.1,8.31,73.2,0,5.3,Low
-AGR-2024-1187,Deepika Kumar,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,5,K23-AG-B,Assoc. Prof. Manish Kaur (AGR-12),76.2,55.3,60.5,54.8,46.5,6.48,72.8,0,4.4,Medium
-AGR-2024-1188,Kartik Iyer,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-C,Prof. Avani Iyer (AGR-13),100.0,100.0,100.0,100.0,95.8,9.95,100.0,0,10.0,Low
-AGR-2024-1189,Aditi Verma,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,1,K23-AG-B,Dr. Diya Malhotra (AGR-14),51.3,12.0,10.0,8.0,10.0,4.55,57.0,0,5.5,High
-AGR-2024-1190,Kritika Nair,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-A,Assoc. Prof. Neha Joshi (AGR-15),92.5,36.9,48.3,49.3,37.8,5.72,74.4,0,4.3,Low
-AGR-2024-1191,Ishaan Gill,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,6,K23-AG-C,Prof. Anushka Singh (AGR-16),64.9,47.6,45.2,50.4,37.8,6.62,57.3,0,4.2,Medium
-AGR-2024-1192,Kartik Reddy,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,6,K23-AG-A,Prof. Tanvi Mehta (AGR-17),88.1,67.3,71.0,69.5,64.3,8.37,100.0,1,9.3,Low
-AGR-2024-1193,Aditi Bhatia,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,1,K23-AG-C,Dr. Varun Trivedi (AGR-18),70.5,57.5,64.2,63.7,35.0,5.05,94.1,0,6.4,Medium
-AGR-2024-1194,Varun Dhillon,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-A,Dr. Ayaan Kaur (AGR-19),58.9,64.1,60.0,56.5,37.9,5.9,63.7,0,5.3,Medium
-AGR-2024-1195,Pooja Trivedi,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,3,K23-AG-C,Assoc. Prof. Aarav Chopra (AGR-20),65.6,34.9,52.8,37.1,26.4,4.74,68.4,0,3.2,Medium
-AGR-2024-1196,Sneha Trivedi,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,4,K23-AG-A,Prof. Aaryan Sandhu (AGR-21),55.4,39.2,36.6,28.0,29.3,5.62,55.6,1,3.3,High
-AGR-2024-1197,Kritika Kaur,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-C,Prof. Isha Iyer (AGR-22),78.5,41.7,57.0,45.4,45.2,,,0,7.9,Low
-AGR-2024-1198,Siddharth Sethi,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-A,Prof. Manish Das (AGR-23),85.2,86.4,84.7,90.5,79.2,8.21,84.6,1,7.5,Low
-AGR-2024-1199,Pranav Dhillon,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,1,K23-AG-B,Dr. Diya Bhatt (AGR-24),100.0,95.4,92.9,100.0,89.2,8.52,100.0,0,10.0,Low
-AGR-2024-1200,Kritika Das,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,1,K23-AG-A,Prof. Reyansh Malhotra (AGR-25),77.2,35.7,46.4,42.1,28.9,5.5,87.9,0,4.6,Medium
-AGR-2024-1201,Pranav Joshi,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-C,Dr. Ritvik Sharma (AGR-26),88.4,63.3,76.0,95.6,60.8,8.8,79.6,1,7.3,Low
-AGR-2024-1202,Krishna Singh,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,7,K23-AG-B,Dr. Abhinav Singh (AGR-27),64.1,52.8,,35.3,62.4,,64.7,1,6.0,Low
-AGR-2024-1203,Varun Gupta,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,3,K23-AG-B,Prof. Ishaan Trivedi (AGR-28),87.2,86.0,81.3,81.4,,8.53,100.0,0,8.4,Low
-AGR-2024-1204,Sneha Mehta,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-C,Prof. Gauri Patel (AGR-29),100.0,100.0,100.0,100.0,98.7,,,0,10.0,Low
-AGR-2024-1205,Aaryan Kumar,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-C,Prof. Shaurya Sharma (AGR-30),69.9,55.8,53.2,41.8,44.6,6.57,60.4,0,7.0,Medium
-AGR-2024-1206,Ayaan Malhotra,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,5,K23-AG-A,Prof. Rohan Bhatt (AGR-31),61.6,28.5,28.1,32.8,17.2,5.26,49.3,0,3.0,High
-AGR-2024-1207,Manish Rao,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-B,Dr. Tanvi Trivedi (AGR-32),93.6,100.0,100.0,100.0,98.5,9.92,100.0,0,8.4,Low
-AGR-2024-1208,Reyansh Mehta,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,2,K23-AG-A,Dr. Meera Iyer (AGR-33),65.1,63.2,57.3,49.6,49.4,6.25,76.5,0,6.1,Medium
-AGR-2024-1209,Atharva Chauhan,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,1,K23-AG-A,Prof. Ritvik Das (AGR-34),62.1,50.8,57.9,53.0,50.1,6.33,59.6,0,5.3,Medium
-AGR-2024-1210,Riya Kaur,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,1,K23-AG-B,Dr. Vihaan Reddy (AGR-35),79.4,40.5,,46.1,15.2,5.97,62.8,0,4.9,Medium
-AGR-2024-1211,Dhruv Bhatia,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,6,K23-AG-B,Dr. Kabir Chahal (AGR-01),54.3,39.5,43.7,32.6,29.5,5.11,50.2,0,4.8,High
-AGR-2024-1212,Ritvik Chauhan,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-B,Prof. Ishaan Verma (AGR-02),73.0,41.1,32.7,34.1,29.0,5.69,63.5,0,4.6,High
-AGR-2024-1213,Deepika Das,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-C,Dr. Tara Sandhu (AGR-03),85.2,72.8,68.0,73.5,63.3,7.42,69.6,0,5.0,Low
-AGR-2024-1214,Neha Verma,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-C,Dr. Ishaan Deshmukh (AGR-04),82.3,53.3,58.8,73.8,,7.16,69.9,0,5.2,Low
-AGR-2024-1215,Mayank Kapoor,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,6,K23-AG-C,Prof. Aditi Gupta (AGR-05),60.5,47.4,56.6,44.0,46.7,6.52,56.8,0,3.9,Medium
-AGR-2024-1216,Tanvi Kumar,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,3,K23-AG-A,Dr. Darsh Gill (AGR-06),87.6,69.4,62.3,63.4,69.6,7.85,98.7,0,8.9,Low
-AGR-2024-1217,Avani Nair,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-A,Dr. Abhinav Sharma (AGR-07),72.7,71.2,76.5,73.6,69.6,8.27,71.7,2,4.5,Low
-AGR-2024-1218,Tanvi Das,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,6,K23-AG-B,Dr. Atharva Saxena (AGR-08),,74.7,83.8,76.9,76.1,9.02,88.7,3,8.5,Low
-AGR-2024-1219,Ritvik Sethi,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,7,K23-AG-A,Dr. Mayank Sandhu (AGR-09),75.8,43.3,53.5,51.0,44.5,7.0,84.7,0,5.8,Medium
-AGR-2024-1220,Tara Gupta,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,3,K23-AG-C,Dr. Pooja Mehta (AGR-10),83.1,81.2,88.2,73.5,79.4,8.03,79.8,0,6.4,Low
-AGR-2024-1221,Gauri Chopra,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,5,K23-AG-B,Dr. Aditya Dhillon (AGR-11),71.7,64.8,69.3,68.0,54.4,7.3,72.5,0,6.5,Low
-AGR-2024-1222,Aarav Trivedi,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,5,K23-AG-C,Assoc. Prof. Manish Kaur (AGR-12),75.3,46.3,56.8,56.1,44.7,7.07,60.7,3,5.5,High
-AGR-2024-1223,Gaurav Sharma,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,1,K23-AG-C,Prof. Avani Iyer (AGR-13),68.6,30.0,25.8,23.8,13.7,5.12,52.3,0,5.2,High
-AGR-2024-1224,Kritika Das,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,2,K23-AG-A,Dr. Diya Malhotra (AGR-14),61.9,35.2,31.1,27.7,21.7,5.06,65.9,0,4.3,High
-AGR-2024-1225,Mayank Chopra,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,6,K23-AG-A,Assoc. Prof. Neha Joshi (AGR-15),71.4,55.7,63.0,55.2,53.1,6.09,64.7,0,5.3,Low
-AGR-2024-1226,Vivaan Sethi,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-A,Prof. Anushka Singh (AGR-16),63.2,45.8,40.1,48.5,37.2,6.28,50.1,0,5.0,High
-AGR-2024-1227,Gauri Chauhan,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,4,K23-AG-A,Prof. Tanvi Mehta (AGR-17),58.1,33.7,36.9,41.7,20.6,4.05,45.4,2,5.8,High
-AGR-2024-1228,Vihaan Chauhan,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,3,K23-AG-A,Dr. Varun Trivedi (AGR-18),73.3,57.0,57.5,73.9,61.2,7.36,51.2,0,4.5,Medium
-AGR-2024-1229,Nikhil Chauhan,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,5,K23-AG-A,Dr. Ayaan Kaur (AGR-19),75.3,82.8,78.9,65.9,75.3,7.63,85.3,0,6.6,Low
-AGR-2024-1230,Shreya Chauhan,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,7,K23-AG-C,Assoc. Prof. Aarav Chopra (AGR-20),65.3,69.0,54.2,73.0,42.9,7.11,64.1,3,3.8,High
-AGR-2024-1231,Gaurav Sandhu,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,5,K23-AG-A,Prof. Aaryan Sandhu (AGR-21),71.3,40.6,57.0,41.2,,5.7,82.2,1,7.9,Medium
-AGR-2024-1232,Isha Sharma,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,3,K23-AG-A,Prof. Isha Iyer (AGR-22),,81.1,71.7,79.5,78.8,7.75,81.5,0,6.8,Low
-AGR-2024-1233,Krishna Patel,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-A,Prof. Manish Das (AGR-23),66.7,45.0,46.6,52.1,46.0,,51.9,0,4.4,Medium
-AGR-2024-1234,Ananya Chahal,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,3,K23-AG-B,Dr. Diya Bhatt (AGR-24),83.5,92.5,97.2,100.0,98.3,9.37,92.1,0,7.7,Low
-AGR-2024-1235,Anushka Sharma,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,7,K23-AG-B,Prof. Reyansh Malhotra (AGR-25),72.0,68.3,67.2,66.3,60.2,7.4,75.4,0,5.4,Low
-AGR-2024-1236,Shaurya Gill,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,1,K23-AG-B,Dr. Ritvik Sharma (AGR-26),60.6,49.0,38.5,40.1,37.0,6.26,61.4,0,4.0,High
-AGR-2024-1237,Krishna Kumar,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,3,K23-AG-A,Dr. Abhinav Singh (AGR-27),66.4,31.2,32.0,43.5,24.8,5.74,68.5,0,3.3,High
-AGR-2024-1238,Deepika Chahal,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,8,K23-AG-A,Prof. Ishaan Trivedi (AGR-28),87.5,90.6,79.6,92.4,82.0,8.51,89.5,1,10.0,Low
-AGR-2024-1239,Gauri Das,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,4,K23-AG-B,Prof. Gauri Patel (AGR-29),92.2,82.8,81.9,86.6,89.5,8.82,,1,7.3,Low
-AGR-2024-1240,Pooja Kapoor,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,1,K23-AG-A,Prof. Shaurya Sharma (AGR-30),62.2,47.2,37.1,53.7,35.3,5.5,79.4,0,4.9,Medium
-AGR-2024-1241,Abhinav Sen,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,6,K23-AG-B,Prof. Rohan Bhatt (AGR-31),53.6,50.3,44.7,39.9,35.2,5.41,60.7,0,3.3,High
-AGR-2024-1242,Isha Bhatt,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,6,K23-AG-C,Dr. Tanvi Trivedi (AGR-32),80.4,61.7,77.4,58.8,67.4,,71.5,0,7.8,Low
-AGR-2024-1243,Reyansh Sen,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,5,K23-AG-A,Dr. Meera Iyer (AGR-33),62.6,45.0,44.8,45.5,37.5,6.27,51.5,1,5.8,Medium
-AGR-2024-1244,Diya Nair,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-B,Prof. Ritvik Das (AGR-34),64.3,39.2,26.8,25.2,34.1,6.31,60.5,0,6.7,High
-AGR-2024-1245,Krishna Bhatt,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,4,K23-AG-A,Dr. Vihaan Reddy (AGR-35),59.5,33.1,34.9,35.0,13.2,4.95,70.7,1,3.5,High
-AGR-2024-1246,Reyansh Trivedi,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-B,Dr. Kabir Chahal (AGR-01),99.9,83.6,100.0,92.8,88.9,8.93,97.7,0,7.9,Low
-AGR-2024-1247,Dhruv Mishra,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-C,Prof. Ishaan Verma (AGR-02),67.0,68.2,61.3,71.7,52.1,6.38,63.9,0,4.9,Medium
-AGR-2024-1248,Varun Singh,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,2,K23-AG-A,Dr. Tara Sandhu (AGR-03),80.7,69.8,79.6,69.7,63.5,7.91,67.6,1,6.0,Low
-AGR-2024-1249,Tanvi Mehta,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,1,K23-AG-A,Dr. Ishaan Deshmukh (AGR-04),81.2,62.3,69.3,59.8,59.1,8.62,81.2,0,6.8,Low
-AGR-2024-1250,Tanvi Deshmukh,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,2,K23-AG-B,Prof. Aditi Gupta (AGR-05),77.3,59.9,61.8,66.1,53.5,7.49,71.6,0,7.0,Low
-AGR-2024-1251,Aaryan Bhatia,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,6,K23-AG-C,Dr. Darsh Gill (AGR-06),68.7,50.0,47.8,54.0,45.1,6.38,67.5,1,4.1,High
-AGR-2024-1252,Aarav Singh,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,8,K23-AG-B,Dr. Abhinav Sharma (AGR-07),70.0,59.2,62.7,47.6,51.1,5.71,66.9,0,6.0,Low
-AGR-2024-1253,Ananya Trivedi,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-C,Dr. Atharva Saxena (AGR-08),60.1,60.3,52.3,48.7,45.5,6.16,54.6,0,5.0,Medium
-AGR-2024-1254,Ishaan Chahal,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,2,K23-AG-C,Dr. Mayank Sandhu (AGR-09),70.9,51.0,63.4,52.5,52.2,6.46,69.9,0,5.2,Low
-AGR-2024-1255,Anushka Deshmukh,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,1,K23-AG-A,Dr. Pooja Mehta (AGR-10),82.5,76.9,82.8,81.8,71.1,7.99,78.1,0,5.7,Low
-AGR-2024-1256,Pranav Gupta,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,2,K23-AG-C,Dr. Aditya Dhillon (AGR-11),64.8,12.0,10.0,8.0,10.0,3.8,49.6,0,2.1,High
-AGR-2024-1257,Tara Iyer,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,6,K23-AG-B,Assoc. Prof. Manish Kaur (AGR-12),66.5,18.1,24.1,42.3,10.0,5.16,,1,3.6,High
-AGR-2024-1258,Neha Singh,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-C,Prof. Avani Iyer (AGR-13),100.0,92.2,100.0,100.0,91.5,9.24,98.3,0,9.5,Low
-AGR-2024-1259,Aditya Kaur,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,4,K23-AG-C,Dr. Diya Malhotra (AGR-14),100.0,100.0,100.0,100.0,94.9,9.6,100.0,1,9.1,Low
-AGR-2024-1260,Atharva Rao,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,4,K23-AG-B,Assoc. Prof. Neha Joshi (AGR-15),84.8,63.1,71.3,64.2,62.8,6.95,73.2,5,6.1,Low
-AGR-2024-1261,Riya Trivedi,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-C,Prof. Anushka Singh (AGR-16),85.9,59.5,59.2,59.3,60.0,7.05,85.2,0,5.4,Low
-AGR-2024-1262,Aarav Chahal,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,2,K23-AG-B,Prof. Tanvi Mehta (AGR-17),65.3,60.7,58.1,51.3,51.4,5.5,56.3,0,5.1,High
-AGR-2024-1263,Atharva Gill,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,7,K23-AG-A,Dr. Varun Trivedi (AGR-18),75.4,36.6,47.4,51.8,45.6,7.61,84.8,0,7.4,Low
-AGR-2024-1264,Neha Nair,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-B,Dr. Ayaan Kaur (AGR-19),72.9,86.2,82.0,66.1,79.7,7.73,78.2,0,5.2,Low
-AGR-2024-1265,Krishna Chopra,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,6,K23-AG-B,Assoc. Prof. Aarav Chopra (AGR-20),70.7,27.0,40.8,40.4,15.0,4.58,47.8,0,3.4,High
-AGR-2024-1266,Kartik Chopra,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,5,K23-AG-B,Prof. Aaryan Sandhu (AGR-21),56.5,45.5,37.8,31.9,34.4,6.14,68.9,1,4.3,High
-AGR-2024-1267,Avani Trivedi,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,1,K23-AG-A,Prof. Isha Iyer (AGR-22),62.9,32.2,,25.3,35.5,6.83,49.8,0,1.8,High
-AGR-2024-1268,Reyansh Gill,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,4,K23-AG-C,Prof. Manish Das (AGR-23),72.7,58.4,50.2,55.7,43.5,6.12,56.0,0,2.4,Medium
-AGR-2024-1269,Aarav Gupta,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,1,K23-AG-B,Dr. Diya Bhatt (AGR-24),77.9,77.4,90.0,66.1,87.7,8.84,73.0,0,6.5,Low
-AGR-2024-1270,Kavya Das,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-A,Prof. Reyansh Malhotra (AGR-25),70.6,73.3,64.4,71.2,55.0,7.74,72.0,0,6.5,Low
-AGR-2024-1271,Arjun Joshi,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,2,K23-AG-C,Dr. Ritvik Sharma (AGR-26),69.0,71.2,67.9,52.0,61.0,6.0,69.8,0,6.5,Low
-AGR-2024-1272,Kritika Malhotra,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,5,K23-AG-B,Dr. Abhinav Singh (AGR-27),83.0,65.3,52.4,49.0,65.9,,82.6,1,8.3,Low
-AGR-2024-1273,Aditya Sandhu,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,1,K23-AG-B,Prof. Ishaan Trivedi (AGR-28),84.6,74.3,68.5,63.1,67.2,8.03,73.1,0,5.3,Low
-AGR-2024-1274,Riya Sandhu,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,1,K23-AG-C,Prof. Gauri Patel (AGR-29),70.3,33.6,45.7,36.4,30.8,7.0,61.7,0,1.6,Medium
-AGR-2024-1275,Simran Sen,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,6,K23-AG-C,Prof. Shaurya Sharma (AGR-30),83.6,84.2,84.1,77.0,,7.28,73.8,0,5.8,Low
-AGR-2024-1276,Gaurav Rao,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-A,Prof. Rohan Bhatt (AGR-31),65.4,40.3,32.4,33.6,28.6,5.89,61.6,0,3.4,Medium
-AGR-2024-1277,Pooja Kumar,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-B,Dr. Tanvi Trivedi (AGR-32),82.4,65.1,61.1,49.4,56.7,6.97,76.1,0,8.8,Low
-AGR-2024-1278,Nandini Mehta,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,1,K23-AG-C,Dr. Meera Iyer (AGR-33),64.9,52.6,62.3,49.4,43.7,7.4,58.6,0,2.2,Low
-AGR-2024-1279,Vihaan Saxena,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,8,K23-AG-A,Prof. Ritvik Das (AGR-34),92.3,83.0,72.3,81.9,68.2,7.38,92.7,0,10.0,Low
-AGR-2024-1280,Diya Sen,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-C,Dr. Vihaan Reddy (AGR-35),63.5,62.6,69.0,64.3,55.0,6.36,65.2,0,4.8,Medium
-AGR-2024-1281,Krishna Chopra,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,7,K23-AG-B,Dr. Kabir Chahal (AGR-01),71.4,71.0,70.8,65.4,70.5,6.81,64.8,0,4.6,Low
-AGR-2024-1282,Dhruv Mehta,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-C,Prof. Ishaan Verma (AGR-02),80.9,72.4,,72.1,61.3,7.26,82.9,0,5.7,Low
-AGR-2024-1283,Gauri Chauhan,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,6,K23-AG-B,Dr. Tara Sandhu (AGR-03),79.4,66.0,79.0,76.2,72.1,7.91,77.0,1,6.8,Low
-AGR-2024-1284,Diya Singh,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,2,K23-AG-A,Dr. Ishaan Deshmukh (AGR-04),91.4,100.0,100.0,97.4,94.5,9.95,99.4,0,8.4,Low
-AGR-2024-1285,Varun Gill,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-B,Prof. Aditi Gupta (AGR-05),89.3,77.5,84.9,77.3,83.1,8.33,86.5,0,4.7,Low
-AGR-2024-1286,Tanvi Kapoor,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,1,K23-AG-C,Dr. Darsh Gill (AGR-06),85.9,54.1,48.1,48.9,46.3,5.53,71.0,0,6.7,Low
-AGR-2024-1287,Ritvik Gill,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,1,K23-AG-C,Dr. Abhinav Sharma (AGR-07),69.6,44.3,34.8,38.0,20.7,3.8,56.1,0,4.2,High
-AGR-2024-1288,Diya Kaur,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,5,K23-AG-C,Dr. Atharva Saxena (AGR-08),72.8,61.5,64.9,53.1,66.1,6.98,82.7,0,6.4,Low
-AGR-2024-1289,Anushka Sharma,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,4,K23-AG-C,Dr. Mayank Sandhu (AGR-09),76.2,70.6,65.1,84.1,60.0,6.69,71.3,2,5.9,Medium
-AGR-2024-1290,Reyansh Sethi,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-A,Dr. Pooja Mehta (AGR-10),85.0,73.8,67.5,88.1,68.6,8.43,78.3,3,5.5,Low
-AGR-2024-1291,Deepika Mehta,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,1,K23-AG-B,Dr. Aditya Dhillon (AGR-11),75.6,66.2,69.3,68.1,75.2,6.66,87.5,0,6.2,Low
-AGR-2024-1292,Dhruv Chauhan,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-C,Assoc. Prof. Manish Kaur (AGR-12),80.3,86.5,100.0,90.2,94.4,8.74,83.2,0,7.0,Low
-AGR-2024-1293,Rohan Sethi,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,3,K23-AG-B,Prof. Avani Iyer (AGR-13),77.8,85.2,96.2,90.0,86.1,7.88,74.7,2,6.9,Low
-AGR-2024-1294,Aaryan Malhotra,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,3,K23-AG-B,Dr. Diya Malhotra (AGR-14),54.7,37.8,31.7,28.1,39.4,6.07,62.8,0,3.8,High
-AGR-2024-1295,Ishaan Singh,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,4,K23-AG-A,Assoc. Prof. Neha Joshi (AGR-15),70.3,34.4,41.5,54.1,,7.31,66.1,2,3.5,Medium
-AGR-2024-1296,Deepika Gupta,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,2,K23-AG-B,Prof. Anushka Singh (AGR-16),69.0,14.8,10.7,10.8,10.0,4.93,45.9,0,4.6,High
-AGR-2024-1297,Aditya Sen,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,6,K23-AG-A,Prof. Tanvi Mehta (AGR-17),89.5,85.5,89.9,82.5,74.8,7.54,94.4,0,9.5,Low
-AGR-2024-1298,Manish Gill,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,8,K23-AG-C,Dr. Varun Trivedi (AGR-18),74.3,67.6,81.4,80.7,66.4,8.51,63.9,2,6.1,Low
-AGR-2024-1299,Aaryan Sen,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,3,K23-AG-C,Dr. Ayaan Kaur (AGR-19),73.6,50.9,43.3,60.9,44.9,6.35,87.7,3,8.1,Medium
-AGR-2024-1300,Ananya Kumar,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,4,K23-AG-A,Assoc. Prof. Aarav Chopra (AGR-20),66.2,35.8,47.2,42.0,39.0,6.41,,0,5.3,Medium
-AGR-2024-1301,Abhinav Bhatt,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-A,Prof. Aaryan Sandhu (AGR-21),88.5,77.9,77.6,68.7,80.9,7.53,93.7,0,7.6,Low
-AGR-2024-1302,Tara Chopra,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-C,Prof. Isha Iyer (AGR-22),82.6,81.5,83.4,72.1,70.4,7.35,90.7,0,6.1,Low
-AGR-2024-1303,Rohan Saxena,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,3,K23-AG-B,Prof. Manish Das (AGR-23),78.3,65.9,71.6,58.0,55.2,7.21,83.6,2,6.4,Low
-AGR-2024-1304,Varun Sharma,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,4,K23-AG-C,Dr. Diya Bhatt (AGR-24),,68.0,48.9,52.5,47.5,7.5,80.3,0,4.4,Low
-AGR-2024-1305,Arjun Reddy,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,6,K23-AG-B,Prof. Reyansh Malhotra (AGR-25),82.7,74.4,72.6,85.4,65.1,6.91,93.8,3,7.4,Low
-AGR-2024-1306,Sai Bhatt,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,6,K23-AG-C,Dr. Ritvik Sharma (AGR-26),77.0,67.6,59.7,63.3,61.6,7.41,64.4,1,6.7,Low
-AGR-2024-1307,Vivaan Gill,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,5,K23-AG-C,Dr. Abhinav Singh (AGR-27),82.5,100.0,100.0,97.1,96.7,9.95,76.8,1,6.4,Low
-AGR-2024-1308,Aditya Chahal,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-A,Prof. Ishaan Trivedi (AGR-28),76.5,41.8,37.9,53.4,26.3,5.66,69.5,0,5.9,Medium
-AGR-2024-1309,Vihaan Mishra,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,7,K23-AG-B,Prof. Gauri Patel (AGR-29),,43.5,36.7,49.1,36.1,5.44,69.1,2,6.3,Medium
-AGR-2024-1310,Pranav Das,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,8,K23-AG-A,Prof. Shaurya Sharma (AGR-30),85.6,74.9,70.9,78.1,67.7,7.75,87.5,0,5.6,Low
-AGR-2024-1311,Shreya Chahal,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-A,Prof. Rohan Bhatt (AGR-31),85.0,45.9,63.7,75.9,,6.83,83.0,0,3.7,Low
-AGR-2024-1312,Arjun Sethi,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,4,K23-AG-C,Dr. Tanvi Trivedi (AGR-32),77.2,88.6,82.2,95.0,77.2,7.94,79.1,0,6.3,Low
-AGR-2024-1313,Shreya Mishra,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,3,K23-AG-C,Dr. Meera Iyer (AGR-33),87.8,100.0,100.0,100.0,87.7,9.94,99.6,0,7.1,Low
-AGR-2024-1314,Aarav Reddy,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,5,K23-AG-A,Prof. Ritvik Das (AGR-34),69.8,47.8,53.8,52.9,46.4,6.71,68.4,0,5.6,Medium
-AGR-2024-1315,Krishna Rao,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,5,K23-AG-C,Dr. Vihaan Reddy (AGR-35),93.3,100.0,100.0,100.0,98.7,9.15,90.9,0,6.7,Low
-AGR-2024-1316,Riya Mishra,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,1,K23-AG-A,Dr. Kabir Chahal (AGR-01),76.1,70.4,70.5,72.8,63.5,6.75,79.8,0,5.8,Low
-AGR-2024-1317,Ritvik Saxena,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,3,K23-AG-C,Prof. Ishaan Verma (AGR-02),78.5,57.2,52.8,64.5,49.4,5.86,79.4,0,4.6,Low
-AGR-2024-1318,Varun Sharma,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,1,K23-AG-B,Dr. Tara Sandhu (AGR-03),81.2,91.8,79.4,98.5,,8.1,84.7,0,8.8,Low
-AGR-2024-1319,Ritvik Kumar,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,1,K23-AG-A,Dr. Ishaan Deshmukh (AGR-04),88.3,68.8,80.5,67.0,69.4,,90.8,0,6.7,Low
-AGR-2024-1320,Avani Chopra,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,6,K23-AG-A,Prof. Aditi Gupta (AGR-05),78.6,74.0,78.1,68.2,77.9,7.23,75.9,0,5.7,Low
-AGR-2024-1321,Varun Joshi,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-B,Dr. Darsh Gill (AGR-06),56.8,29.8,37.1,41.5,19.8,6.02,48.9,0,3.7,High
-AGR-2024-1322,Meera Sethi,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,5,K23-AG-C,Dr. Abhinav Sharma (AGR-07),78.7,71.4,71.3,71.7,62.6,6.59,71.9,0,5.8,Low
-AGR-2024-1323,Siddharth Saxena,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,1,K23-AG-C,Dr. Atharva Saxena (AGR-08),95.4,86.0,88.9,98.4,94.6,8.98,94.1,0,6.8,Low
-AGR-2024-1324,Riya Chauhan,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-A,Dr. Mayank Sandhu (AGR-09),61.3,33.6,28.6,31.5,20.0,4.94,72.1,0,5.0,High
-AGR-2024-1325,Dhruv Deshmukh,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,6,K23-AG-B,Dr. Pooja Mehta (AGR-10),74.6,53.2,56.5,38.4,44.5,6.99,74.4,0,5.7,Low
-AGR-2024-1326,Arjun Chahal,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,2,K23-AG-C,Dr. Aditya Dhillon (AGR-11),71.0,29.3,38.6,16.6,15.8,4.84,67.5,0,6.4,High
-AGR-2024-1327,Isha Bhatt,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,1,K23-AG-A,Assoc. Prof. Manish Kaur (AGR-12),82.0,97.3,92.4,86.1,87.2,8.29,83.2,0,4.7,Low
-AGR-2024-1328,Meera Reddy,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,7,K23-AG-C,Prof. Avani Iyer (AGR-13),77.9,72.9,61.2,74.8,69.6,8.06,68.0,0,8.4,Low
-AGR-2024-1329,Advaith Chauhan,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,1,K23-AG-A,Dr. Diya Malhotra (AGR-14),68.0,32.2,42.3,43.8,24.8,5.48,66.4,0,5.2,High
-AGR-2024-1330,Ishaan Deshmukh,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,6,K23-AG-C,Assoc. Prof. Neha Joshi (AGR-15),65.2,55.7,60.2,62.6,40.7,5.89,54.1,0,2.8,High
-AGR-2024-1331,Riya Kaur,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,6,K23-AG-C,Prof. Anushka Singh (AGR-16),89.0,92.8,100.0,84.5,92.2,9.08,92.2,2,6.3,Low
-AGR-2024-1332,Aarav Patel,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,2,K23-AG-A,Prof. Tanvi Mehta (AGR-17),82.5,64.7,85.7,71.1,,8.43,96.8,0,6.8,Low
-AGR-2024-1333,Kavya Chauhan,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,5,K23-AG-C,Dr. Varun Trivedi (AGR-18),69.0,58.5,63.9,54.2,58.5,7.79,70.6,3,5.8,Medium
-AGR-2024-1334,Advaith Patel,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,6,K23-AG-A,Dr. Ayaan Kaur (AGR-19),76.4,40.0,52.0,43.3,31.5,5.38,65.8,0,4.3,Medium
-AGR-2024-1335,Vivaan Saxena,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-A,Assoc. Prof. Aarav Chopra (AGR-20),85.5,100.0,100.0,100.0,100.0,9.95,81.5,0,7.5,Low
-AGR-2024-1336,Kavya Mishra,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,6,K23-AG-C,Prof. Aaryan Sandhu (AGR-21),74.6,41.9,,65.1,42.6,6.67,77.2,0,5.0,Medium
-AGR-2024-1337,Aditya Chauhan,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,4,K23-AG-C,Prof. Isha Iyer (AGR-22),71.3,52.1,44.7,43.3,49.9,5.78,71.5,2,3.6,Medium
-AGR-2024-1338,Diya Sen,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-C,Prof. Manish Das (AGR-23),84.7,72.3,79.3,64.6,69.8,6.87,81.9,0,4.7,Low
-AGR-2024-1339,Ananya Malhotra,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,2,K23-AG-C,Dr. Diya Bhatt (AGR-24),93.9,88.8,,82.0,88.0,8.73,100.0,0,8.0,Low
-AGR-2024-1340,Ritvik Sandhu,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,8,K23-AG-B,Prof. Reyansh Malhotra (AGR-25),60.7,38.6,44.3,33.9,31.8,5.65,54.1,0,4.2,High
-AGR-2024-1341,Aarav Reddy,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,3,K23-AG-C,Dr. Ritvik Sharma (AGR-26),68.9,43.1,57.8,54.9,39.4,5.82,80.4,1,7.0,Medium
-AGR-2024-1342,Aarav Chahal,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,6,K23-AG-A,Dr. Abhinav Singh (AGR-27),69.5,45.1,49.1,30.0,39.6,5.63,74.8,0,4.0,Medium
-AGR-2024-1343,Kartik Sharma,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,1,K23-AG-C,Prof. Ishaan Trivedi (AGR-28),83.5,65.4,65.1,69.6,54.3,6.44,81.1,0,8.4,Low
-AGR-2024-1344,Pranav Sethi,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,4,K23-AG-B,Prof. Gauri Patel (AGR-29),64.3,33.8,,36.9,22.5,5.78,75.8,0,4.2,High
-AGR-2024-1345,Darsh Sethi,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,1,K23-AG-C,Prof. Shaurya Sharma (AGR-30),76.5,60.4,66.8,50.5,64.1,6.12,83.5,0,4.3,Low
-AGR-2024-1346,Deepika Chauhan,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,1,K23-AG-B,Prof. Rohan Bhatt (AGR-31),82.1,90.2,83.4,84.6,94.0,8.16,81.3,0,7.2,Low
-AGR-2024-1347,Gaurav Malhotra,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,8,K23-AG-C,Dr. Tanvi Trivedi (AGR-32),81.6,90.1,94.7,95.5,96.6,8.93,87.7,1,8.3,Low
-AGR-2024-1348,Neha Das,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-A,Dr. Meera Iyer (AGR-33),81.0,61.3,67.5,61.0,54.2,6.66,80.0,0,5.8,Low
-AGR-2024-1349,Deepika Chahal,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,6,K23-AG-C,Prof. Ritvik Das (AGR-34),88.4,70.2,,65.6,64.4,7.43,82.9,0,7.1,Low
-AGR-2024-1350,Atharva Mehta,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,2,K23-AG-C,Dr. Vihaan Reddy (AGR-35),87.7,85.7,71.2,87.9,66.3,7.85,83.3,0,7.7,Low
-AGR-2024-1351,Gaurav Dhillon,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-A,Dr. Kabir Chahal (AGR-01),74.0,75.2,70.2,80.3,66.9,8.77,83.1,0,5.8,Low
-AGR-2024-1352,Kabir Sharma,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,8,K23-AG-A,Prof. Ishaan Verma (AGR-02),71.6,83.5,82.0,75.0,73.0,9.12,70.2,0,5.7,Low
-AGR-2024-1353,Neha Mishra,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,2,K23-AG-B,Dr. Tara Sandhu (AGR-03),86.8,56.2,51.3,41.4,53.2,6.58,90.7,1,7.2,Low
-AGR-2024-1354,Deepika Dhillon,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-B,Dr. Ishaan Deshmukh (AGR-04),70.2,74.4,80.5,91.8,72.1,8.42,78.0,1,4.9,Low
-AGR-2024-1355,Advaith Nair,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,1,K23-AG-B,Prof. Aditi Gupta (AGR-05),,83.9,83.9,76.4,70.4,8.43,82.6,0,9.3,Low
-AGR-2024-1356,Vihaan Kapoor,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,3,K23-AG-C,Dr. Darsh Gill (AGR-06),100.0,62.5,73.2,73.8,62.6,8.71,,0,6.8,Low
-AGR-2024-1357,Avani Rao,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,3,K23-AG-C,Dr. Abhinav Sharma (AGR-07),64.5,52.0,39.7,35.1,36.3,6.07,60.0,2,3.9,Medium
-AGR-2024-1358,Karan Iyer,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,1,K23-AG-A,Dr. Atharva Saxena (AGR-08),88.8,100.0,100.0,100.0,100.0,9.95,84.1,0,7.9,Low
-AGR-2024-1359,Meera Rao,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,5,K23-AG-A,Dr. Mayank Sandhu (AGR-09),88.4,83.7,87.6,72.8,80.4,8.96,88.6,0,5.4,Low
-AGR-2024-1360,Aarav Das,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,2,K23-AG-C,Dr. Pooja Mehta (AGR-10),72.6,42.2,44.4,48.8,48.7,6.24,60.6,0,6.8,Low
-AGR-2024-1361,Krishna Trivedi,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-A,Dr. Aditya Dhillon (AGR-11),63.4,44.0,41.5,48.2,30.1,6.3,54.7,0,3.6,High
-AGR-2024-1362,Advik Dhillon,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,3,K23-AG-C,Assoc. Prof. Manish Kaur (AGR-12),57.3,39.2,37.0,40.6,29.5,5.29,54.5,0,2.3,High
-AGR-2024-1363,Tara Chahal,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,5,K23-AG-A,Prof. Avani Iyer (AGR-13),91.8,100.0,89.0,84.7,93.3,8.85,98.9,0,6.4,Low
-AGR-2024-1364,Simran Bhatia,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,2,K23-AG-A,Dr. Diya Malhotra (AGR-14),45.7,29.2,34.3,17.4,18.6,4.64,51.3,1,1.3,High
-AGR-2024-1365,Nikhil Kumar,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-B,Assoc. Prof. Neha Joshi (AGR-15),75.1,51.6,54.7,57.1,40.5,6.53,68.9,0,4.7,Medium
-AGR-2024-1366,Vivaan Mishra,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,7,K23-AG-B,Prof. Anushka Singh (AGR-16),75.8,73.5,70.9,82.1,66.6,7.66,83.5,0,10.0,Low
-AGR-2024-1367,Aarav Kapoor,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,1,K23-AG-C,Prof. Tanvi Mehta (AGR-17),82.5,61.9,74.0,68.3,62.6,7.94,,0,4.8,Low
-AGR-2024-1368,Advik Bhatt,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,1,K23-AG-C,Dr. Varun Trivedi (AGR-18),62.3,71.7,69.5,68.4,68.3,7.35,73.8,0,3.5,Low
-AGR-2024-1369,Neha Verma,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,7,K23-AG-A,Dr. Ayaan Kaur (AGR-19),60.7,54.8,,43.6,54.7,7.75,61.1,0,3.2,Medium
-AGR-2024-1370,Karan Chopra,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,6,K23-AG-A,Assoc. Prof. Aarav Chopra (AGR-20),74.3,39.1,56.7,42.0,43.4,5.93,78.6,0,5.4,Medium
-AGR-2024-1371,Isha Chauhan,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-C,Prof. Aaryan Sandhu (AGR-21),92.6,86.1,87.9,71.9,74.6,9.32,95.1,0,5.8,Low
-AGR-2024-1372,Ayaan Bhatt,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,2,K23-AG-B,Prof. Isha Iyer (AGR-22),76.4,81.9,95.5,82.5,87.6,8.28,86.2,0,7.4,Low
-AGR-2024-1373,Anushka Gupta,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-A,Prof. Manish Das (AGR-23),75.0,70.4,,86.7,69.7,7.27,77.5,0,5.1,Low
-AGR-2024-1374,Advaith Chopra,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,6,K23-AG-C,Dr. Diya Bhatt (AGR-24),65.2,55.6,49.6,48.7,51.4,6.28,65.1,3,6.4,Medium
-AGR-2024-1375,Mayank Bhatt,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,2,K23-AG-C,Prof. Reyansh Malhotra (AGR-25),67.4,43.7,42.6,44.4,38.0,6.66,79.4,0,6.0,Medium
-AGR-2024-1376,Nikhil Iyer,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,1,K23-AG-C,Dr. Ritvik Sharma (AGR-26),,76.6,88.2,84.5,65.8,7.02,76.3,0,5.8,Low
-AGR-2024-1377,Isha Patel,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,5,K23-AG-B,Dr. Abhinav Singh (AGR-27),91.3,75.3,77.7,86.9,73.9,7.61,,1,6.2,Low
-AGR-2024-1378,Shreya Chopra,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-B,Prof. Ishaan Trivedi (AGR-28),80.7,69.3,68.9,72.9,67.4,8.03,74.6,1,6.5,Low
-AGR-2024-1379,Atharva Rao,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-C,Prof. Gauri Patel (AGR-29),70.9,71.4,69.2,56.7,63.8,7.37,80.2,0,8.7,Low
-AGR-2024-1380,Meera Sandhu,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,1,K23-AG-A,Prof. Shaurya Sharma (AGR-30),67.9,63.7,60.8,62.2,51.5,7.1,,0,6.0,Medium
-AGR-2024-1381,Darsh Sandhu,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,2,K23-AG-B,Prof. Rohan Bhatt (AGR-31),77.5,60.6,62.2,68.7,54.2,6.59,87.4,1,7.5,Low
-AGR-2024-1382,Deepika Malhotra,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-C,Dr. Tanvi Trivedi (AGR-32),76.4,54.9,58.8,55.1,46.1,5.77,76.3,2,6.3,Medium
-AGR-2024-1383,Mayank Kapoor,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,6,K23-AG-B,Dr. Meera Iyer (AGR-33),77.9,71.4,77.6,69.1,74.1,6.36,76.7,0,6.7,Low
-AGR-2024-1384,Simran Kapoor,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,3,K23-AG-A,Prof. Ritvik Das (AGR-34),70.8,39.1,52.5,55.6,21.5,6.19,71.3,0,5.4,Medium
-AGR-2024-1385,Mayank Malhotra,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-C,Dr. Vihaan Reddy (AGR-35),66.5,64.7,63.2,64.1,65.7,7.08,66.7,0,5.8,Low
-AGR-2024-1386,Atharva Kaur,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,3,K23-AG-A,Dr. Kabir Chahal (AGR-01),66.1,61.8,51.8,44.6,51.7,6.86,84.1,0,5.9,Medium
-AGR-2024-1387,Kavya Iyer,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,1,K23-AG-B,Prof. Ishaan Verma (AGR-02),58.0,63.7,54.4,61.2,53.2,7.19,62.9,0,6.7,Medium
-AGR-2024-1388,Nandini Sharma,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,6,K23-AG-B,Dr. Tara Sandhu (AGR-03),97.4,100.0,100.0,100.0,100.0,,,0,9.4,Low
-AGR-2024-1389,Ritvik Kumar,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-A,Dr. Ishaan Deshmukh (AGR-04),85.2,59.6,68.0,48.3,66.6,7.36,72.2,0,6.5,Low
-AGR-2024-1390,Manish Deshmukh,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,1,K23-AG-A,Prof. Aditi Gupta (AGR-05),77.9,71.9,66.2,76.0,69.5,7.82,78.7,0,5.5,Low
-AGR-2024-1391,Vihaan Singh,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,3,K23-AG-A,Dr. Darsh Gill (AGR-06),56.8,35.3,34.7,28.3,29.7,6.09,51.5,0,5.8,High
-AGR-2024-1392,Ishaan Trivedi,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,1,K23-AG-C,Dr. Abhinav Sharma (AGR-07),81.6,68.8,80.4,56.3,73.9,9.82,85.2,0,4.8,Low
-AGR-2024-1393,Diya Mishra,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,2,K23-AG-C,Dr. Atharva Saxena (AGR-08),80.6,83.3,,70.2,82.7,8.53,81.6,0,5.4,Low
-AGR-2024-1394,Tanvi Reddy,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-A,Dr. Mayank Sandhu (AGR-09),79.8,55.4,60.2,57.0,61.3,7.54,90.6,0,6.2,Low
-AGR-2024-1395,Avani Gupta,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,5,K23-AG-B,Dr. Pooja Mehta (AGR-10),77.2,66.8,61.9,82.4,105.0,7.86,83.9,0,6.8,Low
-AGR-2024-1396,Kavya Bhatt,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,6,K23-AG-A,Dr. Aditya Dhillon (AGR-11),94.8,91.4,90.8,97.0,94.0,8.61,91.4,0,9.8,Low
-AGR-2024-1397,Atharva Kaur,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,6,K23-AG-B,Assoc. Prof. Manish Kaur (AGR-12),70.0,53.6,73.8,60.3,62.3,7.61,,0,5.4,Low
-AGR-2024-1398,Reyansh Iyer,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,2,K23-AG-C,Prof. Avani Iyer (AGR-13),57.9,61.1,60.4,76.1,51.1,7.6,46.5,0,2.9,Medium
-AGR-2024-1399,Abhinav Kaur,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,1,K23-AG-B,Dr. Diya Malhotra (AGR-14),77.9,75.3,74.7,58.2,68.5,7.42,66.0,0,6.3,Low
-AGR-2024-1400,Aaryan Kumar,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-C,Assoc. Prof. Neha Joshi (AGR-15),68.3,43.0,38.8,49.8,31.9,5.51,80.5,0,5.7,Medium
-AGR-2024-1401,Vivaan Verma,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,4,K23-AG-B,Prof. Anushka Singh (AGR-16),71.1,65.9,75.1,75.1,65.9,7.94,74.1,0,5.3,Low
-AGR-2024-1402,Gauri Chauhan,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,5,K23-AG-C,Prof. Tanvi Mehta (AGR-17),64.2,51.7,45.3,48.1,44.0,6.78,55.1,2,4.3,High
-AGR-2024-1403,Advaith Sharma,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,1,K23-AG-B,Dr. Varun Trivedi (AGR-18),,82.8,77.7,82.3,62.3,7.73,68.3,0,5.7,Low
-AGR-2024-1404,Tanvi Saxena,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-B,Dr. Ayaan Kaur (AGR-19),81.0,56.3,55.7,57.1,50.1,6.29,70.7,0,3.8,Medium
-AGR-2024-1405,Gauri Nair,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,4,K23-AG-C,Assoc. Prof. Aarav Chopra (AGR-20),79.9,37.3,34.3,40.1,18.6,3.99,64.1,0,4.4,High
-AGR-2024-1406,Karan Dhillon,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,4,K23-AG-A,Prof. Aaryan Sandhu (AGR-21),60.7,26.0,38.7,22.4,24.8,6.42,55.0,0,2.7,High
-AGR-2024-1407,Varun Reddy,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,7,K23-AG-B,Prof. Isha Iyer (AGR-22),83.0,62.7,64.5,73.9,73.5,7.81,70.9,0,5.8,Low
-AGR-2024-1408,Advaith Das,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-B,Prof. Manish Das (AGR-23),77.9,60.2,67.0,65.2,58.1,8.44,70.2,0,4.6,Low
-AGR-2024-1409,Simran Dhillon,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,8,K23-AG-C,Dr. Diya Bhatt (AGR-24),76.9,37.5,36.8,45.0,29.2,5.58,68.9,0,4.4,High
-AGR-2024-1410,Karan Patel,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-A,Prof. Reyansh Malhotra (AGR-25),58.1,56.7,44.1,54.6,42.2,5.89,64.9,0,6.4,High
-AGR-2024-1411,Vihaan Gill,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-B,Dr. Ritvik Sharma (AGR-26),75.1,89.2,75.9,79.2,72.0,7.98,78.3,0,5.8,Low
-AGR-2024-1412,Simran Chahal,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-A,Dr. Abhinav Singh (AGR-27),79.4,47.1,49.9,36.5,37.8,6.84,76.8,0,7.7,Low
-AGR-2024-1413,Advaith Sen,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-B,Prof. Ishaan Trivedi (AGR-28),100.0,100.0,100.0,100.0,100.0,9.95,100.0,0,10.0,Low
-AGR-2024-1414,Advaith Saxena,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-A,Prof. Gauri Patel (AGR-29),79.4,92.5,85.3,86.3,95.0,9.46,77.9,0,7.0,Low
-AGR-2024-1415,Rohan Patel,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-A,Prof. Shaurya Sharma (AGR-30),79.3,52.1,49.5,56.5,43.2,7.89,74.5,1,5.0,Low
-AGR-2024-1416,Ishaan Sharma,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,7,K23-AG-A,Prof. Rohan Bhatt (AGR-31),83.2,64.9,65.7,72.0,63.1,6.21,84.9,1,6.9,Low
-AGR-2024-1417,Kartik Chopra,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-A,Dr. Tanvi Trivedi (AGR-32),81.2,65.0,72.0,70.2,69.5,7.51,87.1,0,6.3,Low
-AGR-2024-1418,Shreya Dhillon,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,6,K23-AG-C,Dr. Meera Iyer (AGR-33),76.0,46.0,53.0,44.8,35.8,6.2,76.6,2,4.9,Medium
-AGR-2024-1419,Advik Mishra,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,3,K23-AG-B,Prof. Ritvik Das (AGR-34),63.9,46.3,42.2,40.9,40.5,6.14,64.6,0,4.2,Medium
-AGR-2024-1420,Mayank Saxena,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,6,K23-AG-A,Dr. Vihaan Reddy (AGR-35),83.3,77.9,91.9,77.3,77.4,9.2,90.1,0,5.4,Low
-AGR-2024-1421,Nikhil Chopra,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-C,Dr. Kabir Chahal (AGR-01),73.7,80.7,78.7,79.4,73.2,8.17,80.9,0,4.7,Low
-AGR-2024-1422,Reyansh Bhatt,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-B,Prof. Ishaan Verma (AGR-02),74.3,66.3,,67.6,65.4,7.38,85.4,0,4.7,Low
-AGR-2024-1423,Mayank Chopra,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-A,Dr. Tara Sandhu (AGR-03),67.6,34.6,36.9,26.5,28.7,6.24,60.2,0,5.4,High
-AGR-2024-1424,Anushka Deshmukh,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,7,K23-AG-A,Dr. Ishaan Deshmukh (AGR-04),86.5,89.5,88.9,94.7,80.5,8.76,87.9,1,6.6,Low
-AGR-2024-1425,Deepika Nair,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,5,K23-AG-A,Prof. Aditi Gupta (AGR-05),79.0,84.3,71.5,87.3,67.0,6.36,86.0,0,5.5,Low
-AGR-2024-1426,Atharva Bhatt,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,1,K23-AG-B,Dr. Darsh Gill (AGR-06),53.8,32.4,27.2,37.3,21.5,5.01,49.5,0,3.9,High
-AGR-2024-1427,Manish Kaur,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-C,Dr. Abhinav Sharma (AGR-07),81.4,76.4,69.2,74.4,63.3,7.33,87.9,0,6.2,Low
-AGR-2024-1428,Manish Bhatt,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-B,Dr. Atharva Saxena (AGR-08),,72.5,77.5,75.3,75.3,8.67,,0,6.1,Low
-AGR-2024-1429,Meera Nair,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-C,Dr. Mayank Sandhu (AGR-09),71.4,59.2,63.6,49.5,46.8,7.08,70.8,0,4.4,Medium
-AGR-2024-1430,Atharva Joshi,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,8,K23-AG-B,Dr. Pooja Mehta (AGR-10),58.4,50.8,61.3,54.3,54.0,6.56,59.3,2,3.9,Medium
-AGR-2024-1431,Anushka Reddy,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,2,K23-AG-B,Dr. Aditya Dhillon (AGR-11),78.0,81.7,75.4,74.9,70.1,7.85,82.7,1,7.2,Low
-AGR-2024-1432,Pooja Sethi,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-A,Assoc. Prof. Manish Kaur (AGR-12),82.0,57.8,73.3,67.1,58.9,6.46,82.8,0,5.5,Low
-AGR-2024-1433,Neha Kaur,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-B,Prof. Avani Iyer (AGR-13),82.2,72.8,71.1,68.9,70.3,8.25,80.9,0,5.0,Low
-AGR-2024-1434,Meera Singh,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,2,K23-AG-B,Dr. Diya Malhotra (AGR-14),66.3,41.4,28.2,26.6,36.1,4.78,72.7,0,5.8,High
-AGR-2024-1435,Ayaan Verma,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,6,K23-AG-A,Assoc. Prof. Neha Joshi (AGR-15),80.6,75.5,88.9,84.0,77.0,8.75,77.1,0,7.9,Low
-AGR-2024-1436,Aaryan Gupta,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-B,Prof. Anushka Singh (AGR-16),58.9,50.8,50.2,41.5,37.9,6.61,54.3,1,3.3,High
-AGR-2024-1437,Arjun Kaur,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,3,K23-AG-B,Prof. Tanvi Mehta (AGR-17),69.2,22.6,42.1,37.2,29.0,6.06,67.4,0,4.8,High
-AGR-2024-1438,Atharva Sandhu,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,1,K23-AG-C,Dr. Varun Trivedi (AGR-18),76.8,73.3,63.3,72.3,61.2,7.28,84.9,0,7.2,Low
-AGR-2024-1439,Avani Sandhu,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,3,K23-AG-B,Dr. Ayaan Kaur (AGR-19),73.1,31.6,46.3,46.9,30.9,5.57,66.8,2,8.6,Medium
-AGR-2024-1440,Sai Sethi,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-B,Assoc. Prof. Aarav Chopra (AGR-20),88.7,61.4,66.0,60.6,61.8,7.12,90.5,0,8.0,Low
-AGR-2024-1441,Sneha Chauhan,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,6,K23-AG-B,Prof. Aaryan Sandhu (AGR-21),93.0,65.9,71.3,57.4,57.5,7.66,93.1,0,6.3,Low
-AGR-2024-1442,Ritvik Kapoor,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,1,K23-AG-A,Prof. Isha Iyer (AGR-22),63.1,69.1,59.4,60.8,56.9,7.84,61.7,0,5.8,Low
-AGR-2024-1443,Nandini Sethi,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,6,K23-AG-C,Prof. Manish Das (AGR-23),80.7,92.6,81.4,65.2,77.8,8.37,92.5,0,7.0,Low
-AGR-2024-1444,Kartik Kaur,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,5,K23-AG-A,Dr. Diya Bhatt (AGR-24),86.3,77.5,,73.7,75.3,8.15,80.9,0,5.2,Low
-AGR-2024-1445,Deepika Bhatia,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,6,K23-AG-A,Prof. Reyansh Malhotra (AGR-25),82.9,53.8,64.1,73.4,49.7,7.84,84.6,0,7.9,Low
-AGR-2024-1446,Darsh Iyer,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-C,Dr. Ritvik Sharma (AGR-26),95.1,100.0,100.0,100.0,100.0,8.84,100.0,0,4.9,Low
-AGR-2024-1447,Neha Mehta,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,3,K23-AG-B,Dr. Abhinav Singh (AGR-27),58.9,38.3,,33.3,16.2,5.0,39.1,0,2.7,High
-AGR-2024-1448,Tanvi Sethi,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,7,K23-AG-C,Prof. Ishaan Trivedi (AGR-28),,43.2,27.7,38.8,18.8,5.05,65.2,1,5.6,High
-AGR-2024-1449,Diya Rao,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,6,K23-AG-C,Prof. Gauri Patel (AGR-29),81.7,55.7,63.2,66.3,53.9,6.67,76.6,1,6.2,Low
-AGR-2024-1450,Anushka Reddy,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,1,K23-AG-A,Prof. Shaurya Sharma (AGR-30),66.3,38.2,36.1,49.5,26.4,5.23,62.4,0,4.4,High
-AGR-2024-1451,Aditya Dhillon,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-A,Prof. Rohan Bhatt (AGR-31),78.3,70.8,59.7,59.4,57.3,6.72,68.3,0,4.7,Low
-AGR-2024-1452,Kavya Sen,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,6,K23-AG-C,Dr. Tanvi Trivedi (AGR-32),90.4,64.1,70.1,75.2,67.0,7.0,84.9,2,8.0,Low
-AGR-2024-1453,Avani Kaur,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-B,Dr. Meera Iyer (AGR-33),65.9,73.9,65.8,72.6,68.5,7.67,78.4,0,8.7,Low
-AGR-2024-1454,Advik Verma,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-A,Prof. Ritvik Das (AGR-34),53.2,39.5,35.7,30.7,37.6,6.31,54.9,1,3.7,High
-AGR-2024-1455,Tara Chopra,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,6,K23-AG-C,Dr. Vihaan Reddy (AGR-35),99.7,77.7,85.6,98.0,76.0,8.77,97.8,1,9.3,Low
-AGR-2024-1456,Krishna Mehta,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-C,Dr. Kabir Chahal (AGR-01),56.2,59.6,54.6,29.0,40.1,5.8,58.4,0,5.4,High
-AGR-2024-1457,Mayank Sethi,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-B,Prof. Ishaan Verma (AGR-02),58.0,36.8,33.1,33.5,10.0,4.12,64.9,0,5.5,High
-AGR-2024-1458,Aditi Dhillon,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,3,K23-AG-B,Dr. Tara Sandhu (AGR-03),70.2,49.7,57.5,60.7,45.8,7.02,70.1,0,6.6,Medium
-AGR-2024-1459,Kabir Gill,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-B,Dr. Ishaan Deshmukh (AGR-04),85.5,75.6,67.5,76.1,66.0,7.11,87.0,1,7.6,Low
-AGR-2024-1460,Simran Bhatia,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-C,Prof. Aditi Gupta (AGR-05),72.0,56.0,52.5,43.9,48.8,6.52,69.9,1,5.2,Medium
-AGR-2024-1461,Aaryan Saxena,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,2,K23-AG-B,Dr. Darsh Gill (AGR-06),85.5,65.7,76.1,68.6,73.3,8.33,94.4,0,7.2,Low
-AGR-2024-1462,Nandini Kumar,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,5,K23-AG-C,Dr. Abhinav Sharma (AGR-07),77.6,57.2,56.4,53.0,47.1,6.17,75.8,1,6.3,Low
-AGR-2024-1463,Neha Patel,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-A,Dr. Atharva Saxena (AGR-08),77.7,74.6,74.2,83.8,65.2,6.85,87.5,0,7.3,Low
-AGR-2024-1464,Tara Sharma,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-B,Dr. Mayank Sandhu (AGR-09),93.2,80.6,87.7,89.2,88.9,8.33,92.0,1,8.6,Low
-AGR-2024-1465,Anushka Rao,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,6,K23-AG-B,Dr. Pooja Mehta (AGR-10),72.6,53.4,60.6,58.5,,6.58,,0,6.1,Medium
-AGR-2024-1466,Aarav Joshi,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,1,K23-AG-B,Dr. Aditya Dhillon (AGR-11),64.4,66.2,75.7,69.0,70.2,6.35,80.1,0,6.4,Medium
-AGR-2024-1467,Gauri Chopra,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,2,K23-AG-B,Assoc. Prof. Manish Kaur (AGR-12),82.3,77.4,61.0,74.2,57.8,8.04,81.1,0,8.5,Low
-AGR-2024-1468,Ishaan Gupta,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,5,K23-AG-C,Prof. Avani Iyer (AGR-13),79.1,52.0,56.0,56.7,56.0,6.4,72.6,0,6.0,Low
-AGR-2024-1469,Shaurya Chopra,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,2,K23-AG-A,Dr. Diya Malhotra (AGR-14),69.9,53.0,76.2,70.8,52.4,6.84,84.9,2,4.5,Medium
-AGR-2024-1470,Kavya Kapoor,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,3,K23-AG-C,Assoc. Prof. Neha Joshi (AGR-15),69.8,51.0,72.0,66.1,46.3,6.54,72.4,0,8.5,Medium
-AGR-2024-1471,Isha Deshmukh,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-C,Prof. Anushka Singh (AGR-16),81.2,72.5,59.6,69.4,57.5,6.86,78.4,3,6.2,Low
-AGR-2024-1472,Shreya Gupta,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,3,K23-AG-B,Prof. Tanvi Mehta (AGR-17),,72.1,73.5,67.4,69.3,8.03,82.3,0,6.6,Low
-AGR-2024-1473,Kritika Joshi,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-C,Dr. Varun Trivedi (AGR-18),46.9,12.0,10.0,13.3,10.0,4.06,38.4,2,2.8,High
-AGR-2024-1474,Abhinav Sharma,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,6,K23-AG-C,Dr. Ayaan Kaur (AGR-19),74.6,39.4,39.9,43.4,36.9,5.83,81.3,0,7.4,Medium
-AGR-2024-1475,Gauri Kumar,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,2,K23-AG-B,Assoc. Prof. Aarav Chopra (AGR-20),66.7,35.1,24.2,22.3,21.1,6.14,60.0,0,6.0,High
-AGR-2024-1476,Karan Trivedi,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-B,Prof. Aaryan Sandhu (AGR-21),69.8,72.3,77.9,74.8,74.4,8.55,64.4,0,2.5,Low
-AGR-2024-1477,Karan Sethi,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-A,Prof. Isha Iyer (AGR-22),82.0,66.8,63.8,73.3,61.8,8.13,82.8,1,8.0,Low
-AGR-2024-1478,Dhruv Chauhan,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,2,K23-AG-B,Prof. Manish Das (AGR-23),,50.5,52.7,46.5,42.0,6.62,68.9,0,4.6,Low
-AGR-2024-1479,Mayank Patel,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,1,K23-AG-C,Dr. Diya Bhatt (AGR-24),68.7,42.7,55.6,63.5,29.8,7.45,75.2,0,6.0,Medium
-AGR-2024-1480,Sai Sharma,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-A,Prof. Reyansh Malhotra (AGR-25),84.9,55.0,75.0,48.9,59.2,6.8,71.3,0,8.3,Low
+AGR24101,Sai Gill,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,1,K23-AG-B,Dr. Kabir Chahal (AGR-01),60.8,40.3,31.2,26.8,24.2,5.48,63.5,0,3.1,High
+AGR23102,Rohan Kapoor,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,3,K23-AG-C,Prof. Ishaan Verma (AGR-02),65.9,38.6,45.0,34.0,40.4,5.89,56.2,3,1.7,High
+AGR24103,Darsh Dhillon,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,2,K23-AG-A,Dr. Tara Sandhu (AGR-03),72.5,58.6,60.0,70.9,58.4,6.24,71.5,0,7.8,Low
+AGR24104,Ritvik Patel,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,1,K23-AG-A,Dr. Ishaan Deshmukh (AGR-04),80.2,58.2,57.8,59.7,,6.18,69.0,0,5.7,Low
+AGR22105,Atharva Malhotra,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,5,K23-AG-B,Prof. Aditi Gupta (AGR-05),89.1,61.5,70.8,73.0,66.6,7.05,82.6,0,6.9,Low
+AGR23106,Tanvi Sandhu,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-A,Dr. Darsh Gill (AGR-06),90.8,76.4,73.8,75.4,66.2,,90.6,0,7.8,Low
+AGR22107,Riya Patel,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,5,K23-AG-A,Dr. Abhinav Sharma (AGR-07),62.2,36.4,41.4,36.7,22.9,6.46,55.3,0,4.4,High
+AGR23108,Dhruv Sharma,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-B,Dr. Atharva Saxena (AGR-08),80.1,43.9,31.1,59.9,30.4,4.81,65.9,0,5.1,Medium
+AGR24109,Karan Chopra,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,2,K23-AG-B,Dr. Mayank Sandhu (AGR-09),65.1,57.6,47.7,48.1,50.0,4.99,78.1,0,5.9,High
+AGR22110,Aditya Das,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,6,K23-AG-A,Dr. Pooja Mehta (AGR-10),81.1,61.4,70.6,64.8,57.6,7.78,80.5,1,6.4,Low
+AGR23111,Krishna Patel,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-A,Dr. Aditya Dhillon (AGR-11),60.8,64.1,61.7,46.8,55.0,7.17,58.6,2,2.5,High
+AGR21112,Neha Rao,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,7,K23-AG-A,Assoc. Prof. Manish Kaur (AGR-12),99.7,100.0,100.0,100.0,100.0,8.3,100.0,0,7.7,Low
+AGR24113,Shreya Sharma,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,2,K23-AG-B,Prof. Avani Iyer (AGR-13),80.7,39.3,33.9,32.5,34.8,5.96,69.8,0,4.7,Medium
+AGR24114,Gauri Sethi,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,1,K23-AG-B,Dr. Diya Malhotra (AGR-14),84.6,81.7,71.4,80.6,75.7,9.34,78.6,0,7.8,Low
+AGR23115,Deepika Iyer,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-A,Assoc. Prof. Neha Joshi (AGR-15),64.3,43.3,45.0,54.3,41.2,6.02,54.0,0,3.6,High
+AGR22116,Aaryan Gupta,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,5,K23-AG-C,Prof. Anushka Singh (AGR-16),70.3,64.8,64.8,59.8,57.2,7.87,78.8,0,5.6,Low
+AGR24117,Pooja Gill,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-C,Prof. Tanvi Mehta (AGR-17),78.5,66.6,70.2,61.1,72.2,7.59,96.0,0,8.8,Low
+AGR24118,Deepika Iyer,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,2,K23-AG-B,Dr. Varun Trivedi (AGR-18),88.3,82.5,81.9,74.9,75.3,,76.1,0,5.4,Low
+AGR24119,Aditya Kumar,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,1,K23-AG-A,Dr. Ayaan Kaur (AGR-19),74.7,56.7,70.1,69.5,56.5,7.55,63.9,0,4.9,Low
+AGR24120,Gauri Bhatia,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,1,K23-AG-C,Assoc. Prof. Aarav Chopra (AGR-20),77.1,51.1,53.1,44.2,32.8,5.46,80.4,0,6.9,Medium
+AGR21121,Kavya Iyer,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,7,K23-AG-B,Prof. Aaryan Sandhu (AGR-21),77.3,105.0,84.5,76.8,83.3,8.73,89.5,4,8.2,Low
+AGR22122,Krishna Bhatt,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,6,K23-AG-A,Prof. Isha Iyer (AGR-22),78.9,68.6,66.7,65.9,56.2,7.05,80.1,0,5.5,Low
+AGR24123,Nikhil Rao,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-A,Prof. Manish Das (AGR-23),,75.7,64.0,59.6,60.3,8.52,65.9,0,4.5,Medium
+AGR22124,Aditya Sandhu,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,6,K23-AG-B,Dr. Diya Bhatt (AGR-24),65.2,50.8,64.2,51.7,51.6,7.26,63.1,1,6.1,Medium
+AGR23125,Karan Bhatia,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,4,K23-AG-B,Prof. Reyansh Malhotra (AGR-25),60.6,46.6,36.8,44.5,52.5,6.46,66.4,0,2.7,Medium
+AGR24126,Karan Gill,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,2,K23-AG-B,Dr. Ritvik Sharma (AGR-26),74.8,60.7,66.2,79.7,58.9,7.28,83.4,0,7.6,Low
+AGR24127,Rohan Bhatia,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,2,K23-AG-B,Dr. Abhinav Singh (AGR-27),77.3,72.4,65.5,66.8,59.7,7.78,71.3,1,4.9,Low
+AGR22128,Krishna Chahal,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,5,K23-AG-C,Prof. Ishaan Trivedi (AGR-28),96.1,86.8,98.5,91.8,88.2,8.72,83.9,0,7.1,Low
+AGR24129,Advik Kaur,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,1,K23-AG-C,Prof. Gauri Patel (AGR-29),62.4,44.8,26.8,25.1,30.5,5.11,60.8,0,5.5,High
+AGR23130,Vivaan Trivedi,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,3,K23-AG-C,Prof. Shaurya Sharma (AGR-30),98.7,100.0,100.0,94.5,89.0,9.85,100.0,0,10.0,Low
+AGR23131,Sneha Das,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,3,K23-AG-C,Prof. Rohan Bhatt (AGR-31),87.7,87.4,95.8,99.2,82.1,8.93,89.5,0,7.8,Low
+AGR23132,Vivaan Singh,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,3,K23-AG-A,Dr. Tanvi Trivedi (AGR-32),87.7,75.3,86.3,64.9,93.6,7.71,82.0,2,7.0,Low
+AGR21133,Dhruv Patel,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,8,K23-AG-B,Dr. Meera Iyer (AGR-33),78.7,40.2,35.9,37.6,30.5,6.02,69.8,0,6.3,Medium
+AGR24134,Sneha Das,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,1,K23-AG-A,Prof. Ritvik Das (AGR-34),63.2,12.0,10.0,8.0,10.0,4.82,48.4,0,2.9,High
+AGR21135,Kavya Gill,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,8,K23-AG-B,Dr. Vihaan Reddy (AGR-35),70.3,41.7,37.5,26.8,39.8,6.21,70.2,0,8.3,High
+AGR24136,Dhruv Mehta,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,2,K23-AG-C,Dr. Kabir Chahal (AGR-01),84.4,61.0,73.6,74.3,67.0,8.46,79.9,1,6.6,Low
+AGR22137,Kabir Kumar,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,5,K23-AG-C,Prof. Ishaan Verma (AGR-02),57.9,40.5,30.0,24.5,33.4,6.21,60.0,0,3.9,Medium
+AGR23138,Sai Verma,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,4,K23-AG-B,Dr. Tara Sandhu (AGR-03),74.2,68.5,53.4,71.0,62.9,7.82,75.7,0,4.2,Low
+AGR22139,Neha Trivedi,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,6,K23-AG-B,Dr. Ishaan Deshmukh (AGR-04),,51.4,59.1,54.6,39.1,5.0,,1,7.0,High
+AGR23140,Dhruv Singh,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,3,K23-AG-C,Prof. Aditi Gupta (AGR-05),78.9,73.1,65.9,79.6,60.5,6.93,74.7,1,7.4,Low
+AGR22141,Gauri Kaur,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,6,K23-AG-C,Dr. Darsh Gill (AGR-06),62.0,42.8,30.8,43.3,21.3,5.31,65.6,0,1.7,High
+AGR24142,Pooja Chahal,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,1,K23-AG-A,Dr. Abhinav Sharma (AGR-07),88.7,76.0,76.1,92.6,74.8,,73.1,0,6.6,Low
+AGR23143,Advik Chauhan,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,3,K23-AG-B,Dr. Atharva Saxena (AGR-08),67.7,51.5,49.6,57.5,39.9,6.17,71.7,0,6.1,Medium
+AGR24144,Dhruv Kumar,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,2,K23-AG-C,Dr. Mayank Sandhu (AGR-09),78.6,48.1,50.8,70.0,39.8,6.96,67.7,0,6.8,Medium
+AGR23145,Gauri Bhatia,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,3,K23-AG-B,Dr. Pooja Mehta (AGR-10),75.5,92.3,72.8,86.1,71.1,7.42,69.5,0,7.3,Low
+AGR24146,Avani Saxena,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-B,Dr. Aditya Dhillon (AGR-11),75.7,68.2,70.9,73.8,61.5,6.91,85.4,0,7.7,Low
+AGR22147,Aarav Saxena,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,6,K23-AG-A,Assoc. Prof. Manish Kaur (AGR-12),62.5,21.2,32.3,36.6,20.1,6.31,67.2,4,3.7,High
+AGR22148,Ritvik Sandhu,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,5,K23-AG-B,Prof. Avani Iyer (AGR-13),92.1,76.9,85.8,91.0,71.7,8.4,90.9,1,5.7,Low
+AGR23149,Ayaan Kapoor,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,4,K23-AG-A,Dr. Diya Malhotra (AGR-14),65.4,40.6,43.0,31.3,36.0,5.35,71.0,0,6.5,Medium
+AGR23150,Meera Mehta,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-B,Assoc. Prof. Neha Joshi (AGR-15),100.0,100.0,100.0,100.0,98.4,9.95,100.0,0,10.0,Low
+AGR22151,Ishaan Verma,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,6,K23-AG-A,Prof. Anushka Singh (AGR-16),66.8,37.7,42.5,50.4,18.3,4.38,62.1,0,4.7,High
+AGR23152,Mayank Nair,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-A,Prof. Tanvi Mehta (AGR-17),91.7,91.8,96.3,100.0,91.4,9.41,92.9,1,6.2,Low
+AGR21153,Nikhil Sethi,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,7,K23-AG-B,Dr. Varun Trivedi (AGR-18),79.2,52.1,42.1,35.6,42.0,5.88,70.4,1,4.1,Medium
+AGR22154,Pooja Saxena,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,5,K23-AG-B,Dr. Ayaan Kaur (AGR-19),65.4,58.8,63.3,74.5,53.3,6.91,77.7,2,7.7,Medium
+AGR23155,Pooja Rao,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-C,Assoc. Prof. Aarav Chopra (AGR-20),80.0,51.9,63.5,69.6,47.8,7.37,90.9,0,7.1,Low
+AGR23156,Vihaan Sharma,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,4,K23-AG-B,Prof. Aaryan Sandhu (AGR-21),76.8,82.0,75.2,87.8,69.3,7.07,80.2,0,5.7,Low
+AGR23157,Shreya Dhillon,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,3,K23-AG-B,Prof. Isha Iyer (AGR-22),75.1,61.8,52.6,52.0,52.8,6.71,82.2,0,5.5,Low
+AGR21158,Anushka Dhillon,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,8,K23-AG-A,Prof. Manish Das (AGR-23),65.0,22.6,29.6,24.7,11.3,,61.7,0,4.3,High
+AGR24159,Abhinav Dhillon,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,2,K23-AG-B,Dr. Diya Bhatt (AGR-24),90.6,65.7,68.2,69.0,65.9,7.67,88.5,0,7.2,Low
+AGR24160,Sai Dhillon,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-C,Prof. Reyansh Malhotra (AGR-25),59.7,43.5,43.2,41.8,32.1,5.42,50.4,0,3.3,High
+AGR23161,Shreya Patel,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,4,K23-AG-A,Dr. Ritvik Sharma (AGR-26),88.7,92.2,88.0,80.2,87.3,9.53,91.9,0,5.2,Low
+AGR22162,Kritika Rao,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,6,K23-AG-C,Dr. Abhinav Singh (AGR-27),61.1,62.4,56.4,54.7,41.2,6.69,48.3,0,2.3,Medium
+AGR21163,Shreya Sandhu,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,7,K23-AG-B,Prof. Ishaan Trivedi (AGR-28),85.1,74.9,77.5,72.5,80.2,8.24,93.8,0,9.8,Low
+AGR24164,Reyansh Nair,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,2,K23-AG-C,Prof. Gauri Patel (AGR-29),80.6,81.6,87.4,94.6,86.2,,78.5,1,5.0,Low
+AGR22165,Kritika Chopra,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,6,K23-AG-C,Prof. Shaurya Sharma (AGR-30),62.9,58.5,55.3,63.7,53.6,6.91,63.4,0,5.5,Medium
+AGR23166,Kabir Deshmukh,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,4,K23-AG-C,Prof. Rohan Bhatt (AGR-31),78.8,62.6,73.4,59.3,62.2,,72.6,1,5.6,Medium
+AGR24167,Dhruv Chopra,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,2,K23-AG-A,Dr. Tanvi Trivedi (AGR-32),87.3,73.2,72.6,83.0,71.8,7.53,84.4,1,5.9,Low
+AGR22168,Aditya Bhatt,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,5,K23-AG-B,Dr. Meera Iyer (AGR-33),64.5,71.3,71.9,75.5,57.9,7.38,49.3,0,4.9,Medium
+AGR24169,Nandini Malhotra,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,1,K23-AG-C,Prof. Ritvik Das (AGR-34),74.7,62.7,62.8,51.9,59.6,6.51,67.2,0,5.5,Medium
+AGR22170,Aditi Bhatia,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,5,K23-AG-C,Dr. Vihaan Reddy (AGR-35),81.3,63.6,67.8,63.8,58.1,8.74,86.5,0,7.3,Low
+AGR23171,Aarav Singh,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-C,Dr. Kabir Chahal (AGR-01),,14.0,10.0,8.0,10.0,3.99,44.3,1,1.0,High
+AGR24172,Aditya Rao,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,2,K23-AG-A,Prof. Ishaan Verma (AGR-02),87.8,80.2,91.9,80.0,73.3,8.92,84.4,0,4.6,Low
+AGR22173,Anushka Sandhu,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,5,K23-AG-B,Dr. Tara Sandhu (AGR-03),78.3,62.6,68.3,79.6,61.8,7.06,80.1,0,5.7,Low
+AGR23174,Sai Mishra,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-C,Dr. Ishaan Deshmukh (AGR-04),66.4,56.6,53.5,36.2,38.4,7.78,85.5,0,8.0,Medium
+AGR24175,Abhinav Singh,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,2,K23-AG-A,Prof. Aditi Gupta (AGR-05),,46.9,55.7,51.6,39.4,6.42,88.7,0,7.4,Low
+AGR21176,Ritvik Deshmukh,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,8,K23-AG-B,Dr. Darsh Gill (AGR-06),93.2,79.9,90.9,85.3,79.2,8.96,89.9,1,9.2,Low
+AGR22177,Sneha Sethi,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,5,K23-AG-C,Dr. Abhinav Sharma (AGR-07),72.5,78.2,89.2,79.5,80.9,7.55,71.2,0,3.5,Low
+AGR24178,Vihaan Gill,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,2,K23-AG-B,Dr. Atharva Saxena (AGR-08),81.9,63.8,77.3,74.9,58.5,8.31,73.5,0,7.4,Low
+AGR21179,Krishna Malhotra,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,8,K23-AG-B,Dr. Mayank Sandhu (AGR-09),93.7,73.6,82.7,85.7,83.6,8.34,90.5,0,8.7,Low
+AGR22180,Arjun Chauhan,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,6,K23-AG-C,Dr. Pooja Mehta (AGR-10),59.0,26.8,21.0,19.5,17.5,5.47,74.2,0,3.3,High
+AGR22181,Advik Iyer,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,6,K23-AG-C,Dr. Aditya Dhillon (AGR-11),93.9,82.4,85.4,76.5,69.0,7.14,77.8,0,4.2,Low
+AGR24182,Advaith Malhotra,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,1,K23-AG-A,Assoc. Prof. Manish Kaur (AGR-12),74.2,94.3,99.1,100.0,99.0,9.95,82.7,0,8.1,Low
+AGR24183,Ritvik Bhatt,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,1,K23-AG-B,Prof. Avani Iyer (AGR-13),84.1,57.7,66.7,65.6,57.2,,87.2,0,5.7,Low
+AGR24184,Kritika Das,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-C,Dr. Diya Malhotra (AGR-14),,45.0,44.7,57.2,40.4,5.18,55.7,0,3.8,High
+AGR24185,Mayank Kapoor,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,2,K23-AG-C,Assoc. Prof. Neha Joshi (AGR-15),71.2,40.1,39.3,41.6,44.9,5.98,79.8,2,6.5,Medium
+AGR23186,Kritika Bhatia,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,3,K23-AG-C,Prof. Anushka Singh (AGR-16),76.6,57.9,64.9,61.1,54.3,7.93,81.7,1,7.6,Low
+AGR24187,Kavya Chopra,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,2,K23-AG-A,Prof. Tanvi Mehta (AGR-17),78.3,42.7,54.7,48.3,32.6,5.81,64.5,0,4.6,Medium
+AGR23188,Sneha Kumar,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-A,Dr. Varun Trivedi (AGR-18),73.7,20.7,34.3,21.4,24.9,6.56,65.6,2,4.9,High
+AGR24189,Vihaan Dhillon,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,1,K23-AG-B,Dr. Ayaan Kaur (AGR-19),67.8,56.0,45.2,44.5,45.0,6.32,73.0,0,6.6,Medium
+AGR21190,Karan Gill,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,8,K23-AG-C,Assoc. Prof. Aarav Chopra (AGR-20),73.5,61.9,52.7,58.1,55.7,6.83,74.5,0,4.3,Medium
+AGR22191,Aditi Gill,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,5,K23-AG-A,Prof. Aaryan Sandhu (AGR-21),87.4,91.9,97.5,91.2,80.9,9.79,86.5,0,9.5,Low
+AGR22192,Reyansh Verma,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,5,K23-AG-C,Prof. Isha Iyer (AGR-22),80.5,87.7,70.7,82.3,72.9,8.15,89.5,0,8.9,Low
+AGR24193,Avani Nair,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,1,K23-AG-B,Prof. Manish Das (AGR-23),82.2,64.0,70.5,73.2,64.6,8.08,70.2,0,5.6,Low
+AGR23194,Kavya Sandhu,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-C,Dr. Diya Bhatt (AGR-24),75.6,49.9,45.9,48.5,29.4,4.91,73.0,1,3.8,Medium
+AGR23195,Shreya Reddy,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-C,Prof. Reyansh Malhotra (AGR-25),56.9,20.0,15.5,21.6,10.1,3.8,68.0,1,1.0,High
+AGR23196,Gauri Sethi,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,4,K23-AG-B,Dr. Ritvik Sharma (AGR-26),90.3,100.0,97.6,100.0,87.5,8.02,100.0,0,8.7,Low
+AGR23197,Sai Saxena,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-C,Dr. Abhinav Singh (AGR-27),73.8,41.2,50.6,41.5,42.2,6.72,75.9,0,5.4,Medium
+AGR23198,Manish Trivedi,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-B,Prof. Ishaan Trivedi (AGR-28),71.1,76.4,,81.0,71.3,,82.0,1,6.4,Low
+AGR23199,Varun Joshi,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,4,K23-AG-B,Prof. Gauri Patel (AGR-29),89.0,72.8,81.0,76.2,72.9,8.52,95.8,1,8.3,Low
+AGR24200,Tanvi Chauhan,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-A,Prof. Shaurya Sharma (AGR-30),86.5,86.0,82.1,71.0,88.2,7.26,,0,7.2,Low
+AGR24201,Kabir Bhatia,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,2,K23-AG-A,Prof. Rohan Bhatt (AGR-31),74.8,47.3,39.9,39.9,39.5,4.77,71.9,0,6.9,Medium
+AGR23202,Ayaan Reddy,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-B,Dr. Tanvi Trivedi (AGR-32),85.3,95.4,79.7,90.0,78.7,8.07,85.1,0,6.7,Low
+AGR21203,Sneha Das,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,7,K23-AG-B,Dr. Meera Iyer (AGR-33),73.4,58.6,59.1,44.4,55.7,6.31,74.1,2,4.6,Medium
+AGR23204,Ishaan Chauhan,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-B,Prof. Ritvik Das (AGR-34),76.7,98.0,100.0,98.4,99.3,9.05,60.3,0,5.6,Low
+AGR22205,Sai Bhatt,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,6,K23-AG-B,Dr. Vihaan Reddy (AGR-35),78.2,54.9,64.8,63.5,48.1,6.46,75.9,1,5.4,Low
+AGR22206,Ananya Mishra,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,5,K23-AG-C,Dr. Kabir Chahal (AGR-01),94.2,87.1,93.9,100.0,85.0,8.8,97.8,2,6.7,Low
+AGR22207,Diya Gill,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,5,K23-AG-A,Prof. Ishaan Verma (AGR-02),63.1,38.9,45.7,55.9,31.9,6.3,61.7,1,6.3,High
+AGR24208,Ishaan Mishra,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,1,K23-AG-C,Dr. Tara Sandhu (AGR-03),62.1,50.0,49.6,49.9,46.8,7.48,56.2,0,5.6,High
+AGR23209,Ananya Sen,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-A,Dr. Ishaan Deshmukh (AGR-04),84.4,88.6,84.6,86.8,81.8,8.85,78.4,0,6.6,Low
+AGR22210,Kavya Chahal,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,6,K23-AG-B,Prof. Aditi Gupta (AGR-05),72.5,90.4,82.2,82.2,89.6,,78.5,1,6.2,Low
+AGR23211,Simran Kumar,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-A,Dr. Darsh Gill (AGR-06),61.2,62.7,61.9,59.5,59.4,6.07,,1,2.9,High
+AGR23212,Shreya Joshi,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,3,K23-AG-B,Dr. Abhinav Sharma (AGR-07),61.3,14.1,10.0,8.0,10.0,4.23,43.7,0,3.4,High
+AGR24213,Anushka Patel,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-A,Dr. Atharva Saxena (AGR-08),69.8,70.2,63.0,51.9,62.9,6.42,75.6,0,7.5,Low
+AGR23214,Neha Sen,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-C,Dr. Mayank Sandhu (AGR-09),,52.5,42.3,60.8,42.1,5.79,70.9,0,5.0,Medium
+AGR23215,Shreya Mishra,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-B,Dr. Pooja Mehta (AGR-10),72.9,72.8,84.2,73.1,77.9,8.88,85.9,0,7.4,Low
+AGR23216,Sai Kumar,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,4,K23-AG-C,Dr. Aditya Dhillon (AGR-11),64.0,42.3,39.7,34.7,37.4,4.9,66.9,1,5.0,High
+AGR22217,Aaryan Dhillon,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,6,K23-AG-A,Assoc. Prof. Manish Kaur (AGR-12),78.7,66.4,56.7,61.8,59.9,7.8,72.6,0,5.3,Low
+AGR24218,Sneha Gill,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,2,K23-AG-A,Prof. Avani Iyer (AGR-13),52.0,12.0,,8.0,10.0,3.8,48.0,0,4.3,High
+AGR22219,Siddharth Patel,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,5,K23-AG-C,Dr. Diya Malhotra (AGR-14),79.7,60.2,74.7,58.6,57.5,7.72,81.7,0,6.2,Medium
+AGR22220,Tanvi Sharma,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,5,K23-AG-B,Assoc. Prof. Neha Joshi (AGR-15),82.2,55.9,58.6,55.6,64.7,7.19,69.9,0,6.4,Low
+AGR21221,Deepika Iyer,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,8,K23-AG-B,Prof. Anushka Singh (AGR-16),79.6,90.1,100.0,100.0,100.0,9.08,100.0,2,8.5,Low
+AGR24222,Pranav Kapoor,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,1,K23-AG-B,Prof. Tanvi Mehta (AGR-17),78.1,71.8,75.6,77.7,66.6,8.5,79.7,0,4.6,Low
+AGR23223,Gaurav Mishra,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-C,Dr. Varun Trivedi (AGR-18),,56.2,67.6,76.8,51.3,7.86,67.9,1,7.7,Medium
+AGR23224,Vivaan Singh,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-A,Dr. Ayaan Kaur (AGR-19),65.9,31.9,44.9,39.3,40.5,6.32,54.6,1,2.7,High
+AGR24225,Tara Kaur,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-A,Assoc. Prof. Aarav Chopra (AGR-20),100.0,100.0,100.0,100.0,100.0,9.95,100.0,0,8.8,Low
+AGR22226,Varun Sandhu,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,5,K23-AG-C,Prof. Aaryan Sandhu (AGR-21),89.7,89.8,97.2,83.8,90.9,8.51,93.4,0,8.0,Low
+AGR22227,Simran Saxena,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,5,K23-AG-A,Prof. Isha Iyer (AGR-22),87.2,100.0,100.0,100.0,92.9,9.95,81.4,0,8.6,Low
+AGR23228,Gaurav Verma,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,3,K23-AG-A,Prof. Manish Das (AGR-23),78.9,65.3,58.6,67.0,60.3,7.25,74.2,0,4.5,Low
+AGR23229,Darsh Das,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,4,K23-AG-B,Dr. Diya Bhatt (AGR-24),70.3,43.9,59.5,55.5,56.3,5.86,67.7,0,7.0,Low
+AGR24230,Nandini Chopra,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,2,K23-AG-B,Prof. Reyansh Malhotra (AGR-25),76.5,69.1,63.2,61.4,60.7,7.48,73.3,1,6.0,Low
+AGR24231,Ritvik Das,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,2,K23-AG-A,Dr. Ritvik Sharma (AGR-26),86.0,69.6,61.0,79.0,66.2,7.21,72.1,0,6.5,Low
+AGR23232,Kritika Chauhan,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,3,K23-AG-C,Dr. Abhinav Singh (AGR-27),62.7,57.9,52.1,41.4,49.0,5.7,71.8,2,4.3,High
+AGR23233,Aarav Iyer,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,4,K23-AG-C,Prof. Ishaan Trivedi (AGR-28),73.9,53.7,44.9,41.6,37.4,6.82,69.2,0,5.5,Medium
+AGR23234,Deepika Verma,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-A,Prof. Gauri Patel (AGR-29),86.0,70.3,81.0,95.9,74.1,9.01,83.5,0,6.0,Low
+AGR22235,Aarav Bhatt,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,5,K23-AG-C,Prof. Shaurya Sharma (AGR-30),62.6,45.7,43.8,52.4,42.3,7.22,58.2,0,4.6,High
+AGR22236,Sai Sen,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,5,K23-AG-B,Prof. Rohan Bhatt (AGR-31),69.4,43.7,45.7,39.3,30.1,5.32,80.5,0,6.4,High
+AGR23237,Ananya Chauhan,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,3,K23-AG-C,Dr. Tanvi Trivedi (AGR-32),69.9,54.2,38.7,50.9,31.4,6.3,60.6,0,4.6,High
+AGR23238,Sneha Dhillon,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,3,K23-AG-B,Dr. Meera Iyer (AGR-33),71.7,50.8,47.9,41.8,43.1,7.02,77.5,0,6.1,Medium
+AGR24239,Ishaan Deshmukh,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-C,Prof. Ritvik Das (AGR-34),92.4,100.0,97.8,100.0,90.4,9.36,100.0,0,10.0,Low
+AGR23240,Dhruv Sandhu,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,3,K23-AG-A,Dr. Vihaan Reddy (AGR-35),82.6,58.6,60.3,63.9,49.5,7.42,75.7,0,6.3,Low
+AGR23241,Aaryan Iyer,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-B,Dr. Kabir Chahal (AGR-01),88.8,93.0,98.8,100.0,90.6,9.32,86.1,2,7.5,Low
+AGR22242,Avani Chauhan,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,5,K23-AG-B,Prof. Ishaan Verma (AGR-02),89.9,65.4,67.8,85.2,54.3,6.91,81.8,0,6.6,Low
+AGR22243,Kartik Sandhu,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,5,K23-AG-B,Dr. Tara Sandhu (AGR-03),72.2,58.3,55.3,44.6,,6.9,77.9,0,7.3,Medium
+AGR23244,Nikhil Chauhan,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-A,Dr. Ishaan Deshmukh (AGR-04),61.9,42.6,36.2,42.1,30.9,5.4,60.5,1,3.4,High
+AGR24245,Darsh Bhatia,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,2,K23-AG-C,Prof. Aditi Gupta (AGR-05),85.5,73.0,58.8,70.4,63.7,7.54,,1,6.2,Low
+AGR24246,Atharva Chauhan,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-A,Dr. Darsh Gill (AGR-06),89.5,71.4,90.3,72.5,76.9,8.86,79.6,1,6.7,Low
+AGR23247,Siddharth Sen,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,3,K23-AG-B,Dr. Abhinav Sharma (AGR-07),68.0,36.4,50.9,52.2,34.6,5.71,68.0,1,5.2,Medium
+AGR23248,Simran Deshmukh,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-C,Dr. Atharva Saxena (AGR-08),64.9,64.7,67.2,54.2,67.2,7.38,82.6,0,7.7,Low
+AGR24249,Gaurav Verma,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-A,Dr. Mayank Sandhu (AGR-09),76.6,67.7,63.4,72.1,57.7,7.9,74.5,0,5.2,Low
+AGR23250,Dhruv Sen,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-A,Dr. Pooja Mehta (AGR-10),51.3,45.5,29.9,25.2,26.4,5.2,45.2,0,3.0,High
+AGR22251,Gaurav Chahal,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,5,K23-AG-C,Dr. Aditya Dhillon (AGR-11),70.3,75.7,72.2,69.3,74.8,7.41,68.4,0,6.4,Low
+AGR22252,Deepika Gill,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,5,K23-AG-B,Assoc. Prof. Manish Kaur (AGR-12),82.1,45.1,57.9,46.1,56.0,7.24,74.0,0,5.6,Low
+AGR24253,Darsh Gupta,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,1,K23-AG-A,Prof. Avani Iyer (AGR-13),,65.8,62.5,69.3,60.6,8.2,65.3,0,7.7,Low
+AGR22254,Pooja Sandhu,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,6,K23-AG-C,Dr. Diya Malhotra (AGR-14),55.1,12.0,10.0,8.0,10.0,4.18,54.2,0,1.9,High
+AGR24255,Kavya Chopra,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,1,K23-AG-B,Assoc. Prof. Neha Joshi (AGR-15),83.8,100.0,100.0,100.0,100.0,8.46,96.1,0,6.5,Low
+AGR24256,Manish Saxena,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,1,K23-AG-A,Prof. Anushka Singh (AGR-16),,55.1,81.2,65.5,62.3,6.38,66.1,0,5.0,Low
+AGR23257,Mayank Bhatia,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-C,Prof. Tanvi Mehta (AGR-17),65.6,53.0,52.7,53.1,46.1,7.0,55.0,1,4.5,Medium
+AGR24258,Vivaan Sandhu,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,1,K23-AG-B,Dr. Varun Trivedi (AGR-18),83.4,68.5,,72.1,66.1,8.26,80.5,0,7.7,Low
+AGR24259,Aditya Patel,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,1,K23-AG-A,Dr. Ayaan Kaur (AGR-19),79.0,67.7,66.2,60.7,55.2,6.39,79.4,0,6.1,Low
+AGR23260,Kavya Das,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-A,Assoc. Prof. Aarav Chopra (AGR-20),38.6,12.0,10.0,8.0,10.0,3.8,32.3,0,1.0,High
+AGR22261,Siddharth Nair,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,5,K23-AG-C,Prof. Aaryan Sandhu (AGR-21),69.9,27.8,41.1,38.3,19.9,3.8,53.1,0,3.0,High
+AGR23262,Rohan Bhatia,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-C,Prof. Isha Iyer (AGR-22),88.7,97.2,90.9,96.7,86.9,9.66,89.6,0,8.1,Low
+AGR22263,Diya Iyer,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,6,K23-AG-B,Prof. Manish Das (AGR-23),72.5,70.7,65.2,66.5,63.2,8.59,68.3,0,7.4,Low
+AGR23264,Vivaan Rao,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-B,Dr. Diya Bhatt (AGR-24),77.6,89.7,83.1,94.3,73.5,8.02,86.8,0,5.7,Low
+AGR23265,Advaith Nair,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,3,K23-AG-B,Prof. Reyansh Malhotra (AGR-25),91.5,78.5,82.2,82.6,69.2,7.53,72.6,1,8.1,Low
+AGR24266,Manish Das,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,1,K23-AG-C,Dr. Ritvik Sharma (AGR-26),92.1,100.0,100.0,100.0,85.6,9.95,96.7,0,8.6,Low
+AGR24267,Simran Chauhan,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,2,K23-AG-C,Dr. Abhinav Singh (AGR-27),60.9,35.2,42.8,40.6,30.5,6.63,77.8,0,4.2,Medium
+AGR24268,Shaurya Trivedi,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,1,K23-AG-A,Prof. Ishaan Trivedi (AGR-28),79.8,40.3,37.6,33.3,35.0,5.53,83.4,0,5.0,Medium
+AGR23269,Avani Dhillon,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-A,Prof. Gauri Patel (AGR-29),55.9,49.4,46.8,52.4,43.7,7.35,61.1,0,1.8,High
+AGR24270,Kartik Sandhu,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-B,Prof. Shaurya Sharma (AGR-30),79.1,83.6,80.7,72.1,91.8,8.8,81.6,0,8.0,Low
+AGR24271,Riya Gill,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,1,K23-AG-B,Prof. Rohan Bhatt (AGR-31),78.1,46.4,45.5,56.3,47.5,6.87,76.1,0,4.2,Medium
+AGR23272,Advaith Joshi,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-C,Dr. Tanvi Trivedi (AGR-32),63.7,37.7,36.4,29.0,29.6,5.56,57.1,2,3.2,High
+AGR21273,Pranav Bhatia,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,8,K23-AG-C,Dr. Meera Iyer (AGR-33),79.1,60.8,67.7,59.6,56.6,7.66,69.8,0,6.7,Low
+AGR22274,Aaryan Verma,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,5,K23-AG-A,Prof. Ritvik Das (AGR-34),82.5,87.3,73.6,66.9,78.8,7.89,92.4,0,7.8,Low
+AGR21275,Mayank Sharma,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,7,K23-AG-C,Dr. Vihaan Reddy (AGR-35),79.0,87.8,86.9,79.8,80.8,,76.7,0,4.9,Low
+AGR24276,Simran Rao,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,1,K23-AG-C,Dr. Kabir Chahal (AGR-01),77.9,64.8,78.5,58.3,105.0,9.16,67.4,0,6.4,Low
+AGR23277,Nandini Rao,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-A,Prof. Ishaan Verma (AGR-02),94.8,100.0,100.0,100.0,97.2,9.95,95.2,0,7.8,Low
+AGR24278,Ayaan Nair,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-C,Dr. Tara Sandhu (AGR-03),61.0,62.3,54.1,69.3,67.4,7.27,61.6,0,7.1,Medium
+AGR24279,Vihaan Patel,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,1,K23-AG-A,Dr. Ishaan Deshmukh (AGR-04),80.7,95.7,82.7,69.1,92.0,8.53,69.4,0,7.5,Low
+AGR21280,Isha Dhillon,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,8,K23-AG-A,Prof. Aditi Gupta (AGR-05),86.2,84.6,92.9,82.6,89.3,9.76,89.7,1,8.4,Low
+AGR21281,Isha Saxena,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,7,K23-AG-A,Dr. Darsh Gill (AGR-06),79.1,58.9,56.4,60.6,42.0,6.05,74.3,1,6.1,Medium
+AGR22282,Pranav Kumar,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,5,K23-AG-C,Dr. Abhinav Sharma (AGR-07),76.6,65.6,71.8,73.9,64.7,7.73,69.3,1,5.6,Medium
+AGR21283,Sai Gupta,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,7,K23-AG-A,Dr. Atharva Saxena (AGR-08),78.0,71.0,67.4,59.1,58.6,8.46,68.1,0,5.0,Low
+AGR21284,Meera Saxena,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,7,K23-AG-B,Dr. Mayank Sandhu (AGR-09),81.1,93.7,83.1,84.1,84.7,8.03,85.8,0,10.0,Low
+AGR23285,Ritvik Mehta,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-A,Dr. Pooja Mehta (AGR-10),67.5,55.3,59.3,39.3,49.3,5.47,77.6,2,8.5,Medium
+AGR21286,Sneha Mishra,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,7,K23-AG-A,Dr. Aditya Dhillon (AGR-11),77.4,81.3,92.1,90.9,82.1,8.31,73.2,0,5.3,Low
+AGR22287,Deepika Kumar,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,5,K23-AG-B,Assoc. Prof. Manish Kaur (AGR-12),76.2,55.3,60.5,54.8,46.5,6.48,72.8,0,4.4,Medium
+AGR24288,Kartik Iyer,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-C,Prof. Avani Iyer (AGR-13),100.0,100.0,100.0,100.0,95.8,9.95,100.0,0,10.0,Low
+AGR24289,Aditi Verma,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,1,K23-AG-B,Dr. Diya Malhotra (AGR-14),51.3,12.0,10.0,8.0,10.0,4.55,57.0,0,5.5,High
+AGR24290,Kritika Nair,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-A,Assoc. Prof. Neha Joshi (AGR-15),92.5,36.9,48.3,49.3,37.8,5.72,74.4,0,4.3,Low
+AGR22291,Ishaan Gill,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,6,K23-AG-C,Prof. Anushka Singh (AGR-16),64.9,47.6,45.2,50.4,37.8,6.62,57.3,0,4.2,Medium
+AGR22292,Kartik Reddy,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,6,K23-AG-A,Prof. Tanvi Mehta (AGR-17),88.1,67.3,71.0,69.5,64.3,8.37,100.0,1,9.3,Low
+AGR24293,Aditi Bhatia,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,1,K23-AG-C,Dr. Varun Trivedi (AGR-18),70.5,57.5,64.2,63.7,35.0,5.05,94.1,0,6.4,Medium
+AGR23294,Varun Dhillon,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-A,Dr. Ayaan Kaur (AGR-19),58.9,64.1,60.0,56.5,37.9,5.9,63.7,0,5.3,High
+AGR23295,Pooja Trivedi,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,3,K23-AG-C,Assoc. Prof. Aarav Chopra (AGR-20),65.6,34.9,52.8,37.1,26.4,4.74,68.4,0,3.2,Medium
+AGR23296,Sneha Trivedi,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,4,K23-AG-A,Prof. Aaryan Sandhu (AGR-21),55.4,39.2,36.6,28.0,29.3,5.62,55.6,1,3.3,High
+AGR23297,Kritika Kaur,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-C,Prof. Isha Iyer (AGR-22),78.5,41.7,57.0,45.4,45.2,,,0,7.9,Low
+AGR23298,Siddharth Sethi,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-A,Prof. Manish Das (AGR-23),85.2,86.4,84.7,90.5,79.2,8.21,84.6,1,7.5,Low
+AGR24299,Pranav Dhillon,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,1,K23-AG-B,Dr. Diya Bhatt (AGR-24),100.0,95.4,92.9,100.0,89.2,8.52,100.0,0,10.0,Low
+AGR24300,Kritika Das,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,1,K23-AG-A,Prof. Reyansh Malhotra (AGR-25),77.2,35.7,46.4,42.1,28.9,5.5,87.9,0,4.6,Medium
+AGR24301,Pranav Joshi,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-C,Dr. Ritvik Sharma (AGR-26),88.4,63.3,76.0,95.6,60.8,8.8,79.6,1,7.3,Low
+AGR21302,Krishna Singh,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,7,K23-AG-B,Dr. Abhinav Singh (AGR-27),64.1,52.8,,35.3,62.4,,64.7,1,6.0,Low
+AGR23303,Varun Gupta,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,3,K23-AG-B,Prof. Ishaan Trivedi (AGR-28),87.2,86.0,81.3,81.4,,8.53,100.0,0,8.4,Low
+AGR23304,Sneha Mehta,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-C,Prof. Gauri Patel (AGR-29),100.0,100.0,100.0,100.0,98.7,,,0,10.0,Low
+AGR23305,Aaryan Kumar,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-C,Prof. Shaurya Sharma (AGR-30),69.9,55.8,53.2,41.8,44.6,6.57,60.4,0,7.0,Medium
+AGR22306,Ayaan Malhotra,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,5,K23-AG-A,Prof. Rohan Bhatt (AGR-31),61.6,28.5,28.1,32.8,17.2,5.26,49.3,0,3.0,High
+AGR23307,Manish Rao,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-B,Dr. Tanvi Trivedi (AGR-32),93.6,100.0,100.0,100.0,98.5,9.92,100.0,0,8.4,Low
+AGR24308,Reyansh Mehta,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,2,K23-AG-A,Dr. Meera Iyer (AGR-33),65.1,63.2,57.3,49.6,49.4,6.25,76.5,0,6.1,Medium
+AGR24309,Atharva Chauhan,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,1,K23-AG-A,Prof. Ritvik Das (AGR-34),62.1,50.8,57.9,53.0,50.1,6.33,59.6,0,5.3,High
+AGR24310,Riya Kaur,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,1,K23-AG-B,Dr. Vihaan Reddy (AGR-35),79.4,40.5,,46.1,15.2,5.97,62.8,0,4.9,Medium
+AGR22311,Dhruv Bhatia,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,6,K23-AG-B,Dr. Kabir Chahal (AGR-01),54.3,39.5,43.7,32.6,29.5,5.11,50.2,0,4.8,High
+AGR23312,Ritvik Chauhan,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-B,Prof. Ishaan Verma (AGR-02),73.0,41.1,32.7,34.1,29.0,5.69,63.5,0,4.6,High
+AGR24313,Deepika Das,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-C,Dr. Tara Sandhu (AGR-03),85.2,72.8,68.0,73.5,63.3,7.42,69.6,0,5.0,Low
+AGR24314,Neha Verma,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-C,Dr. Ishaan Deshmukh (AGR-04),82.3,53.3,58.8,73.8,,7.16,69.9,0,5.2,Low
+AGR22315,Mayank Kapoor,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,6,K23-AG-C,Prof. Aditi Gupta (AGR-05),60.5,47.4,56.6,44.0,46.7,6.52,56.8,0,3.9,Medium
+AGR23316,Tanvi Kumar,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,3,K23-AG-A,Dr. Darsh Gill (AGR-06),87.6,69.4,62.3,63.4,69.6,7.85,98.7,0,8.9,Low
+AGR23317,Avani Nair,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-A,Dr. Abhinav Sharma (AGR-07),72.7,71.2,76.5,73.6,69.6,8.27,71.7,2,4.5,Medium
+AGR22318,Tanvi Das,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,6,K23-AG-B,Dr. Atharva Saxena (AGR-08),,74.7,83.8,76.9,76.1,9.02,88.7,3,8.5,Low
+AGR21319,Ritvik Sethi,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,7,K23-AG-A,Dr. Mayank Sandhu (AGR-09),75.8,43.3,53.5,51.0,44.5,7.0,84.7,0,5.8,Medium
+AGR23320,Tara Gupta,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,3,K23-AG-C,Dr. Pooja Mehta (AGR-10),83.1,81.2,88.2,73.5,79.4,8.03,79.8,0,6.4,Low
+AGR22321,Gauri Chopra,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,5,K23-AG-B,Dr. Aditya Dhillon (AGR-11),71.7,64.8,69.3,68.0,54.4,7.3,72.5,0,6.5,Low
+AGR22322,Aarav Trivedi,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,5,K23-AG-C,Assoc. Prof. Manish Kaur (AGR-12),75.3,46.3,56.8,56.1,44.7,7.07,60.7,3,5.5,High
+AGR24323,Gaurav Sharma,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,1,K23-AG-C,Prof. Avani Iyer (AGR-13),68.6,30.0,25.8,23.8,13.7,5.12,52.3,0,5.2,High
+AGR24324,Kritika Das,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,2,K23-AG-A,Dr. Diya Malhotra (AGR-14),61.9,35.2,31.1,27.7,21.7,5.06,65.9,0,4.3,High
+AGR22325,Mayank Chopra,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,6,K23-AG-A,Assoc. Prof. Neha Joshi (AGR-15),71.4,55.7,63.0,55.2,53.1,6.09,64.7,0,5.3,Low
+AGR23326,Vivaan Sethi,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-A,Prof. Anushka Singh (AGR-16),63.2,45.8,40.1,48.5,37.2,6.28,50.1,0,5.0,High
+AGR23327,Gauri Chauhan,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,4,K23-AG-A,Prof. Tanvi Mehta (AGR-17),58.1,33.7,36.9,41.7,20.6,4.05,45.4,2,5.8,High
+AGR23328,Vihaan Chauhan,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,3,K23-AG-A,Dr. Varun Trivedi (AGR-18),73.3,57.0,57.5,73.9,61.2,7.36,51.2,0,4.5,Medium
+AGR22329,Nikhil Chauhan,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,5,K23-AG-A,Dr. Ayaan Kaur (AGR-19),75.3,82.8,78.9,65.9,75.3,7.63,85.3,0,6.6,Low
+AGR21330,Shreya Chauhan,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,7,K23-AG-C,Assoc. Prof. Aarav Chopra (AGR-20),65.3,69.0,54.2,73.0,42.9,7.11,64.1,3,3.8,High
+AGR22331,Gaurav Sandhu,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,5,K23-AG-A,Prof. Aaryan Sandhu (AGR-21),71.3,40.6,57.0,41.2,,5.7,82.2,1,7.9,Medium
+AGR23332,Isha Sharma,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,3,K23-AG-A,Prof. Isha Iyer (AGR-22),,81.1,71.7,79.5,78.8,7.75,81.5,0,6.8,Low
+AGR23333,Krishna Patel,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-A,Prof. Manish Das (AGR-23),66.7,45.0,46.6,52.1,46.0,,51.9,0,4.4,Medium
+AGR23334,Ananya Chahal,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,3,K23-AG-B,Dr. Diya Bhatt (AGR-24),83.5,92.5,97.2,100.0,98.3,9.37,92.1,0,7.7,Low
+AGR21335,Anushka Sharma,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,7,K23-AG-B,Prof. Reyansh Malhotra (AGR-25),72.0,68.3,67.2,66.3,60.2,7.4,75.4,0,5.4,Low
+AGR24336,Shaurya Gill,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,1,K23-AG-B,Dr. Ritvik Sharma (AGR-26),60.6,49.0,38.5,40.1,37.0,6.26,61.4,0,4.0,High
+AGR23337,Krishna Kumar,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,3,K23-AG-A,Dr. Abhinav Singh (AGR-27),66.4,31.2,32.0,43.5,24.8,5.74,68.5,0,3.3,High
+AGR21338,Deepika Chahal,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,8,K23-AG-A,Prof. Ishaan Trivedi (AGR-28),87.5,90.6,79.6,92.4,82.0,8.51,89.5,1,10.0,Low
+AGR23339,Gauri Das,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,4,K23-AG-B,Prof. Gauri Patel (AGR-29),92.2,82.8,81.9,86.6,89.5,8.82,,1,7.3,Low
+AGR24340,Pooja Kapoor,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,1,K23-AG-A,Prof. Shaurya Sharma (AGR-30),62.2,47.2,37.1,53.7,35.3,5.5,79.4,0,4.9,Medium
+AGR22341,Abhinav Sen,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,6,K23-AG-B,Prof. Rohan Bhatt (AGR-31),53.6,50.3,44.7,39.9,35.2,5.41,60.7,0,3.3,High
+AGR22342,Isha Bhatt,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,6,K23-AG-C,Dr. Tanvi Trivedi (AGR-32),80.4,61.7,77.4,58.8,67.4,,71.5,0,7.8,Low
+AGR22343,Reyansh Sen,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,5,K23-AG-A,Dr. Meera Iyer (AGR-33),62.6,45.0,44.8,45.5,37.5,6.27,51.5,1,5.8,Medium
+AGR23344,Diya Nair,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-B,Prof. Ritvik Das (AGR-34),64.3,39.2,26.8,25.2,34.1,6.31,60.5,0,6.7,High
+AGR23345,Krishna Bhatt,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,4,K23-AG-A,Dr. Vihaan Reddy (AGR-35),59.5,33.1,34.9,35.0,13.2,4.95,70.7,1,3.5,High
+AGR23346,Reyansh Trivedi,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-B,Dr. Kabir Chahal (AGR-01),99.9,83.6,100.0,92.8,88.9,8.93,97.7,0,7.9,Low
+AGR23347,Dhruv Mishra,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-C,Prof. Ishaan Verma (AGR-02),67.0,68.2,61.3,71.7,52.1,6.38,63.9,0,4.9,Medium
+AGR24348,Varun Singh,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,2,K23-AG-A,Dr. Tara Sandhu (AGR-03),80.7,69.8,79.6,69.7,63.5,7.91,67.6,1,6.0,Low
+AGR24349,Tanvi Mehta,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,1,K23-AG-A,Dr. Ishaan Deshmukh (AGR-04),81.2,62.3,69.3,59.8,59.1,8.62,81.2,0,6.8,Low
+AGR24350,Tanvi Deshmukh,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,2,K23-AG-B,Prof. Aditi Gupta (AGR-05),77.3,59.9,61.8,66.1,53.5,7.49,71.6,0,7.0,Low
+AGR22351,Aaryan Bhatia,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,6,K23-AG-C,Dr. Darsh Gill (AGR-06),68.7,50.0,47.8,54.0,45.1,6.38,67.5,1,4.1,High
+AGR21352,Aarav Singh,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,8,K23-AG-B,Dr. Abhinav Sharma (AGR-07),70.0,59.2,62.7,47.6,51.1,5.71,66.9,0,6.0,Medium
+AGR23353,Ananya Trivedi,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-C,Dr. Atharva Saxena (AGR-08),60.1,60.3,52.3,48.7,45.5,6.16,54.6,0,5.0,Medium
+AGR24354,Ishaan Chahal,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,2,K23-AG-C,Dr. Mayank Sandhu (AGR-09),70.9,51.0,63.4,52.5,52.2,6.46,69.9,0,5.2,Medium
+AGR24355,Anushka Deshmukh,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,1,K23-AG-A,Dr. Pooja Mehta (AGR-10),82.5,76.9,82.8,81.8,71.1,7.99,78.1,0,5.7,Low
+AGR24356,Pranav Gupta,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,2,K23-AG-C,Dr. Aditya Dhillon (AGR-11),64.8,12.0,10.0,8.0,10.0,3.8,49.6,0,2.1,High
+AGR22357,Tara Iyer,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,6,K23-AG-B,Assoc. Prof. Manish Kaur (AGR-12),66.5,18.1,24.1,42.3,10.0,5.16,,1,3.6,High
+AGR23358,Neha Singh,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-C,Prof. Avani Iyer (AGR-13),100.0,92.2,100.0,100.0,91.5,9.24,98.3,0,9.5,Low
+AGR23359,Aditya Kaur,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,4,K23-AG-C,Dr. Diya Malhotra (AGR-14),100.0,100.0,100.0,100.0,94.9,9.6,100.0,1,9.1,Low
+AGR23360,Atharva Rao,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,4,K23-AG-B,Assoc. Prof. Neha Joshi (AGR-15),84.8,63.1,71.3,64.2,62.8,6.95,73.2,5,6.1,Medium
+AGR23361,Riya Trivedi,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-C,Prof. Anushka Singh (AGR-16),85.9,59.5,59.2,59.3,60.0,7.05,85.2,0,5.4,Low
+AGR24362,Aarav Chahal,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,2,K23-AG-B,Prof. Tanvi Mehta (AGR-17),65.3,60.7,58.1,51.3,51.4,5.5,56.3,0,5.1,High
+AGR21363,Atharva Gill,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,7,K23-AG-A,Dr. Varun Trivedi (AGR-18),75.4,36.6,47.4,51.8,45.6,7.61,84.8,0,7.4,Low
+AGR23364,Neha Nair,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-B,Dr. Ayaan Kaur (AGR-19),72.9,86.2,82.0,66.1,79.7,7.73,78.2,0,5.2,Low
+AGR22365,Krishna Chopra,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,6,K23-AG-B,Assoc. Prof. Aarav Chopra (AGR-20),70.7,27.0,40.8,40.4,15.0,4.58,47.8,0,3.4,High
+AGR22366,Kartik Chopra,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,5,K23-AG-B,Prof. Aaryan Sandhu (AGR-21),56.5,45.5,37.8,31.9,34.4,6.14,68.9,1,4.3,High
+AGR24367,Avani Trivedi,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,1,K23-AG-A,Prof. Isha Iyer (AGR-22),62.9,32.2,,25.3,35.5,6.83,49.8,0,1.8,High
+AGR23368,Reyansh Gill,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,4,K23-AG-C,Prof. Manish Das (AGR-23),72.7,58.4,50.2,55.7,43.5,6.12,56.0,0,2.4,Medium
+AGR24369,Aarav Gupta,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,1,K23-AG-B,Dr. Diya Bhatt (AGR-24),77.9,77.4,90.0,66.1,87.7,8.84,73.0,0,6.5,Low
+AGR23370,Kavya Das,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-A,Prof. Reyansh Malhotra (AGR-25),70.6,73.3,64.4,71.2,55.0,7.74,72.0,0,6.5,Low
+AGR24371,Arjun Joshi,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,2,K23-AG-C,Dr. Ritvik Sharma (AGR-26),69.0,71.2,67.9,52.0,61.0,6.0,69.8,0,6.5,Low
+AGR22372,Kritika Malhotra,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,5,K23-AG-B,Dr. Abhinav Singh (AGR-27),83.0,65.3,52.4,49.0,65.9,,82.6,1,8.3,Low
+AGR24373,Aditya Sandhu,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,1,K23-AG-B,Prof. Ishaan Trivedi (AGR-28),84.6,74.3,68.5,63.1,67.2,8.03,73.1,0,5.3,Low
+AGR24374,Riya Sandhu,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,1,K23-AG-C,Prof. Gauri Patel (AGR-29),70.3,33.6,45.7,36.4,30.8,7.0,61.7,0,1.6,Medium
+AGR22375,Simran Sen,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,6,K23-AG-C,Prof. Shaurya Sharma (AGR-30),83.6,84.2,84.1,77.0,,7.28,73.8,0,5.8,Low
+AGR23376,Gaurav Rao,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-A,Prof. Rohan Bhatt (AGR-31),65.4,40.3,32.4,33.6,28.6,5.89,61.6,0,3.4,Medium
+AGR23377,Pooja Kumar,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-B,Dr. Tanvi Trivedi (AGR-32),82.4,65.1,61.1,49.4,56.7,6.97,76.1,0,8.8,Low
+AGR24378,Nandini Mehta,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,1,K23-AG-C,Dr. Meera Iyer (AGR-33),64.9,52.6,62.3,49.4,43.7,7.4,58.6,0,2.2,Low
+AGR21379,Vihaan Saxena,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,8,K23-AG-A,Prof. Ritvik Das (AGR-34),92.3,83.0,72.3,81.9,68.2,7.38,92.7,0,10.0,Low
+AGR24380,Diya Sen,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-C,Dr. Vihaan Reddy (AGR-35),63.5,62.6,69.0,64.3,55.0,6.36,65.2,0,4.8,Medium
+AGR21381,Krishna Chopra,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,7,K23-AG-B,Dr. Kabir Chahal (AGR-01),71.4,71.0,70.8,65.4,70.5,6.81,64.8,0,4.6,Low
+AGR23382,Dhruv Mehta,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-C,Prof. Ishaan Verma (AGR-02),80.9,72.4,,72.1,61.3,7.26,82.9,0,5.7,Low
+AGR22383,Gauri Chauhan,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,6,K23-AG-B,Dr. Tara Sandhu (AGR-03),79.4,66.0,79.0,76.2,72.1,7.91,77.0,1,6.8,Low
+AGR24384,Diya Singh,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,2,K23-AG-A,Dr. Ishaan Deshmukh (AGR-04),91.4,100.0,100.0,97.4,94.5,9.95,99.4,0,8.4,Low
+AGR24385,Varun Gill,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-B,Prof. Aditi Gupta (AGR-05),89.3,77.5,84.9,77.3,83.1,8.33,86.5,0,4.7,Low
+AGR24386,Tanvi Kapoor,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,1,K23-AG-C,Dr. Darsh Gill (AGR-06),85.9,54.1,48.1,48.9,46.3,5.53,71.0,0,6.7,Low
+AGR24387,Ritvik Gill,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,1,K23-AG-C,Dr. Abhinav Sharma (AGR-07),69.6,44.3,34.8,38.0,20.7,3.8,56.1,0,4.2,High
+AGR22388,Diya Kaur,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,5,K23-AG-C,Dr. Atharva Saxena (AGR-08),72.8,61.5,64.9,53.1,66.1,6.98,82.7,0,6.4,Low
+AGR23389,Anushka Sharma,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,4,K23-AG-C,Dr. Mayank Sandhu (AGR-09),76.2,70.6,65.1,84.1,60.0,6.69,71.3,2,5.9,Medium
+AGR23390,Reyansh Sethi,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-A,Dr. Pooja Mehta (AGR-10),85.0,73.8,67.5,88.1,68.6,8.43,78.3,3,5.5,Low
+AGR24391,Deepika Mehta,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,1,K23-AG-B,Dr. Aditya Dhillon (AGR-11),75.6,66.2,69.3,68.1,75.2,6.66,87.5,0,6.2,Low
+AGR23392,Dhruv Chauhan,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-C,Assoc. Prof. Manish Kaur (AGR-12),80.3,86.5,100.0,90.2,94.4,8.74,83.2,0,7.0,Low
+AGR23393,Rohan Sethi,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,3,K23-AG-B,Prof. Avani Iyer (AGR-13),77.8,85.2,96.2,90.0,86.1,7.88,74.7,2,6.9,Low
+AGR23394,Aaryan Malhotra,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,3,K23-AG-B,Dr. Diya Malhotra (AGR-14),54.7,37.8,31.7,28.1,39.4,6.07,62.8,0,3.8,High
+AGR23395,Ishaan Singh,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,4,K23-AG-A,Assoc. Prof. Neha Joshi (AGR-15),70.3,34.4,41.5,54.1,,7.31,66.1,2,3.5,Medium
+AGR24396,Deepika Gupta,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,2,K23-AG-B,Prof. Anushka Singh (AGR-16),69.0,14.8,10.7,10.8,10.0,4.93,45.9,0,4.6,High
+AGR22397,Aditya Sen,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,6,K23-AG-A,Prof. Tanvi Mehta (AGR-17),89.5,85.5,89.9,82.5,74.8,7.54,94.4,0,9.5,Low
+AGR21398,Manish Gill,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,8,K23-AG-C,Dr. Varun Trivedi (AGR-18),74.3,67.6,81.4,80.7,66.4,8.51,63.9,2,6.1,Low
+AGR23399,Aaryan Sen,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,3,K23-AG-C,Dr. Ayaan Kaur (AGR-19),73.6,50.9,43.3,60.9,44.9,6.35,87.7,3,8.1,Medium
+AGR23400,Ananya Kumar,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,4,K23-AG-A,Assoc. Prof. Aarav Chopra (AGR-20),66.2,35.8,47.2,42.0,39.0,6.41,,0,5.3,Medium
+AGR23401,Abhinav Bhatt,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-A,Prof. Aaryan Sandhu (AGR-21),88.5,77.9,77.6,68.7,80.9,7.53,93.7,0,7.6,Low
+AGR23402,Tara Chopra,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-C,Prof. Isha Iyer (AGR-22),82.6,81.5,83.4,72.1,70.4,7.35,90.7,0,6.1,Low
+AGR23403,Rohan Saxena,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,3,K23-AG-B,Prof. Manish Das (AGR-23),78.3,65.9,71.6,58.0,55.2,7.21,83.6,2,6.4,Low
+AGR23404,Varun Sharma,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,4,K23-AG-C,Dr. Diya Bhatt (AGR-24),,68.0,48.9,52.5,47.5,7.5,80.3,0,4.4,Low
+AGR22405,Arjun Reddy,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,6,K23-AG-B,Prof. Reyansh Malhotra (AGR-25),82.7,74.4,72.6,85.4,65.1,6.91,93.8,3,7.4,Low
+AGR22406,Sai Bhatt,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,6,K23-AG-C,Dr. Ritvik Sharma (AGR-26),77.0,67.6,59.7,63.3,61.6,7.41,64.4,1,6.7,Low
+AGR22407,Vivaan Gill,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,5,K23-AG-C,Dr. Abhinav Singh (AGR-27),82.5,100.0,100.0,97.1,96.7,9.95,76.8,1,6.4,Low
+AGR23408,Aditya Chahal,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-A,Prof. Ishaan Trivedi (AGR-28),76.5,41.8,37.9,53.4,26.3,5.66,69.5,0,5.9,Medium
+AGR21409,Vihaan Mishra,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,7,K23-AG-B,Prof. Gauri Patel (AGR-29),,43.5,36.7,49.1,36.1,5.44,69.1,2,6.3,High
+AGR21410,Pranav Das,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,8,K23-AG-A,Prof. Shaurya Sharma (AGR-30),85.6,74.9,70.9,78.1,67.7,7.75,87.5,0,5.6,Low
+AGR23411,Shreya Chahal,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-A,Prof. Rohan Bhatt (AGR-31),85.0,45.9,63.7,75.9,,6.83,83.0,0,3.7,Low
+AGR23412,Arjun Sethi,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,4,K23-AG-C,Dr. Tanvi Trivedi (AGR-32),77.2,88.6,82.2,95.0,77.2,7.94,79.1,0,6.3,Low
+AGR23413,Shreya Mishra,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,3,K23-AG-C,Dr. Meera Iyer (AGR-33),87.8,100.0,100.0,100.0,87.7,9.94,99.6,0,7.1,Low
+AGR22414,Aarav Reddy,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,5,K23-AG-A,Prof. Ritvik Das (AGR-34),69.8,47.8,53.8,52.9,46.4,6.71,68.4,0,5.6,Medium
+AGR22415,Krishna Rao,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,5,K23-AG-C,Dr. Vihaan Reddy (AGR-35),93.3,100.0,100.0,100.0,98.7,9.15,90.9,0,6.7,Low
+AGR24416,Riya Mishra,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,1,K23-AG-A,Dr. Kabir Chahal (AGR-01),76.1,70.4,70.5,72.8,63.5,6.75,79.8,0,5.8,Low
+AGR23417,Ritvik Saxena,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,3,K23-AG-C,Prof. Ishaan Verma (AGR-02),78.5,57.2,52.8,64.5,49.4,5.86,79.4,0,4.6,Low
+AGR24418,Varun Sharma,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,1,K23-AG-B,Dr. Tara Sandhu (AGR-03),81.2,91.8,79.4,98.5,,8.1,84.7,0,8.8,Low
+AGR24419,Ritvik Kumar,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,1,K23-AG-A,Dr. Ishaan Deshmukh (AGR-04),88.3,68.8,80.5,67.0,69.4,,90.8,0,6.7,Low
+AGR22420,Avani Chopra,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,6,K23-AG-A,Prof. Aditi Gupta (AGR-05),78.6,74.0,78.1,68.2,77.9,7.23,75.9,0,5.7,Low
+AGR23421,Varun Joshi,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-B,Dr. Darsh Gill (AGR-06),56.8,29.8,37.1,41.5,19.8,6.02,48.9,0,3.7,High
+AGR22422,Meera Sethi,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,5,K23-AG-C,Dr. Abhinav Sharma (AGR-07),78.7,71.4,71.3,71.7,62.6,6.59,71.9,0,5.8,Low
+AGR24423,Siddharth Saxena,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,1,K23-AG-C,Dr. Atharva Saxena (AGR-08),95.4,86.0,88.9,98.4,94.6,8.98,94.1,0,6.8,Low
+AGR23424,Riya Chauhan,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-A,Dr. Mayank Sandhu (AGR-09),61.3,33.6,28.6,31.5,20.0,4.94,72.1,0,5.0,High
+AGR22425,Dhruv Deshmukh,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,6,K23-AG-B,Dr. Pooja Mehta (AGR-10),74.6,53.2,56.5,38.4,44.5,6.99,74.4,0,5.7,Low
+AGR24426,Arjun Chahal,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,2,K23-AG-C,Dr. Aditya Dhillon (AGR-11),71.0,29.3,38.6,16.6,15.8,4.84,67.5,0,6.4,High
+AGR24427,Isha Bhatt,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,1,K23-AG-A,Assoc. Prof. Manish Kaur (AGR-12),82.0,97.3,92.4,86.1,87.2,8.29,83.2,0,4.7,Low
+AGR21428,Meera Reddy,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,7,K23-AG-C,Prof. Avani Iyer (AGR-13),77.9,72.9,61.2,74.8,69.6,8.06,68.0,0,8.4,Low
+AGR24429,Advaith Chauhan,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,1,K23-AG-A,Dr. Diya Malhotra (AGR-14),68.0,32.2,42.3,43.8,24.8,5.48,66.4,0,5.2,High
+AGR22430,Ishaan Deshmukh,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,6,K23-AG-C,Assoc. Prof. Neha Joshi (AGR-15),65.2,55.7,60.2,62.6,40.7,5.89,54.1,0,2.8,High
+AGR22431,Riya Kaur,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,6,K23-AG-C,Prof. Anushka Singh (AGR-16),89.0,92.8,100.0,84.5,92.2,9.08,92.2,2,6.3,Low
+AGR24432,Aarav Patel,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,2,K23-AG-A,Prof. Tanvi Mehta (AGR-17),82.5,64.7,85.7,71.1,,8.43,96.8,0,6.8,Low
+AGR22433,Kavya Chauhan,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,5,K23-AG-C,Dr. Varun Trivedi (AGR-18),69.0,58.5,63.9,54.2,58.5,7.79,70.6,3,5.8,Medium
+AGR22434,Advaith Patel,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,6,K23-AG-A,Dr. Ayaan Kaur (AGR-19),76.4,40.0,52.0,43.3,31.5,5.38,65.8,0,4.3,High
+AGR23435,Vivaan Saxena,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-A,Assoc. Prof. Aarav Chopra (AGR-20),85.5,100.0,100.0,100.0,100.0,9.95,81.5,0,7.5,Low
+AGR22436,Kavya Mishra,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,6,K23-AG-C,Prof. Aaryan Sandhu (AGR-21),74.6,41.9,,65.1,42.6,6.67,77.2,0,5.0,Medium
+AGR23437,Aditya Chauhan,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,4,K23-AG-C,Prof. Isha Iyer (AGR-22),71.3,52.1,44.7,43.3,49.9,5.78,71.5,2,3.6,Medium
+AGR23438,Diya Sen,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-C,Prof. Manish Das (AGR-23),84.7,72.3,79.3,64.6,69.8,6.87,81.9,0,4.7,Low
+AGR24439,Ananya Malhotra,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,2,K23-AG-C,Dr. Diya Bhatt (AGR-24),93.9,88.8,,82.0,88.0,8.73,100.0,0,8.0,Low
+AGR21440,Ritvik Sandhu,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,8,K23-AG-B,Prof. Reyansh Malhotra (AGR-25),60.7,38.6,44.3,33.9,31.8,5.65,54.1,0,4.2,High
+AGR23441,Aarav Reddy,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,3,K23-AG-C,Dr. Ritvik Sharma (AGR-26),68.9,43.1,57.8,54.9,39.4,5.82,80.4,1,7.0,Medium
+AGR22442,Aarav Chahal,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,6,K23-AG-A,Dr. Abhinav Singh (AGR-27),69.5,45.1,49.1,30.0,39.6,5.63,74.8,0,4.0,Medium
+AGR24443,Kartik Sharma,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,1,K23-AG-C,Prof. Ishaan Trivedi (AGR-28),83.5,65.4,65.1,69.6,54.3,6.44,81.1,0,8.4,Low
+AGR23444,Pranav Sethi,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,4,K23-AG-B,Prof. Gauri Patel (AGR-29),64.3,33.8,,36.9,22.5,5.78,75.8,0,4.2,High
+AGR24445,Darsh Sethi,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,1,K23-AG-C,Prof. Shaurya Sharma (AGR-30),76.5,60.4,66.8,50.5,64.1,6.12,83.5,0,4.3,Low
+AGR24446,Deepika Chauhan,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,1,K23-AG-B,Prof. Rohan Bhatt (AGR-31),82.1,90.2,83.4,84.6,94.0,8.16,81.3,0,7.2,Low
+AGR21447,Gaurav Malhotra,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,8,K23-AG-C,Dr. Tanvi Trivedi (AGR-32),81.6,90.1,94.7,95.5,96.6,8.93,87.7,1,8.3,Low
+AGR24448,Neha Das,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-A,Dr. Meera Iyer (AGR-33),81.0,61.3,67.5,61.0,54.2,6.66,80.0,0,5.8,Low
+AGR22449,Deepika Chahal,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,6,K23-AG-C,Prof. Ritvik Das (AGR-34),88.4,70.2,,65.6,64.4,7.43,82.9,0,7.1,Low
+AGR24450,Atharva Mehta,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,2,K23-AG-C,Dr. Vihaan Reddy (AGR-35),87.7,85.7,71.2,87.9,66.3,7.85,83.3,0,7.7,Low
+AGR23451,Gaurav Dhillon,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-A,Dr. Kabir Chahal (AGR-01),74.0,75.2,70.2,80.3,66.9,8.77,83.1,0,5.8,Low
+AGR21452,Kabir Sharma,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,8,K23-AG-A,Prof. Ishaan Verma (AGR-02),71.6,83.5,82.0,75.0,73.0,9.12,70.2,0,5.7,Low
+AGR24453,Neha Mishra,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,2,K23-AG-B,Dr. Tara Sandhu (AGR-03),86.8,56.2,51.3,41.4,53.2,6.58,90.7,1,7.2,Low
+AGR24454,Deepika Dhillon,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-B,Dr. Ishaan Deshmukh (AGR-04),70.2,74.4,80.5,91.8,72.1,8.42,78.0,1,4.9,Low
+AGR24455,Advaith Nair,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,1,K23-AG-B,Prof. Aditi Gupta (AGR-05),,83.9,83.9,76.4,70.4,8.43,82.6,0,9.3,Low
+AGR23456,Vihaan Kapoor,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,3,K23-AG-C,Dr. Darsh Gill (AGR-06),100.0,62.5,73.2,73.8,62.6,8.71,,0,6.8,Low
+AGR23457,Avani Rao,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,3,K23-AG-C,Dr. Abhinav Sharma (AGR-07),64.5,52.0,39.7,35.1,36.3,6.07,60.0,2,3.9,Medium
+AGR24458,Karan Iyer,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,1,K23-AG-A,Dr. Atharva Saxena (AGR-08),88.8,100.0,100.0,100.0,100.0,9.95,84.1,0,7.9,Low
+AGR22459,Meera Rao,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,5,K23-AG-A,Dr. Mayank Sandhu (AGR-09),88.4,83.7,87.6,72.8,80.4,8.96,88.6,0,5.4,Low
+AGR24460,Aarav Das,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,2,K23-AG-C,Dr. Pooja Mehta (AGR-10),72.6,42.2,44.4,48.8,48.7,6.24,60.6,0,6.8,Medium
+AGR24461,Krishna Trivedi,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-A,Dr. Aditya Dhillon (AGR-11),63.4,44.0,41.5,48.2,30.1,6.3,54.7,0,3.6,High
+AGR23462,Advik Dhillon,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,3,K23-AG-C,Assoc. Prof. Manish Kaur (AGR-12),57.3,39.2,37.0,40.6,29.5,5.29,54.5,0,2.3,High
+AGR22463,Tara Chahal,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,5,K23-AG-A,Prof. Avani Iyer (AGR-13),91.8,100.0,89.0,84.7,93.3,8.85,98.9,0,6.4,Low
+AGR24464,Simran Bhatia,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,2,K23-AG-A,Dr. Diya Malhotra (AGR-14),45.7,29.2,34.3,17.4,18.6,4.64,51.3,1,1.3,High
+AGR23465,Nikhil Kumar,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-B,Assoc. Prof. Neha Joshi (AGR-15),75.1,51.6,54.7,57.1,40.5,6.53,68.9,0,4.7,Medium
+AGR21466,Vivaan Mishra,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,7,K23-AG-B,Prof. Anushka Singh (AGR-16),75.8,73.5,70.9,82.1,66.6,7.66,83.5,0,10.0,Low
+AGR24467,Aarav Kapoor,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,1,K23-AG-C,Prof. Tanvi Mehta (AGR-17),82.5,61.9,74.0,68.3,62.6,7.94,,0,4.8,Low
+AGR24468,Advik Bhatt,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,1,K23-AG-C,Dr. Varun Trivedi (AGR-18),62.3,71.7,69.5,68.4,68.3,7.35,73.8,0,3.5,Low
+AGR21469,Neha Verma,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,7,K23-AG-A,Dr. Ayaan Kaur (AGR-19),60.7,54.8,,43.6,54.7,7.75,61.1,0,3.2,Medium
+AGR22470,Karan Chopra,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,6,K23-AG-A,Assoc. Prof. Aarav Chopra (AGR-20),74.3,39.1,56.7,42.0,43.4,5.93,78.6,0,5.4,Medium
+AGR23471,Isha Chauhan,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-C,Prof. Aaryan Sandhu (AGR-21),92.6,86.1,87.9,71.9,74.6,9.32,95.1,0,5.8,Low
+AGR24472,Ayaan Bhatt,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,2,K23-AG-B,Prof. Isha Iyer (AGR-22),76.4,81.9,95.5,82.5,87.6,8.28,86.2,0,7.4,Low
+AGR23473,Anushka Gupta,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-A,Prof. Manish Das (AGR-23),75.0,70.4,,86.7,69.7,7.27,77.5,0,5.1,Low
+AGR22474,Advaith Chopra,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,6,K23-AG-C,Dr. Diya Bhatt (AGR-24),65.2,55.6,49.6,48.7,51.4,6.28,65.1,3,6.4,High
+AGR24475,Mayank Bhatt,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,2,K23-AG-C,Prof. Reyansh Malhotra (AGR-25),67.4,43.7,42.6,44.4,38.0,6.66,79.4,0,6.0,Medium
+AGR24476,Nikhil Iyer,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,1,K23-AG-C,Dr. Ritvik Sharma (AGR-26),,76.6,88.2,84.5,65.8,7.02,76.3,0,5.8,Low
+AGR22477,Isha Patel,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,5,K23-AG-B,Dr. Abhinav Singh (AGR-27),91.3,75.3,77.7,86.9,73.9,7.61,,1,6.2,Low
+AGR23478,Shreya Chopra,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-B,Prof. Ishaan Trivedi (AGR-28),80.7,69.3,68.9,72.9,67.4,8.03,74.6,1,6.5,Low
+AGR23479,Atharva Rao,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-C,Prof. Gauri Patel (AGR-29),70.9,71.4,69.2,56.7,63.8,7.37,80.2,0,8.7,Low
+AGR24480,Meera Sandhu,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,1,K23-AG-A,Prof. Shaurya Sharma (AGR-30),67.9,63.7,60.8,62.2,51.5,7.1,,0,6.0,Medium
+AGR24481,Darsh Sandhu,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,2,K23-AG-B,Prof. Rohan Bhatt (AGR-31),77.5,60.6,62.2,68.7,54.2,6.59,87.4,1,7.5,Low
+AGR23482,Deepika Malhotra,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-C,Dr. Tanvi Trivedi (AGR-32),76.4,54.9,58.8,55.1,46.1,5.77,76.3,2,6.3,Medium
+AGR22483,Mayank Kapoor,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,6,K23-AG-B,Dr. Meera Iyer (AGR-33),77.9,71.4,77.6,69.1,74.1,6.36,76.7,0,6.7,Low
+AGR23484,Simran Kapoor,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,3,K23-AG-A,Prof. Ritvik Das (AGR-34),70.8,39.1,52.5,55.6,21.5,6.19,71.3,0,5.4,Medium
+AGR23485,Mayank Malhotra,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-C,Dr. Vihaan Reddy (AGR-35),66.5,64.7,63.2,64.1,65.7,7.08,66.7,0,5.8,Low
+AGR23486,Atharva Kaur,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,3,K23-AG-A,Dr. Kabir Chahal (AGR-01),66.1,61.8,51.8,44.6,51.7,6.86,84.1,0,5.9,Medium
+AGR24487,Kavya Iyer,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,1,K23-AG-B,Prof. Ishaan Verma (AGR-02),58.0,63.7,54.4,61.2,53.2,7.19,62.9,0,6.7,Medium
+AGR22488,Nandini Sharma,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,6,K23-AG-B,Dr. Tara Sandhu (AGR-03),97.4,100.0,100.0,100.0,100.0,,,0,9.4,Low
+AGR24489,Ritvik Kumar,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-A,Dr. Ishaan Deshmukh (AGR-04),85.2,59.6,68.0,48.3,66.6,7.36,72.2,0,6.5,Low
+AGR24490,Manish Deshmukh,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,1,K23-AG-A,Prof. Aditi Gupta (AGR-05),77.9,71.9,66.2,76.0,69.5,7.82,78.7,0,5.5,Low
+AGR23491,Vihaan Singh,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,3,K23-AG-A,Dr. Darsh Gill (AGR-06),56.8,35.3,34.7,28.3,29.7,6.09,51.5,0,5.8,High
+AGR24492,Ishaan Trivedi,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,1,K23-AG-C,Dr. Abhinav Sharma (AGR-07),81.6,68.8,80.4,56.3,73.9,9.82,85.2,0,4.8,Low
+AGR24493,Diya Mishra,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,2,K23-AG-C,Dr. Atharva Saxena (AGR-08),80.6,83.3,,70.2,82.7,8.53,81.6,0,5.4,Low
+AGR24494,Tanvi Reddy,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-A,Dr. Mayank Sandhu (AGR-09),79.8,55.4,60.2,57.0,61.3,7.54,90.6,0,6.2,Low
+AGR22495,Avani Gupta,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,5,K23-AG-B,Dr. Pooja Mehta (AGR-10),77.2,66.8,61.9,82.4,105.0,7.86,83.9,0,6.8,Low
+AGR22496,Kavya Bhatt,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,6,K23-AG-A,Dr. Aditya Dhillon (AGR-11),94.8,91.4,90.8,97.0,94.0,8.61,91.4,0,9.8,Low
+AGR22497,Atharva Kaur,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,6,K23-AG-B,Assoc. Prof. Manish Kaur (AGR-12),70.0,53.6,73.8,60.3,62.3,7.61,,0,5.4,Low
+AGR24498,Reyansh Iyer,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,2,K23-AG-C,Prof. Avani Iyer (AGR-13),57.9,61.1,60.4,76.1,51.1,7.6,46.5,0,2.9,Medium
+AGR24499,Abhinav Kaur,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,1,K23-AG-B,Dr. Diya Malhotra (AGR-14),77.9,75.3,74.7,58.2,68.5,7.42,66.0,0,6.3,Low
+AGR24500,Aaryan Kumar,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-C,Assoc. Prof. Neha Joshi (AGR-15),68.3,43.0,38.8,49.8,31.9,5.51,80.5,0,5.7,High
+AGR23501,Vivaan Verma,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,4,K23-AG-B,Prof. Anushka Singh (AGR-16),71.1,65.9,75.1,75.1,65.9,7.94,74.1,0,5.3,Low
+AGR22502,Gauri Chauhan,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,5,K23-AG-C,Prof. Tanvi Mehta (AGR-17),64.2,51.7,45.3,48.1,44.0,6.78,55.1,2,4.3,High
+AGR24503,Advaith Sharma,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,1,K23-AG-B,Dr. Varun Trivedi (AGR-18),,82.8,77.7,82.3,62.3,7.73,68.3,0,5.7,Low
+AGR23504,Tanvi Saxena,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-B,Dr. Ayaan Kaur (AGR-19),81.0,56.3,55.7,57.1,50.1,6.29,70.7,0,3.8,Medium
+AGR23505,Gauri Nair,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,4,K23-AG-C,Assoc. Prof. Aarav Chopra (AGR-20),79.9,37.3,34.3,40.1,18.6,3.99,64.1,0,4.4,High
+AGR23506,Karan Dhillon,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,4,K23-AG-A,Prof. Aaryan Sandhu (AGR-21),60.7,26.0,38.7,22.4,24.8,6.42,55.0,0,2.7,High
+AGR21507,Varun Reddy,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,7,K23-AG-B,Prof. Isha Iyer (AGR-22),83.0,62.7,64.5,73.9,73.5,7.81,70.9,0,5.8,Low
+AGR24508,Advaith Das,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-B,Prof. Manish Das (AGR-23),77.9,60.2,67.0,65.2,58.1,8.44,70.2,0,4.6,Low
+AGR21509,Simran Dhillon,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,8,K23-AG-C,Dr. Diya Bhatt (AGR-24),76.9,37.5,36.8,45.0,29.2,5.58,68.9,0,4.4,High
+AGR24510,Karan Patel,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-A,Prof. Reyansh Malhotra (AGR-25),58.1,56.7,44.1,54.6,42.2,5.89,64.9,0,6.4,High
+AGR23511,Vihaan Gill,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-B,Dr. Ritvik Sharma (AGR-26),75.1,89.2,75.9,79.2,72.0,7.98,78.3,0,5.8,Low
+AGR23512,Simran Chahal,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-A,Dr. Abhinav Singh (AGR-27),79.4,47.1,49.9,36.5,37.8,6.84,76.8,0,7.7,Low
+AGR23513,Advaith Sen,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-B,Prof. Ishaan Trivedi (AGR-28),100.0,100.0,100.0,100.0,100.0,9.95,100.0,0,10.0,Low
+AGR24514,Advaith Saxena,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-A,Prof. Gauri Patel (AGR-29),79.4,92.5,85.3,86.3,95.0,9.46,77.9,0,7.0,Low
+AGR24515,Rohan Patel,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-A,Prof. Shaurya Sharma (AGR-30),79.3,52.1,49.5,56.5,43.2,7.89,74.5,1,5.0,Low
+AGR21516,Ishaan Sharma,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,7,K23-AG-A,Prof. Rohan Bhatt (AGR-31),83.2,64.9,65.7,72.0,63.1,6.21,84.9,1,6.9,Low
+AGR23517,Kartik Chopra,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-A,Dr. Tanvi Trivedi (AGR-32),81.2,65.0,72.0,70.2,69.5,7.51,87.1,0,6.3,Low
+AGR22518,Shreya Dhillon,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,6,K23-AG-C,Dr. Meera Iyer (AGR-33),76.0,46.0,53.0,44.8,35.8,6.2,76.6,2,4.9,Medium
+AGR23519,Advik Mishra,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,3,K23-AG-B,Prof. Ritvik Das (AGR-34),63.9,46.3,42.2,40.9,40.5,6.14,64.6,0,4.2,Medium
+AGR22520,Mayank Saxena,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,6,K23-AG-A,Dr. Vihaan Reddy (AGR-35),83.3,77.9,91.9,77.3,77.4,9.2,90.1,0,5.4,Low
+AGR23521,Nikhil Chopra,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-C,Dr. Kabir Chahal (AGR-01),73.7,80.7,78.7,79.4,73.2,8.17,80.9,0,4.7,Low
+AGR24522,Reyansh Bhatt,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-B,Prof. Ishaan Verma (AGR-02),74.3,66.3,,67.6,65.4,7.38,85.4,0,4.7,Low
+AGR23523,Mayank Chopra,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-A,Dr. Tara Sandhu (AGR-03),67.6,34.6,36.9,26.5,28.7,6.24,60.2,0,5.4,High
+AGR21524,Anushka Deshmukh,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,7,K23-AG-A,Dr. Ishaan Deshmukh (AGR-04),86.5,89.5,88.9,94.7,80.5,8.76,87.9,1,6.6,Low
+AGR22525,Deepika Nair,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,5,K23-AG-A,Prof. Aditi Gupta (AGR-05),79.0,84.3,71.5,87.3,67.0,6.36,86.0,0,5.5,Low
+AGR24526,Atharva Bhatt,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,1,K23-AG-B,Dr. Darsh Gill (AGR-06),53.8,32.4,27.2,37.3,21.5,5.01,49.5,0,3.9,High
+AGR23527,Manish Kaur,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-C,Dr. Abhinav Sharma (AGR-07),81.4,76.4,69.2,74.4,63.3,7.33,87.9,0,6.2,Low
+AGR24528,Manish Bhatt,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-B,Dr. Atharva Saxena (AGR-08),,72.5,77.5,75.3,75.3,8.67,,0,6.1,Low
+AGR24529,Meera Nair,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-C,Dr. Mayank Sandhu (AGR-09),71.4,59.2,63.6,49.5,46.8,7.08,70.8,0,4.4,Medium
+AGR21530,Atharva Joshi,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,8,K23-AG-B,Dr. Pooja Mehta (AGR-10),58.4,50.8,61.3,54.3,54.0,6.56,59.3,2,3.9,Medium
+AGR24531,Anushka Reddy,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,2,K23-AG-B,Dr. Aditya Dhillon (AGR-11),78.0,81.7,75.4,74.9,70.1,7.85,82.7,1,7.2,Low
+AGR23532,Pooja Sethi,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-A,Assoc. Prof. Manish Kaur (AGR-12),82.0,57.8,73.3,67.1,58.9,6.46,82.8,0,5.5,Low
+AGR23533,Neha Kaur,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-B,Prof. Avani Iyer (AGR-13),82.2,72.8,71.1,68.9,70.3,8.25,80.9,0,5.0,Low
+AGR24534,Meera Singh,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,2,K23-AG-B,Dr. Diya Malhotra (AGR-14),66.3,41.4,28.2,26.6,36.1,4.78,72.7,0,5.8,High
+AGR22535,Ayaan Verma,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,6,K23-AG-A,Assoc. Prof. Neha Joshi (AGR-15),80.6,75.5,88.9,84.0,77.0,8.75,77.1,0,7.9,Low
+AGR23536,Aaryan Gupta,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-B,Prof. Anushka Singh (AGR-16),58.9,50.8,50.2,41.5,37.9,6.61,54.3,1,3.3,High
+AGR23537,Arjun Kaur,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,3,K23-AG-B,Prof. Tanvi Mehta (AGR-17),69.2,22.6,42.1,37.2,29.0,6.06,67.4,0,4.8,High
+AGR24538,Atharva Sandhu,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,1,K23-AG-C,Dr. Varun Trivedi (AGR-18),76.8,73.3,63.3,72.3,61.2,7.28,84.9,0,7.2,Low
+AGR23539,Avani Sandhu,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,3,K23-AG-B,Dr. Ayaan Kaur (AGR-19),73.1,31.6,46.3,46.9,30.9,5.57,66.8,2,8.6,Medium
+AGR24540,Sai Sethi,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-B,Assoc. Prof. Aarav Chopra (AGR-20),88.7,61.4,66.0,60.6,61.8,7.12,90.5,0,8.0,Low
+AGR22541,Sneha Chauhan,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,6,K23-AG-B,Prof. Aaryan Sandhu (AGR-21),93.0,65.9,71.3,57.4,57.5,7.66,93.1,0,6.3,Low
+AGR24542,Ritvik Kapoor,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,1,K23-AG-A,Prof. Isha Iyer (AGR-22),63.1,69.1,59.4,60.8,56.9,7.84,61.7,0,5.8,Low
+AGR22543,Nandini Sethi,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,6,K23-AG-C,Prof. Manish Das (AGR-23),80.7,92.6,81.4,65.2,77.8,8.37,92.5,0,7.0,Low
+AGR22544,Kartik Kaur,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,5,K23-AG-A,Dr. Diya Bhatt (AGR-24),86.3,77.5,,73.7,75.3,8.15,80.9,0,5.2,Low
+AGR22545,Deepika Bhatia,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,6,K23-AG-A,Prof. Reyansh Malhotra (AGR-25),82.9,53.8,64.1,73.4,49.7,7.84,84.6,0,7.9,Low
+AGR23546,Darsh Iyer,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-C,Dr. Ritvik Sharma (AGR-26),95.1,100.0,100.0,100.0,100.0,8.84,100.0,0,4.9,Low
+AGR23547,Neha Mehta,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,3,K23-AG-B,Dr. Abhinav Singh (AGR-27),58.9,38.3,,33.3,16.2,5.0,39.1,0,2.7,High
+AGR21548,Tanvi Sethi,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,7,K23-AG-C,Prof. Ishaan Trivedi (AGR-28),,43.2,27.7,38.8,18.8,5.05,65.2,1,5.6,High
+AGR22549,Diya Rao,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,6,K23-AG-C,Prof. Gauri Patel (AGR-29),81.7,55.7,63.2,66.3,53.9,6.67,76.6,1,6.2,Low
+AGR24550,Anushka Reddy,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,1,K23-AG-A,Prof. Shaurya Sharma (AGR-30),66.3,38.2,36.1,49.5,26.4,5.23,62.4,0,4.4,High
+AGR23551,Aditya Dhillon,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-A,Prof. Rohan Bhatt (AGR-31),78.3,70.8,59.7,59.4,57.3,6.72,68.3,0,4.7,Low
+AGR22552,Kavya Sen,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,6,K23-AG-C,Dr. Tanvi Trivedi (AGR-32),90.4,64.1,70.1,75.2,67.0,7.0,84.9,2,8.0,Low
+AGR23553,Avani Kaur,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-B,Dr. Meera Iyer (AGR-33),65.9,73.9,65.8,72.6,68.5,7.67,78.4,0,8.7,Low
+AGR24554,Advik Verma,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-A,Prof. Ritvik Das (AGR-34),53.2,39.5,35.7,30.7,37.6,6.31,54.9,1,3.7,High
+AGR22555,Tara Chopra,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,6,K23-AG-C,Dr. Vihaan Reddy (AGR-35),99.7,77.7,85.6,98.0,76.0,8.77,97.8,1,9.3,Low
+AGR23556,Krishna Mehta,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-C,Dr. Kabir Chahal (AGR-01),56.2,59.6,54.6,29.0,40.1,5.8,58.4,0,5.4,High
+AGR23557,Mayank Sethi,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-B,Prof. Ishaan Verma (AGR-02),58.0,36.8,33.1,33.5,10.0,4.12,64.9,0,5.5,High
+AGR23558,Aditi Dhillon,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,3,K23-AG-B,Dr. Tara Sandhu (AGR-03),70.2,49.7,57.5,60.7,45.8,7.02,70.1,0,6.6,Medium
+AGR23559,Kabir Gill,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-B,Dr. Ishaan Deshmukh (AGR-04),85.5,75.6,67.5,76.1,66.0,7.11,87.0,1,7.6,Low
+AGR24560,Simran Bhatia,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,2,K23-AG-C,Prof. Aditi Gupta (AGR-05),72.0,56.0,52.5,43.9,48.8,6.52,69.9,1,5.2,Medium
+AGR24561,Aaryan Saxena,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,2,K23-AG-B,Dr. Darsh Gill (AGR-06),85.5,65.7,76.1,68.6,73.3,8.33,94.4,0,7.2,Low
+AGR22562,Nandini Kumar,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,5,K23-AG-C,Dr. Abhinav Sharma (AGR-07),77.6,57.2,56.4,53.0,47.1,6.17,75.8,1,6.3,Medium
+AGR23563,Neha Patel,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,4,K23-AG-A,Dr. Atharva Saxena (AGR-08),77.7,74.6,74.2,83.8,65.2,6.85,87.5,0,7.3,Low
+AGR23564,Tara Sharma,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-B,Dr. Mayank Sandhu (AGR-09),93.2,80.6,87.7,89.2,88.9,8.33,92.0,1,8.6,Low
+AGR22565,Anushka Rao,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,6,K23-AG-B,Dr. Pooja Mehta (AGR-10),72.6,53.4,60.6,58.5,,6.58,,0,6.1,Medium
+AGR24566,Aarav Joshi,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,1,K23-AG-B,Dr. Aditya Dhillon (AGR-11),64.4,66.2,75.7,69.0,70.2,6.35,80.1,0,6.4,Medium
+AGR24567,Gauri Chopra,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,2,K23-AG-B,Assoc. Prof. Manish Kaur (AGR-12),82.3,77.4,61.0,74.2,57.8,8.04,81.1,0,8.5,Low
+AGR22568,Ishaan Gupta,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,5,K23-AG-C,Prof. Avani Iyer (AGR-13),79.1,52.0,56.0,56.7,56.0,6.4,72.6,0,6.0,Low
+AGR24569,Shaurya Chopra,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,2,K23-AG-A,Dr. Diya Malhotra (AGR-14),69.9,53.0,76.2,70.8,52.4,6.84,84.9,2,4.5,Medium
+AGR23570,Kavya Kapoor,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,3,K23-AG-C,Assoc. Prof. Neha Joshi (AGR-15),69.8,51.0,72.0,66.1,46.3,6.54,72.4,0,8.5,Medium
+AGR23571,Isha Deshmukh,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-C,Prof. Anushka Singh (AGR-16),81.2,72.5,59.6,69.4,57.5,6.86,78.4,3,6.2,Low
+AGR23572,Shreya Gupta,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,3,K23-AG-B,Prof. Tanvi Mehta (AGR-17),,72.1,73.5,67.4,69.3,8.03,82.3,0,6.6,Low
+AGR23573,Kritika Joshi,School of Agriculture & Bio-Sciences,B.Sc. (Hons) Agriculture,3,K23-AG-C,Dr. Varun Trivedi (AGR-18),46.9,12.0,10.0,13.3,10.0,4.06,38.4,2,2.8,High
+AGR22574,Abhinav Sharma,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,6,K23-AG-C,Dr. Ayaan Kaur (AGR-19),74.6,39.4,39.9,43.4,36.9,5.83,81.3,0,7.4,Medium
+AGR24575,Gauri Kumar,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,2,K23-AG-B,Assoc. Prof. Aarav Chopra (AGR-20),66.7,35.1,24.2,22.3,21.1,6.14,60.0,0,6.0,High
+AGR23576,Karan Trivedi,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-B,Prof. Aaryan Sandhu (AGR-21),69.8,72.3,77.9,74.8,74.4,8.55,64.4,0,2.5,Low
+AGR23577,Karan Sethi,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-A,Prof. Isha Iyer (AGR-22),82.0,66.8,63.8,73.3,61.8,8.13,82.8,1,8.0,Low
+AGR24578,Dhruv Chauhan,School of Agriculture & Bio-Sciences,B.Sc. Food Technology,2,K23-AG-B,Prof. Manish Das (AGR-23),,50.5,52.7,46.5,42.0,6.62,68.9,0,4.6,Low
+AGR24579,Mayank Patel,School of Agriculture & Bio-Sciences,B.Sc. Microbiology,1,K23-AG-C,Dr. Diya Bhatt (AGR-24),68.7,42.7,55.6,63.5,29.8,7.45,75.2,0,6.0,Medium
+AGR23580,Sai Sharma,School of Agriculture & Bio-Sciences,B.Tech Biotechnology,4,K23-AG-A,Prof. Reyansh Malhotra (AGR-25),84.9,55.0,75.0,48.9,59.2,6.8,71.3,0,8.3,Low

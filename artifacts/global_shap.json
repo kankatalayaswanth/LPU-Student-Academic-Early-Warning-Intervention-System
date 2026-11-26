@@ -1,177 +1,177 @@
 [
   {
     "Feature": "CA_Average",
-    "Global_Importance": 0.632262110710144,
-    "High_Risk_Importance": 0.779927670955658
+    "Global_Importance": 0.5307204127311707,
+    "High_Risk_Importance": 0.5037616491317749
   },
   {
     "Feature": "Attendance_Pct",
-    "Global_Importance": 0.41917335987091064,
-    "High_Risk_Importance": 0.6085055470466614
-  },
-  {
-    "Feature": "MidTerm_Marks",
-    "Global_Importance": 0.3884389400482178,
-    "High_Risk_Importance": 0.3294626772403717
-  },
-  {
-    "Feature": "Engagement_Index",
-    "Global_Importance": 0.19480732083320618,
-    "High_Risk_Importance": 0.1922987699508667
-  },
-  {
-    "Feature": "Assignment_Submission_Rate",
-    "Global_Importance": 0.08485680818557739,
-    "High_Risk_Importance": 0.14610524475574493
+    "Global_Importance": 0.40136706829071045,
+    "High_Risk_Importance": 0.43010643124580383
   },
   {
     "Feature": "Prev_Sem_CGPA",
-    "Global_Importance": 0.2188885360956192,
-    "High_Risk_Importance": 0.14295358955860138
+    "Global_Importance": 0.2710278332233429,
+    "High_Risk_Importance": 0.4042336940765381
   },
   {
-    "Feature": "CA2_Marks",
-    "Global_Importance": 0.06760632246732712,
-    "High_Risk_Importance": 0.07140930742025375
-  },
-  {
-    "Feature": "Semester",
-    "Global_Importance": 0.032032936811447144,
-    "High_Risk_Importance": 0.061750032007694244
-  },
-  {
-    "Feature": "Participation_Score",
-    "Global_Importance": 0.04370046406984329,
-    "High_Risk_Importance": 0.03616925701498985
-  },
-  {
-    "Feature": "CA1_Marks",
-    "Global_Importance": 0.04016419127583504,
-    "High_Risk_Importance": 0.03355018422007561
+    "Feature": "MidTerm_Marks",
+    "Global_Importance": 0.46896299719810486,
+    "High_Risk_Importance": 0.36003223061561584
   },
   {
     "Feature": "CA3_Marks",
-    "Global_Importance": 0.03564145416021347,
-    "High_Risk_Importance": 0.026939215138554573
+    "Global_Importance": 0.13930758833885193,
+    "High_Risk_Importance": 0.26672857999801636
   },
   {
-    "Feature": "Department_B.Tech CSE (Cyber Security)",
-    "Global_Importance": 0.009325132705271244,
-    "High_Risk_Importance": 0.024920443072915077
+    "Feature": "CA1_Marks",
+    "Global_Importance": 0.1528904139995575,
+    "High_Risk_Importance": 0.2587437331676483
   },
   {
-    "Feature": "CA_Trend",
-    "Global_Importance": 0.010356518439948559,
-    "High_Risk_Importance": 0.011214391328394413
+    "Feature": "Engagement_Index",
+    "Global_Importance": 0.1495317667722702,
+    "High_Risk_Importance": 0.17296892404556274
   },
   {
-    "Feature": "Department_BBA (General Management)",
-    "Global_Importance": 0.006858615670353174,
-    "High_Risk_Importance": 0.007276901509612799
+    "Feature": "Assignment_Submission_Rate",
+    "Global_Importance": 0.13881176710128784,
+    "High_Risk_Importance": 0.17201869189739227
   },
   {
     "Feature": "Department_B.Tech Mechanical Engineering",
-    "Global_Importance": 0.005581445526331663,
-    "High_Risk_Importance": 0.006147023756057024
+    "Global_Importance": 0.03772573918104172,
+    "High_Risk_Importance": 0.05463749170303345
   },
   {
-    "Feature": "Department_B.Tech CSE (Core)",
-    "Global_Importance": 0.0030417097732424736,
-    "High_Risk_Importance": 0.006034382618963718
-  },
-  {
-    "Feature": "Department_LL.B. (Core Law)",
-    "Global_Importance": 0.003301367163658142,
-    "High_Risk_Importance": 0.004695482552051544
+    "Feature": "Department_B.Tech Biotechnology",
+    "Global_Importance": 0.022423183545470238,
+    "High_Risk_Importance": 0.04811207205057144
   },
   {
     "Feature": "Department_B.Sc. (Hons) Agriculture",
-    "Global_Importance": 0.0019996603950858116,
-    "High_Risk_Importance": 0.0027946571353822947
+    "Global_Importance": 0.0241436455398798,
+    "High_Risk_Importance": 0.04754088073968887
   },
   {
-    "Feature": "Department_B.Tech CSE (Full Stack Web)",
-    "Global_Importance": 0.008957541547715664,
-    "High_Risk_Importance": 0.002694048685953021
-  },
-  {
-    "Feature": "Department_BBA (Digital Marketing)",
-    "Global_Importance": 0.0012337756343185902,
-    "High_Risk_Importance": 0.0019920484628528357
-  },
-  {
-    "Feature": "Department_BBA LL.B. (Hons)",
-    "Global_Importance": 0.00530894473195076,
-    "High_Risk_Importance": 0.001933234860189259
-  },
-  {
-    "Feature": "Department_BBA (Financial Analytics)",
-    "Global_Importance": 0.003563144477084279,
-    "High_Risk_Importance": 0.0016260704724118114
-  },
-  {
-    "Feature": "Department_B.Tech CSE (AI & Data Science)",
-    "Global_Importance": 0.007522903848439455,
-    "High_Risk_Importance": 0.0012006943579763174
-  },
-  {
-    "Feature": "Department_MBA (Integrated Business)",
-    "Global_Importance": 0.0008129260968416929,
-    "High_Risk_Importance": 0.0011973422951996326
+    "Feature": "CA2_Marks",
+    "Global_Importance": 0.0657413974404335,
+    "High_Risk_Importance": 0.04753384366631508
   },
   {
     "Feature": "Department_B.Tech Automobile Engineering",
-    "Global_Importance": 0.002319260500371456,
-    "High_Risk_Importance": 0.0007830635295249522
+    "Global_Importance": 0.019759057089686394,
+    "High_Risk_Importance": 0.04656016826629639
   },
   {
-    "Feature": "Department_B.A. LL.B. (Hons)",
-    "Global_Importance": 0.001738519174978137,
-    "High_Risk_Importance": 0.0005070126499049366
-  },
-  {
-    "Feature": "Department_B.Sc. Microbiology",
-    "Global_Importance": 0.0005586692132055759,
-    "High_Risk_Importance": 0.0004540878289844841
-  },
-  {
-    "Feature": "Department_LL.M. (Corporate Law)",
-    "Global_Importance": 0.00013029032561462373,
-    "High_Risk_Importance": 0.00039087096229195595
+    "Feature": "Participation_Score",
+    "Global_Importance": 0.05413934960961342,
+    "High_Risk_Importance": 0.042116548866033554
   },
   {
     "Feature": "Department_B.Tech Mechatronics & Automation",
-    "Global_Importance": 0.0005754479207098484,
-    "High_Risk_Importance": 0.0001853940775617957
+    "Global_Importance": 0.021015463396906853,
+    "High_Risk_Importance": 0.04001767188310623
+  },
+  {
+    "Feature": "Semester",
+    "Global_Importance": 0.050660014152526855,
+    "High_Risk_Importance": 0.0306424330919981
+  },
+  {
+    "Feature": "CA_Trend",
+    "Global_Importance": 0.021015720441937447,
+    "High_Risk_Importance": 0.029308795928955078
+  },
+  {
+    "Feature": "Department_B.Tech CSE (AI & Data Science)",
+    "Global_Importance": 0.017951929941773415,
+    "High_Risk_Importance": 0.021864155307412148
+  },
+  {
+    "Feature": "Department_BBA (Financial Analytics)",
+    "Global_Importance": 0.009571862407028675,
+    "High_Risk_Importance": 0.012818303890526295
   },
   {
     "Feature": "Department_B.Tech CSE (Cloud Computing)",
-    "Global_Importance": 0.007529581431299448,
-    "High_Risk_Importance": 0.00016872231208253652
+    "Global_Importance": 0.011365961283445358,
+    "High_Risk_Importance": 0.011805226095020771
   },
   {
     "Feature": "Department_B.Tech Robotics & AI",
-    "Global_Importance": 0.00033225477091036737,
-    "High_Risk_Importance": 0.00016773675451986492
+    "Global_Importance": 0.0070634931325912476,
+    "High_Risk_Importance": 0.011327535845339298
+  },
+  {
+    "Feature": "Department_B.Tech CSE (Cyber Security)",
+    "Global_Importance": 0.007899533957242966,
+    "High_Risk_Importance": 0.010548186488449574
+  },
+  {
+    "Feature": "Department_BBA (Digital Marketing)",
+    "Global_Importance": 0.008415003307163715,
+    "High_Risk_Importance": 0.007214988116174936
   },
   {
     "Feature": "Department_B.Sc. Food Technology",
-    "Global_Importance": 0.0,
-    "High_Risk_Importance": 0.0
+    "Global_Importance": 0.005799164995551109,
+    "High_Risk_Importance": 0.006989883258938789
+  },
+  {
+    "Feature": "Department_BBA (General Management)",
+    "Global_Importance": 0.013883891515433788,
+    "High_Risk_Importance": 0.005970598664134741
+  },
+  {
+    "Feature": "Department_B.Tech CSE (Core)",
+    "Global_Importance": 0.01692032814025879,
+    "High_Risk_Importance": 0.005438355263322592
   },
   {
     "Feature": "Attendance_Shortage_Flag",
-    "Global_Importance": 0.0,
-    "High_Risk_Importance": 0.0
+    "Global_Importance": 0.011072680354118347,
+    "High_Risk_Importance": 0.004539045970886946
+  },
+  {
+    "Feature": "Department_B.Sc. Microbiology",
+    "Global_Importance": 0.0017226808704435825,
+    "High_Risk_Importance": 0.0031102520879358053
+  },
+  {
+    "Feature": "Department_LL.M. (Corporate Law)",
+    "Global_Importance": 0.0017191243823617697,
+    "High_Risk_Importance": 0.0028266978915780783
+  },
+  {
+    "Feature": "Department_LL.B. (Core Law)",
+    "Global_Importance": 0.0027574002742767334,
+    "High_Risk_Importance": 0.0020637321285903454
+  },
+  {
+    "Feature": "Department_B.Tech CSE (Full Stack Web)",
+    "Global_Importance": 0.004344991408288479,
+    "High_Risk_Importance": 0.0017382983351126313
+  },
+  {
+    "Feature": "Department_B.A. LL.B. (Hons)",
+    "Global_Importance": 0.0012344899587333202,
+    "High_Risk_Importance": 0.0012946404749527574
+  },
+  {
+    "Feature": "Department_MBA (Integrated Business)",
+    "Global_Importance": 0.002775522181764245,
+    "High_Risk_Importance": 0.0008252384141087532
+  },
+  {
+    "Feature": "Department_BBA LL.B. (Hons)",
+    "Global_Importance": 0.00467798812314868,
+    "High_Risk_Importance": 0.0005900362157262862
   },
   {
     "Feature": "Active_Backlogs",
     "Global_Importance": 0.0,
-    "High_Risk_Importance": 0.0
-  },
-  {
-    "Feature": "Department_B.Tech Biotechnology",
-    "Global_Importance": 0.0018956199055537581,
     "High_Risk_Importance": 0.0
   }
 ]

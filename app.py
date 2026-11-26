@@ -309,12 +309,12 @@ def load_shap_explainer():
     return joblib.load(shap_path)
 
 SCHOOL_DATASETS = {
-    "💻 School of Computer Science & Engineering (1,840 Students)": "data/school_cse.csv",
-    "⚙️ School of Mechanical Engineering (680 Students)": "data/school_mechanical.csv",
-    "📈 Mittal School of Business (920 Students)": "data/school_business.csv",
-    "⚖️ School of Law (540 Students)": "data/school_law.csv",
-    "🌾 School of Agriculture & Bio-Sciences (480 Students)": "data/school_agriculture.csv",
-    "🏛️ All University Schools Consolidated (4,460 Students)": "data/all_schools_combined.csv"
+    "💻 School of Computer Science & Engineering (1,840 Students • 14.2% At-Risk)": "data/school_cse.csv",
+    "⚙️ School of Mechanical Engineering (680 Students • 22.8% At-Risk)": "data/school_mechanical.csv",
+    "📈 Mittal School of Business (920 Students • 11.6% At-Risk)": "data/school_business.csv",
+    "⚖️ School of Law (540 Students • 17.4% At-Risk)": "data/school_law.csv",
+    "🌾 School of Agriculture & Bio-Sciences (480 Students • 20.6% At-Risk)": "data/school_agriculture.csv",
+    "🏛️ All University Schools Consolidated (4,460 Students • 16.1% At-Risk)": "data/all_schools_combined.csv"
 }
 
 @st.cache_data
@@ -400,30 +400,11 @@ with st.sidebar:
             Academic Early-Warning & Intervention System
         </div>
     </div>
-    <div style="font-size: 0.6875rem; font-weight: 700; color: #1E3A8A; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 0.35rem;">
-        🏛️ Institutional School Dataset
-    </div>
     """, unsafe_allow_html=True)
 
     school_list = list(SCHOOL_DATASETS.keys())
     if "selected_school_label" not in st.session_state:
         st.session_state.selected_school_label = school_list[0]
-
-    sidebar_idx = school_list.index(st.session_state.selected_school_label) if st.session_state.selected_school_label in school_list else 0
-
-    selected_school_label = st.selectbox(
-        "Active University School",
-        school_list,
-        index=sidebar_idx,
-        key="sidebar_school_selector",
-        label_visibility="collapsed"
-    )
-
-    if selected_school_label != st.session_state.selected_school_label:
-        st.session_state.selected_school_label = selected_school_label
-        st.session_state.active_students = load_school_dataset(SCHOOL_DATASETS[selected_school_label])
-        st.session_state.is_custom_cohort = False
-        st.rerun()
 
     school_csv_file = SCHOOL_DATASETS[st.session_state.selected_school_label]
     if "active_students" not in st.session_state:
@@ -437,7 +418,7 @@ with st.sidebar:
             Active: Custom Uploaded Batch ({len(df_students):,} students)
         </div>
         """, unsafe_allow_html=True)
-        if st.button("↺ Reset to Selected School", use_container_width=True):
+        if st.button("↺ Reset to Active School", use_container_width=True):
             st.session_state.active_students = load_school_dataset(school_csv_file)
             st.session_state.is_custom_cohort = False
             st.rerun()
@@ -454,6 +435,7 @@ with st.sidebar:
         "Navigation",
         [
             "📊 Executive Overview",
+            "👨‍🏫 Faculty Mentorship Portal",
             "👤 Student Risk & SHAP Profiler",
             "📋 Batch Prediction & CSV Upload",
             "🔬 Model Performance & EDA Lab"
@@ -536,31 +518,33 @@ if "Executive Overview" in page:
     """, unsafe_allow_html=True)
 
     st.markdown("""
-    <div style="background-color: #FFFFFF; border: 1px solid #BFDBFE; border-left: 4px solid #1E3A8A; border-radius: 6px; padding: 0.85rem 1.25rem; margin-bottom: 0.75rem;">
-        <div style="font-size: 0.72rem; font-weight: 700; color: #1E3A8A; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.35rem;">
-            Institutional Dataset Selection (School / Academic Census)
+    <div style="background-color: #FFFFFF; border: 1px solid #BFDBFE; border-top: 4px solid #1E3A8A; border-radius: 8px; padding: 1.1rem 1.5rem; margin-bottom: 1.25rem; box-shadow: 0 1px 3px rgba(0,0,0,0.05); text-align: center;">
+        <div style="font-size: 0.78rem; font-weight: 700; color: #1E3A8A; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.35rem;">
+            Select University School Dataset
         </div>
-        <div style="font-size: 0.8125rem; color: #475569;">
-            Select any school dataset below to instantly re-calculate institutional KPIs, risk distribution charts, and mentor advising rosters:
+        <div style="font-size: 0.875rem; color: #475569; margin-bottom: 0.75rem;">
+            Choose a school to immediately re-calculate institutional KPIs, risk distribution charts, and student rosters:
         </div>
-    </div>
     """, unsafe_allow_html=True)
 
-    school_keys_ov = list(SCHOOL_DATASETS.keys())
-    cur_ov_idx = school_keys_ov.index(st.session_state.selected_school_label) if st.session_state.selected_school_label in school_keys_ov else 0
-    ov_school_chosen = st.selectbox(
-        "Select School Dataset",
-        school_keys_ov,
-        index=cur_ov_idx,
-        key="overview_school_selector_widget",
-        label_visibility="collapsed"
-    )
+    c_pad1, c_center, c_pad2 = st.columns([1, 2.8, 1])
+    with c_center:
+        school_keys_ov = list(SCHOOL_DATASETS.keys())
+        cur_ov_idx = school_keys_ov.index(st.session_state.selected_school_label) if st.session_state.selected_school_label in school_keys_ov else 0
+        ov_school_chosen = st.selectbox(
+            "Select School Dataset",
+            school_keys_ov,
+            index=cur_ov_idx,
+            key="overview_school_selector_widget",
+            label_visibility="collapsed"
+        )
+        if ov_school_chosen != st.session_state.selected_school_label:
+            st.session_state.selected_school_label = ov_school_chosen
+            st.session_state.active_students = load_school_dataset(SCHOOL_DATASETS[ov_school_chosen])
+            st.session_state.is_custom_cohort = False
+            st.rerun()
 
-    if ov_school_chosen != st.session_state.selected_school_label:
-        st.session_state.selected_school_label = ov_school_chosen
-        st.session_state.active_students = load_school_dataset(SCHOOL_DATASETS[ov_school_chosen])
-        st.session_state.is_custom_cohort = False
-        st.rerun()
+    st.markdown("</div>", unsafe_allow_html=True)
 
     tuned_recall = model_comparison.get("Tuned XGBoost (Winning Architecture)", {}).get("High_Risk_Recall", 0.878) * 100
     tuned_f1 = model_comparison.get("Tuned XGBoost (Winning Architecture)", {}).get("F1_Macro", 0.838) * 100
@@ -725,7 +709,190 @@ if "Executive Overview" in page:
 
 
 # =============================================================================
-# PAGE 2: INDIVIDUAL STUDENT RISK & SHAP PROFILER
+# PAGE 2: FACULTY MENTORSHIP & ADVISING PORTAL
+# =============================================================================
+elif "Faculty Mentorship" in page:
+    st.markdown("""
+    <div style="margin-bottom: 1.25rem;">
+        <h1 style="font-size: 1.75rem; font-weight: 700; color: #0F172A; margin-bottom: 0.25rem;">👨‍🏫 Faculty Mentorship & Student Advising Portal</h1>
+        <p style="font-size: 0.9375rem; color: #475569; margin: 0;">
+            Official mentor advising console. Each faculty mentor is assigned a dedicated cohort of <b>12 to 15 students</b> across all risk categories. Select your faculty name below to inspect your assigned mentees, filter by risk tiers, and execute early intervention protocols.
+        </p>
+    </div>
+    """, unsafe_allow_html=True)
+
+    # Mentor Selector
+    mentor_list = sorted(list(df_students["Mentor_Name"].dropna().unique())) if "Mentor_Name" in df_students.columns else []
+    if not mentor_list:
+        st.warning("No mentor assignment records found in the active dataset.")
+    else:
+        c_m1, c_m2 = st.columns([2.5, 1.5])
+        with c_m1:
+            selected_mentor = st.selectbox(
+                "Select Faculty Mentor Name",
+                mentor_list,
+                index=0,
+                help="Select your faculty name to view your assigned mentee cohort."
+            )
+        with c_m2:
+            school_disp = st.session_state.selected_school_label.split('(')[0].strip() if "selected_school_label" in st.session_state else "University School"
+            st.markdown(f"""
+            <div class="flat-card" style="padding: 0.75rem 1rem; margin-bottom: 0; background-color: #EFF6FF; border-color: #BFDBFE;">
+                <div style="font-size: 0.72rem; color: #1E3A8A; font-weight: 700; text-transform: uppercase;">Active Mentorship School</div>
+                <div style="font-size: 0.9375rem; font-weight: 700; color: #0F172A;">{school_disp}</div>
+            </div>
+            """, unsafe_allow_html=True)
+
+        # Filter mentees for selected mentor
+        mentees_df = df_students[df_students["Mentor_Name"] == selected_mentor].copy()
+        n_mentees = len(mentees_df)
+        n_high = int((mentees_df["Risk_Level"] == "High").sum())
+        n_med = int((mentees_df["Risk_Level"] == "Medium").sum())
+        n_low = int((mentees_df["Risk_Level"] == "Low").sum())
+        m_att = mentees_df["Attendance_Pct"].mean() if "Attendance_Pct" in mentees_df.columns else 75.0
+        m_cgpa = mentees_df["Prev_Sem_CGPA"].mean() if "Prev_Sem_CGPA" in mentees_df.columns else 7.0
+
+        # Mentor Summary KPI Cards
+        st.markdown("<div style='height: 0.5rem;'></div>", unsafe_allow_html=True)
+        mk1, mk2, mk3, mk4, mk5, mk6 = st.columns(6)
+        with mk1:
+            st.markdown(f"""
+            <div class="flat-card" style="text-align: center;">
+                <div class="flat-card-header">Total Mentees</div>
+                <div class="flat-metric-value">{n_mentees}</div>
+                <div class="flat-metric-subtext">Assigned Cohort</div>
+            </div>
+            """, unsafe_allow_html=True)
+        with mk2:
+            st.markdown(f"""
+            <div class="flat-card" style="text-align: center; border-left: 3px solid #DC2626;">
+                <div class="flat-card-header" style="color: #DC2626;">Critical High Risk</div>
+                <div class="flat-metric-value" style="color: #DC2626;">{n_high}</div>
+                <div class="flat-metric-subtext">Urgent Intervention</div>
+            </div>
+            """, unsafe_allow_html=True)
+        with mk3:
+            st.markdown(f"""
+            <div class="flat-card" style="text-align: center; border-left: 3px solid #D97706;">
+                <div class="flat-card-header" style="color: #D97706;">Medium Risk</div>
+                <div class="flat-metric-value" style="color: #D97706;">{n_med}</div>
+                <div class="flat-metric-subtext">Vulnerable Watchlist</div>
+            </div>
+            """, unsafe_allow_html=True)
+        with mk4:
+            st.markdown(f"""
+            <div class="flat-card" style="text-align: center; border-left: 3px solid #16A34A;">
+                <div class="flat-card-header" style="color: #16A34A;">Low Risk / Safe</div>
+                <div class="flat-metric-value" style="color: #16A34A;">{n_low}</div>
+                <div class="flat-metric-subtext">On Track</div>
+            </div>
+            """, unsafe_allow_html=True)
+        with mk5:
+            st.markdown(f"""
+            <div class="flat-card" style="text-align: center;">
+                <div class="flat-card-header">Cohort Attendance</div>
+                <div class="flat-metric-value">{m_att:.1f}%</div>
+                <div class="flat-metric-subtext">Cutoff: 75%</div>
+            </div>
+            """, unsafe_allow_html=True)
+        with mk6:
+            st.markdown(f"""
+            <div class="flat-card" style="text-align: center;">
+                <div class="flat-card-header">Mean CGPA</div>
+                <div class="flat-metric-value">{m_cgpa:.2f}</div>
+                <div class="flat-metric-subtext">Out of 10.0 scale</div>
+            </div>
+            """, unsafe_allow_html=True)
+
+        # Risk Filter Tabs / Selector
+        st.markdown("<div style='height: 0.5rem;'></div>", unsafe_allow_html=True)
+        st.markdown("**Filter Mentees by Academic Risk Status:**")
+        risk_filter = st.radio(
+            "Filter Mentees by Risk Status",
+            [
+                f"All Assigned Mentees ({n_mentees})",
+                f"🚨 Critical High Risk ({n_high})",
+                f"⚠️ Medium Risk ({n_med})",
+                f"✅ Low Risk / Safe ({n_low})"
+            ],
+            horizontal=True,
+            label_visibility="collapsed"
+        )
+
+        filtered_mentees = mentees_df.copy()
+        if "Critical High Risk" in risk_filter:
+            filtered_mentees = filtered_mentees[filtered_mentees["Risk_Level"] == "High"]
+        elif "Medium Risk" in risk_filter:
+            filtered_mentees = filtered_mentees[filtered_mentees["Risk_Level"] == "Medium"]
+        elif "Low Risk" in risk_filter:
+            filtered_mentees = filtered_mentees[filtered_mentees["Risk_Level"] == "Low"]
+
+        # Display Mentee Table
+        st.markdown("<div style='height: 0.25rem;'></div>", unsafe_allow_html=True)
+        m_display_cols = [
+            "Student_ID", "Student_Name", "Department", "Semester", "Section",
+            "Attendance_Pct", "CA1_Marks", "CA2_Marks", "CA3_Marks",
+            "MidTerm_Marks", "Prev_Sem_CGPA", "Active_Backlogs", "Risk_Level"
+        ]
+        avail_m_cols = [c for c in m_display_cols if c in filtered_mentees.columns]
+        m_table = filtered_mentees[avail_m_cols].copy()
+        m_table.index = range(1, len(m_table) + 1)
+        m_table.index.name = "Sr. No."
+
+        st.dataframe(m_table, use_container_width=True, height=260)
+        st.caption(f"Displaying {len(filtered_mentees)} mentees under {selected_mentor}.")
+
+        # Mentee Action Intimation Box
+        if len(filtered_mentees) > 0:
+            st.markdown("<div style='height: 0.5rem;'></div>", unsafe_allow_html=True)
+            st.markdown("""
+            <div style="background-color: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 6px; padding: 1rem 1.25rem; margin-bottom: 0.5rem;">
+                <div style="font-size: 0.875rem; font-weight: 700; color: #0F172A; margin-bottom: 0.25rem;">
+                    📝 Mentor Advising Quick Action Console
+                </div>
+                <div style="font-size: 0.8125rem; color: #475569;">
+                    Select an individual mentee from your cohort to inspect their intervention protocol and action advice:
+                </div>
+            </div>
+            """, unsafe_allow_html=True)
+
+            act_col1, act_col2 = st.columns([1.5, 2.5])
+            with act_col1:
+                mentee_ids = list(filtered_mentees["Student_ID"].values)
+                sel_mentee_id = st.selectbox("Select Mentee to Advise", mentee_ids, key="mentee_advise_selector")
+                sel_m_row = filtered_mentees[filtered_mentees["Student_ID"] == sel_mentee_id].iloc[0]
+
+            with act_col2:
+                m_actions = generate_actionable_interventions(sel_m_row.to_dict())
+                m_risk = sel_m_row["Risk_Level"]
+                badge_bg = "#FEE2E2" if m_risk == "High" else ("#FEF3C7" if m_risk == "Medium" else "#DCFCE7")
+                badge_color = "#DC2626" if m_risk == "High" else ("#D97706" if m_risk == "Medium" else "#16A34A")
+                
+                st.markdown(f"""
+                <div style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 6px; padding: 0.75rem 1rem;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.4rem;">
+                        <span style="font-weight: 700; color: #0F172A;">{sel_m_row['Student_Name']} ({sel_mentee_id})</span>
+                        <span style="background-color: {badge_bg}; color: {badge_color}; font-size: 0.75rem; font-weight: 700; padding: 2px 8px; border-radius: 4px;">
+                            {m_risk.upper()} RISK
+                        </span>
+                    </div>
+                    <div style="font-size: 0.8125rem; color: #475569;">
+                        Attendance: <b>{sel_m_row['Attendance_Pct']}%</b> | Backlogs: <b>{sel_m_row['Active_Backlogs']}</b> | CGPA: <b>{sel_m_row['Prev_Sem_CGPA']}</b>
+                    </div>
+                </div>
+                """, unsafe_allow_html=True)
+                
+                st.markdown("<div style='height: 0.35rem;'></div>", unsafe_allow_html=True)
+                for act in m_actions[:2]:
+                    st.markdown(f"""
+                    <div style="font-size: 0.8rem; background-color: #FFFFFF; border: 1px solid #E2E8F0; border-left: 3px solid {badge_color}; border-radius: 4px; padding: 6px 10px; margin-bottom: 4px;">
+                        <b>[{act['priority']}]</b> {act['action']}
+                    </div>
+                    """, unsafe_allow_html=True)
+
+
+# =============================================================================
+# PAGE 3: INDIVIDUAL STUDENT RISK & SHAP PROFILER
 # =============================================================================
 elif "Student Risk" in page:
     st.markdown("""

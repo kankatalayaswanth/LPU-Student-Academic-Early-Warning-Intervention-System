@@ -3,19 +3,20 @@ LPU Student Academic Early-Warning & Intervention System
 Module: Multi-School Data Acquisition & Synthetic Generation
 File: src/data_prep.py
 
-Generates realistic university academic records across 5 distinct LPU Schools:
-1. School of Computer Science & Engineering (CSE) - 1,840 students (348 High Risk ~ 18.9%)
-2. School of Mechanical Engineering (MEC) - 680 students (131 High Risk ~ 19.3%)
-3. Mittal School of Business (MSB) - 920 students (167 High Risk ~ 18.2%)
-4. School of Law (LAW) - 540 students (98 High Risk ~ 18.1%)
-5. School of Agriculture & Bio-Sciences (AGR) - 480 students (89 High Risk ~ 18.5%)
-Total Master University Census: 4,460 students (833 High Risk ~ 18.7%).
+Generates realistic university academic records across 5 distinct LPU Schools with distinct risk rates:
+1. School of Computer Science & Engineering (CSE) - 1,840 students (261 High Risk ~ 14.2%)
+2. School of Mechanical Engineering (MEC) - 680 students (155 High Risk ~ 22.8%)
+3. Mittal School of Business (MSB) - 920 students (107 High Risk ~ 11.6%)
+4. School of Law (LAW) - 540 students (94 High Risk ~ 17.4%)
+5. School of Agriculture & Bio-Sciences (AGR) - 480 students (99 High Risk ~ 20.6%)
+Total Master University Census: 4,460 students (716 High Risk ~ 16.1%).
 
 Domain Validation Rules:
-- Semester 1 freshmen have strictly 0 backlogs (they have not taken prior university exams).
-- Unique, prefixed Student IDs per school (e.g., CSE-2024-1001, MEC-2024-1001, MSB-2024-1001, etc.).
-- Realistic faculty mentor assignment: each mentor oversees 12-15 assigned mentees.
-- Non-round, realistic clinical risk distribution (e.g. 348 in CSE, 131 in MEC).
+- Joining year derived from Semester (Sem 1-2: 2024, Sem 3-4: 2023, Sem 5-6: 2022, Sem 7-8: 2021).
+- Compact student IDs: e.g. CSE24101, CSE23205, MEC24102, MSB22310, LAW21405.
+- Semester 1 freshmen strictly have 0 backlogs (they have not taken prior university finals).
+- Realistic faculty mentor assignment: each mentor oversees 12-15 assigned mentees across risk levels.
+- Distinct non-round risk rates per school reflecting varying discipline difficulty.
 - Strictly zero unverified study hours / zero LMS login tracking.
 """
 
@@ -41,8 +42,8 @@ SCHOOL_CONFIG = {
     "School of Computer Science & Engineering": {
         "prefix": "CSE",
         "n_samples": 1840,
-        "target_high": 348,     # 18.91%
-        "target_med": 392,      # 21.30%
+        "target_high": 261,     # 14.18%
+        "target_med": 396,      # 21.52%
         "seed": 42,
         "departments": [
             "B.Tech CSE (Core)",
@@ -58,8 +59,8 @@ SCHOOL_CONFIG = {
     "School of Mechanical Engineering": {
         "prefix": "MEC",
         "n_samples": 680,
-        "target_high": 131,     # 19.26%
-        "target_med": 142,      # 20.88%
+        "target_high": 155,     # 22.79%
+        "target_med": 150,      # 22.06%
         "seed": 43,
         "departments": [
             "B.Tech Mechanical Engineering",
@@ -74,8 +75,8 @@ SCHOOL_CONFIG = {
     "Mittal School of Business": {
         "prefix": "MSB",
         "n_samples": 920,
-        "target_high": 167,     # 18.15%
-        "target_med": 194,      # 21.09%
+        "target_high": 107,     # 11.63%
+        "target_med": 182,      # 19.78%
         "seed": 44,
         "departments": [
             "BBA (General Management)",
@@ -90,8 +91,8 @@ SCHOOL_CONFIG = {
     "School of Law": {
         "prefix": "LAW",
         "n_samples": 540,
-        "target_high": 98,      # 18.15%
-        "target_med": 118,      # 21.85%
+        "target_high": 94,      # 17.41%
+        "target_med": 122,      # 22.59%
         "seed": 45,
         "departments": [
             "B.A. LL.B. (Hons)",
@@ -106,8 +107,8 @@ SCHOOL_CONFIG = {
     "School of Agriculture & Bio-Sciences": {
         "prefix": "AGR",
         "n_samples": 480,
-        "target_high": 89,      # 18.54%
-        "target_med": 102,      # 21.25%
+        "target_high": 99,      # 20.62%
+        "target_med": 105,      # 21.88%
         "seed": 46,
         "departments": [
             "B.Sc. (Hons) Agriculture",
@@ -139,8 +140,6 @@ def generate_single_school(school_name: str, config: dict) -> pd.DataFrame:
     rng = np.random.RandomState(config["seed"])
     prefix = config["prefix"]
 
-    # Student IDs: e.g. CSE-2024-1001, MEC-2024-1001, etc.
-    student_ids = [f"{prefix}-2024-{1000 + i + 1}" for i in range(n)]
     first_names = rng.choice(FIRST_NAMES, size=n)
     last_names = rng.choice(LAST_NAMES, size=n)
     student_names = [f"{f} {l}" for f, l in zip(first_names, last_names)]
@@ -150,7 +149,26 @@ def generate_single_school(school_name: str, config: dict) -> pd.DataFrame:
     semesters = rng.choice(list(range(1, 9)), size=n, p=[0.16, 0.18, 0.18, 0.16, 0.12, 0.10, 0.06, 0.04])
     sections = rng.choice(config["sections"], size=n)
 
-    # Faculty mentor allocation (Strictly 12 to 15 students per mentor)
+    # Calculate joining year based on current semester:
+    # Sem 1 & 2 -> Joined 2024 ('24')
+    # Sem 3 & 4 -> Joined 2023 ('23')
+    # Sem 5 & 6 -> Joined 2022 ('22')
+    # Sem 7 & 8 -> Joined 2021 ('21')
+    student_ids = []
+    for i in range(n):
+        s = semesters[i]
+        if s in [1, 2]:
+            yr = "24"
+        elif s in [3, 4]:
+            yr = "23"
+        elif s in [5, 6]:
+            yr = "22"
+        else:
+            yr = "21"
+        # Short clean ID: e.g. CSE24101, CSE23150, etc.
+        student_ids.append(f"{prefix}{yr}{101 + i}")
+
+    # Faculty mentor allocation (Strictly 12 to 15 students per mentor across risk levels)
     mentors_list = generate_mentors_for_school(prefix, config["mentor_pool_size"], config["seed"])
     mentor_assignments = [mentors_list[i % len(mentors_list)] for i in range(n)]
 
@@ -217,7 +235,7 @@ def generate_single_school(school_name: str, config: dict) -> pd.DataFrame:
         + rng.normal(0, 0.35, size=n)
     )
 
-    # Order students by risk_index to assign exact, realistic non-round counts
+    # Order students by risk_index to assign exact, realistic distinct counts per school
     sorted_indices = np.argsort(risk_index)[::-1] # Highest risk first
     target_high = config["target_high"]
     target_med = config["target_med"]
@@ -267,7 +285,7 @@ def generate_single_school(school_name: str, config: dict) -> pd.DataFrame:
 def generate_sample_batch_upload(df_full: pd.DataFrame, n_batch: int = 50, random_state: int = 99) -> pd.DataFrame:
     """Creates an unlabelled evaluation batch file (50 rows) for testing CSV batch upload in Streamlit."""
     batch_df = df_full.sample(n=n_batch, random_state=random_state).copy()
-    batch_df["Student_ID"] = [f"TEST-SECTION-{i+1:03d}" for i in range(n_batch)]
+    batch_df["Student_ID"] = [f"SEC24{101 + i}" for i in range(n_batch)]
     batch_df = batch_df.drop(columns=["Risk_Level"])
     return batch_df.reset_index(drop=True)
 

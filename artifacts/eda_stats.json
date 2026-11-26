@@ -1,106 +1,106 @@
 {
   "class_distribution": {
     "counts": {
-      "Low": 2679,
-      "Medium": 948,
-      "High": 833
+      "Low": 2789,
+      "Medium": 955,
+      "High": 716
     },
     "percentages": {
-      "Low": 60.07,
-      "Medium": 21.26,
-      "High": 18.68
+      "Low": 62.53,
+      "Medium": 21.41,
+      "High": 16.05
     }
   },
   "department_risk": {
     "B.A. LL.B. (Hons)": {
-      "High": 43,
+      "High": 40,
       "Low": 131,
-      "Medium": 51
+      "Medium": 54
     },
     "B.Sc. (Hons) Agriculture": {
-      "High": 35,
-      "Low": 128,
-      "Medium": 34
+      "High": 40,
+      "Low": 124,
+      "Medium": 33
     },
     "B.Sc. Food Technology": {
-      "High": 19,
-      "Low": 60,
-      "Medium": 17
+      "High": 21,
+      "Low": 55,
+      "Medium": 20
     },
     "B.Sc. Microbiology": {
-      "High": 13,
-      "Low": 37,
+      "High": 15,
+      "Low": 35,
       "Medium": 21
     },
     "B.Tech Automobile Engineering": {
-      "High": 32,
-      "Low": 84,
-      "Medium": 26
-    },
-    "B.Tech Biotechnology": {
-      "High": 22,
-      "Low": 64,
-      "Medium": 30
-    },
-    "B.Tech CSE (AI & Data Science)": {
-      "High": 80,
-      "Low": 280,
-      "Medium": 97
-    },
-    "B.Tech CSE (Cloud Computing)": {
-      "High": 45,
-      "Low": 165,
-      "Medium": 70
-    },
-    "B.Tech CSE (Core)": {
-      "High": 127,
-      "Low": 396,
-      "Medium": 131
-    },
-    "B.Tech CSE (Cyber Security)": {
-      "High": 64,
-      "Low": 151,
-      "Medium": 61
-    },
-    "B.Tech CSE (Full Stack Web)": {
-      "High": 32,
-      "Low": 108,
+      "High": 35,
+      "Low": 74,
       "Medium": 33
     },
+    "B.Tech Biotechnology": {
+      "High": 23,
+      "Low": 62,
+      "Medium": 31
+    },
+    "B.Tech CSE (AI & Data Science)": {
+      "High": 60,
+      "Low": 296,
+      "Medium": 101
+    },
+    "B.Tech CSE (Cloud Computing)": {
+      "High": 28,
+      "Low": 183,
+      "Medium": 69
+    },
+    "B.Tech CSE (Core)": {
+      "High": 103,
+      "Low": 426,
+      "Medium": 125
+    },
+    "B.Tech CSE (Cyber Security)": {
+      "High": 45,
+      "Low": 161,
+      "Medium": 70
+    },
+    "B.Tech CSE (Full Stack Web)": {
+      "High": 25,
+      "Low": 117,
+      "Medium": 31
+    },
     "B.Tech Mechanical Engineering": {
-      "High": 48,
-      "Low": 147,
+      "High": 60,
+      "Low": 135,
       "Medium": 63
     },
     "B.Tech Mechatronics & Automation": {
-      "High": 33,
-      "Low": 101,
-      "Medium": 36
+      "High": 41,
+      "Low": 97,
+      "Medium": 32
     },
     "B.Tech Robotics & AI": {
-      "High": 18,
-      "Low": 75,
-      "Medium": 17
+      "High": 19,
+      "Low": 69,
+      "Medium": 22
     },
     "BBA (Digital Marketing)": {
-      "High": 34,
-      "Low": 101,
-      "Medium": 38
+      "High": 18,
+      "Low": 113,
+      "Medium": 42
     },
     "BBA (Financial Analytics)": {
-      "High": 44,
-      "Low": 142,
-      "Medium": 52
+      "High": 29,
+      "Low": 165,
+      "Medium": 44
     },
     "BBA (General Management)": {
-      "High": 59,
-      "Low": 178,
-      "Medium": 63
+      "High": 38,
+      "Low": 206,
+      "Medium": 56
     },
     "BBA LL.B. (Hons)": {
-      "High": 26,
+      "High": 25,
       "Low": 102,
-      "Medium": 32
+      "Medium": 33
     },
     "LL.B. (Core Law)": {
       "High": 21,
@@ -113,9 +113,9 @@
       "Medium": 13
     },
     "MBA (Integrated Business)": {
-      "High": 30,
-      "Low": 138,
-      "Medium": 41
+      "High": 22,
+      "Low": 147,
+      "Medium": 40
     }
   },
   "numerical_summary": {
@@ -313,36 +313,36 @@
   },
   "attendance_by_risk": {
     "High": {
-      "mean": 62.23,
-      "median": 62.7,
-      "std": 7.35
+      "mean": 61.78,
+      "median": 62.2,
+      "std": 7.45
     },
     "Low": {
-      "mean": 81.89,
-      "median": 81.6,
-      "std": 8.52
+      "mean": 81.53,
+      "median": 81.2,
+      "std": 8.64
     },
     "Medium": {
-      "mean": 70.7,
-      "median": 70.95,
-      "std": 6.4
+      "mean": 69.77,
+      "median": 69.75,
+      "std": 6.58
     }
   },
   "cgpa_by_risk": {
     "High": {
-      "mean": 5.31,
-      "median": 5.31,
-      "std": 0.91
+      "mean": 5.21,
+      "median": 5.21,
+      "std": 0.88
     },
     "Low": {
-      "mean": 7.94,
-      "median": 7.88,
-      "std": 1.07
+      "mean": 7.89,
+      "median": 7.84,
+      "std": 1.09
     },
     "Medium": {
-      "mean": 6.37,
-      "median": 6.36,
-      "std": 0.76
+      "mean": 6.28,
+      "median": 6.31,
+      "std": 0.8
     }
   }
 }
