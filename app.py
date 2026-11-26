@@ -449,7 +449,11 @@ with st.sidebar:
         label_visibility="collapsed"
     )
 
-    st.markdown("""
+    tuned_stats = model_comparison.get("Tuned XGBoost (Winning Architecture)", {})
+    tuned_recall_val = tuned_stats.get("High_Risk_Recall", 0.787) * 100
+    tuned_auc_val = tuned_stats.get("ROC_AUC_Macro", 0.954)
+
+    st.markdown(f"""
     <div style="font-size: 0.6875rem; font-weight: 700; color: #64748B; letter-spacing: 0.08em; text-transform: uppercase; margin-top: 1.25rem; margin-bottom: 0.45rem;">
         Active ML Engine
     </div>
@@ -469,11 +473,11 @@ with st.sidebar:
             </div>
             <div style="display: flex; justify-content: space-between;">
                 <span>High-Risk Recall:</span>
-                <span style="color: #16A34A; font-weight: 600;">87.8%</span>
+                <span style="color: #16A34A; font-weight: 600;">{tuned_recall_val:.1f}%</span>
             </div>
             <div style="display: flex; justify-content: space-between;">
                 <span>Test ROC-AUC:</span>
-                <span style="color: #1E3A8A; font-weight: 600;">0.960</span>
+                <span style="color: #1E3A8A; font-weight: 600;">{tuned_auc_val:.3f}</span>
             </div>
         </div>
     </div>
@@ -710,7 +714,7 @@ elif "Faculty Mentorship" in page:
     <div style="margin-bottom: 1.25rem;">
         <h1 style="font-size: 1.75rem; font-weight: 700; color: #0F172A; margin-bottom: 0.25rem;">👨‍🏫 Faculty Mentorship & Student Advising Portal</h1>
         <p style="font-size: 0.9375rem; color: #475569; margin: 0;">
-            Official university faculty advising console. Each faculty mentor is assigned a dedicated cohort of <b>25 to 30 students</b> across all academic tiers. Select your faculty name (with 5-digit Employee UID) below to inspect your assigned mentees, filter by risk tiers, and execute timely academic interventions.
+            Assigned faculty mentee roster, risk distribution, and academic progress monitoring.
         </p>
     </div>
     """, unsafe_allow_html=True)
@@ -723,10 +727,10 @@ elif "Faculty Mentorship" in page:
         c_m1, c_m2 = st.columns([2.5, 1.5])
         with c_m1:
             selected_mentor = st.selectbox(
-                "Select Faculty Mentor Name (5-Digit UID)",
+                "Select Faculty Mentor",
                 mentor_list,
                 index=0,
-                help="Select your faculty name and 5-digit Employee UID to view your assigned mentee cohort."
+                help="Select your faculty name to view your assigned mentee cohort."
             )
         with c_m2:
             school_disp = st.session_state.selected_school_label if "selected_school_label" in st.session_state else "University School"
@@ -836,53 +840,17 @@ elif "Faculty Mentorship" in page:
         st.dataframe(m_table, use_container_width=True, height=260)
         st.caption(f"Displaying {len(filtered_mentees)} mentees under {selected_mentor}.")
 
-        # Mentee Action Intimation Box
-        if len(filtered_mentees) > 0:
-            st.markdown("<div style='height: 0.5rem;'></div>", unsafe_allow_html=True)
-            st.markdown("""
-            <div style="background-color: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 6px; padding: 1rem 1.25rem; margin-bottom: 0.5rem;">
-                <div style="font-size: 0.875rem; font-weight: 700; color: #0F172A; margin-bottom: 0.25rem;">
-                    📝 Mentor Advising Quick Action Console
-                </div>
-                <div style="font-size: 0.8125rem; color: #475569;">
-                    Select an individual mentee from your cohort to inspect their intervention protocol and action advice:
-                </div>
+        # Clean Diagnostic Callout to Individual Profiler
+        st.markdown(f"""
+        <div style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-left: 4px solid #1E3A8A; border-radius: 6px; padding: 0.85rem 1.25rem; margin-top: 0.85rem;">
+            <div style="font-size: 0.85rem; font-weight: 700; color: #1E3A8A; margin-bottom: 0.2rem;">
+                🔍 Detailed Individual Student Diagnostics & Explainable AI (XAI)
             </div>
-            """, unsafe_allow_html=True)
-
-            act_col1, act_col2 = st.columns([1.5, 2.5])
-            with act_col1:
-                mentee_ids = list(filtered_mentees["Student_ID"].values)
-                sel_mentee_id = st.selectbox("Select Mentee to Advise", mentee_ids, key="mentee_advise_selector")
-                sel_m_row = filtered_mentees[filtered_mentees["Student_ID"] == sel_mentee_id].iloc[0]
-
-            with act_col2:
-                m_actions = generate_actionable_interventions(sel_m_row.to_dict())
-                m_risk = sel_m_row["Risk_Level"]
-                badge_bg = "#FEE2E2" if m_risk == "High" else ("#FEF3C7" if m_risk == "Medium" else "#DCFCE7")
-                badge_color = "#DC2626" if m_risk == "High" else ("#D97706" if m_risk == "Medium" else "#16A34A")
-                
-                st.markdown(f"""
-                <div style="background-color: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 6px; padding: 0.75rem 1rem;">
-                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.4rem;">
-                        <span style="font-weight: 700; color: #0F172A;">{sel_m_row['Student_Name']} ({sel_mentee_id})</span>
-                        <span style="background-color: {badge_bg}; color: {badge_color}; font-size: 0.75rem; font-weight: 700; padding: 2px 8px; border-radius: 4px;">
-                            {m_risk.upper()} RISK
-                        </span>
-                    </div>
-                    <div style="font-size: 0.8125rem; color: #475569;">
-                        Attendance: <b>{sel_m_row['Attendance_Pct']}%</b> | Backlogs: <b>{sel_m_row['Active_Backlogs']}</b> | CGPA: <b>{sel_m_row['Prev_Sem_CGPA']}</b>
-                    </div>
-                </div>
-                """, unsafe_allow_html=True)
-                
-                st.markdown("<div style='height: 0.35rem;'></div>", unsafe_allow_html=True)
-                for act in m_actions[:2]:
-                    st.markdown(f"""
-                    <div style="font-size: 0.8rem; background-color: #FFFFFF; border: 1px solid #E2E8F0; border-left: 3px solid {badge_color}; border-radius: 4px; padding: 6px 10px; margin-bottom: 4px;">
-                        <b>[{act['priority']}]</b> {act['action']}
-                    </div>
-                    """, unsafe_allow_html=True)
+            <div style="font-size: 0.8125rem; color: #475569; line-height: 1.5;">
+                To inspect exact local <b>TreeSHAP feature attributions</b>, interactive What-If simulation modeling, and tailored parent intimation notices for any mentee above, navigate to the <b>👤 Student Risk & SHAP Profiler</b> page and search by their 8-digit Student Registration ID.
+            </div>
+        </div>
+        """, unsafe_allow_html=True)
 
 
 # =============================================================================
@@ -1206,7 +1174,7 @@ elif "Student Risk" in page:
 
 
 # =============================================================================
-# PAGE 3: BATCH PREDICTION & CSV UPLOAD
+# PAGE 4: BATCH PREDICTION & CSV UPLOAD
 # =============================================================================
 elif "Batch Prediction" in page:
     st.markdown("""
@@ -1225,7 +1193,7 @@ elif "Batch Prediction" in page:
             with st.form("enroll_student_form", clear_on_submit=True):
                 e_c1, e_c2, e_c3 = st.columns(3)
                 with e_c1:
-                    new_id = st.text_input("Student Registration ID", value=f"LPU12{len(df_students)+1:04d}")
+                    new_id = st.text_input("Student Registration ID", value=f"1240{len(df_students)+1:04d}")
                     new_dept = st.selectbox("Department", df_students["Department"].unique(), key="add_dept")
                     new_sem = st.slider("Semester", 1, 8, 1, key="add_sem")
                     new_att = st.slider("Attendance %", 0.0, 100.0, 80.0, 0.5, key="add_att")
@@ -1242,13 +1210,17 @@ elif "Batch Prediction" in page:
                 
                 submitted = st.form_submit_button("Enroll Student into Active Surveillance")
                 if submitted:
-                    if new_id in df_students["Student_ID"].values:
+                    if str(new_id) in df_students["Student_ID"].values:
                         st.error(f"Student ID {new_id} already exists in active surveillance.")
                     else:
                         new_row = {
-                            "Student_ID": new_id,
+                            "Student_ID": str(new_id),
+                            "Student_Name": "Newly Enrolled Student",
+                            "School": st.session_state.get("selected_school_label", "School of Computer Science & Engineering"),
                             "Department": new_dept,
                             "Semester": new_sem,
+                            "Section": "K24-SEC-NEW",
+                            "Mentor_Name": "Assigned Faculty Mentor",
                             "Attendance_Pct": new_att,
                             "CA1_Marks": new_ca1,
                             "CA2_Marks": new_ca2,
@@ -1437,7 +1409,17 @@ elif "Batch Prediction" in page:
                 if st.button("🔄 Activate as Monitored Cohort", use_container_width=True, type="primary"):
                     sync_df = res_df.copy()
                     if "Student_ID" not in sync_df.columns:
-                        sync_df["Student_ID"] = [f"LPU24_NEW_{i+1:04d}" for i in range(len(sync_df))]
+                        sync_df["Student_ID"] = [f"1249{1001 + i:04d}" for i in range(len(sync_df))]
+                    else:
+                        sync_df["Student_ID"] = sync_df["Student_ID"].astype(str)
+                    if "Student_Name" not in sync_df.columns:
+                        sync_df["Student_Name"] = [f"Section Student {i+1}" for i in range(len(sync_df))]
+                    if "School" not in sync_df.columns:
+                        sync_df["School"] = st.session_state.get("selected_school_label", "School of Computer Science & Engineering")
+                    if "Section" not in sync_df.columns:
+                        sync_df["Section"] = "Batch Upload Section"
+                    if "Mentor_Name" not in sync_df.columns:
+                        sync_df["Mentor_Name"] = "Departmental Advising Committee"
                     sync_df["Risk_Level"] = sync_df["Predicted_Risk"]
                     st.session_state.active_students = sync_df
                     st.session_state.is_custom_cohort = True
@@ -1493,7 +1475,7 @@ elif "Batch Prediction" in page:
 
 
 # =============================================================================
-# PAGE 4: MODEL PERFORMANCE & EDA LAB
+# PAGE 5: MODEL PERFORMANCE & EDA LAB
 # =============================================================================
 elif "Model Performance" in page:
     st.markdown("""
@@ -1514,11 +1496,11 @@ elif "Model Performance" in page:
 
     # TAB 1: EDA
     with tab_eda:
-        st.markdown("""
+        st.markdown(f"""
         <div style="margin-top: 0.5rem; margin-bottom: 1rem;">
             <h3 style="font-size: 1.05rem; font-weight: 600; color: #0F172A; margin: 0;">Cohort Feature Distributions & Correlation Matrix</h3>
             <p style="font-size: 0.8125rem; color: #64748B; margin-top: 0.15rem;">
-                Statistical exploration of 2,500 LPU student records demonstrating feature variance and class imbalance prior to modeling.
+                Statistical exploration of {len(df_students):,} active student records ({st.session_state.get('selected_school_label', 'All Schools')}) demonstrating feature variance and class balance.
             </p>
         </div>
         """, unsafe_allow_html=True)
@@ -1635,11 +1617,12 @@ elif "Model Performance" in page:
 
     # TAB 3: DIAGNOSTICS (Confusion Matrix & ROC)
     with tab_diag:
-        st.markdown("""
+        test_samples_n = error_analysis.get('total_test_samples', 669)
+        st.markdown(f"""
         <div style="margin-top: 0.5rem; margin-bottom: 1rem;">
             <h3 style="font-size: 1.05rem; font-weight: 600; color: #0F172A; margin: 0;">Confusion Matrix & One-vs-Rest ROC Analysis</h3>
             <p style="font-size: 0.8125rem; color: #475569; margin-top: 0.15rem;">
-                Visual verification of classification boundaries on the held-out 375 test samples.
+                Visual verification of multi-class classification boundaries on the {test_samples_n} held-out test samples (15% test split).
             </p>
         </div>
         """, unsafe_allow_html=True)
@@ -1746,6 +1729,12 @@ elif "Model Performance" in page:
                 </div>
             </div>
             """, unsafe_allow_html=True)
+
+            if "sample_misclassifications" in error_analysis and error_analysis["sample_misclassifications"]:
+                st.markdown("<div style='height: 0.5rem;'></div>", unsafe_allow_html=True)
+                st.markdown("<b>Representative Borderline Test Samples & Misclassification Audits:</b>", unsafe_allow_html=True)
+                sample_err_df = pd.DataFrame(error_analysis["sample_misclassifications"])
+                st.dataframe(sample_err_df, use_container_width=True)
 
         # Institutional Safeguards & Governance
         st.markdown("""
