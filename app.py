@@ -308,13 +308,78 @@ def load_shap_explainer():
         st.stop()
     return joblib.load(shap_path)
 
+# Multi-Cohort Academic Surveillance Registry
+COHORT_REGISTRY = {
+    "🏛️ Institutional Baseline (2,500 Students)": {
+        "file": os.path.join("data", "student_academic_data.csv"),
+        "label": "Institutional Baseline (All 7 Departments)",
+        "badge": "2,500 Undergraduates"
+    },
+    "💻 School of CSE (949 Students)": {
+        "file": os.path.join("data", "cohort_cse_engineering.csv"),
+        "label": "School of Computer Science & Engineering",
+        "badge": "949 Engineers"
+    },
+    "⚡ Core Engineering: ECE & ME (607 Students)": {
+        "file": os.path.join("data", "cohort_ece_me_core.csv"),
+        "label": "Electronics & Mechanical Engineering",
+        "badge": "607 Engineers"
+    },
+    "📈 Management & Commerce (211 Students)": {
+        "file": os.path.join("data", "cohort_management_commerce.csv"),
+        "label": "School of Management & Business Studies",
+        "badge": "211 Students"
+    },
+    "🌱 First-Year Freshmen (839 Students)": {
+        "file": os.path.join("data", "cohort_first_year_freshmen.csv"),
+        "label": "First-Year Freshmen Foundation (Sem 1 & 2)",
+        "badge": "839 Freshmen"
+    },
+    "⚠️ High-Attrition Remedial Triage (200 Students)": {
+        "file": os.path.join("data", "cohort_high_risk_remedial.csv"),
+        "label": "Remedial Coaching & Academic Probation Triage",
+        "badge": "200 At-Risk Focus"
+    },
+    "📋 Section Alpha Audit Sample (50 Students)": {
+        "file": os.path.join("data", "sample_batch_upload.csv"),
+        "label": "Section Alpha Audit Sample",
+        "badge": "50 Students"
+    }
+}
+
+@st.cache_data
+def load_cohort_dataset(file_path: str):
+    if not os.path.exists(file_path):
+        file_path = os.path.join("data", os.path.basename(file_path))
+    df = pd.read_csv(file_path)
+    if "Risk_Level" not in df.columns:
+        pipe = load_ml_pipeline()
+        req_cols = [
+            "Department", "Semester", "Attendance_Pct", "CA1_Marks", "CA2_Marks",
+            "CA3_Marks", "MidTerm_Marks", "Prev_Sem_CGPA", "Assignment_Submission_Rate",
+            "Active_Backlogs", "Study_Hours_Per_Week", "Participation_Score"
+        ]
+        X_df = df[req_cols].copy()
+        if "LMS_Logins_Per_Week" not in X_df.columns:
+            X_df["LMS_Logins_Per_Week"] = 14
+        pipeline_features = [
+            "Department", "Semester", "Attendance_Pct", "CA1_Marks", "CA2_Marks",
+            "CA3_Marks", "MidTerm_Marks", "Prev_Sem_CGPA", "Assignment_Submission_Rate",
+            "LMS_Logins_Per_Week", "Active_Backlogs", "Study_Hours_Per_Week", "Participation_Score"
+        ]
+        X_df = X_df[pipeline_features]
+        preds = pipe.predict(X_df)
+        inv_map = {0: "Low", 1: "Medium", 2: "High"}
+        df["Risk_Level"] = [inv_map[p] for p in preds]
+    return df
+
 @st.cache_data
 def load_student_dataset():
     data_path = os.path.join("data", "student_academic_data.csv")
     if not os.path.exists(data_path):
         st.error(f"Dataset not found at {data_path}. Execute src/data_prep.py first.")
         st.stop()
-    return pd.read_csv(data_path)
+    return load_cohort_dataset(data_path)
 
 @st.cache_data
 def load_json_artifact(filename: str):
@@ -329,6 +394,8 @@ try:
     pipeline = load_ml_pipeline()
     explainer = load_shap_explainer()
     raw_default_df = load_student_dataset()
+    if "selected_cohort_key" not in st.session_state:
+        st.session_state.selected_cohort_key = "🏛️ Institutional Baseline (2,500 Students)"
     if "active_students" not in st.session_state:
         st.session_state.active_students = raw_default_df.copy()
     if "is_custom_cohort" not in st.session_state:
@@ -414,6 +481,50 @@ with st.sidebar:
         label_visibility="collapsed"
     )
     
+    # Surveillance Cohort Dataset Selector
+    st.markdown("""
+    <div style="font-size: 0.6875rem; font-weight: 700; color: #64748B; letter-spacing: 0.08em; text-transform: uppercase; margin-top: 1.25rem; margin-bottom: 0.45rem;">
+        Surveillance Cohort Dataset
+    </div>
+    """, unsafe_allow_html=True)
+    
+    cohort_keys = list(COHORT_REGISTRY.keys())
+    if st.session_state.get("is_custom_cohort", False):
+        custom_key_label = f"📂 Custom Active Cohort ({len(df_students):,} Students)"
+        cohort_options = [custom_key_label] + cohort_keys
+        default_idx = 0
+    else:
+        current_k = st.session_state.get("selected_cohort_key", cohort_keys[0])
+        cohort_options = cohort_keys
+        default_idx = cohort_options.index(current_k) if current_k in cohort_options else 0
+
+    chosen_cohort = st.selectbox(
+        "Select Active Cohort",
+        cohort_options,
+        index=default_idx,
+        label_visibility="collapsed",
+        key="sidebar_cohort_selector"
+    )
+
+    if not chosen_cohort.startswith("📂 Custom Active") and chosen_cohort != st.session_state.get("selected_cohort_key"):
+        c_path = COHORT_REGISTRY[chosen_cohort]["file"]
+        st.session_state.active_students = load_cohort_dataset(c_path)
+        st.session_state.selected_cohort_key = chosen_cohort
+        st.session_state.is_custom_cohort = False
+        st.rerun()
+
+    if st.session_state.get("is_custom_cohort", False):
+        st.markdown(f"""
+        <div style="font-size: 0.72rem; color: #1E3A8A; background-color: #EFF6FF; border: 1px solid #BFDBFE; border-radius: 4px; padding: 4px 8px; margin-top: 0.35rem; margin-bottom: 0.35rem; text-align: center; font-weight: 500;">
+            Active: Custom Cohort ({len(df_students):,} students)
+        </div>
+        """, unsafe_allow_html=True)
+        if st.button("↺ Reset to Baseline (2,500)", use_container_width=True):
+            st.session_state.active_students = load_cohort_dataset(COHORT_REGISTRY["🏛️ Institutional Baseline (2,500 Students)"]["file"])
+            st.session_state.selected_cohort_key = "🏛️ Institutional Baseline (2,500 Students)"
+            st.session_state.is_custom_cohort = False
+            st.rerun()
+
     st.markdown("""
     <div style="font-size: 0.6875rem; font-weight: 700; color: #64748B; letter-spacing: 0.08em; text-transform: uppercase; margin-top: 1.25rem; margin-bottom: 0.45rem;">
         Active ML Engine
@@ -463,16 +574,7 @@ with st.sidebar:
     </div>
     """, unsafe_allow_html=True)
 
-    if st.session_state.get("is_custom_cohort", False):
-        st.markdown(f"""
-        <div style="font-size: 0.72rem; color: #1E3A8A; background-color: #EFF6FF; border: 1px solid #BFDBFE; border-radius: 4px; padding: 4px 8px; margin-bottom: 0.5rem; text-align: center; font-weight: 500;">
-            Active: Custom Cohort ({sidebar_monitored:,} students)
-        </div>
-        """, unsafe_allow_html=True)
-        if st.button("↺ Reset to Baseline (2,500)", use_container_width=True):
-            st.session_state.active_students = raw_default_df.copy()
-            st.session_state.is_custom_cohort = False
-            st.rerun()
+    # (Custom cohort reset is handled in the cohort selector above)
     
 
 
@@ -488,11 +590,15 @@ if "Executive Overview" in page:
     shortage_count = (df_students["Attendance_Pct"] < 75.0).sum() if "Attendance_Pct" in df_students.columns else 0
     avg_cgpa = df_students["Prev_Sem_CGPA"].mean() if "Prev_Sem_CGPA" in df_students.columns else 7.0
 
+    cohort_display_label = st.session_state.get("selected_cohort_key", "🏛️ Institutional Baseline (2,500 Students)")
+    if st.session_state.get("is_custom_cohort", False):
+        cohort_display_label = f"Custom Ingested Cohort ({total_students:,} Students)"
+
     st.markdown(f"""
     <div style="margin-bottom: 1.5rem;">
         <h1 style="font-size: 1.75rem; font-weight: 700; color: #0F172A; margin-bottom: 0.25rem;">Executive Academic Health Dashboard</h1>
         <p style="font-size: 0.9375rem; color: #475569; margin: 0;">
-            Institutional early-warning surveillance across <b>{total_students:,} active enrolled students</b>. Identifies attrition and failure risks before End-Term examinations.
+            Institutional early-warning surveillance across <b>{total_students:,} active enrolled students</b> [{cohort_display_label}]. Identifies attrition and failure risks before End-Term examinations.
         </p>
     </div>
     """, unsafe_allow_html=True)
@@ -506,7 +612,7 @@ if "Executive Overview" in page:
         <div class="flat-card">
             <div class="flat-card-header">Total Monitored</div>
             <div class="flat-metric-value">{total_students:,}</div>
-            <div class="flat-metric-subtext">Active LPU Undergraduates</div>
+            <div class="flat-metric-subtext">{cohort_display_label}</div>
         </div>
         """, unsafe_allow_html=True)
         
@@ -682,7 +788,7 @@ elif "Student Risk" in page:
                 "Search / Select Student ID",
                 all_ids,
                 index=default_index,
-                help="Type to search among 2,500 LPU student records."
+                help=f"Type to search among {len(all_ids):,} student records in active cohort."
             )
         
         # Extract row
@@ -1047,19 +1153,100 @@ elif "Batch Prediction" in page:
                     st.warning(f"Student {rem_id} withdrawn from active surveillance. Total monitored is now {len(updated_df):,}.")
                     st.rerun()
 
-    uploaded_file = st.file_uploader(
-        "Upload Student Roster CSV",
-        type=["csv"],
-        help="Upload a CSV with student academic features (Semester, Attendance_Pct, CA Marks, etc.)."
-    )
+    st.markdown("""
+    <div style="font-size: 1rem; font-weight: 600; color: #0F172A; margin-top: 0.5rem; margin-bottom: 0.5rem;">
+        Select Ingestion Source: Pre-Configured Departmental Cohort or External CSV
+    </div>
+    """, unsafe_allow_html=True)
+
+    batch_tab1, batch_tab2 = st.tabs([
+        "⚡ Select Pre-Packaged Departmental Cohort",
+        "📂 Upload External Student Roster CSV"
+    ])
 
     batch_df = None
+    batch_source_name = ""
+
+    with batch_tab1:
+        st.markdown("""
+        <div style="font-size: 0.8125rem; color: #475569; margin-bottom: 0.75rem;">
+            Select any departmental or specialized cohort to immediately execute model inference, view prioritized interventions, or download the dataset.
+        </div>
+        """, unsafe_allow_html=True)
+        
+        b_c1, b_c2, b_c3 = st.columns([2.5, 1.2, 1.2])
+        with b_c1:
+            pre_cohort_choice = st.selectbox(
+                "Choose Departmental Cohort Dataset",
+                list(COHORT_REGISTRY.keys()),
+                key="batch_pre_cohort_select"
+            )
+        
+        target_cohort_file = COHORT_REGISTRY[pre_cohort_choice]["file"]
+        
+        with b_c2:
+            st.markdown("<div style='height: 1.75rem;'></div>", unsafe_allow_html=True)
+            if st.button("🚀 Run Batch Inference", type="primary", use_container_width=True):
+                st.session_state.active_batch_source = "preset"
+                st.session_state.preset_cohort_choice = pre_cohort_choice
+        
+        with b_c3:
+            st.markdown("<div style='height: 1.75rem;'></div>", unsafe_allow_html=True)
+            if os.path.exists(target_cohort_file):
+                with open(target_cohort_file, "rb") as f_dl:
+                    st.download_button(
+                        label="📥 Download CSV",
+                        data=f_dl.read(),
+                        file_name=os.path.basename(target_cohort_file),
+                        mime="text/csv",
+                        use_container_width=True
+                    )
+
+    with batch_tab2:
+        st.markdown("""
+        <div style="font-size: 0.8125rem; color: #475569; margin-bottom: 0.75rem;">
+            Upload any institution student roster (.csv) to evaluate academic risk for your custom section.
+        </div>
+        """, unsafe_allow_html=True)
+        
+        up_c1, up_c2 = st.columns([3, 1])
+        with up_c1:
+            uploaded_file = st.file_uploader(
+                "Upload Student Roster CSV",
+                type=["csv"],
+                help="Upload a CSV with student academic features (Semester, Attendance_Pct, CA Marks, etc.).",
+                key="custom_csv_uploader"
+            )
+        with up_c2:
+            st.markdown("<div style='height: 1.75rem;'></div>", unsafe_allow_html=True)
+            sample_template_path = os.path.join("data", "blank_template_student_roster.csv")
+            if not os.path.exists(sample_template_path):
+                sample_template_path = os.path.join("data", "sample_batch_upload.csv")
+            if os.path.exists(sample_template_path):
+                with open(sample_template_path, "rb") as f_tpl:
+                    st.download_button(
+                        label="📥 Sample CSV Template",
+                        data=f_tpl.read(),
+                        file_name="sample_student_roster_template.csv",
+                        mime="text/csv",
+                        use_container_width=True
+                    )
+
     if uploaded_file is not None:
         try:
             batch_df = pd.read_csv(uploaded_file)
-            st.success(f"Successfully uploaded {len(batch_df)} student records.")
+            batch_source_name = uploaded_file.name
+            st.session_state.active_batch_source = "upload"
+            st.success(f"Successfully loaded {len(batch_df)} student records from '{uploaded_file.name}'.")
         except Exception as e:
             st.error(f"Failed to read CSV: {e}")
+    elif st.session_state.get("active_batch_source") == "preset":
+        chosen_p = st.session_state.get("preset_cohort_choice", pre_cohort_choice)
+        c_path = COHORT_REGISTRY[chosen_p]["file"]
+        if os.path.exists(c_path):
+            batch_df = pd.read_csv(c_path)
+            batch_source_name = chosen_p
+            st.info(f"Displaying batch inference for pre-configured cohort: **{chosen_p}** ({len(batch_df):,} records).")
 
     if batch_df is not None:
         # Validate required columns (LMS logins completely excluded from requirements)
@@ -1166,7 +1353,7 @@ elif "Batch Prediction" in page:
             with sync_c1:
                 st.markdown(f"""
                 <div style="background-color: #EFF6FF; border: 1px solid #BFDBFE; border-left: 4px solid #1E3A8A; border-radius: 4px; padding: 0.75rem 1rem; font-size: 0.8125rem; color: #1E3A8A;">
-                    <b>Synchronize System Surveillance:</b> Activate these {total_b:,} uploaded student records as the active university cohort. This immediately updates the Executive Overview, monitored totals, departmental distribution charts, and individual profiler.
+                    <b>Synchronize System Surveillance:</b> Activate these {total_b:,} evaluated student records as the active university cohort. This immediately updates the Executive Overview, monitored totals, departmental distribution charts, and individual profiler.
                 </div>
                 """, unsafe_allow_html=True)
             with sync_c2:
@@ -1178,6 +1365,7 @@ elif "Batch Prediction" in page:
                     sync_df["Risk_Level"] = sync_df["Predicted_Risk"]
                     st.session_state.active_students = sync_df
                     st.session_state.is_custom_cohort = True
+                    st.session_state.selected_cohort_key = f"Custom Batch ({len(sync_df):,} students)"
                     st.success(f"System synchronized! Executive Overview now monitors all {len(sync_df):,} students.")
                     st.rerun()
 

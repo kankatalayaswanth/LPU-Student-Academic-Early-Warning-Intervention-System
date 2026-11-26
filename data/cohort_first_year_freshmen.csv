@@ -1,0 +1,840 @@
+Student_ID,Department,Semester,Attendance_Pct,CA1_Marks,CA2_Marks,CA3_Marks,MidTerm_Marks,Prev_Sem_CGPA,Assignment_Submission_Rate,LMS_Logins_Per_Week,Active_Backlogs,Study_Hours_Per_Week,Participation_Score,Risk_Level
+LPU120005,Computer Science & Engineering,2,73.7,94.8,88.5,100.0,86.9,7.59,72.0,8.0,0,12.4,4.8,Low
+LPU120006,Computer Science & Engineering,1,76.9,72.4,74.0,68.0,68.0,8.04,81.2,15.0,0,14.4,5.8,Low
+LPU120011,Computer Science & Engineering,1,80.1,100.0,100.0,100.0,89.8,9.18,86.5,17.0,0,24.9,6.2,Low
+LPU120017,Computer Science & Engineering,1,84.3,91.0,99.6,93.9,100.0,8.25,81.7,12.0,0,16.6,7.9,Low
+LPU120022,Computer Science & Engineering,1,84.7,85.9,73.4,73.2,69.2,7.65,86.2,18.0,0,25.0,7.9,Low
+LPU120023,Computer Science & Engineering,2,66.5,40.9,49.6,45.9,36.0,7.56,58.7,9.0,0,3.5,5.7,Medium
+LPU120026,Civil Engineering,2,60.0,19.4,27.5,14.2,15.9,4.48,51.8,1.0,0,2.0,1.3,High
+LPU120027,Computer Science & Engineering,2,97.4,94.7,95.9,100.0,89.7,9.95,,32.0,0,34.2,9.4,Low
+LPU120029,Electronics & Communication,1,71.3,63.5,61.6,52.7,45.4,7.18,72.7,10.0,1,14.0,9.2,Low
+LPU120033,Computer Science & Engineering,2,70.1,56.1,69.7,53.6,57.6,7.11,72.6,12.0,0,9.3,4.0,Low
+LPU120034,Biotechnology,1,77.1,65.3,63.8,64.1,62.8,8.17,82.2,15.0,0,11.8,5.3,Low
+LPU120038,Computer Science & Engineering,1,69.1,50.7,49.6,42.9,29.6,5.19,67.9,8.0,0,13.4,4.7,Medium
+LPU120045,Computer Science & Engineering,1,75.2,69.4,74.0,79.7,70.2,6.81,70.0,14.0,0,,6.0,Low
+LPU120047,Computer Science & Engineering,1,100.0,100.0,100.0,100.0,100.0,9.62,89.2,18.0,0,29.4,7.4,Low
+LPU120050,Computer Science & Engineering,1,70.7,45.6,50.1,43.6,40.7,6.41,63.4,8.0,0,18.7,3.6,Medium
+LPU120052,Mechanical Engineering,1,77.1,67.3,65.4,48.8,61.2,8.9,96.9,21.0,0,25.9,8.3,Low
+LPU120055,Electronics & Communication,1,73.2,33.3,32.0,31.1,16.5,4.22,59.1,5.0,0,7.4,2.1,High
+LPU120058,Computer Science & Engineering,2,80.2,74.1,69.2,69.8,71.4,7.39,75.2,14.0,0,16.2,6.5,Low
+LPU120059,Computer Science & Engineering,1,81.8,44.3,53.2,53.2,32.5,6.42,81.9,10.0,0,12.7,7.3,Medium
+LPU120063,Civil Engineering,1,72.4,61.4,69.4,56.9,56.0,6.27,73.4,8.0,0,2.7,6.1,Low
+LPU120064,Computer Science & Engineering,1,72.9,76.0,77.4,60.1,72.9,7.99,77.8,19.0,0,23.0,6.8,Low
+LPU120066,Electronics & Communication,2,79.6,43.1,51.9,51.1,40.8,6.2,,11.0,0,8.8,5.4,Medium
+LPU120067,Computer Science & Engineering,2,65.4,42.9,45.0,37.8,33.6,6.78,57.0,12.0,0,9.4,5.0,Medium
+LPU120068,Civil Engineering,2,96.3,95.1,99.5,100.0,100.0,8.77,82.9,23.0,0,26.0,10.0,Low
+LPU120073,Computer Science & Engineering,2,75.3,58.9,51.7,59.4,57.6,7.05,75.5,18.0,0,21.4,6.2,Low
+LPU120075,Mechanical Engineering,2,75.6,66.1,70.2,66.5,60.3,6.64,86.4,22.0,0,17.5,8.6,Low
+LPU120081,Management & Commerce,1,54.4,20.6,15.3,26.0,11.2,3.95,58.5,1.0,0,2.0,4.4,High
+LPU120087,Mechanical Engineering,1,89.6,100.0,100.0,100.0,100.0,9.65,97.1,19.0,0,24.9,8.6,Low
+LPU120089,Management & Commerce,2,86.4,90.3,100.0,88.0,92.8,7.91,83.3,30.0,0,24.3,9.2,Low
+LPU120095,Mechanical Engineering,1,73.5,72.7,82.5,69.5,80.6,8.4,75.5,13.0,0,18.8,7.4,Low
+LPU120097,Information Technology,2,76.1,51.6,66.5,58.6,47.1,7.31,70.5,14.0,0,14.9,2.8,Low
+LPU120099,Computer Science & Engineering,2,80.5,60.6,70.0,51.3,75.5,7.2,72.9,17.0,0,21.4,6.2,Low
+LPU120100,Computer Science & Engineering,1,64.7,69.1,51.6,69.0,60.6,8.24,55.4,9.0,0,3.5,6.5,Medium
+LPU120102,Electronics & Communication,1,67.9,53.4,60.8,59.3,53.5,7.95,67.5,16.0,1,21.3,5.8,Medium
+LPU120104,Information Technology,2,62.9,56.8,44.7,40.2,61.6,7.09,68.2,7.0,0,2.6,5.0,Low
+LPU120105,Management & Commerce,1,76.7,61.9,69.3,62.0,57.9,7.94,74.8,8.0,0,19.3,7.9,Low
+LPU120107,Information Technology,1,77.0,65.3,67.2,57.2,59.7,7.73,70.0,14.0,0,18.6,4.6,Medium
+LPU120108,Mechanical Engineering,2,87.4,71.7,71.7,66.0,70.1,7.38,82.8,15.0,0,19.8,6.7,Low
+LPU120110,Computer Science & Engineering,1,,59.4,66.0,63.2,67.9,7.57,90.5,22.0,0,25.3,6.0,Low
+LPU120112,Computer Science & Engineering,1,70.6,56.4,58.8,61.5,69.4,7.8,53.9,16.0,0,16.2,6.2,Medium
+LPU120113,Management & Commerce,2,57.7,42.5,41.1,20.6,30.8,5.87,84.7,12.0,0,8.5,3.7,High
+LPU120115,Electronics & Communication,2,85.3,100.0,100.0,100.0,100.0,9.36,88.8,28.0,0,18.2,7.4,Low
+LPU120116,Management & Commerce,1,86.5,60.5,75.7,69.0,62.2,7.07,80.1,27.0,0,23.7,7.0,Low
+LPU120118,Computer Science & Engineering,2,89.7,50.6,57.1,64.3,45.3,6.57,84.8,16.0,0,17.2,8.6,Low
+LPU120120,Information Technology,2,87.6,65.9,66.5,62.1,56.5,7.27,94.1,20.0,0,20.2,7.0,Low
+LPU120127,Civil Engineering,1,76.1,37.1,35.4,24.1,32.1,5.79,70.3,9.0,0,13.0,4.7,Medium
+LPU120133,Computer Science & Engineering,1,84.0,61.1,65.5,60.7,59.1,6.29,70.1,18.0,0,12.2,5.8,Low
+LPU120134,Computer Science & Engineering,2,92.5,67.4,69.6,58.0,64.9,7.66,96.6,15.0,0,14.2,5.5,Low
+LPU120141,Biotechnology,2,86.0,92.6,100.0,100.0,87.5,9.25,85.8,21.0,0,21.6,7.3,Low
+LPU120142,Computer Science & Engineering,1,52.6,18.8,10.6,9.5,10.0,4.41,32.3,2.0,0,2.0,2.5,High
+LPU120145,Computer Science & Engineering,1,100.0,90.2,100.0,100.0,82.2,8.33,98.2,24.0,0,23.7,9.7,Low
+LPU120151,Management & Commerce,2,79.5,62.1,61.3,56.5,63.4,8.31,89.9,23.0,0,19.9,6.8,Low
+LPU120154,Information Technology,1,78.2,40.7,46.6,56.8,33.2,6.34,72.0,21.0,0,20.6,5.2,Low
+LPU120159,Computer Science & Engineering,2,54.2,14.7,14.3,10.1,10.0,3.99,49.6,1.0,0,2.0,2.5,High
+LPU120163,Electronics & Communication,2,70.2,67.6,52.0,65.1,59.6,6.81,89.0,18.0,0,24.6,5.0,Low
+LPU120166,Civil Engineering,2,89.7,95.7,99.3,100.0,100.0,9.18,90.5,24.0,0,24.6,7.4,Low
+LPU120167,Computer Science & Engineering,1,76.7,61.5,74.4,57.8,52.9,6.15,72.1,8.0,1,20.0,4.8,Medium
+LPU120170,Electronics & Communication,2,79.5,46.3,54.9,57.0,54.2,7.41,78.5,14.0,0,16.1,5.9,Low
+LPU120174,Computer Science & Engineering,2,77.8,47.5,56.6,47.1,50.6,6.64,72.8,12.0,0,9.4,6.3,Low
+LPU120176,Computer Science & Engineering,2,81.8,60.8,50.5,45.6,42.9,5.35,75.9,16.0,0,2.0,6.7,Medium
+LPU120178,Information Technology,1,73.6,27.5,35.3,46.3,13.9,6.07,63.7,6.0,0,11.8,6.0,Medium
+LPU120179,Management & Commerce,1,44.1,16.4,25.1,11.9,10.0,5.73,55.5,1.0,0,2.0,2.6,High
+LPU120181,Computer Science & Engineering,2,,96.4,84.8,87.5,81.0,8.48,88.5,27.0,0,16.5,6.4,Low
+LPU120183,Management & Commerce,1,76.8,84.7,77.1,74.3,85.4,8.44,78.7,14.0,0,6.1,8.2,Low
+LPU120186,Electronics & Communication,1,,91.1,94.1,99.1,81.6,9.64,100.0,,0,27.8,10.0,Low
+LPU120187,Civil Engineering,1,69.3,55.7,43.8,47.9,38.7,7.15,53.5,12.0,0,8.6,3.5,Medium
+LPU120193,Management & Commerce,1,62.3,61.5,51.1,59.8,45.3,7.3,75.9,8.0,0,12.3,6.4,Medium
+LPU120198,Management & Commerce,2,79.7,67.6,79.2,68.8,68.1,7.42,72.8,14.0,0,12.0,4.5,Low
+LPU120203,Computer Science & Engineering,1,,28.6,22.9,18.0,21.2,5.08,63.7,3.0,1,2.0,4.5,High
+LPU120204,Management & Commerce,1,60.2,12.0,10.0,11.5,10.0,4.13,76.4,9.0,0,11.3,5.0,High
+LPU120207,Computer Science & Engineering,1,77.2,65.0,55.7,55.6,56.4,6.72,81.9,18.0,0,25.3,7.4,Low
+LPU120208,Electronics & Communication,2,81.3,70.1,71.8,67.0,55.8,7.97,69.9,12.0,0,19.0,6.5,Medium
+LPU120209,Computer Science & Engineering,1,80.6,67.6,63.0,68.8,54.4,7.78,77.4,22.0,0,11.1,8.0,Low
+LPU120210,Computer Science & Engineering,2,83.2,87.2,77.5,72.0,73.9,8.53,83.5,13.0,0,19.3,7.8,Low
+LPU120215,Mechanical Engineering,1,72.7,75.9,70.7,84.4,78.3,8.32,74.2,10.0,0,8.2,5.9,Low
+LPU120216,Computer Science & Engineering,2,85.9,67.8,65.2,65.7,75.4,7.25,94.6,24.0,0,20.1,8.0,Low
+LPU120220,Civil Engineering,1,74.7,64.7,68.7,63.0,61.3,7.44,70.9,19.0,0,,5.4,Low
+LPU120226,Computer Science & Engineering,2,67.7,59.7,53.6,48.6,,6.53,72.3,9.0,0,4.4,7.3,Medium
+LPU120227,Biotechnology,1,87.4,80.1,84.0,88.9,79.3,8.55,88.7,21.0,0,27.5,6.6,Low
+LPU120228,Information Technology,2,77.2,65.2,,55.7,50.2,5.53,74.0,13.0,0,2.0,7.8,Medium
+LPU120229,Management & Commerce,2,60.6,14.4,21.5,26.7,10.0,4.32,65.6,12.0,0,5.0,4.5,High
+LPU120233,Electronics & Communication,1,86.7,51.1,49.3,50.6,44.2,6.15,79.4,21.0,0,12.5,9.4,Medium
+LPU120240,Computer Science & Engineering,1,72.1,63.6,56.7,62.7,56.7,6.36,67.3,12.0,0,5.4,6.3,Low
+LPU120242,Biotechnology,2,72.9,37.9,54.5,44.8,45.7,6.36,64.7,14.0,0,6.3,5.2,Medium
+LPU120243,Management & Commerce,2,71.7,70.6,51.9,44.9,58.2,7.02,70.2,13.0,2,9.0,4.1,Medium
+LPU120244,Computer Science & Engineering,1,79.3,66.1,79.6,69.6,79.6,7.91,72.9,18.0,0,24.4,6.5,Low
+LPU120248,Biotechnology,1,78.8,54.2,63.5,50.3,44.1,7.53,,9.0,0,7.3,6.6,Medium
+LPU120253,Civil Engineering,2,56.7,12.2,10.0,8.0,10.0,3.8,61.0,13.0,0,2.0,1.6,High
+LPU120256,Electronics & Communication,2,79.1,34.2,49.1,32.0,19.2,4.61,59.7,14.0,1,11.4,7.3,Medium
+LPU120260,Computer Science & Engineering,1,64.5,31.1,,38.0,16.3,5.89,60.8,5.0,0,9.6,3.0,High
+LPU120261,Electronics & Communication,1,,28.6,18.4,31.3,23.0,4.63,39.6,1.0,1,5.0,1.8,High
+LPU120262,Biotechnology,1,57.7,41.4,36.9,30.5,34.0,6.24,59.7,4.0,0,8.6,2.3,High
+LPU120265,Management & Commerce,1,82.1,67.6,63.7,60.7,62.4,7.42,71.9,15.0,0,16.6,5.6,Low
+LPU120268,Mechanical Engineering,2,70.0,48.4,49.3,39.0,39.5,5.48,65.7,2.0,0,13.1,6.3,High
+LPU120271,Civil Engineering,1,97.9,94.2,88.8,90.3,83.7,9.03,100.0,,0,25.6,8.6,Low
+LPU120272,Civil Engineering,2,66.7,21.8,28.7,27.2,10.6,4.74,58.0,9.0,0,11.1,3.3,High
+LPU120277,Civil Engineering,1,86.0,76.8,88.9,96.3,73.5,7.54,87.8,26.0,0,27.3,6.4,Low
+LPU120278,Electronics & Communication,2,66.4,45.4,45.2,36.0,28.2,5.57,70.4,13.0,0,3.9,2.0,High
+LPU120280,Civil Engineering,2,88.9,80.2,93.9,82.0,78.7,8.07,91.2,27.0,0,21.9,7.5,Low
+LPU120281,Management & Commerce,1,83.0,67.8,75.2,76.4,71.5,7.04,88.8,18.0,0,6.7,5.5,Low
+LPU120286,Computer Science & Engineering,2,74.5,65.0,62.3,74.5,62.7,8.31,79.2,16.0,0,9.4,6.8,Low
+LPU120288,Electronics & Communication,2,88.5,68.6,74.9,77.7,67.3,7.72,98.6,23.0,0,27.0,7.1,Low
+LPU120294,Computer Science & Engineering,2,64.1,46.9,53.8,50.6,40.2,5.55,69.0,11.0,0,10.6,3.3,Medium
+LPU120297,Mechanical Engineering,1,100.0,100.0,100.0,100.0,100.0,9.15,100.0,33.0,0,32.6,10.0,Low
+LPU120300,Computer Science & Engineering,2,79.6,73.0,81.5,73.4,73.7,8.27,80.3,11.0,1,18.0,7.0,Low
+LPU120308,Computer Science & Engineering,2,,65.8,77.0,78.9,60.9,6.29,72.5,12.0,0,12.0,4.8,Medium
+LPU120311,Information Technology,2,73.6,53.7,55.4,62.9,43.7,6.98,69.7,16.0,0,15.2,7.0,Medium
+LPU120314,Biotechnology,2,64.9,62.1,62.8,72.2,72.0,8.72,56.6,10.0,0,10.9,3.2,Low
+LPU120318,Computer Science & Engineering,1,69.2,45.1,43.9,50.7,35.5,6.05,67.2,9.0,0,14.5,5.5,Medium
+LPU120319,Computer Science & Engineering,1,79.5,76.4,75.6,80.4,69.9,8.72,88.7,22.0,0,33.5,9.0,Low
+LPU120322,Mechanical Engineering,2,81.5,68.3,69.5,71.3,64.0,7.08,79.6,15.0,0,18.2,8.5,Low
+LPU120324,Computer Science & Engineering,2,85.9,72.0,80.0,79.0,78.6,8.24,80.8,18.0,0,14.9,6.8,Low
+LPU120325,Biotechnology,2,91.7,75.5,,76.8,71.5,7.86,91.3,30.0,0,22.6,6.7,Low
+LPU120328,Electronics & Communication,1,76.4,76.0,72.5,63.1,60.1,7.85,80.5,12.0,0,23.3,5.2,Low
+LPU120330,Computer Science & Engineering,1,78.7,48.2,69.2,51.6,49.7,6.75,68.8,11.0,0,7.7,7.7,Medium
+LPU120333,Computer Science & Engineering,1,50.1,36.6,27.9,31.5,,4.72,42.5,6.0,0,2.0,2.8,Medium
+LPU120334,Computer Science & Engineering,2,71.6,67.7,56.6,63.1,50.6,6.86,82.0,16.0,0,12.4,4.5,Low
+LPU120338,Mechanical Engineering,1,76.1,69.7,72.2,73.2,63.8,7.25,80.7,20.0,0,21.3,4.0,Low
+LPU120348,Computer Science & Engineering,2,89.7,81.1,92.3,95.0,82.3,8.42,96.8,21.0,0,27.2,9.6,Low
+LPU120352,Civil Engineering,2,72.3,64.5,54.7,47.2,56.1,6.76,69.8,12.0,0,7.9,5.9,Medium
+LPU120353,Electronics & Communication,2,93.4,90.2,84.3,80.8,87.2,9.39,79.0,19.0,0,15.6,8.0,Low
+LPU120355,Computer Science & Engineering,1,74.9,38.3,50.2,44.1,33.6,5.12,73.7,17.0,2,17.4,5.4,Medium
+LPU120357,Computer Science & Engineering,2,67.3,57.8,56.5,56.0,49.6,6.5,58.3,13.0,0,6.6,3.0,Medium
+LPU120358,Electronics & Communication,1,73.3,62.5,66.6,73.1,58.2,5.59,74.3,15.0,0,7.3,6.0,Medium
+LPU120359,Biotechnology,1,68.4,63.2,58.1,33.0,50.0,6.39,67.0,8.0,0,2.9,5.0,Medium
+LPU120360,Electronics & Communication,2,63.8,26.2,31.0,18.4,17.7,5.1,57.0,3.0,0,2.0,4.4,High
+LPU120362,Electronics & Communication,2,84.0,69.4,74.6,69.8,66.5,8.23,90.5,26.0,0,26.2,6.2,Low
+LPU120369,Computer Science & Engineering,2,89.0,66.4,62.5,52.8,63.2,6.93,78.2,19.0,0,23.1,5.3,Low
+LPU120378,Computer Science & Engineering,2,64.2,66.6,63.9,65.8,58.4,6.88,60.1,13.0,0,14.6,6.3,Medium
+LPU120380,Computer Science & Engineering,2,85.8,59.7,67.4,68.6,,6.69,95.9,20.0,0,80.0,6.2,Low
+LPU120383,Electronics & Communication,2,68.2,40.3,42.2,22.8,,5.72,63.8,13.0,0,22.0,4.8,Medium
+LPU120384,Management & Commerce,1,81.4,79.2,74.2,75.3,81.3,8.86,74.1,18.0,0,13.8,5.3,Low
+LPU120385,Mechanical Engineering,1,57.2,37.1,45.5,52.2,41.6,6.81,52.7,7.0,0,3.5,3.5,Medium
+LPU120395,Computer Science & Engineering,2,76.9,36.6,27.4,29.4,24.7,4.99,63.7,9.0,0,4.4,6.3,High
+LPU120398,Information Technology,2,72.0,58.1,63.6,65.4,43.7,6.71,65.2,12.0,0,18.8,4.1,Medium
+LPU120400,Mechanical Engineering,1,73.9,77.3,64.9,58.5,56.0,6.88,75.4,13.0,0,17.8,5.3,Low
+LPU120401,Computer Science & Engineering,1,100.0,100.0,100.0,100.0,95.8,9.95,100.0,32.0,0,39.1,10.0,Low
+LPU120403,Information Technology,1,88.1,54.6,61.1,68.9,52.7,6.71,90.1,26.0,0,21.1,5.4,Low
+LPU120406,Management & Commerce,1,71.2,22.8,15.7,20.7,10.0,4.44,55.5,,2,9.8,2.8,High
+LPU120408,Computer Science & Engineering,2,63.3,46.0,43.0,34.5,37.5,6.09,68.0,7.0,0,7.5,6.1,Medium
+LPU120409,Management & Commerce,2,54.7,36.3,23.1,25.9,19.9,4.32,37.2,1.0,0,2.0,2.0,High
+LPU120410,Computer Science & Engineering,2,73.5,66.9,64.9,80.5,59.4,7.15,69.1,15.0,0,14.5,4.0,Low
+LPU120411,Computer Science & Engineering,2,69.3,61.7,54.8,47.2,57.9,7.36,71.8,8.0,0,9.8,7.0,Low
+LPU120412,Biotechnology,1,52.4,20.4,12.0,21.4,10.0,4.7,39.8,1.0,1,2.0,1.0,High
+LPU120415,Electronics & Communication,2,82.0,66.2,74.4,64.5,,7.39,87.6,19.0,0,20.0,6.4,Low
+LPU120420,Mechanical Engineering,2,89.6,61.9,58.5,59.1,55.7,5.88,86.0,22.0,0,18.9,7.0,Medium
+LPU120421,Civil Engineering,2,91.3,71.8,78.9,59.6,69.3,8.16,97.7,19.0,0,24.8,6.7,Low
+LPU120424,Information Technology,2,91.3,100.0,100.0,100.0,100.0,9.75,96.7,26.0,0,24.7,9.0,Low
+LPU120433,Electronics & Communication,1,70.1,66.5,89.4,81.1,79.3,8.13,68.3,12.0,0,14.7,5.6,Low
+LPU120436,Mechanical Engineering,2,92.3,100.0,100.0,100.0,100.0,9.73,74.5,21.0,0,26.9,6.2,Low
+LPU120440,Computer Science & Engineering,1,,59.8,64.1,55.6,59.7,7.24,78.4,14.0,0,13.4,4.9,Medium
+LPU120441,Computer Science & Engineering,2,59.7,52.7,55.4,54.7,36.4,5.94,52.0,,0,4.7,4.5,High
+LPU120443,Computer Science & Engineering,2,69.1,62.4,67.0,48.0,50.3,6.35,71.6,5.0,0,9.3,5.1,Medium
+LPU120446,Biotechnology,1,86.5,38.9,42.0,27.0,19.4,5.32,70.0,18.0,2,19.6,6.8,Medium
+LPU120459,Computer Science & Engineering,2,89.8,77.8,82.7,74.1,77.6,8.28,82.9,24.0,0,21.5,5.8,Low
+LPU120461,Computer Science & Engineering,2,64.4,53.2,48.3,48.0,37.8,4.98,71.2,10.0,0,7.5,5.0,Medium
+LPU120472,Biotechnology,2,63.3,14.6,16.9,8.0,16.7,3.8,68.0,1.0,2,3.6,3.2,High
+LPU120476,Biotechnology,1,81.0,45.7,43.7,38.9,36.8,5.27,84.2,19.0,0,13.8,5.9,Medium
+LPU120478,Electronics & Communication,1,58.0,12.2,10.0,15.9,10.0,3.83,51.0,3.0,0,6.0,3.6,High
+LPU120482,Mechanical Engineering,2,78.7,80.8,76.8,83.1,71.2,8.07,77.1,14.0,0,16.9,5.4,Low
+LPU120487,Computer Science & Engineering,1,,55.2,47.0,45.4,38.5,7.01,76.7,10.0,0,12.7,4.4,Medium
+LPU120491,Information Technology,2,78.0,70.7,84.3,80.2,80.7,,67.6,15.0,0,15.4,6.6,Low
+LPU120495,Information Technology,1,95.3,90.6,100.0,98.1,89.8,9.4,100.0,23.0,0,26.1,8.7,Low
+LPU120497,Electronics & Communication,2,74.6,49.1,,36.2,46.8,6.31,64.9,12.0,0,6.9,6.0,Medium
+LPU120498,Computer Science & Engineering,2,70.2,55.5,48.6,49.4,49.8,8.36,68.2,15.0,0,10.4,5.1,Medium
+LPU120499,Biotechnology,2,54.1,41.5,51.4,37.2,35.8,5.62,63.6,1.0,0,2.0,4.1,Medium
+LPU120503,Computer Science & Engineering,2,56.3,19.8,10.0,12.0,10.0,5.03,39.6,1.0,0,2.0,2.4,High
+LPU120508,Civil Engineering,1,95.7,100.0,100.0,98.4,91.1,8.82,89.9,23.0,0,24.4,8.7,Low
+LPU120510,Mechanical Engineering,1,82.4,58.2,63.5,60.9,43.8,5.52,89.5,16.0,0,21.0,5.8,Low
+LPU120512,Information Technology,2,74.8,80.8,62.5,70.7,61.5,6.1,62.6,10.0,0,21.9,7.0,Low
+LPU120513,Management & Commerce,2,82.5,82.1,75.8,80.2,79.0,8.36,80.1,15.0,0,17.0,7.3,Low
+LPU120519,Biotechnology,1,94.5,72.7,84.3,89.7,88.3,9.02,92.2,28.0,0,24.9,8.1,Low
+LPU120521,Electronics & Communication,2,85.3,71.3,86.6,84.8,65.4,7.87,84.4,26.0,0,17.8,6.9,Low
+LPU120525,Civil Engineering,1,85.5,85.9,95.6,86.2,97.4,8.27,87.8,18.0,0,24.2,5.9,Low
+LPU120531,Civil Engineering,2,89.6,87.7,79.8,96.9,,8.87,100.0,35.0,0,27.3,8.6,Low
+LPU120534,Electronics & Communication,1,80.2,78.4,77.0,79.8,72.6,7.25,78.0,24.0,0,25.9,6.6,Low
+LPU120535,Mechanical Engineering,2,,66.8,67.9,58.5,69.8,6.66,71.5,11.0,0,7.3,6.3,Low
+LPU120536,Biotechnology,2,96.5,73.5,75.7,84.7,64.0,7.75,82.1,24.0,0,15.0,4.9,Low
+LPU120539,Information Technology,1,60.9,27.1,15.5,41.3,20.3,4.65,46.3,3.0,0,3.4,3.4,High
+LPU120541,Biotechnology,2,60.7,21.0,21.4,43.2,19.5,4.79,56.4,13.0,1,9.3,5.7,High
+LPU120543,Computer Science & Engineering,1,59.6,52.4,60.9,42.5,47.5,7.17,60.0,13.0,1,12.8,5.2,Medium
+LPU120550,Mechanical Engineering,2,75.3,55.1,58.7,43.5,49.2,5.33,63.4,16.0,0,16.0,4.5,Low
+LPU120551,Information Technology,2,76.0,42.7,51.7,67.4,39.3,6.32,69.4,8.0,0,7.8,7.0,Low
+LPU120553,Electronics & Communication,2,73.4,77.7,76.7,82.3,89.6,8.43,71.3,15.0,0,13.5,7.7,Low
+LPU120554,Electronics & Communication,2,80.4,78.2,74.7,74.7,80.7,8.9,96.2,25.0,0,18.8,7.5,Low
+LPU120558,Computer Science & Engineering,1,78.2,47.5,,47.6,36.2,5.13,65.9,13.0,0,6.7,6.6,Low
+LPU120559,Mechanical Engineering,1,72.9,53.5,,56.6,43.3,6.48,83.9,14.0,0,13.7,6.0,Medium
+LPU120561,Mechanical Engineering,2,70.0,48.8,31.6,35.5,17.6,4.92,69.6,8.0,0,16.9,6.6,Medium
+LPU120562,Computer Science & Engineering,1,72.4,73.6,78.6,62.8,70.0,7.67,80.2,11.0,0,15.9,7.5,Low
+LPU120566,Electronics & Communication,2,91.0,71.0,78.5,67.5,71.2,7.75,94.7,22.0,0,18.3,8.1,Low
+LPU120567,Information Technology,1,88.2,77.3,81.6,84.6,80.6,8.14,92.3,28.0,0,17.8,8.4,Low
+LPU120569,Management & Commerce,2,57.2,32.5,29.6,36.8,21.9,5.27,71.8,7.0,0,6.9,5.5,High
+LPU120573,Information Technology,2,73.6,57.4,60.5,57.4,48.9,6.85,72.7,10.0,0,16.0,5.6,Low
+LPU120574,Electronics & Communication,2,65.2,56.1,50.9,42.2,54.0,5.71,67.9,14.0,0,9.3,6.2,Medium
+LPU120578,Management & Commerce,1,67.6,52.5,51.8,45.5,36.4,6.0,64.6,7.0,0,7.7,3.2,Medium
+LPU120579,Information Technology,2,91.6,71.2,69.8,69.8,64.9,6.57,84.1,21.0,0,13.0,8.1,Low
+LPU120583,Information Technology,2,88.1,95.7,100.0,100.0,100.0,9.44,84.7,23.0,0,,10.0,Low
+LPU120588,Computer Science & Engineering,1,73.3,51.4,52.6,43.6,46.9,6.87,70.2,8.0,0,14.2,5.3,Medium
+LPU120590,Computer Science & Engineering,2,85.6,80.1,71.1,87.5,64.7,7.84,74.2,,0,13.9,7.7,Low
+LPU120595,Management & Commerce,2,62.8,61.8,55.1,64.1,46.4,7.05,68.4,7.0,0,12.0,3.9,Medium
+LPU120598,Computer Science & Engineering,1,74.8,67.9,74.6,65.8,66.7,7.6,68.7,10.0,0,24.1,6.0,Low
+LPU120599,Computer Science & Engineering,1,75.2,46.3,45.4,42.1,34.8,5.98,65.1,6.0,2,16.3,7.7,High
+LPU120601,Computer Science & Engineering,1,69.5,27.8,34.4,28.7,19.8,,67.1,8.0,4,9.6,4.5,High
+LPU120605,Computer Science & Engineering,2,78.7,66.6,,69.0,62.8,7.31,69.5,12.0,0,12.6,5.1,Low
+LPU120608,Computer Science & Engineering,1,56.0,51.1,48.4,43.0,55.1,6.41,63.1,7.0,0,2.0,6.6,Medium
+LPU120612,Civil Engineering,2,69.9,47.9,47.9,54.4,40.7,5.56,65.4,8.0,0,11.6,6.7,Medium
+LPU120614,Computer Science & Engineering,1,71.9,50.2,30.6,41.4,36.0,,56.2,1.0,0,8.6,5.2,Medium
+LPU120615,Management & Commerce,2,59.3,34.4,19.8,30.5,,5.08,69.3,1.0,0,7.7,4.4,High
+LPU120618,Computer Science & Engineering,1,84.0,70.6,74.3,77.2,64.0,8.32,83.3,23.0,0,19.7,6.9,Low
+LPU120619,Civil Engineering,2,77.0,63.4,55.2,65.1,54.4,5.67,73.8,15.0,0,15.3,5.8,Medium
+LPU120620,Mechanical Engineering,2,89.0,90.0,88.1,90.6,84.9,9.06,100.0,21.0,0,32.5,9.5,Low
+LPU120621,Computer Science & Engineering,2,67.2,48.7,41.4,61.5,38.9,5.5,53.9,1.0,0,72.5,2.6,Medium
+LPU120622,Computer Science & Engineering,2,85.4,58.7,69.8,63.9,62.6,7.58,81.9,12.0,0,16.7,5.1,Low
+LPU120623,Computer Science & Engineering,1,85.9,62.4,65.9,78.3,70.2,8.6,86.6,20.0,0,18.5,7.9,Low
+LPU120628,Mechanical Engineering,1,59.8,30.1,39.0,16.4,25.6,7.46,52.9,62.0,2,9.7,4.1,High
+LPU120635,Computer Science & Engineering,2,64.7,46.2,47.8,30.8,33.9,5.65,63.9,6.0,0,11.7,3.8,Medium
+LPU120640,Computer Science & Engineering,1,70.2,25.1,21.6,39.9,14.5,,79.2,15.0,0,11.5,4.6,High
+LPU120645,Computer Science & Engineering,2,86.6,90.1,86.8,90.5,88.6,8.96,86.3,18.0,0,,7.4,Low
+LPU120652,Information Technology,2,73.7,22.6,30.0,30.8,10.0,4.19,56.4,10.0,1,13.4,5.8,High
+LPU120658,Computer Science & Engineering,1,74.5,83.7,87.5,87.0,76.2,8.8,74.4,18.0,0,21.0,5.9,Low
+LPU120660,Electronics & Communication,2,88.5,92.4,92.6,88.2,86.2,8.02,81.5,18.0,0,22.8,5.5,Low
+LPU120662,Biotechnology,1,81.9,100.0,88.3,81.3,97.7,9.43,,23.0,0,26.6,7.6,Low
+LPU120663,Electronics & Communication,2,76.5,36.3,29.6,21.5,20.6,5.95,70.5,13.0,0,11.3,5.1,Medium
+LPU120665,Computer Science & Engineering,1,46.1,40.0,33.8,39.0,33.5,6.26,59.3,1.0,0,2.1,3.1,High
+LPU120668,Computer Science & Engineering,1,74.7,45.2,54.5,68.3,44.4,5.9,70.0,15.0,0,12.9,5.9,Medium
+LPU120672,Management & Commerce,2,56.3,45.1,48.4,48.8,45.3,6.49,66.0,7.0,0,6.7,4.4,Medium
+LPU120673,Computer Science & Engineering,2,81.5,61.4,67.8,68.3,,7.27,81.2,25.0,0,19.1,8.3,Low
+LPU120674,Information Technology,2,72.7,60.7,72.1,63.9,66.4,6.96,71.8,10.0,0,3.5,6.2,Low
+LPU120675,Information Technology,1,100.0,83.6,94.4,100.0,90.5,9.14,96.9,26.0,0,18.9,10.0,Low
+LPU120676,Biotechnology,2,46.4,20.2,10.0,13.8,10.0,3.8,44.9,1.0,1,2.0,1.4,High
+LPU120681,Civil Engineering,1,67.0,40.7,44.8,43.5,42.2,5.95,53.1,6.0,0,5.4,4.7,Medium
+LPU120682,Computer Science & Engineering,2,85.9,73.9,78.3,70.1,71.7,8.08,85.5,17.0,0,25.7,6.8,Low
+LPU120683,Computer Science & Engineering,2,81.8,49.2,65.6,57.4,55.8,8.29,91.0,22.0,0,25.3,7.0,Low
+LPU120684,Electronics & Communication,2,68.7,95.0,94.7,90.5,84.0,8.29,70.4,16.0,0,9.4,6.2,Low
+LPU120691,Computer Science & Engineering,2,81.5,70.9,77.8,71.0,63.8,7.33,91.8,14.0,0,23.9,7.3,Low
+LPU120694,Computer Science & Engineering,2,50.7,12.0,14.7,8.0,10.0,3.8,51.7,1.0,1,4.6,1.0,High
+LPU120699,Computer Science & Engineering,1,51.4,82.5,,77.1,69.4,7.19,49.7,2.0,0,12.8,3.2,Medium
+LPU120703,Computer Science & Engineering,2,81.8,71.7,87.0,76.5,87.0,7.94,89.2,18.0,0,25.9,8.7,Low
+LPU120711,Mechanical Engineering,2,71.3,33.6,45.0,41.2,31.3,7.59,68.9,12.0,0,15.6,6.8,Medium
+LPU120713,Information Technology,2,80.7,56.9,54.9,64.7,51.1,8.38,78.2,15.0,0,12.8,6.0,Low
+LPU120715,Computer Science & Engineering,2,84.7,60.6,62.0,62.6,50.3,6.97,70.5,18.0,0,21.5,7.1,Low
+LPU120716,Management & Commerce,1,54.4,30.7,26.4,29.8,12.0,6.02,65.6,7.0,0,5.4,6.3,High
+LPU120717,Civil Engineering,2,78.5,65.0,54.2,72.0,60.3,7.04,60.6,12.0,0,11.3,4.0,Low
+LPU120718,Biotechnology,1,67.9,45.7,44.9,38.7,35.2,6.03,69.6,10.0,1,9.1,6.0,Medium
+LPU120722,Computer Science & Engineering,2,64.4,35.3,35.7,35.0,25.8,6.28,56.8,7.0,0,3.1,3.3,High
+LPU120723,Computer Science & Engineering,1,73.3,74.8,84.3,85.9,76.0,8.72,70.4,13.0,0,22.9,6.8,Low
+LPU120724,Mechanical Engineering,1,80.4,62.9,65.2,65.2,55.6,7.21,71.2,16.0,0,,6.6,Low
+LPU120725,Electronics & Communication,2,83.7,53.3,70.5,54.3,,6.29,99.1,20.0,0,21.2,7.4,Low
+LPU120727,Computer Science & Engineering,2,72.5,60.3,44.2,50.7,36.6,6.12,71.2,18.0,0,13.6,4.8,Medium
+LPU120729,Computer Science & Engineering,1,78.5,70.1,68.5,79.8,69.3,9.11,77.6,9.0,0,16.9,5.8,Low
+LPU120730,Computer Science & Engineering,2,64.0,29.7,19.0,13.5,30.8,5.0,56.0,4.0,1,2.0,4.3,High
+LPU120733,Electronics & Communication,2,94.8,76.8,64.4,77.3,74.8,7.68,100.0,24.0,0,31.7,8.4,Low
+LPU120734,Information Technology,1,78.7,68.4,65.9,65.8,,5.72,63.8,8.0,0,6.3,5.8,Low
+LPU120736,Management & Commerce,2,85.6,58.4,78.8,69.7,58.4,8.13,86.2,17.0,0,16.0,5.8,Low
+LPU120737,Information Technology,2,81.0,92.0,86.8,100.0,92.7,7.59,83.0,16.0,0,19.7,7.2,Low
+LPU120746,Management & Commerce,2,75.9,45.5,49.0,44.1,34.3,6.01,83.1,20.0,0,22.4,6.2,Medium
+LPU120752,Management & Commerce,1,85.6,79.5,86.7,89.6,71.7,8.42,88.2,24.0,0,19.3,6.1,Low
+LPU120754,Computer Science & Engineering,1,72.6,45.9,46.4,49.4,34.4,7.16,70.8,11.0,0,16.3,4.2,Medium
+LPU120756,Civil Engineering,1,87.9,90.2,79.2,72.9,89.6,8.98,87.1,19.0,0,20.7,8.3,Low
+LPU120758,Information Technology,2,54.8,35.9,33.1,21.3,39.3,6.24,60.3,10.0,0,8.5,5.5,Medium
+LPU120761,Computer Science & Engineering,2,89.5,72.9,79.5,68.6,76.8,7.64,83.0,18.0,0,14.2,7.4,Low
+LPU120764,Mechanical Engineering,1,72.1,71.1,69.1,62.8,71.8,7.34,72.5,14.0,0,17.3,4.6,Low
+LPU120766,Electronics & Communication,1,87.6,74.3,77.8,73.7,64.1,7.01,80.0,19.0,0,21.2,6.4,Low
+LPU120771,Computer Science & Engineering,2,63.7,81.0,70.5,72.7,73.9,6.52,74.9,4.0,0,4.7,6.7,Medium
+LPU120772,Civil Engineering,1,74.2,80.5,68.3,76.2,77.3,8.13,83.5,15.0,0,11.4,4.5,Low
+LPU120782,Electronics & Communication,2,95.4,60.2,70.3,54.6,60.2,7.49,100.0,26.0,1,23.0,9.1,Low
+LPU120786,Management & Commerce,1,65.1,56.4,57.2,62.1,50.7,6.42,74.4,11.0,0,16.7,5.9,Medium
+LPU120790,Biotechnology,2,93.1,75.4,71.3,62.2,61.9,7.63,94.6,21.0,0,21.9,8.0,Low
+LPU120791,Computer Science & Engineering,1,76.2,36.1,43.3,31.4,32.4,5.35,62.1,7.0,1,8.7,5.7,High
+LPU120796,Management & Commerce,1,75.7,61.6,64.3,62.5,55.0,6.9,83.3,11.0,0,11.5,5.3,Low
+LPU120798,Electronics & Communication,1,76.4,75.6,64.8,51.2,74.2,7.77,79.5,16.0,2,9.4,7.2,Low
+LPU120804,Electronics & Communication,2,72.8,51.8,50.8,54.8,44.9,7.96,60.4,10.0,0,12.2,3.7,Medium
+LPU120805,Information Technology,2,75.6,64.2,65.2,65.2,61.7,7.43,71.2,16.0,0,12.8,4.7,Low
+LPU120808,Management & Commerce,1,,55.7,52.7,45.5,51.3,6.9,65.2,1.0,0,9.0,5.3,Medium
+LPU120814,Management & Commerce,1,96.0,84.8,81.6,85.7,70.0,7.57,100.0,24.0,0,29.0,7.2,Low
+LPU120815,Management & Commerce,2,68.1,31.4,34.0,36.0,35.2,5.41,62.8,7.0,0,9.6,5.7,Medium
+LPU120818,Information Technology,1,95.6,92.0,85.6,100.0,86.0,8.92,100.0,27.0,0,22.8,8.8,Low
+LPU120822,Computer Science & Engineering,1,89.9,76.9,77.8,81.8,66.0,7.68,88.0,20.0,0,16.3,5.1,Low
+LPU120829,Mechanical Engineering,1,44.6,44.0,41.2,55.2,27.7,,61.2,5.0,0,10.2,5.4,High
+LPU120833,Computer Science & Engineering,2,67.1,30.6,36.2,46.2,19.6,4.26,58.7,9.0,0,4.0,5.0,High
+LPU120834,Computer Science & Engineering,2,84.9,66.3,73.3,64.6,68.6,8.58,72.2,62.0,0,21.0,6.8,Low
+LPU120844,Biotechnology,2,67.4,59.1,69.6,43.9,60.4,6.81,68.6,6.0,0,12.1,4.2,Medium
+LPU120847,Computer Science & Engineering,2,58.5,21.6,10.0,29.2,10.0,4.24,58.9,13.0,2,2.0,6.3,High
+LPU120848,Biotechnology,2,71.6,51.0,59.7,45.5,53.2,6.63,78.7,,0,15.7,4.3,Medium
+LPU120849,Information Technology,2,57.7,54.8,47.8,38.7,40.3,6.04,42.8,2.0,2,2.0,2.6,High
+LPU120850,Electronics & Communication,2,70.3,59.1,47.6,44.6,50.5,5.89,63.1,8.0,0,,4.4,Medium
+LPU120851,Computer Science & Engineering,2,71.7,59.6,63.1,48.2,64.2,7.38,,14.0,0,14.0,5.7,Low
+LPU120855,Computer Science & Engineering,2,73.7,84.9,72.3,65.4,73.4,7.52,73.0,6.0,1,16.8,6.7,Low
+LPU120856,Computer Science & Engineering,1,56.0,16.1,16.1,25.7,10.0,3.95,52.6,1.0,1,2.0,3.0,High
+LPU120862,Information Technology,2,68.0,41.0,50.0,43.3,33.4,6.41,59.9,15.0,0,13.6,6.6,Medium
+LPU120864,Information Technology,2,36.5,17.3,10.0,8.0,10.0,4.07,34.5,1.0,0,2.0,4.4,High
+LPU120867,Computer Science & Engineering,2,69.1,88.0,85.1,88.7,91.1,9.2,88.9,15.0,0,19.0,5.2,Low
+LPU120868,Computer Science & Engineering,2,65.1,45.7,47.5,42.7,41.2,7.24,64.2,1.0,0,3.9,3.5,Medium
+LPU120869,Management & Commerce,2,75.7,66.7,81.4,68.7,60.5,8.86,80.3,10.0,0,72.5,6.8,Low
+LPU120871,Computer Science & Engineering,2,84.4,74.9,77.2,75.7,57.6,7.73,,16.0,0,6.8,7.6,Low
+LPU120873,Electronics & Communication,2,69.9,83.1,69.9,84.1,64.2,7.2,72.1,10.0,0,15.0,5.0,Low
+LPU120878,Electronics & Communication,2,,38.3,45.5,49.7,44.9,6.32,62.0,2.0,0,2.9,4.2,Medium
+LPU120879,Computer Science & Engineering,1,80.7,49.8,48.3,52.7,41.0,7.32,71.6,16.0,0,12.1,7.3,Medium
+LPU120883,Computer Science & Engineering,1,77.9,81.1,69.1,71.2,64.0,7.58,88.8,18.0,0,9.4,6.1,Low
+LPU120884,Computer Science & Engineering,2,75.0,72.8,78.4,71.0,74.5,7.74,76.4,15.0,0,21.4,5.9,Low
+LPU120885,Civil Engineering,1,76.3,69.0,67.0,70.1,58.3,6.94,84.0,19.0,0,22.8,8.8,Low
+LPU120887,Electronics & Communication,2,76.0,96.8,81.4,70.2,,8.03,68.3,13.0,0,11.7,7.0,Low
+LPU120889,Computer Science & Engineering,1,97.7,98.0,100.0,96.3,96.8,8.49,100.0,29.0,0,33.0,10.0,Low
+LPU120891,Mechanical Engineering,2,94.5,88.9,100.0,100.0,83.2,8.62,100.0,33.0,0,29.2,8.9,Low
+LPU120894,Information Technology,2,84.0,64.9,73.4,68.5,59.5,6.74,,16.0,0,13.6,6.2,Low
+LPU120899,Computer Science & Engineering,2,60.3,40.1,48.7,31.2,40.0,5.74,60.5,10.0,0,8.0,4.2,High
+LPU120901,Computer Science & Engineering,1,84.3,84.8,,87.1,84.7,7.93,90.0,23.0,0,20.0,5.7,Low
+LPU120902,Computer Science & Engineering,1,62.4,60.9,46.8,58.2,48.5,7.13,61.8,7.0,0,7.6,6.6,Medium
+LPU120904,Electronics & Communication,2,71.8,58.8,57.9,62.0,46.7,8.09,64.4,9.0,0,24.6,5.5,Medium
+LPU120909,Computer Science & Engineering,2,46.9,12.0,10.0,8.0,10.0,3.8,30.7,1.0,0,2.0,2.3,High
+LPU120910,Computer Science & Engineering,1,95.1,100.0,100.0,92.7,100.0,9.95,94.3,26.0,0,27.2,10.0,Low
+LPU120912,Computer Science & Engineering,1,82.0,65.2,65.0,82.6,64.2,7.48,85.2,20.0,0,23.4,6.5,Low
+LPU120913,Electronics & Communication,1,91.0,100.0,89.7,87.0,100.0,9.45,100.0,20.0,0,27.3,6.5,Low
+LPU120917,Computer Science & Engineering,2,71.5,57.0,41.8,49.0,50.6,6.87,63.5,10.0,0,12.4,7.2,Medium
+LPU120919,Mechanical Engineering,2,70.2,39.2,51.5,36.8,37.5,7.04,68.6,11.0,0,8.5,2.0,Medium
+LPU120920,Computer Science & Engineering,1,76.8,52.4,55.7,59.4,51.3,6.55,70.9,9.0,0,11.9,5.3,Medium
+LPU120924,Civil Engineering,1,,29.9,36.4,37.2,16.2,4.18,67.3,13.0,0,13.1,4.6,Medium
+LPU120937,Computer Science & Engineering,2,69.3,56.1,50.0,44.7,47.2,6.51,80.0,11.0,0,16.3,6.0,Low
+LPU120943,Electronics & Communication,2,81.7,67.4,77.5,78.8,62.7,7.81,76.0,12.0,0,15.1,5.1,Low
+LPU120950,Electronics & Communication,1,72.0,33.2,14.8,27.1,25.5,6.45,74.2,9.0,0,10.2,4.7,Medium
+LPU120956,Information Technology,2,67.3,32.2,35.8,29.5,26.8,5.54,67.1,11.0,0,9.0,2.5,High
+LPU120961,Computer Science & Engineering,2,62.0,46.4,27.1,30.7,32.9,5.61,71.4,4.0,0,6.3,4.8,High
+LPU120962,Electronics & Communication,2,71.7,50.7,54.1,61.5,42.5,6.9,68.8,9.0,0,18.5,7.5,Low
+LPU120965,Computer Science & Engineering,2,72.9,53.4,48.1,64.0,49.6,6.78,62.9,14.0,0,15.5,5.1,Medium
+LPU120970,Information Technology,2,91.4,67.3,68.0,71.6,70.0,8.69,80.6,15.0,0,22.5,7.5,Low
+LPU120971,Electronics & Communication,1,77.0,90.8,100.0,100.0,97.3,8.37,73.2,20.0,0,,6.9,Low
+LPU120981,Computer Science & Engineering,2,64.0,67.2,57.1,77.7,63.6,7.22,73.2,14.0,0,10.7,4.9,Medium
+LPU120983,Computer Science & Engineering,2,67.2,66.3,67.1,58.7,56.4,7.31,65.0,8.0,0,9.9,3.0,Medium
+LPU120988,Information Technology,1,66.9,57.5,59.6,54.5,46.5,6.55,71.6,5.0,0,7.0,5.0,Medium
+LPU120989,Computer Science & Engineering,1,80.9,100.0,98.5,81.6,96.2,9.29,78.1,22.0,0,31.7,7.3,Low
+LPU120991,Civil Engineering,1,93.9,100.0,94.0,100.0,90.3,8.65,84.1,22.0,0,25.2,9.9,Low
+LPU120996,Computer Science & Engineering,2,89.1,75.9,100.0,92.0,82.1,8.76,78.4,,0,22.4,6.2,Low
+LPU120999,Biotechnology,2,89.7,80.5,79.2,82.1,77.0,8.42,98.0,24.0,0,24.1,7.9,Low
+LPU121001,Computer Science & Engineering,2,87.4,58.1,66.9,50.3,59.1,7.0,82.9,12.0,0,15.7,2.5,Medium
+LPU121004,Mechanical Engineering,1,85.2,100.0,100.0,100.0,99.5,9.75,98.6,24.0,0,35.9,6.9,Low
+LPU121010,Information Technology,1,89.8,92.9,93.3,90.4,90.9,9.62,95.4,16.0,0,25.3,8.6,Low
+LPU121012,Biotechnology,1,85.5,75.4,79.6,78.0,69.0,8.45,91.2,27.0,0,32.7,8.4,Low
+LPU121017,Computer Science & Engineering,1,74.6,54.9,64.1,43.8,43.5,6.16,70.9,10.0,0,10.9,6.2,Medium
+LPU121019,Management & Commerce,1,64.1,53.0,56.1,52.5,38.4,5.9,59.8,6.0,0,2.4,4.6,High
+LPU121020,Computer Science & Engineering,2,64.2,37.7,36.9,27.2,,6.69,71.4,10.0,0,12.5,3.8,Medium
+LPU121021,Mechanical Engineering,2,70.4,51.4,40.5,60.9,28.6,6.33,65.3,5.0,0,2.5,5.7,High
+LPU121023,Management & Commerce,2,93.6,64.4,68.0,58.3,50.0,6.73,75.4,13.0,0,14.7,4.7,Low
+LPU121024,Biotechnology,1,70.8,44.9,57.5,52.4,43.1,6.54,70.4,16.0,0,,2.5,Medium
+LPU121025,Biotechnology,2,64.3,40.9,45.5,41.3,32.2,5.65,61.4,11.0,0,2.0,2.1,Medium
+LPU121026,Information Technology,1,,95.2,100.0,100.0,90.5,8.84,80.5,,0,16.0,8.4,Low
+LPU121031,Computer Science & Engineering,2,64.2,36.7,40.3,41.2,24.7,5.66,55.0,1.0,1,4.4,4.4,High
+LPU121033,Computer Science & Engineering,2,71.9,45.2,35.3,47.9,28.5,5.24,60.9,1.0,1,2.8,4.2,High
+LPU121034,Computer Science & Engineering,2,75.0,57.1,46.2,45.3,46.2,6.16,83.8,16.0,0,12.9,5.4,Medium
+LPU121035,Computer Science & Engineering,2,79.2,59.1,68.5,67.7,61.5,8.57,66.5,11.0,0,7.5,4.0,Medium
+LPU121036,Mechanical Engineering,1,73.7,66.5,62.8,65.8,46.4,7.16,64.4,12.0,0,18.1,6.3,Medium
+LPU121037,Computer Science & Engineering,2,87.1,73.4,77.7,85.1,79.7,8.28,97.2,23.0,0,22.6,9.4,Low
+LPU121040,Computer Science & Engineering,1,82.2,73.0,83.1,66.4,69.0,8.38,93.0,18.0,0,23.0,8.7,Low
+LPU121041,Information Technology,2,76.9,55.7,51.9,57.9,57.6,7.04,61.1,21.0,0,13.4,6.4,Low
+LPU121043,Computer Science & Engineering,1,71.9,67.0,60.9,63.3,57.7,7.4,71.9,12.0,0,22.4,5.3,Medium
+LPU121046,Electronics & Communication,2,70.8,78.5,69.4,73.7,59.3,7.94,84.0,23.0,0,10.7,5.6,Low
+LPU121047,Computer Science & Engineering,1,74.3,66.7,85.0,74.3,67.9,7.46,80.9,17.0,0,20.7,5.0,Low
+LPU121049,Management & Commerce,2,,18.9,36.3,26.2,16.3,4.49,51.3,4.0,2,2.0,3.5,High
+LPU121052,Information Technology,1,,68.6,80.2,60.2,63.9,7.3,77.2,13.0,0,21.2,6.9,Low
+LPU121055,Biotechnology,1,67.8,78.4,89.3,67.2,73.6,8.46,74.7,10.0,0,16.5,8.1,Low
+LPU121057,Mechanical Engineering,2,65.4,59.3,67.0,60.2,59.6,7.69,70.3,3.0,1,5.4,3.1,Medium
+LPU121059,Information Technology,1,81.3,68.6,65.0,55.2,61.1,7.1,93.1,21.0,0,23.3,8.2,Low
+LPU121061,Management & Commerce,2,64.8,40.8,25.9,35.4,17.6,4.44,65.6,11.0,0,2.0,3.4,High
+LPU121063,Mechanical Engineering,1,82.9,64.5,61.6,77.9,,7.99,,12.0,0,18.5,6.1,Low
+LPU121071,Computer Science & Engineering,2,71.0,76.2,66.9,76.0,62.9,7.04,78.3,,0,17.6,5.7,Low
+LPU121077,Information Technology,2,57.2,50.5,39.7,50.6,46.2,7.34,55.6,1.0,0,16.5,4.1,Medium
+LPU121086,Information Technology,2,68.6,62.8,51.9,51.2,51.0,7.06,68.2,9.0,0,2.0,4.1,Low
+LPU121089,Biotechnology,1,79.6,40.9,37.0,37.2,30.5,5.65,77.3,13.0,0,10.6,5.5,Medium
+LPU121090,Computer Science & Engineering,2,94.4,82.3,87.8,92.2,81.5,8.76,89.7,20.0,0,31.5,5.5,Low
+LPU121092,Electronics & Communication,2,74.3,88.6,85.9,87.6,90.7,8.31,76.3,17.0,0,18.4,4.8,Low
+LPU121097,Computer Science & Engineering,2,86.2,84.5,91.1,76.8,83.0,8.78,100.0,21.0,0,26.3,7.5,Low
+LPU121101,Computer Science & Engineering,1,78.9,61.2,37.6,57.2,40.8,6.91,84.9,21.0,0,12.2,5.8,Low
+LPU121103,Management & Commerce,2,85.3,75.1,82.4,86.9,77.4,8.2,90.9,23.0,0,20.1,8.4,Low
+LPU121104,Management & Commerce,2,87.9,77.6,92.9,92.8,90.3,8.39,87.6,23.0,0,29.1,6.8,Low
+LPU121105,Biotechnology,2,62.8,19.0,14.0,14.4,10.0,4.16,57.5,1.0,0,4.4,5.1,High
+LPU121106,Computer Science & Engineering,2,70.1,59.1,54.0,54.3,35.6,7.02,61.2,10.0,2,19.5,5.6,Medium
+LPU121108,Mechanical Engineering,2,88.4,63.0,63.3,77.5,60.8,7.71,94.5,20.0,0,13.5,5.4,Low
+LPU121112,Computer Science & Engineering,1,60.5,59.8,40.7,43.8,30.0,6.84,62.7,8.0,0,11.8,6.9,Medium
+LPU121116,Electronics & Communication,1,67.6,47.6,53.8,47.5,41.3,7.17,76.1,13.0,0,14.5,7.1,Medium
+LPU121120,Computer Science & Engineering,2,77.2,88.5,75.4,83.8,75.5,8.3,67.4,12.0,0,14.2,7.0,Low
+LPU121122,Biotechnology,2,80.9,51.6,42.0,29.5,34.8,5.4,74.4,18.0,0,7.5,5.0,Medium
+LPU121123,Management & Commerce,2,77.2,77.1,71.3,95.0,62.4,7.76,,21.0,0,14.9,7.2,Low
+LPU121125,Electronics & Communication,2,72.4,74.1,69.6,70.6,55.9,7.37,74.5,17.0,0,6.6,6.2,Medium
+LPU121126,Electronics & Communication,2,81.7,89.7,97.1,86.6,82.1,9.01,,17.0,0,24.5,3.9,Low
+LPU121127,Computer Science & Engineering,1,85.0,56.4,67.9,72.5,64.5,6.58,84.7,16.0,0,19.1,8.2,Low
+LPU121132,Information Technology,2,76.9,43.9,45.4,55.2,33.0,4.5,79.9,10.0,0,17.4,3.4,Medium
+LPU121135,Mechanical Engineering,1,58.2,37.6,46.4,41.4,39.1,7.52,66.3,,0,9.6,3.8,Medium
+LPU121138,Information Technology,1,72.0,80.1,80.8,80.1,76.3,8.44,81.2,9.0,0,17.0,5.2,Low
+LPU121139,Information Technology,2,86.0,55.5,51.2,49.3,51.5,6.13,83.1,15.0,1,17.9,7.2,Medium
+LPU121140,Electronics & Communication,2,75.1,69.9,65.1,72.0,72.5,7.28,87.2,21.0,0,13.0,7.5,Low
+LPU121141,Civil Engineering,2,77.8,64.5,49.2,69.4,50.4,7.22,74.2,,0,21.3,7.7,Low
+LPU121146,Management & Commerce,2,,82.0,81.5,81.3,81.1,8.12,93.1,16.0,0,18.6,6.4,Low
+LPU121154,Mechanical Engineering,2,76.9,50.9,67.6,53.9,57.1,6.19,64.3,10.0,0,10.6,4.5,Medium
+LPU121155,Electronics & Communication,1,75.2,67.2,66.6,62.4,68.7,8.12,48.9,11.0,0,16.7,5.8,Low
+LPU121156,Mechanical Engineering,2,,37.3,49.8,32.6,33.3,5.73,57.0,1.0,1,4.8,4.4,High
+LPU121163,Computer Science & Engineering,1,76.8,59.6,73.6,72.8,60.7,8.15,80.8,13.0,0,17.4,7.0,Low
+LPU121164,Mechanical Engineering,1,69.7,74.4,72.7,81.0,74.2,7.46,67.8,8.0,0,11.3,3.5,Low
+LPU121168,Information Technology,2,82.8,62.4,60.7,62.6,51.9,7.39,71.7,16.0,0,16.2,7.6,Medium
+LPU121169,Computer Science & Engineering,1,70.5,60.4,58.1,59.3,53.3,6.62,74.4,9.0,1,8.7,6.1,Medium
+LPU121171,Electronics & Communication,2,66.8,59.4,52.4,38.2,48.5,6.26,79.5,10.0,0,8.1,4.5,Medium
+LPU121172,Biotechnology,1,63.2,41.5,21.5,8.0,23.2,5.82,58.5,1.0,0,2.0,4.6,High
+LPU121174,Computer Science & Engineering,1,73.0,57.5,61.9,68.0,,7.9,63.6,8.0,0,13.4,5.5,Medium
+LPU121176,Information Technology,2,84.1,60.1,51.9,52.3,38.3,6.85,78.8,15.0,0,16.4,5.6,Medium
+LPU121177,Mechanical Engineering,2,51.3,24.4,20.8,16.8,20.1,4.89,50.0,2.0,0,2.0,2.2,High
+LPU121182,Computer Science & Engineering,1,62.4,70.5,65.0,66.7,63.8,6.9,63.0,11.0,0,17.1,7.5,Medium
+LPU121184,Management & Commerce,2,76.1,51.2,60.2,47.9,48.9,6.54,73.0,15.0,0,20.3,7.5,Medium
+LPU121189,Computer Science & Engineering,1,88.3,66.2,80.7,72.2,72.6,8.82,93.7,17.0,0,26.5,8.5,Low
+LPU121190,Mechanical Engineering,1,71.2,79.4,76.3,57.0,72.5,8.13,66.1,19.0,0,20.1,4.9,Low
+LPU121194,Electronics & Communication,2,71.1,75.3,72.8,68.5,53.1,7.77,72.2,13.0,4,14.8,5.8,Medium
+LPU121196,Management & Commerce,1,69.8,74.3,88.5,73.8,82.2,8.49,73.1,15.0,0,19.3,5.8,Low
+LPU121200,Computer Science & Engineering,2,84.4,63.6,66.8,66.9,61.9,7.82,85.7,9.0,0,22.9,6.7,Low
+LPU121203,Computer Science & Engineering,2,90.4,81.6,87.4,81.5,91.8,8.73,89.9,,0,18.5,8.2,Low
+LPU121208,Information Technology,2,69.2,62.2,49.0,56.5,48.7,,63.2,12.0,0,24.6,6.2,Medium
+LPU121209,Computer Science & Engineering,2,100.0,100.0,100.0,100.0,97.1,9.95,100.0,28.0,0,35.1,8.3,Low
+LPU121211,Information Technology,1,77.2,70.0,71.5,66.9,66.2,8.54,81.3,16.0,0,,6.4,Low
+LPU121216,Computer Science & Engineering,2,80.0,100.0,100.0,100.0,90.3,9.95,86.8,23.0,0,24.7,6.4,Low
+LPU121218,Mechanical Engineering,1,67.8,44.7,38.4,42.4,29.1,5.7,61.1,3.0,0,9.8,3.7,Medium
+LPU121220,Computer Science & Engineering,2,60.6,12.0,,27.6,10.0,4.26,56.1,4.0,0,4.4,4.1,High
+LPU121224,Biotechnology,2,90.2,88.1,77.8,77.5,82.3,8.34,91.2,25.0,0,12.5,5.2,Low
+LPU121227,Information Technology,1,65.1,53.0,52.1,58.8,38.6,6.31,73.4,6.0,0,13.8,5.7,Medium
+LPU121228,Computer Science & Engineering,1,64.7,28.4,26.8,15.8,14.4,4.84,56.8,5.0,0,7.4,5.9,High
+LPU121229,Biotechnology,2,92.3,63.4,75.6,70.3,,7.67,83.8,19.0,0,13.9,7.1,Low
+LPU121231,Management & Commerce,2,78.4,50.0,48.5,42.9,47.3,6.49,83.5,14.0,0,19.0,7.6,Medium
+LPU121235,Electronics & Communication,2,64.4,36.1,35.6,24.0,27.4,5.59,73.3,1.0,4,13.2,4.0,High
+LPU121244,Civil Engineering,1,82.2,30.9,33.3,22.5,14.1,5.3,,7.0,0,3.4,4.2,High
+LPU121245,Mechanical Engineering,1,63.4,57.5,64.1,71.2,58.5,5.44,64.5,5.0,0,13.0,3.8,Low
+LPU121246,Electronics & Communication,2,75.9,68.0,79.0,86.4,64.6,7.48,83.9,10.0,0,21.0,7.1,Low
+LPU121253,Computer Science & Engineering,2,64.8,33.0,37.7,14.9,17.2,4.38,53.7,5.0,0,8.9,7.3,High
+LPU121255,Mechanical Engineering,2,92.2,84.2,94.5,77.1,77.0,9.41,100.0,25.0,0,28.9,7.5,Low
+LPU121256,Information Technology,2,68.9,47.5,55.1,42.0,39.5,6.37,62.2,,0,9.7,4.6,Medium
+LPU121257,Computer Science & Engineering,2,79.2,55.7,48.4,66.2,29.6,5.43,81.1,14.0,0,5.5,4.1,Medium
+LPU121261,Computer Science & Engineering,1,75.0,60.3,52.7,50.6,56.9,6.79,72.3,5.0,0,7.1,4.0,Medium
+LPU121264,Information Technology,2,86.1,85.0,88.6,82.0,71.5,8.67,78.8,16.0,0,14.4,6.9,Low
+LPU121266,Computer Science & Engineering,2,64.4,47.9,46.9,56.1,34.3,5.84,61.9,16.0,0,10.5,6.8,Medium
+LPU121269,Electronics & Communication,2,77.5,81.0,75.6,79.8,79.4,7.24,77.5,13.0,0,17.1,6.8,Low
+LPU121270,Computer Science & Engineering,1,60.8,35.7,30.6,30.3,26.1,5.8,54.5,1.0,0,2.0,5.1,High
+LPU121282,Mechanical Engineering,2,71.3,24.7,38.7,34.5,30.6,5.83,65.6,8.0,0,5.3,5.2,High
+LPU121283,Electronics & Communication,1,100.0,100.0,100.0,100.0,100.0,9.95,100.0,31.0,0,41.4,10.0,Low
+LPU121286,Information Technology,1,68.4,66.5,60.4,60.1,58.9,7.3,63.2,9.0,1,,4.9,Medium
+LPU121289,Computer Science & Engineering,1,100.0,95.0,100.0,100.0,,9.16,100.0,26.0,0,34.7,9.6,Low
+LPU121291,Information Technology,2,60.8,39.5,33.3,32.2,29.5,4.95,63.9,11.0,0,7.6,2.8,Medium
+LPU121292,Computer Science & Engineering,1,68.6,62.1,36.7,46.1,48.4,7.71,69.3,15.0,0,12.6,4.4,Medium
+LPU121295,Civil Engineering,1,90.1,73.5,66.5,65.3,52.1,5.34,94.4,20.0,0,14.0,9.2,Low
+LPU121298,Computer Science & Engineering,1,90.7,94.8,100.0,97.0,99.2,8.85,96.4,19.0,0,22.4,5.1,Low
+LPU121299,Electronics & Communication,2,88.6,78.5,60.3,64.0,61.6,6.44,,20.0,0,17.8,6.6,Low
+LPU121301,Computer Science & Engineering,2,74.9,71.9,75.8,70.5,65.0,8.62,77.1,16.0,0,23.1,6.5,Low
+LPU121305,Mechanical Engineering,2,74.6,71.0,53.8,55.4,63.9,7.46,82.4,19.0,0,13.1,7.8,Low
+LPU121309,Computer Science & Engineering,1,66.1,46.8,45.7,42.2,38.2,5.16,66.5,10.0,1,8.3,4.6,Medium
+LPU121310,Civil Engineering,1,79.1,54.5,63.6,50.6,59.1,7.44,74.0,16.0,1,14.0,6.4,Low
+LPU121313,Electronics & Communication,2,70.5,36.9,38.0,36.4,33.6,5.24,61.7,9.0,0,13.4,3.5,Medium
+LPU121315,Information Technology,2,69.7,57.0,58.1,55.3,50.2,,,12.0,2,11.1,4.3,Medium
+LPU121324,Computer Science & Engineering,2,71.7,54.6,61.3,64.1,43.2,6.28,70.7,12.0,0,10.6,5.1,Medium
+LPU121325,Biotechnology,2,100.0,100.0,93.3,100.0,100.0,9.15,100.0,33.0,0,30.0,9.7,Low
+LPU121326,Computer Science & Engineering,1,59.4,53.5,46.9,40.1,53.5,6.16,64.4,6.0,2,2.0,3.3,Medium
+LPU121330,Information Technology,2,92.0,100.0,100.0,100.0,90.4,9.95,97.5,28.0,0,28.0,7.1,Low
+LPU121336,Electronics & Communication,2,61.5,16.5,12.8,9.0,19.0,5.78,57.2,9.0,0,5.0,4.0,High
+LPU121338,Mechanical Engineering,1,76.1,59.4,63.0,64.0,60.0,7.05,66.7,7.0,0,13.8,5.5,Low
+LPU121342,Information Technology,1,99.6,97.9,93.9,94.5,84.6,8.15,93.7,24.0,0,30.5,7.0,Low
+LPU121345,Mechanical Engineering,2,67.2,40.9,42.4,43.8,,5.56,65.8,11.0,2,10.4,4.6,Medium
+LPU121350,Computer Science & Engineering,1,67.0,75.5,75.3,72.6,80.6,8.43,57.9,13.0,0,14.6,6.0,Low
+LPU121352,Electronics & Communication,1,65.2,34.7,38.3,33.4,28.9,5.63,58.7,10.0,1,10.6,3.9,High
+LPU121356,Management & Commerce,1,87.3,87.1,89.9,77.5,79.6,7.87,76.2,11.0,0,8.8,6.7,Low
+LPU121364,Electronics & Communication,2,73.9,67.2,80.8,82.0,74.1,7.77,80.0,18.0,0,23.3,7.2,Low
+LPU121365,Mechanical Engineering,1,78.1,61.4,59.0,57.1,41.6,6.95,85.2,16.0,0,17.1,7.4,Low
+LPU121370,Computer Science & Engineering,1,81.4,90.2,78.9,83.0,84.3,8.7,82.6,23.0,0,21.1,5.6,Low
+LPU121372,Computer Science & Engineering,2,78.7,58.8,56.8,56.9,56.2,7.67,59.3,20.0,0,13.3,6.4,Medium
+LPU121373,Civil Engineering,2,68.6,48.6,48.9,28.7,46.0,6.5,68.1,12.0,0,9.8,5.3,Medium
+LPU121375,Computer Science & Engineering,1,66.8,37.9,38.8,35.5,19.7,4.98,53.6,,0,2.0,3.8,High
+LPU121377,Information Technology,2,77.1,56.1,47.8,53.2,46.3,6.29,63.8,8.0,0,11.9,3.8,Medium
+LPU121380,Electronics & Communication,2,75.9,30.2,51.3,39.5,34.8,5.31,78.7,12.0,0,3.0,5.8,Medium
+LPU121384,Computer Science & Engineering,2,77.4,67.6,67.8,57.0,59.2,7.56,,22.0,0,8.2,7.5,Low
+LPU121397,Information Technology,1,68.9,55.9,62.1,56.5,50.0,6.79,73.2,10.0,0,8.8,5.8,Medium
+LPU121404,Mechanical Engineering,2,95.3,100.0,,100.0,100.0,9.77,100.0,25.0,0,29.6,7.8,Low
+LPU121408,Civil Engineering,2,72.9,40.6,56.1,49.5,48.6,6.63,72.8,10.0,0,9.3,7.2,Medium
+LPU121410,Management & Commerce,2,69.1,56.4,64.1,65.6,51.4,8.41,85.6,14.0,0,14.5,6.2,Medium
+LPU121411,Computer Science & Engineering,1,79.1,62.0,66.6,60.5,56.4,7.1,84.3,27.0,0,13.1,6.2,Low
+LPU121412,Computer Science & Engineering,2,84.1,80.6,96.5,85.1,72.5,8.66,96.6,24.0,0,25.8,6.0,Low
+LPU121413,Computer Science & Engineering,1,68.5,61.5,51.7,37.8,50.6,5.69,60.1,1.0,0,10.5,5.8,Medium
+LPU121424,Computer Science & Engineering,2,61.0,23.9,22.6,17.3,17.8,5.01,58.0,1.0,0,2.0,4.8,High
+LPU121426,Biotechnology,1,82.0,52.3,64.2,46.0,43.9,6.94,76.7,17.0,0,12.9,6.8,Low
+LPU121430,Management & Commerce,1,79.6,62.1,68.7,59.2,56.8,5.97,79.3,21.0,0,17.9,4.9,Low
+LPU121432,Information Technology,2,66.4,66.8,57.5,49.7,60.8,6.93,54.0,16.0,0,13.0,7.9,Medium
+LPU121434,Electronics & Communication,2,82.0,72.0,,81.6,64.8,7.53,85.6,14.0,0,22.8,6.3,Low
+LPU121435,Computer Science & Engineering,2,95.9,100.0,100.0,100.0,95.8,9.63,84.1,19.0,0,23.2,9.6,Low
+LPU121438,Mechanical Engineering,2,73.9,39.4,47.5,29.3,39.8,6.82,83.2,12.0,0,20.4,8.1,Medium
+LPU121439,Computer Science & Engineering,2,74.3,47.4,41.1,44.1,41.9,6.23,54.4,12.0,0,80.0,2.5,Medium
+LPU121443,Electronics & Communication,1,81.6,87.1,83.7,97.1,,8.41,92.2,20.0,0,25.3,6.6,Low
+LPU121445,Management & Commerce,1,88.0,83.1,88.4,87.0,76.2,9.41,100.0,30.0,0,24.4,9.7,Low
+LPU121446,Computer Science & Engineering,1,51.2,34.6,25.2,26.9,15.6,4.75,41.6,1.0,3,2.1,3.7,High
+LPU121449,Biotechnology,2,59.5,31.7,43.1,58.3,40.5,6.65,,8.0,0,12.2,4.6,Medium
+LPU121450,Mechanical Engineering,2,90.6,68.2,69.4,70.0,58.0,7.37,84.8,20.0,0,13.7,6.9,Low
+LPU121451,Information Technology,1,74.0,62.8,60.5,59.4,58.6,6.48,69.8,11.0,0,15.2,3.6,Low
+LPU121454,Electronics & Communication,1,73.9,70.1,77.7,77.6,80.3,8.62,89.7,11.0,0,18.3,7.0,Low
+LPU121455,Computer Science & Engineering,2,84.6,89.3,99.9,86.7,73.7,7.7,87.8,11.0,0,19.4,7.5,Low
+LPU121459,Computer Science & Engineering,1,56.5,29.2,28.2,29.4,12.5,4.93,45.7,1.0,0,7.5,3.7,High
+LPU121460,Electronics & Communication,1,64.9,51.9,54.8,43.5,46.2,6.35,59.6,5.0,0,13.6,4.2,Medium
+LPU121463,Computer Science & Engineering,1,75.2,55.8,48.5,62.4,40.9,5.43,84.6,15.0,0,12.4,7.2,Medium
+LPU121465,Biotechnology,1,,35.3,,31.9,21.8,5.0,51.1,3.0,0,4.8,3.7,High
+LPU121467,Biotechnology,2,85.6,65.0,72.5,48.0,60.2,7.29,70.5,20.0,0,18.3,5.1,Low
+LPU121468,Information Technology,1,90.7,99.6,98.9,94.1,89.8,8.87,91.6,23.0,0,29.3,7.2,Low
+LPU121473,Management & Commerce,2,68.4,37.1,36.1,43.7,31.8,5.97,65.9,12.0,0,3.4,2.8,High
+LPU121475,Computer Science & Engineering,2,77.6,59.4,51.8,49.6,53.4,6.61,73.6,21.0,0,10.2,5.6,Low
+LPU121479,Civil Engineering,1,90.6,62.8,71.7,73.4,57.8,6.92,77.6,17.0,0,21.3,6.3,Low
+LPU121483,Electronics & Communication,2,67.7,50.9,63.5,62.1,57.0,7.05,67.2,9.0,0,7.5,6.6,Medium
+LPU121484,Computer Science & Engineering,2,87.6,70.9,87.8,59.8,80.2,8.16,86.2,20.0,0,19.8,6.7,Low
+LPU121487,Information Technology,1,77.9,60.2,47.3,48.2,55.2,5.47,73.4,14.0,0,17.1,6.1,Low
+LPU121491,Computer Science & Engineering,1,77.2,63.3,52.9,51.8,46.8,7.69,74.7,13.0,0,20.2,6.3,Low
+LPU121492,Computer Science & Engineering,2,82.6,62.8,54.4,67.8,53.0,6.91,81.3,18.0,0,14.7,7.4,Medium
+LPU121494,Computer Science & Engineering,1,78.2,44.4,51.3,45.0,51.9,5.85,70.8,14.0,0,18.8,6.7,Medium
+LPU121500,Management & Commerce,2,70.5,43.3,58.5,43.5,45.8,6.49,76.6,12.0,0,10.5,5.9,Medium
+LPU121504,Computer Science & Engineering,2,68.8,49.6,57.4,58.4,48.3,7.05,68.3,6.0,0,9.9,5.4,Medium
+LPU121505,Information Technology,1,77.5,40.9,33.2,35.5,18.9,5.84,74.9,17.0,0,12.3,5.6,Medium
+LPU121506,Information Technology,2,89.5,83.3,78.1,95.0,89.9,9.32,95.4,29.0,1,30.1,8.8,Low
+LPU121510,Mechanical Engineering,1,79.6,74.5,74.9,69.6,65.3,6.79,74.4,19.0,0,25.3,6.2,Low
+LPU121511,Civil Engineering,1,91.5,89.8,94.8,90.4,94.6,9.95,93.0,18.0,0,20.2,7.7,Low
+LPU121514,Computer Science & Engineering,2,98.5,100.0,100.0,100.0,100.0,9.03,96.5,30.0,0,31.8,9.3,Low
+LPU121516,Computer Science & Engineering,2,100.0,53.4,65.0,65.5,53.1,7.51,86.4,25.0,0,18.6,8.1,Low
+LPU121519,Computer Science & Engineering,2,65.0,54.8,48.0,32.3,60.3,7.48,64.1,9.0,0,14.1,6.8,Low
+LPU121520,Management & Commerce,2,87.3,84.1,79.0,98.8,81.2,8.84,97.8,25.0,0,26.1,6.8,Low
+LPU121522,Management & Commerce,2,71.3,59.4,59.2,57.3,54.3,6.96,65.0,15.0,0,13.4,6.3,Medium
+LPU121528,Computer Science & Engineering,2,89.5,57.3,66.1,75.2,50.1,7.64,79.7,,0,21.8,7.7,Low
+LPU121532,Electronics & Communication,2,64.0,68.1,52.7,46.4,50.8,6.46,68.1,8.0,0,14.1,3.7,Medium
+LPU121533,Mechanical Engineering,1,77.1,52.1,58.3,64.4,57.8,7.44,79.7,21.0,0,16.4,3.8,Low
+LPU121535,Information Technology,2,62.8,66.0,56.5,49.7,44.9,7.07,53.1,15.0,0,11.9,3.4,Medium
+LPU121542,Computer Science & Engineering,2,92.4,64.9,77.5,74.4,65.4,7.9,90.1,22.0,0,28.0,9.1,Low
+LPU121550,Electronics & Communication,2,83.9,89.5,90.0,98.2,84.8,8.31,94.4,22.0,0,17.7,8.5,Low
+LPU121556,Computer Science & Engineering,1,65.8,52.8,46.0,42.7,32.3,5.85,57.7,9.0,0,13.3,5.9,Medium
+LPU121558,Information Technology,1,100.0,100.0,100.0,100.0,83.3,9.2,100.0,32.0,0,28.6,10.0,Low
+LPU121561,Computer Science & Engineering,2,79.9,80.1,,82.8,67.9,6.62,63.2,17.0,0,19.0,7.3,Low
+LPU121562,Computer Science & Engineering,2,71.0,44.5,48.5,52.5,44.5,4.94,61.6,12.0,0,15.9,3.2,Medium
+LPU121564,Computer Science & Engineering,2,90.0,78.8,83.9,76.7,84.1,8.03,89.2,17.0,0,21.0,7.8,Low
+LPU121566,Information Technology,1,58.0,12.9,26.8,15.4,11.9,3.8,68.0,1.0,0,,4.9,High
+LPU121567,Electronics & Communication,1,74.6,56.3,58.1,61.5,47.3,7.07,62.9,13.0,1,13.3,6.9,Medium
+LPU121571,Electronics & Communication,2,,81.3,78.3,68.4,74.8,7.46,78.6,17.0,0,21.8,6.3,Low
+LPU121578,Electronics & Communication,2,82.1,31.5,32.5,35.6,,5.12,73.3,2.0,0,5.2,6.8,Medium
+LPU121580,Electronics & Communication,2,67.9,52.8,37.8,35.2,39.0,6.58,60.2,11.0,0,,3.2,Medium
+LPU121582,Information Technology,2,64.5,39.0,31.1,30.1,34.2,7.18,64.9,1.0,3,12.6,6.2,High
+LPU121585,Biotechnology,2,73.7,79.0,90.9,76.2,76.8,8.87,82.2,13.0,0,16.6,5.5,Low
+LPU121586,Computer Science & Engineering,1,71.8,56.7,68.9,62.8,60.8,7.16,,15.0,0,,6.6,Low
+LPU121587,Mechanical Engineering,1,69.1,43.1,45.4,45.6,45.5,6.34,64.9,10.0,0,10.1,4.3,High
+LPU121590,Mechanical Engineering,1,78.1,51.8,61.6,59.4,50.8,6.12,71.7,18.0,0,14.3,6.1,Low
+LPU121597,Computer Science & Engineering,1,57.1,43.1,47.3,17.7,34.7,5.73,56.4,2.0,0,9.4,5.1,Medium
+LPU121598,Computer Science & Engineering,1,100.0,91.0,95.5,92.8,85.8,9.49,100.0,24.0,0,25.6,9.8,Low
+LPU121599,Computer Science & Engineering,2,80.3,92.4,92.3,94.7,,9.07,89.2,25.0,0,22.3,8.5,Low
+LPU121600,Management & Commerce,1,88.1,63.3,80.8,75.4,,9.23,90.4,26.0,0,23.1,8.0,Low
+LPU121604,Computer Science & Engineering,2,71.2,20.0,33.1,28.4,12.0,5.65,65.4,11.0,0,3.4,7.6,High
+LPU121605,Computer Science & Engineering,2,88.6,92.9,100.0,91.2,90.3,9.95,84.0,18.0,0,23.6,7.5,Low
+LPU121608,Civil Engineering,1,90.1,84.1,84.6,100.0,76.9,8.82,81.7,26.0,0,17.2,7.5,Low
+LPU121613,Information Technology,1,76.9,67.4,64.6,69.7,56.3,6.56,71.5,11.0,1,13.1,4.9,Medium
+LPU121614,Computer Science & Engineering,1,60.8,36.0,27.5,29.7,29.2,5.2,52.2,9.0,0,,5.9,High
+LPU121619,Electronics & Communication,1,66.7,23.1,27.6,26.3,28.2,5.95,62.4,10.0,0,10.6,4.3,High
+LPU121621,Information Technology,2,61.1,39.0,44.9,36.6,36.2,6.22,57.3,6.0,0,7.5,6.0,High
+LPU121629,Computer Science & Engineering,2,73.3,57.7,56.0,50.3,35.6,7.44,97.2,15.0,0,23.5,7.2,Low
+LPU121630,Information Technology,1,74.1,65.4,66.1,78.0,58.1,6.73,,11.0,0,18.6,7.4,Low
+LPU121631,Mechanical Engineering,2,63.1,57.0,41.8,52.3,38.9,6.87,59.2,3.0,0,13.8,4.3,Medium
+LPU121632,Computer Science & Engineering,2,69.8,50.8,55.7,52.4,56.0,6.69,63.1,5.0,0,18.0,5.7,Low
+LPU121636,Computer Science & Engineering,1,82.9,77.9,79.5,82.3,77.6,8.46,91.9,18.0,0,17.5,6.5,Low
+LPU121638,Computer Science & Engineering,2,84.0,65.0,63.7,60.3,59.3,7.65,94.8,14.0,0,13.0,8.9,Low
+LPU121642,Civil Engineering,1,73.2,64.4,58.5,70.8,63.2,7.5,90.7,18.0,0,17.1,7.2,Low
+LPU121643,Information Technology,1,70.5,70.6,61.1,60.0,54.7,8.46,71.7,11.0,0,17.5,6.3,Low
+LPU121647,Computer Science & Engineering,1,89.9,79.3,89.3,73.5,82.4,8.52,85.5,20.0,0,24.7,7.8,Low
+LPU121651,Computer Science & Engineering,1,69.2,39.5,39.5,34.8,28.8,6.28,70.0,10.0,0,6.2,3.6,High
+LPU121652,Computer Science & Engineering,1,79.7,72.0,81.2,80.0,71.4,7.08,81.9,11.0,0,18.2,4.5,Low
+LPU121655,Computer Science & Engineering,2,89.5,81.7,87.7,77.2,80.9,8.63,89.5,,0,23.4,5.2,Low
+LPU121656,Management & Commerce,1,86.4,38.6,57.4,48.0,32.6,6.67,82.6,21.0,0,20.5,5.8,Low
+LPU121662,Information Technology,1,64.4,78.0,83.1,78.5,69.2,,70.4,10.0,0,10.4,6.8,Low
+LPU121667,Computer Science & Engineering,2,96.0,83.1,91.2,81.6,79.3,8.36,100.0,18.0,0,19.3,10.0,Low
+LPU121668,Management & Commerce,1,75.8,51.0,47.8,54.9,54.1,6.83,78.2,18.0,0,16.6,6.2,Low
+LPU121669,Computer Science & Engineering,2,73.3,65.7,65.4,85.4,65.9,8.47,80.2,14.0,0,9.0,5.3,Low
+LPU121670,Civil Engineering,1,81.5,85.4,90.5,91.5,91.1,9.41,69.5,,0,15.1,5.7,Low
+LPU121671,Information Technology,2,78.6,84.3,80.6,88.9,72.3,8.68,63.6,12.0,0,17.6,4.6,Low
+LPU121679,Computer Science & Engineering,2,79.4,71.1,67.0,69.6,72.6,7.05,71.9,17.0,0,11.1,5.9,Low
+LPU121680,Mechanical Engineering,2,56.8,16.0,25.9,14.8,10.0,3.98,46.6,1.0,1,2.0,1.8,High
+LPU121684,Civil Engineering,2,80.0,86.3,85.6,72.9,70.6,6.06,90.6,16.0,0,13.4,4.5,Low
+LPU121685,Computer Science & Engineering,1,91.0,68.1,63.0,86.3,67.6,8.24,94.5,21.0,0,16.8,6.0,Low
+LPU121687,Management & Commerce,1,73.3,32.9,36.0,36.8,25.3,5.39,66.5,,0,13.7,3.5,High
+LPU121696,Computer Science & Engineering,2,66.7,43.3,51.9,49.9,41.9,5.47,75.3,14.0,0,10.5,6.3,Medium
+LPU121697,Computer Science & Engineering,1,60.0,35.7,35.4,42.9,24.3,6.66,52.8,1.0,0,5.0,4.8,High
+LPU121698,Computer Science & Engineering,2,80.0,69.5,66.9,60.5,48.7,7.47,89.2,20.0,0,22.2,6.5,Low
+LPU121702,Information Technology,2,81.9,91.3,100.0,99.7,98.4,8.97,79.5,18.0,0,22.4,6.0,Low
+LPU121703,Computer Science & Engineering,1,85.2,100.0,94.0,97.2,86.3,8.14,90.9,,0,31.8,8.7,Low
+LPU121705,Information Technology,1,85.6,50.5,51.3,46.9,39.5,6.57,68.2,22.0,0,11.6,7.0,Low
+LPU121709,Electronics & Communication,1,76.8,60.2,70.3,62.8,61.5,7.34,,14.0,0,10.8,6.6,Low
+LPU121710,Electronics & Communication,1,74.0,65.4,71.7,52.3,55.3,7.28,81.9,22.0,0,16.0,6.8,Low
+LPU121711,Computer Science & Engineering,1,69.6,55.7,60.0,64.3,46.5,6.47,69.1,9.0,0,5.0,4.0,Medium
+LPU121714,Information Technology,2,74.6,34.3,37.1,43.9,25.9,6.31,71.6,12.0,0,16.6,3.5,Medium
+LPU121717,Computer Science & Engineering,1,92.7,96.5,90.4,75.0,86.0,8.46,99.7,25.0,1,26.8,7.6,Low
+LPU121720,Computer Science & Engineering,2,76.4,40.5,47.3,32.6,21.8,5.86,72.7,16.0,0,9.9,4.9,Medium
+LPU121721,Computer Science & Engineering,2,,55.9,73.2,52.4,56.6,7.39,78.5,17.0,0,14.7,6.6,Medium
+LPU121730,Electronics & Communication,2,,73.8,73.0,69.0,71.3,7.96,88.9,16.0,0,18.9,8.6,Low
+LPU121735,Computer Science & Engineering,1,93.9,83.3,71.3,71.3,68.4,7.6,91.6,20.0,0,19.2,7.8,Low
+LPU121736,Management & Commerce,2,97.5,91.6,91.2,76.9,88.8,9.95,99.3,17.0,2,19.8,7.9,Low
+LPU121737,Information Technology,1,81.3,73.0,71.1,70.2,77.7,7.52,86.5,15.0,0,23.7,6.8,Low
+LPU121747,Computer Science & Engineering,2,77.3,40.3,47.7,31.5,24.0,5.89,73.5,6.0,0,8.0,6.2,Medium
+LPU121748,Computer Science & Engineering,1,,63.8,66.4,69.1,66.4,7.08,,18.0,0,15.0,7.1,Low
+LPU121752,Computer Science & Engineering,1,68.4,49.0,47.4,46.8,31.9,,65.7,10.0,0,10.5,5.1,Medium
+LPU121755,Biotechnology,2,84.3,61.5,47.6,52.5,56.1,7.31,79.0,15.0,0,18.2,5.5,Low
+LPU121761,Information Technology,1,70.6,55.2,44.7,51.2,43.3,6.86,54.8,8.0,0,7.7,6.6,Medium
+LPU121768,Information Technology,1,,99.4,92.0,92.6,100.0,9.95,100.0,24.0,0,29.1,7.2,Low
+LPU121773,Management & Commerce,2,74.2,53.5,73.5,65.6,51.2,7.36,78.7,12.0,0,9.9,6.5,Low
+LPU121779,Computer Science & Engineering,1,60.4,55.6,55.2,45.7,59.4,6.72,55.3,1.0,0,,5.1,Medium
+LPU121781,Computer Science & Engineering,2,74.2,47.4,47.4,23.9,37.1,6.58,70.0,13.0,0,20.7,5.2,Medium
+LPU121783,Information Technology,2,,61.4,56.9,74.4,52.6,7.16,77.9,19.0,0,10.3,6.6,Low
+LPU121784,Electronics & Communication,1,60.1,23.9,34.6,46.6,23.6,6.91,51.1,7.0,0,3.1,3.0,High
+LPU121792,Mechanical Engineering,1,,62.2,66.9,48.6,54.4,7.47,65.9,14.0,0,13.5,3.0,Medium
+LPU121796,Computer Science & Engineering,2,74.7,97.1,80.7,92.6,87.8,9.36,77.5,10.0,0,7.5,7.3,Low
+LPU121797,Mechanical Engineering,1,80.4,56.0,61.3,51.6,51.6,6.88,91.6,15.0,0,14.6,5.3,Low
+LPU121798,Computer Science & Engineering,2,62.8,38.4,34.7,54.4,43.6,7.23,64.1,12.0,0,12.8,3.6,Medium
+LPU121801,Biotechnology,1,70.8,65.4,71.2,68.9,50.0,6.62,64.7,11.0,0,16.9,7.1,Medium
+LPU121806,Mechanical Engineering,1,70.0,65.9,65.4,63.7,53.4,,72.0,11.0,0,12.4,5.9,Medium
+LPU121811,Electronics & Communication,2,62.2,78.9,78.5,82.2,85.5,8.34,,17.0,0,18.3,4.7,Low
+LPU121813,Computer Science & Engineering,1,72.4,55.7,44.6,52.9,43.8,6.8,66.5,13.0,0,16.3,4.0,Medium
+LPU121816,Biotechnology,2,74.5,65.7,63.9,70.2,61.5,6.9,73.8,17.0,0,13.6,6.4,Low
+LPU121818,Mechanical Engineering,1,79.7,91.5,88.1,82.8,85.5,8.63,81.4,22.0,0,16.0,7.3,Low
+LPU121827,Computer Science & Engineering,1,76.3,47.6,58.8,59.8,43.9,7.21,67.4,8.0,0,13.3,7.0,Low
+LPU121829,Civil Engineering,1,86.1,81.1,92.6,88.4,87.5,,79.0,13.0,0,20.0,7.1,Low
+LPU121831,Biotechnology,2,81.9,56.2,78.0,66.8,69.9,8.63,74.1,17.0,0,14.5,4.0,Low
+LPU121832,Electronics & Communication,1,73.8,42.8,41.7,53.3,35.9,5.96,65.8,,0,13.1,3.5,Medium
+LPU121836,Electronics & Communication,1,77.2,57.5,43.9,49.0,41.8,6.69,77.3,12.0,0,8.4,6.7,Medium
+LPU121840,Computer Science & Engineering,2,72.2,54.7,52.7,61.9,49.4,6.48,81.6,14.0,0,15.5,6.4,Medium
+LPU121842,Information Technology,1,75.4,88.5,86.6,83.3,79.5,9.12,79.3,11.0,0,22.1,4.1,Low
+LPU121857,Mechanical Engineering,2,78.7,64.9,63.5,69.5,64.8,7.34,79.8,10.0,0,,3.9,Medium
+LPU121860,Mechanical Engineering,2,73.5,53.0,57.5,60.1,39.9,6.76,60.4,12.0,0,13.6,5.4,Medium
+LPU121861,Mechanical Engineering,1,69.4,47.2,64.0,48.9,52.0,6.2,63.8,15.0,2,,4.6,Medium
+LPU121865,Biotechnology,2,46.1,12.0,,8.0,10.0,3.8,33.8,1.0,0,2.0,2.7,High
+LPU121867,Computer Science & Engineering,1,88.6,100.0,100.0,100.0,100.0,9.95,98.6,25.0,0,,7.8,Low
+LPU121869,Computer Science & Engineering,2,74.5,62.1,52.9,70.0,58.8,8.26,76.3,19.0,0,19.6,5.1,Low
+LPU121870,Mechanical Engineering,2,100.0,100.0,100.0,100.0,96.5,9.95,100.0,31.0,0,,10.0,Low
+LPU121871,Civil Engineering,2,78.8,71.9,49.6,57.8,49.5,7.79,74.2,19.0,2,17.4,6.8,Medium
+LPU121873,Information Technology,1,61.5,24.7,25.6,19.3,21.5,4.22,55.9,1.0,0,5.5,6.0,High
+LPU121879,Computer Science & Engineering,1,57.4,53.1,48.2,53.4,50.3,6.5,63.7,10.0,0,2.0,3.4,Medium
+LPU121881,Mechanical Engineering,1,72.3,55.3,51.6,59.7,38.9,6.54,80.5,29.0,0,6.2,5.1,Medium
+LPU121882,Management & Commerce,1,98.1,76.9,86.4,74.7,84.7,9.12,100.0,27.0,0,29.8,9.9,Low
+LPU121888,Computer Science & Engineering,1,82.3,86.8,82.7,96.2,92.9,9.22,86.3,17.0,0,23.2,8.5,Low
+LPU121889,Mechanical Engineering,1,79.9,56.0,61.5,50.4,61.9,6.41,68.1,13.0,0,18.7,5.1,Low
+LPU121890,Biotechnology,1,84.4,80.2,69.9,74.8,73.6,6.85,81.2,18.0,0,13.9,7.0,Low
+LPU121891,Computer Science & Engineering,2,66.0,34.3,38.0,47.7,31.9,5.86,53.7,8.0,0,4.6,5.9,Medium
+LPU121894,Computer Science & Engineering,1,74.4,62.4,65.9,67.4,71.3,7.2,85.5,11.0,0,14.1,7.0,Low
+LPU121897,Electronics & Communication,2,65.1,57.3,39.1,38.3,38.0,5.11,53.5,10.0,0,6.1,4.8,High
+LPU121898,Computer Science & Engineering,1,67.4,43.2,44.1,47.2,20.4,6.07,72.1,7.0,2,8.9,6.9,High
+LPU121899,Computer Science & Engineering,2,72.9,70.2,71.8,77.6,,6.74,85.2,16.0,0,14.4,6.3,Low
+LPU121900,Civil Engineering,1,61.3,31.8,37.1,50.2,33.1,5.15,71.0,10.0,4,4.8,6.3,High
+LPU121901,Electronics & Communication,1,78.5,47.7,43.1,45.3,35.4,5.28,74.5,22.0,0,7.5,5.4,Medium
+LPU121903,Mechanical Engineering,2,65.8,62.8,81.9,69.0,57.7,7.86,67.6,7.0,0,4.3,3.8,Medium
+LPU121908,Computer Science & Engineering,1,77.5,65.5,74.7,65.0,64.9,6.33,96.7,21.0,0,15.3,7.9,Low
+LPU121911,Computer Science & Engineering,1,82.5,71.2,74.4,64.1,73.6,8.49,85.2,21.0,0,13.7,7.7,Low
+LPU121912,Management & Commerce,1,72.1,46.1,48.2,30.2,29.2,6.35,80.1,13.0,0,12.5,6.9,Medium
+LPU121918,Electronics & Communication,1,64.5,57.3,46.4,41.7,48.0,6.61,67.3,7.0,0,5.1,5.9,Medium
+LPU121920,Information Technology,2,80.3,95.2,99.5,79.9,98.2,8.35,85.2,16.0,0,18.2,5.5,Low
+LPU121921,Mechanical Engineering,1,64.3,50.9,40.9,45.8,31.8,6.07,64.7,10.0,0,8.8,3.8,High
+LPU121925,Civil Engineering,2,75.9,54.6,56.6,46.3,65.0,6.18,75.5,8.0,0,16.2,4.0,Low
+LPU121927,Electronics & Communication,2,78.8,54.6,63.7,51.4,,6.45,77.6,17.0,0,21.0,7.6,Low
+LPU121928,Information Technology,1,77.7,62.0,59.3,48.9,52.3,6.58,67.8,14.0,0,11.4,4.7,Medium
+LPU121929,Electronics & Communication,2,75.1,31.9,36.0,40.5,20.5,6.09,,8.0,0,15.1,4.7,Medium
+LPU121935,Electronics & Communication,1,57.8,12.0,19.4,24.3,10.0,4.45,,1.0,0,,2.8,High
+LPU121936,Civil Engineering,2,77.4,61.0,63.2,59.9,61.8,7.3,74.9,14.0,0,17.0,6.3,Low
+LPU121940,Computer Science & Engineering,2,84.9,84.8,91.6,82.3,98.2,9.7,100.0,18.0,0,19.9,8.1,Low
+LPU121943,Civil Engineering,2,70.1,31.6,18.2,34.4,16.2,4.4,60.1,55.0,0,4.9,3.5,High
+LPU121947,Information Technology,2,61.6,18.6,24.6,24.6,12.5,4.3,52.2,6.0,0,2.0,4.6,High
+LPU121956,Management & Commerce,1,,80.9,80.8,67.4,82.3,8.36,93.6,15.0,0,29.6,5.7,Low
+LPU121958,Information Technology,1,82.0,80.8,70.0,80.6,67.1,9.19,83.3,18.0,0,26.6,6.9,Low
+LPU121964,Information Technology,1,48.3,19.7,30.9,30.7,14.4,6.23,42.6,3.0,0,4.9,3.2,High
+LPU121967,Computer Science & Engineering,1,81.5,90.0,100.0,100.0,87.0,9.95,87.4,19.0,1,23.1,7.2,Low
+LPU121968,Computer Science & Engineering,2,65.5,44.1,45.7,49.1,32.5,6.09,56.9,9.0,0,4.6,4.1,High
+LPU121973,Computer Science & Engineering,2,66.3,53.6,57.0,42.0,49.5,6.66,72.1,12.0,1,8.9,4.9,Medium
+LPU121981,Computer Science & Engineering,2,85.1,89.4,78.6,77.8,94.9,7.66,68.2,14.0,0,21.3,6.5,Low
+LPU121985,Computer Science & Engineering,2,82.9,72.4,70.3,62.2,72.3,7.79,81.1,21.0,0,19.3,5.5,Low
+LPU121987,Mechanical Engineering,1,67.3,74.3,79.6,79.8,72.0,8.29,86.5,14.0,0,12.6,5.5,Low
+LPU121991,Mechanical Engineering,2,66.5,68.7,41.5,55.8,56.6,7.34,71.6,13.0,0,20.2,4.5,Low
+LPU121998,Computer Science & Engineering,1,99.5,100.0,100.0,97.3,98.9,9.95,95.4,28.0,0,29.8,8.9,Low
+LPU121999,Computer Science & Engineering,2,55.1,14.7,30.0,8.0,23.6,5.74,70.6,7.0,0,6.7,3.5,High
+LPU122003,Management & Commerce,2,85.6,70.8,83.9,73.5,77.2,9.31,77.4,19.0,0,19.1,6.3,Low
+LPU122004,Computer Science & Engineering,1,82.4,78.3,75.0,68.6,73.8,8.76,79.6,12.0,0,16.9,3.8,Low
+LPU122006,Mechanical Engineering,2,100.0,100.0,100.0,100.0,100.0,8.76,100.0,32.0,0,20.8,10.0,Low
+LPU122008,Mechanical Engineering,1,78.3,43.4,57.0,58.6,47.7,,58.0,11.0,3,5.3,4.9,Medium
+LPU122011,Computer Science & Engineering,2,68.8,33.4,33.9,34.4,24.0,5.48,57.6,12.0,0,11.9,3.5,Medium
+LPU122013,Management & Commerce,1,69.0,68.6,69.2,59.3,62.6,7.31,65.6,12.0,0,16.0,4.8,Low
+LPU122019,Computer Science & Engineering,2,49.9,38.6,27.4,21.9,20.1,5.71,54.8,4.0,0,5.8,4.4,High
+LPU122020,Electronics & Communication,1,70.5,94.1,94.9,93.9,97.9,9.79,75.7,19.0,0,27.1,7.8,Low
+LPU122030,Electronics & Communication,2,,56.1,63.0,56.7,52.0,6.52,89.8,18.0,0,21.5,5.6,Low
+LPU122031,Computer Science & Engineering,2,85.7,62.1,75.4,76.2,55.0,7.29,74.3,5.0,0,19.1,5.6,Low
+LPU122032,Electronics & Communication,2,58.3,32.0,39.2,37.2,30.3,4.49,56.8,1.0,0,2.0,2.6,High
+LPU122033,Information Technology,2,77.8,78.1,74.4,83.4,67.4,7.18,,20.0,0,20.3,9.3,Low
+LPU122034,Biotechnology,2,68.5,55.3,51.4,45.2,38.7,6.34,60.4,12.0,0,9.1,5.1,High
+LPU122039,Computer Science & Engineering,1,54.6,29.0,39.0,17.6,30.4,6.65,70.3,13.0,0,2.0,5.2,High
+LPU122040,Computer Science & Engineering,1,89.4,100.0,99.8,86.2,90.9,9.13,85.6,26.0,0,17.6,7.9,Low
+LPU122041,Civil Engineering,2,100.0,100.0,100.0,100.0,91.4,9.95,100.0,31.0,0,80.0,9.7,Low
+LPU122043,Information Technology,2,100.0,100.0,100.0,92.9,99.7,9.43,100.0,33.0,0,36.9,9.4,Low
+LPU122044,Computer Science & Engineering,2,77.9,65.3,62.8,64.2,64.1,6.85,79.9,20.0,0,10.8,4.0,Low
+LPU122047,Computer Science & Engineering,1,86.3,74.2,75.1,67.6,71.7,7.98,89.4,17.0,0,16.4,5.0,Low
+LPU122052,Information Technology,1,73.9,59.0,71.4,73.7,60.4,7.74,74.4,15.0,0,19.5,6.9,Low
+LPU122053,Computer Science & Engineering,2,69.1,63.0,67.8,74.0,63.9,8.3,77.8,14.0,0,13.6,4.6,Medium
+LPU122062,Information Technology,2,73.9,58.1,44.9,52.1,49.2,6.58,75.4,13.0,0,11.2,6.4,Low
+LPU122064,Information Technology,1,79.1,81.0,93.1,89.9,78.6,8.87,77.5,16.0,0,24.9,7.7,Low
+LPU122065,Computer Science & Engineering,2,78.5,58.4,64.2,64.2,66.7,7.29,86.9,15.0,0,19.1,4.4,Low
+LPU122067,Computer Science & Engineering,2,80.1,77.1,78.8,67.7,68.5,,77.7,18.0,0,19.3,6.0,Low
+LPU122068,Computer Science & Engineering,2,,47.1,61.5,67.8,45.5,6.84,74.5,14.0,0,2.0,4.0,Medium
+LPU122069,Computer Science & Engineering,1,76.6,73.8,74.0,68.3,73.9,6.96,84.1,15.0,0,11.8,4.9,Low
+LPU122073,Computer Science & Engineering,2,81.3,77.0,85.5,77.3,74.7,7.81,71.4,9.0,0,16.9,6.2,Low
+LPU122076,Management & Commerce,2,82.6,66.6,70.3,62.1,70.0,7.43,97.6,20.0,1,29.6,7.1,Low
+LPU122078,Information Technology,2,97.5,95.0,100.0,93.8,92.8,8.44,100.0,17.0,0,22.1,9.1,Low
+LPU122082,Computer Science & Engineering,2,71.5,47.7,55.0,43.4,53.6,6.42,57.9,1.0,0,7.3,5.1,Medium
+LPU122088,Electronics & Communication,1,69.8,51.1,66.2,48.4,53.3,6.51,64.6,15.0,0,11.6,6.6,Medium
+LPU122092,Biotechnology,2,83.8,53.1,,73.8,51.3,6.7,88.0,20.0,0,11.1,7.1,Medium
+LPU122094,Information Technology,2,,77.0,81.3,75.4,71.2,7.78,81.4,13.0,0,18.6,6.7,Low
+LPU122098,Electronics & Communication,2,82.9,70.5,82.8,74.3,76.6,8.24,90.9,26.0,0,17.0,7.3,Low
+LPU122100,Information Technology,2,70.0,88.4,82.7,88.3,77.6,8.79,75.4,17.0,0,17.2,5.0,Low
+LPU122101,Management & Commerce,2,86.6,91.3,94.5,90.5,96.6,9.81,89.8,21.0,0,33.7,7.4,Low
+LPU122108,Management & Commerce,2,78.3,34.6,28.5,28.1,21.5,6.24,62.4,7.0,0,12.5,3.8,Medium
+LPU122112,Computer Science & Engineering,1,82.4,79.4,78.1,70.6,81.6,8.69,77.7,20.0,0,15.9,8.5,Low
+LPU122114,Management & Commerce,1,84.7,89.7,100.0,86.3,91.8,9.09,99.3,21.0,0,25.6,8.3,Low
+LPU122115,Electronics & Communication,2,69.9,58.8,65.9,67.2,59.2,6.39,70.4,14.0,0,10.5,5.0,Medium
+LPU122116,Computer Science & Engineering,2,95.1,96.0,97.0,98.1,92.3,8.65,100.0,25.0,0,37.8,10.0,Low
+LPU122119,Computer Science & Engineering,2,67.7,55.4,68.9,56.7,48.1,7.17,76.0,15.0,0,15.0,3.8,Medium
+LPU122123,Biotechnology,1,67.5,65.7,,78.0,59.8,6.67,56.0,9.0,0,6.2,3.5,Medium
+LPU122131,Computer Science & Engineering,1,74.6,53.3,66.7,48.1,48.3,7.52,79.2,21.0,0,9.3,6.7,Low
+LPU122132,Computer Science & Engineering,2,88.1,82.4,84.7,83.0,83.8,7.57,93.1,21.0,0,24.6,8.6,Low
+LPU122135,Mechanical Engineering,1,63.8,41.1,42.0,33.0,38.6,6.12,65.3,9.0,1,6.3,5.6,High
+LPU122137,Computer Science & Engineering,2,44.6,33.2,29.8,22.4,10.0,4.05,27.4,1.0,0,2.0,1.0,High
+LPU122142,Electronics & Communication,2,79.2,73.9,76.7,73.5,73.5,8.06,84.4,24.0,0,19.0,9.1,Low
+LPU122144,Computer Science & Engineering,1,77.2,60.5,68.4,60.6,48.8,7.02,79.2,14.0,0,21.3,8.0,Medium
+LPU122148,Computer Science & Engineering,2,82.3,48.4,36.9,54.2,34.9,7.15,67.7,11.0,0,18.4,6.2,Medium
+LPU122150,Civil Engineering,2,67.1,50.0,57.3,67.3,50.3,7.67,63.4,,0,8.0,5.5,Medium
+LPU122151,Computer Science & Engineering,1,87.8,62.6,60.5,59.6,62.0,6.56,86.2,25.0,0,19.9,7.9,Low
+LPU122156,Computer Science & Engineering,2,84.8,82.5,95.9,83.9,84.5,7.79,84.1,19.0,0,18.1,6.3,Low
+LPU122159,Information Technology,2,70.8,46.3,43.2,37.7,36.2,5.86,65.9,9.0,0,6.7,4.5,Medium
+LPU122167,Electronics & Communication,1,61.7,63.8,56.1,55.6,58.5,7.24,40.9,6.0,0,4.9,1.9,Medium
+LPU122174,Civil Engineering,1,64.0,47.7,37.4,47.1,42.9,5.6,53.7,8.0,1,7.1,4.1,High
+LPU122177,Computer Science & Engineering,1,90.4,62.2,69.4,67.1,57.8,7.22,86.3,19.0,0,20.4,6.5,Low
+LPU122181,Computer Science & Engineering,2,71.6,34.3,48.6,62.5,43.6,6.31,69.8,5.0,0,11.5,6.6,Medium
+LPU122182,Computer Science & Engineering,2,87.4,66.5,62.3,67.5,55.3,7.99,83.6,24.0,0,16.2,5.7,Low
+LPU122184,Computer Science & Engineering,2,76.1,37.2,56.7,52.3,41.6,6.73,75.9,8.0,0,10.9,6.1,Medium
+LPU122187,Management & Commerce,1,70.9,55.1,57.4,62.3,50.7,6.33,76.0,14.0,0,16.7,4.5,Low
+LPU122188,Mechanical Engineering,1,65.3,35.6,37.1,47.3,25.1,4.19,69.4,5.0,3,4.7,3.3,High
+LPU122199,Electronics & Communication,1,77.7,57.0,46.6,41.1,39.1,6.63,90.3,23.0,0,21.5,6.9,Low
+LPU122201,Biotechnology,2,77.1,59.9,58.8,65.5,57.0,6.65,90.2,22.0,0,19.3,5.8,Low
+LPU122202,Computer Science & Engineering,1,89.1,75.4,78.5,89.4,72.0,7.55,75.1,25.0,0,,7.4,Low
+LPU122208,Civil Engineering,2,74.7,53.7,47.2,74.6,49.8,7.58,70.8,11.0,0,17.5,5.8,Low
+LPU122213,Computer Science & Engineering,2,81.6,84.5,94.0,90.2,89.5,8.51,87.2,22.0,0,18.0,8.5,Low
+LPU122216,Computer Science & Engineering,2,79.7,60.2,56.1,62.5,38.7,6.68,83.2,15.0,2,14.7,7.9,Medium
+LPU122222,Electronics & Communication,1,87.8,44.9,43.9,52.9,37.2,,64.3,16.0,0,10.3,6.8,Medium
+LPU122223,Computer Science & Engineering,2,96.9,80.4,88.5,91.8,92.4,9.5,76.9,18.0,0,17.0,7.1,Low
+LPU122225,Computer Science & Engineering,2,71.4,77.1,82.8,59.9,78.0,9.35,74.6,15.0,0,17.5,6.5,Low
+LPU122226,Information Technology,1,74.9,54.7,58.2,52.1,50.2,7.51,65.2,11.0,0,,6.0,Low
+LPU122230,Computer Science & Engineering,2,89.5,79.5,86.7,92.1,76.1,7.65,92.3,15.0,0,28.9,6.2,Low
+LPU122231,Mechanical Engineering,1,66.8,57.0,52.3,48.1,56.8,7.72,62.1,12.0,0,11.7,5.2,Medium
+LPU122232,Computer Science & Engineering,1,72.7,34.8,40.2,50.9,28.9,5.51,68.3,12.0,0,17.3,7.6,High
+LPU122236,Electronics & Communication,1,74.7,48.6,55.7,58.9,47.8,5.58,80.1,14.0,0,5.6,6.2,Medium
+LPU122242,Computer Science & Engineering,1,94.4,100.0,99.1,98.5,89.3,9.95,100.0,32.0,0,33.1,8.5,Low
+LPU122243,Electronics & Communication,1,79.2,67.7,75.7,69.3,69.8,7.53,84.4,13.0,0,15.8,5.6,Low
+LPU122245,Civil Engineering,2,76.4,62.2,71.5,68.3,75.7,7.94,69.4,10.0,0,15.2,5.2,Low
+LPU122246,Information Technology,1,97.0,91.7,100.0,99.4,85.0,9.52,,31.0,0,20.2,8.0,Low
+LPU122247,Computer Science & Engineering,2,94.0,69.0,73.2,63.5,69.1,7.18,93.3,21.0,0,23.4,8.6,Low
+LPU122248,Civil Engineering,1,77.9,91.4,91.1,88.4,94.1,9.32,86.3,20.0,0,12.4,9.0,Low
+LPU122257,Information Technology,1,75.5,48.3,57.8,48.3,40.9,6.28,69.2,9.0,0,10.6,5.7,Medium
+LPU122264,Information Technology,2,92.2,99.4,98.0,91.2,87.8,9.95,100.0,25.0,0,16.8,7.6,Low
+LPU122268,Mechanical Engineering,1,73.4,43.7,30.1,45.0,31.0,6.36,54.7,6.0,0,5.1,4.9,Medium
+LPU122271,Computer Science & Engineering,1,67.8,52.8,57.3,43.0,,6.63,68.5,2.0,5,5.4,3.0,High
+LPU122273,Information Technology,2,,42.9,54.4,38.9,31.3,5.96,62.1,8.0,0,,6.5,Medium
+LPU122277,Mechanical Engineering,1,80.8,63.3,50.3,63.7,44.7,6.88,70.8,21.0,0,17.9,5.6,Low
+LPU122278,Information Technology,2,78.8,84.0,90.3,81.1,76.7,8.23,71.5,17.0,0,21.7,6.4,Low
+LPU122279,Electronics & Communication,2,78.2,86.7,88.5,74.4,89.5,,95.2,21.0,0,16.1,7.8,Low
+LPU122280,Computer Science & Engineering,2,75.7,58.3,66.1,63.8,60.8,6.84,,15.0,0,23.1,6.7,Low
+LPU122281,Computer Science & Engineering,1,76.9,59.0,61.4,65.7,51.8,6.87,85.1,14.0,0,16.3,5.1,Low
+LPU122282,Computer Science & Engineering,2,84.0,92.3,100.0,100.0,92.8,9.95,94.9,24.0,0,26.1,8.2,Low
+LPU122284,Computer Science & Engineering,2,57.1,69.3,54.1,46.6,61.0,6.96,71.5,8.0,0,9.2,6.3,Medium
+LPU122291,Electronics & Communication,1,77.6,60.2,65.5,69.2,65.2,7.63,81.6,17.0,0,15.7,6.2,Low
+LPU122293,Computer Science & Engineering,1,63.0,35.5,42.3,32.9,32.6,7.02,59.6,13.0,0,7.8,4.4,High
+LPU122294,Information Technology,2,79.8,62.9,66.1,66.7,56.5,8.76,87.8,15.0,0,18.5,7.7,Low
+LPU122295,Computer Science & Engineering,2,66.1,53.3,55.2,50.4,40.4,6.62,70.2,9.0,0,18.2,5.9,Medium
+LPU122296,Computer Science & Engineering,2,74.9,55.3,74.1,77.1,55.7,7.68,,12.0,0,16.3,7.8,Low
+LPU122297,Computer Science & Engineering,2,81.4,72.3,70.7,57.6,,6.32,81.3,19.0,0,16.3,4.5,Low
+LPU122299,Computer Science & Engineering,1,68.1,60.5,65.4,75.0,52.5,6.68,60.2,9.0,0,13.7,4.3,Medium
+LPU122301,Civil Engineering,1,85.1,93.2,91.4,96.6,87.3,8.7,91.4,17.0,0,20.3,9.1,Low
+LPU122302,Electronics & Communication,1,90.2,69.7,67.3,60.7,72.9,8.05,96.6,24.0,0,21.7,7.5,Low
+LPU122304,Computer Science & Engineering,2,74.5,70.1,72.7,76.9,71.8,7.45,71.3,17.0,5,18.5,6.3,Medium
+LPU122307,Computer Science & Engineering,1,56.0,27.5,13.7,27.3,13.9,5.43,41.3,4.0,1,2.0,4.6,High
+LPU122309,Computer Science & Engineering,2,84.2,51.1,61.5,67.4,45.0,6.42,72.5,18.0,0,13.9,6.7,Low
+LPU122311,Information Technology,2,95.7,100.0,100.0,100.0,94.8,9.95,100.0,33.0,0,35.7,8.0,Low
+LPU122313,Information Technology,1,67.1,49.0,36.0,39.6,,6.48,,11.0,0,11.0,6.1,Medium
+LPU122320,Information Technology,2,70.0,78.7,73.3,77.7,76.4,8.15,67.4,13.0,0,12.8,5.0,Low
+LPU122321,Management & Commerce,2,66.4,43.7,47.4,54.9,31.1,6.55,70.7,9.0,0,6.2,6.0,Medium
+LPU122322,Mechanical Engineering,2,75.5,63.9,64.9,67.8,47.8,7.57,83.5,21.0,0,17.9,6.8,Low
+LPU122326,Biotechnology,2,88.6,95.0,96.4,93.1,,7.73,88.8,21.0,0,22.3,8.1,Low
+LPU122328,Computer Science & Engineering,2,91.3,69.9,77.1,75.6,68.1,8.02,81.5,21.0,0,16.1,7.7,Low
+LPU122329,Electronics & Communication,2,80.1,53.0,59.1,63.0,48.4,6.71,67.0,10.0,0,10.5,4.1,Medium
+LPU122334,Mechanical Engineering,2,,57.1,54.9,55.7,51.7,6.73,60.4,10.0,0,11.2,5.7,Medium
+LPU122336,Information Technology,1,82.6,67.3,65.9,67.6,70.9,6.86,88.4,19.0,0,18.3,5.3,Low
+LPU122339,Computer Science & Engineering,1,82.5,50.6,56.5,69.1,53.3,8.21,65.1,14.0,0,12.0,6.9,Low
+LPU122340,Information Technology,2,82.3,64.0,72.2,63.8,67.8,7.25,79.4,22.0,0,16.5,4.1,Low
+LPU122344,Computer Science & Engineering,1,69.3,51.8,43.1,49.8,40.6,6.83,72.1,55.0,0,12.4,5.6,Medium
+LPU122345,Biotechnology,2,69.9,43.3,38.2,29.7,36.4,4.75,75.9,11.0,0,12.9,5.1,Medium
+LPU122348,Computer Science & Engineering,1,78.5,59.1,69.1,76.0,52.9,6.45,63.5,16.0,0,10.1,3.8,Medium
+LPU122350,Computer Science & Engineering,1,88.7,90.1,84.1,85.4,91.2,9.32,82.7,23.0,0,31.9,5.9,Low
+LPU122356,Computer Science & Engineering,2,71.4,37.3,34.7,41.5,24.0,6.06,70.7,12.0,0,11.1,4.7,Medium
+LPU122357,Management & Commerce,1,80.6,40.2,65.5,63.5,52.4,7.56,70.6,22.0,2,18.1,6.9,Medium
+LPU122363,Computer Science & Engineering,1,59.2,20.2,16.3,30.9,15.7,4.84,63.2,5.0,0,2.0,4.5,High
+LPU122365,Electronics & Communication,2,62.7,47.4,45.5,31.7,40.6,5.5,69.6,1.0,0,8.5,3.7,Medium
+LPU122368,Electronics & Communication,1,75.9,56.9,52.5,56.1,49.4,7.76,85.6,27.0,0,22.1,8.6,Low
+LPU122372,Civil Engineering,1,78.7,75.2,75.4,75.9,61.1,8.0,84.8,18.0,0,17.4,5.5,Low
+LPU122373,Mechanical Engineering,2,85.6,97.6,99.5,92.3,88.2,8.61,99.1,24.0,0,27.5,8.6,Low
+LPU122374,Information Technology,2,77.5,100.0,88.6,84.4,79.6,7.69,83.5,20.0,0,26.7,6.4,Low
+LPU122375,Electronics & Communication,2,96.1,100.0,100.0,100.0,100.0,9.95,95.9,27.0,0,32.5,7.7,Low
+LPU122381,Civil Engineering,2,75.6,69.0,54.1,53.8,50.4,6.64,74.7,26.0,0,10.8,5.4,Low
+LPU122384,Information Technology,2,60.6,28.0,31.6,46.0,22.8,5.52,45.9,3.0,0,2.8,3.9,High
+LPU122385,Computer Science & Engineering,1,65.3,58.1,50.4,50.4,63.1,6.75,55.3,5.0,0,11.6,4.0,High
+LPU122389,Mechanical Engineering,1,85.0,87.0,100.0,81.9,98.1,9.14,81.3,16.0,0,22.2,4.9,Low
+LPU122391,Computer Science & Engineering,2,71.9,38.2,44.6,26.9,39.6,6.45,74.3,9.0,0,14.3,4.1,Medium
+LPU122392,Computer Science & Engineering,1,85.9,60.4,54.3,79.9,48.7,7.38,65.5,12.0,0,19.4,5.3,Low
+LPU122394,Computer Science & Engineering,2,71.6,43.7,37.3,39.3,43.1,8.0,73.3,9.0,0,9.7,5.9,Low
+LPU122396,Computer Science & Engineering,1,59.7,53.2,56.1,30.3,49.5,6.25,54.4,2.0,0,4.2,6.6,High
+LPU122397,Computer Science & Engineering,1,100.0,64.0,77.2,61.3,68.1,7.53,87.0,24.0,0,22.4,7.7,Low
+LPU122398,Computer Science & Engineering,2,82.3,51.9,69.0,71.9,58.9,7.41,,22.0,0,11.7,6.5,Low
+LPU122399,Electronics & Communication,1,63.8,37.8,37.7,39.3,30.6,6.42,56.4,1.0,0,8.3,5.9,Medium
+LPU122401,Computer Science & Engineering,1,72.0,64.5,67.7,42.8,54.0,7.0,76.7,9.0,1,6.2,5.4,Medium
+LPU122403,Information Technology,1,79.8,62.5,57.8,75.5,61.6,8.07,78.2,17.0,0,20.9,7.1,Low
+LPU122404,Computer Science & Engineering,2,69.2,66.9,58.1,79.1,57.1,6.96,76.2,13.0,0,15.6,4.2,Low
+LPU122406,Electronics & Communication,2,93.1,91.3,93.6,85.0,82.2,9.61,81.5,,0,18.8,6.5,Low
+LPU122408,Computer Science & Engineering,2,76.5,54.4,50.0,59.0,46.6,6.78,77.8,15.0,0,19.0,4.3,Medium
+LPU122414,Computer Science & Engineering,2,76.8,66.2,58.4,58.4,60.0,6.82,67.0,3.0,0,17.8,5.8,Low
+LPU122415,Information Technology,2,93.7,90.3,100.0,92.2,88.3,9.74,90.2,31.0,0,30.4,8.4,Low
+LPU122417,Information Technology,2,46.7,12.0,15.2,12.8,10.0,4.15,45.9,1.0,4,2.0,3.4,High
+LPU122425,Computer Science & Engineering,1,73.8,71.5,68.7,66.6,59.0,7.18,73.1,11.0,0,19.5,5.2,Medium
+LPU122426,Management & Commerce,2,61.5,12.0,10.0,12.1,10.0,3.92,42.5,1.0,2,2.0,2.0,High
+LPU122428,Biotechnology,2,69.7,44.0,58.5,56.0,47.6,6.61,61.3,12.0,1,11.5,3.6,Medium
+LPU122452,Biotechnology,1,51.7,57.1,38.4,44.0,42.0,5.99,,14.0,0,2.0,2.5,Medium
+LPU122459,Information Technology,2,76.9,64.9,68.5,53.7,59.4,7.57,85.4,13.0,0,11.0,6.4,Low
+LPU122462,Management & Commerce,2,75.5,79.9,90.4,91.7,72.2,,79.6,17.0,0,20.8,6.5,Low
+LPU122463,Electronics & Communication,2,78.9,72.3,75.0,73.3,60.6,7.13,73.1,15.0,0,19.5,7.3,Medium
+LPU122466,Computer Science & Engineering,2,75.3,52.0,56.9,57.2,43.3,7.11,60.1,8.0,0,7.9,5.4,Medium
+LPU122475,Information Technology,2,78.4,36.0,34.7,23.2,23.4,4.37,94.0,19.0,1,12.7,5.0,Medium
+LPU122477,Computer Science & Engineering,1,66.3,41.6,61.5,56.7,51.1,7.88,59.4,15.0,0,13.8,3.8,Medium
+LPU122478,Civil Engineering,2,84.2,54.6,50.1,62.0,50.4,7.89,87.0,19.0,0,17.2,5.6,Low
+LPU122479,Computer Science & Engineering,1,80.0,48.5,51.6,33.7,27.9,6.27,81.1,16.0,0,9.8,4.4,Medium
+LPU122480,Civil Engineering,1,75.6,56.5,39.4,55.6,35.5,6.22,77.3,10.0,0,10.2,5.7,Medium
+LPU122482,Management & Commerce,2,74.5,61.2,77.5,79.0,66.8,8.08,74.1,19.0,0,15.8,6.5,Low
+LPU122486,Biotechnology,2,82.2,77.4,77.8,76.3,65.3,8.25,94.2,17.0,0,21.8,9.1,Low
+LPU122495,Information Technology,1,58.2,41.4,32.1,44.1,33.6,4.63,53.3,4.0,0,3.3,3.0,High
+LPU122497,Electronics & Communication,1,84.9,80.3,84.9,79.4,77.1,8.48,78.0,20.0,0,20.5,4.6,Low
+LPU122498,Management & Commerce,2,79.0,81.4,74.9,83.3,76.3,7.97,86.9,7.0,0,18.1,4.7,Low
