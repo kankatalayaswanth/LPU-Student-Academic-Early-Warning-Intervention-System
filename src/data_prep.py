@@ -13,9 +13,9 @@ Total Master University Census: 4,460 students (716 High Risk ~ 16.1%).
 
 Domain Validation Rules:
 - Joining year derived from Semester (Sem 1-2: 2024, Sem 3-4: 2023, Sem 5-6: 2022, Sem 7-8: 2021).
-- Compact student IDs: e.g. CSE24101, CSE23205, MEC24102, MSB22310, LAW21405.
+- Authentic 8-digit student registration numbers: e.g. 12404710, 12404001, 12420001, 12304002 (fixed 8-digit length across university).
 - Semester 1 freshmen strictly have 0 backlogs (they have not taken prior university finals).
-- Realistic faculty mentor assignment: each mentor oversees 12-15 assigned mentees across risk levels.
+- Realistic faculty mentor assignment: each mentor oversees 25 to 30 assigned mentees with 5-digit Employee UIDs (e.g. UID: 24185).
 - Distinct non-round risk rates per school reflecting varying discipline difficulty.
 - Strictly zero unverified study hours / zero LMS login tracking.
 """
@@ -41,6 +41,8 @@ LAST_NAMES = [
 SCHOOL_CONFIG = {
     "School of Computer Science & Engineering": {
         "prefix": "CSE",
+        "school_code_digit": 1,
+        "id_base": 4001,
         "n_samples": 1840,
         "target_high": 261,     # 14.18%
         "target_med": 396,      # 21.52%
@@ -54,10 +56,12 @@ SCHOOL_CONFIG = {
         ],
         "dept_weights": [0.35, 0.25, 0.15, 0.15, 0.10],
         "sections": ["K23-CS-A", "K23-CS-B", "K23-CS-C", "K23-CS-D", "K23-CS-E", "K23-CS-F", "K23-CS-G", "K23-CS-H", "K23-CS-I", "K23-CS-J"],
-        "mentor_pool_size": 130  # ~14 students per mentor
+        "mentor_pool_size": 68  # 27 students per mentor (between 25-30)
     },
     "School of Mechanical Engineering": {
         "prefix": "MEC",
+        "school_code_digit": 2,
+        "id_base": 20001,
         "n_samples": 680,
         "target_high": 155,     # 22.79%
         "target_med": 150,      # 22.06%
@@ -70,10 +74,12 @@ SCHOOL_CONFIG = {
         ],
         "dept_weights": [0.40, 0.25, 0.20, 0.15],
         "sections": ["K23-ME-A", "K23-ME-B", "K23-ME-C", "K23-ME-D"],
-        "mentor_pool_size": 50   # ~13.6 students per mentor
+        "mentor_pool_size": 26   # 26.15 students per mentor (between 25-30)
     },
     "Mittal School of Business": {
         "prefix": "MSB",
+        "school_code_digit": 3,
+        "id_base": 30001,
         "n_samples": 920,
         "target_high": 107,     # 11.63%
         "target_med": 182,      # 19.78%
@@ -86,10 +92,12 @@ SCHOOL_CONFIG = {
         ],
         "dept_weights": [0.35, 0.25, 0.20, 0.20],
         "sections": ["K23-MB-A", "K23-MB-B", "K23-MB-C", "K23-MB-D", "K23-MB-E"],
-        "mentor_pool_size": 68   # ~13.5 students per mentor
+        "mentor_pool_size": 34   # 27.05 students per mentor (between 25-30)
     },
     "School of Law": {
         "prefix": "LAW",
+        "school_code_digit": 4,
+        "id_base": 40001,
         "n_samples": 540,
         "target_high": 94,      # 17.41%
         "target_med": 122,      # 22.59%
@@ -102,10 +110,12 @@ SCHOOL_CONFIG = {
         ],
         "dept_weights": [0.40, 0.30, 0.20, 0.10],
         "sections": ["K23-LW-A", "K23-LW-B", "K23-LW-C"],
-        "mentor_pool_size": 40   # ~13.5 students per mentor
+        "mentor_pool_size": 20   # 27.0 students per mentor (between 25-30)
     },
     "School of Agriculture & Bio-Sciences": {
         "prefix": "AGR",
+        "school_code_digit": 5,
+        "id_base": 50001,
         "n_samples": 480,
         "target_high": 99,      # 20.62%
         "target_med": 105,      # 21.88%
@@ -118,20 +128,23 @@ SCHOOL_CONFIG = {
         ],
         "dept_weights": [0.45, 0.25, 0.15, 0.15],
         "sections": ["K23-AG-A", "K23-AG-B", "K23-AG-C"],
-        "mentor_pool_size": 35   # ~13.7 students per mentor
+        "mentor_pool_size": 18   # 26.66 students per mentor (between 25-30)
     }
 }
 
 def generate_mentors_for_school(prefix: str, count: int, seed: int):
-    """Generates a realistic list of university faculty mentors with specific group codes."""
+    """Generates a realistic list of university faculty mentors with 5-digit Employee UIDs."""
     rng = np.random.RandomState(seed + 100)
     titles = ["Dr.", "Prof.", "Assoc. Prof."]
     mentors = []
+    # Distinct 5-digit faculty UIDs (e.g. 21450, 18520, etc.)
+    base_uid = 18000 + (seed * 113) % 9000
     for i in range(count):
         title = rng.choice(titles, p=[0.55, 0.30, 0.15])
         f = rng.choice(FIRST_NAMES)
         l = rng.choice(LAST_NAMES)
-        mentors.append(f"{title} {f} {l} ({prefix}-{i+1:02d})")
+        emp_uid = base_uid + (i * 137) % 8999
+        mentors.append(f"{title} {f} {l} (UID: {emp_uid:05d})")
     return mentors
 
 def generate_single_school(school_name: str, config: dict) -> pd.DataFrame:
@@ -154,6 +167,9 @@ def generate_single_school(school_name: str, config: dict) -> pd.DataFrame:
     # Sem 3 & 4 -> Joined 2023 ('23')
     # Sem 5 & 6 -> Joined 2022 ('22')
     # Sem 7 & 8 -> Joined 2021 ('21')
+    # Real-world authentic university 8-digit registration number:
+    # 1 (prefix) + 2-digit year ('24') + 5-digit roll number (e.g. 12404710) - Strictly 8 digits for all students!
+    id_base = config.get("id_base", 10001)
     student_ids = []
     for i in range(n):
         s = semesters[i]
@@ -165,10 +181,10 @@ def generate_single_school(school_name: str, config: dict) -> pd.DataFrame:
             yr = "22"
         else:
             yr = "21"
-        # Short clean ID: e.g. CSE24101, CSE23150, etc.
-        student_ids.append(f"{prefix}{yr}{101 + i}")
+        roll_num = id_base + i
+        student_ids.append(f"1{yr}{roll_num:05d}")
 
-    # Faculty mentor allocation (Strictly 12 to 15 students per mentor across risk levels)
+    # Faculty mentor allocation (Strictly 25 to 30 students per mentor across risk levels)
     mentors_list = generate_mentors_for_school(prefix, config["mentor_pool_size"], config["seed"])
     mentor_assignments = [mentors_list[i % len(mentors_list)] for i in range(n)]
 
@@ -285,7 +301,7 @@ def generate_single_school(school_name: str, config: dict) -> pd.DataFrame:
 def generate_sample_batch_upload(df_full: pd.DataFrame, n_batch: int = 50, random_state: int = 99) -> pd.DataFrame:
     """Creates an unlabelled evaluation batch file (50 rows) for testing CSV batch upload in Streamlit."""
     batch_df = df_full.sample(n=n_batch, random_state=random_state).copy()
-    batch_df["Student_ID"] = [f"SEC24{101 + i}" for i in range(n_batch)]
+    batch_df["Student_ID"] = [f"1249{1001 + i:04d}" for i in range(n_batch)]
     batch_df = batch_df.drop(columns=["Risk_Level"])
     return batch_df.reset_index(drop=True)
 

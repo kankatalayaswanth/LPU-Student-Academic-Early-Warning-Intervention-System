@@ -309,22 +309,27 @@ def load_shap_explainer():
     return joblib.load(shap_path)
 
 SCHOOL_DATASETS = {
-    "💻 School of Computer Science & Engineering (1,840 Students • 14.2% At-Risk)": "data/school_cse.csv",
-    "⚙️ School of Mechanical Engineering (680 Students • 22.8% At-Risk)": "data/school_mechanical.csv",
-    "📈 Mittal School of Business (920 Students • 11.6% At-Risk)": "data/school_business.csv",
-    "⚖️ School of Law (540 Students • 17.4% At-Risk)": "data/school_law.csv",
-    "🌾 School of Agriculture & Bio-Sciences (480 Students • 20.6% At-Risk)": "data/school_agriculture.csv",
-    "🏛️ All University Schools Consolidated (4,460 Students • 16.1% At-Risk)": "data/all_schools_combined.csv"
+    "School of Computer Science & Engineering": "data/school_cse.csv",
+    "School of Mechanical Engineering": "data/school_mechanical.csv",
+    "Mittal School of Business": "data/school_business.csv",
+    "School of Law": "data/school_law.csv",
+    "School of Agriculture & Bio-Sciences": "data/school_agriculture.csv",
+    "All University Schools Consolidated": "data/all_schools_combined.csv"
 }
 
 @st.cache_data
 def load_school_dataset(file_path: str):
     if os.path.exists(file_path):
-        return pd.read_csv(file_path)
-    fallback = os.path.join("data", "student_academic_data.csv")
-    if os.path.exists(fallback):
-        return pd.read_csv(fallback)
-    raise FileNotFoundError(f"Dataset not found at {file_path}")
+        df = pd.read_csv(file_path)
+    else:
+        fallback = os.path.join("data", "student_academic_data.csv")
+        if os.path.exists(fallback):
+            df = pd.read_csv(fallback)
+        else:
+            raise FileNotFoundError(f"Dataset not found at {file_path}")
+    if "Student_ID" in df.columns:
+        df["Student_ID"] = df["Student_ID"].astype(str)
+    return df
 
 @st.cache_data
 def load_json_artifact(filename: str):
@@ -517,26 +522,15 @@ if "Executive Overview" in page:
     </div>
     """, unsafe_allow_html=True)
 
-    st.markdown("""
-    <div style="background-color: #FFFFFF; border: 1px solid #BFDBFE; border-top: 4px solid #1E3A8A; border-radius: 8px; padding: 1.1rem 1.5rem; margin-bottom: 1.25rem; box-shadow: 0 1px 3px rgba(0,0,0,0.05); text-align: center;">
-        <div style="font-size: 0.78rem; font-weight: 700; color: #1E3A8A; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.35rem;">
-            Select University School Dataset
-        </div>
-        <div style="font-size: 0.875rem; color: #475569; margin-bottom: 0.75rem;">
-            Choose a school to immediately re-calculate institutional KPIs, risk distribution charts, and student rosters:
-        </div>
-    """, unsafe_allow_html=True)
-
-    c_pad1, c_center, c_pad2 = st.columns([1, 2.8, 1])
+    c_pad1, c_center, c_pad2 = st.columns([1, 2.5, 1])
     with c_center:
         school_keys_ov = list(SCHOOL_DATASETS.keys())
         cur_ov_idx = school_keys_ov.index(st.session_state.selected_school_label) if st.session_state.selected_school_label in school_keys_ov else 0
         ov_school_chosen = st.selectbox(
-            "Select School Dataset",
+            "Active University School",
             school_keys_ov,
             index=cur_ov_idx,
-            key="overview_school_selector_widget",
-            label_visibility="collapsed"
+            key="overview_school_selector_widget"
         )
         if ov_school_chosen != st.session_state.selected_school_label:
             st.session_state.selected_school_label = ov_school_chosen
@@ -544,7 +538,7 @@ if "Executive Overview" in page:
             st.session_state.is_custom_cohort = False
             st.rerun()
 
-    st.markdown("</div>", unsafe_allow_html=True)
+    st.markdown("<div style='height: 0.5rem;'></div>", unsafe_allow_html=True)
 
     tuned_recall = model_comparison.get("Tuned XGBoost (Winning Architecture)", {}).get("High_Risk_Recall", 0.878) * 100
     tuned_f1 = model_comparison.get("Tuned XGBoost (Winning Architecture)", {}).get("F1_Macro", 0.838) * 100
@@ -716,7 +710,7 @@ elif "Faculty Mentorship" in page:
     <div style="margin-bottom: 1.25rem;">
         <h1 style="font-size: 1.75rem; font-weight: 700; color: #0F172A; margin-bottom: 0.25rem;">👨‍🏫 Faculty Mentorship & Student Advising Portal</h1>
         <p style="font-size: 0.9375rem; color: #475569; margin: 0;">
-            Official mentor advising console. Each faculty mentor is assigned a dedicated cohort of <b>12 to 15 students</b> across all risk categories. Select your faculty name below to inspect your assigned mentees, filter by risk tiers, and execute early intervention protocols.
+            Official university faculty advising console. Each faculty mentor is assigned a dedicated cohort of <b>25 to 30 students</b> across all academic tiers. Select your faculty name (with 5-digit Employee UID) below to inspect your assigned mentees, filter by risk tiers, and execute timely academic interventions.
         </p>
     </div>
     """, unsafe_allow_html=True)
@@ -729,13 +723,13 @@ elif "Faculty Mentorship" in page:
         c_m1, c_m2 = st.columns([2.5, 1.5])
         with c_m1:
             selected_mentor = st.selectbox(
-                "Select Faculty Mentor Name",
+                "Select Faculty Mentor Name (5-Digit UID)",
                 mentor_list,
                 index=0,
-                help="Select your faculty name to view your assigned mentee cohort."
+                help="Select your faculty name and 5-digit Employee UID to view your assigned mentee cohort."
             )
         with c_m2:
-            school_disp = st.session_state.selected_school_label.split('(')[0].strip() if "selected_school_label" in st.session_state else "University School"
+            school_disp = st.session_state.selected_school_label if "selected_school_label" in st.session_state else "University School"
             st.markdown(f"""
             <div class="flat-card" style="padding: 0.75rem 1rem; margin-bottom: 0; background-color: #EFF6FF; border-color: #BFDBFE;">
                 <div style="font-size: 0.72rem; color: #1E3A8A; font-weight: 700; text-transform: uppercase;">Active Mentorship School</div>
