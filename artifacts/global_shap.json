@@ -1,117 +1,107 @@
 [
   {
-    "Feature": "CA_Average",
-    "Global_Importance": 0.513641893863678,
-    "High_Risk_Importance": 0.7705711126327515
-  },
-  {
     "Feature": "MidTerm_Marks",
-    "Global_Importance": 0.5457894206047058,
-    "High_Risk_Importance": 0.7497302889823914
-  },
-  {
-    "Feature": "CA1_Marks",
-    "Global_Importance": 0.20384511351585388,
-    "High_Risk_Importance": 0.3286150395870209
-  },
-  {
-    "Feature": "Attendance_Pct",
-    "Global_Importance": 0.25323486328125,
-    "High_Risk_Importance": 0.3242953419685364
-  },
-  {
-    "Feature": "Assignment_Submission_Rate",
-    "Global_Importance": 0.15381678938865662,
-    "High_Risk_Importance": 0.2863130271434784
-  },
-  {
-    "Feature": "Study_Hours_Per_Week",
-    "Global_Importance": 0.18322432041168213,
-    "High_Risk_Importance": 0.2442597597837448
-  },
-  {
-    "Feature": "Prev_Sem_CGPA",
-    "Global_Importance": 0.2418176233768463,
-    "High_Risk_Importance": 0.0859871655702591
-  },
-  {
-    "Feature": "Engagement_Index",
-    "Global_Importance": 0.1824817806482315,
-    "High_Risk_Importance": 0.07497110217809677
-  },
-  {
-    "Feature": "Semester",
-    "Global_Importance": 0.04182003065943718,
-    "High_Risk_Importance": 0.06988601386547089
+    "Global_Importance": 0.45037558674812317,
+    "High_Risk_Importance": 0.65570068359375
   },
   {
     "Feature": "CA2_Marks",
-    "Global_Importance": 0.06555715948343277,
-    "High_Risk_Importance": 0.06318923085927963
+    "Global_Importance": 0.24103206396102905,
+    "High_Risk_Importance": 0.4514601230621338
   },
   {
-    "Feature": "LMS_Logins_Per_Week",
-    "Global_Importance": 0.07148529589176178,
-    "High_Risk_Importance": 0.05593486130237579
+    "Feature": "Engagement_Index",
+    "Global_Importance": 0.24459627270698547,
+    "High_Risk_Importance": 0.4482661485671997
+  },
+  {
+    "Feature": "CA_Average",
+    "Global_Importance": 0.5783730149269104,
+    "High_Risk_Importance": 0.43852758407592773
   },
   {
     "Feature": "Participation_Score",
-    "Global_Importance": 0.02293257601559162,
-    "High_Risk_Importance": 0.019559601321816444
+    "Global_Importance": 0.20139388740062714,
+    "High_Risk_Importance": 0.37640950083732605
   },
   {
-    "Feature": "Department_Mechanical Engineering",
-    "Global_Importance": 0.006971304304897785,
-    "High_Risk_Importance": 0.0134170763194561
+    "Feature": "Attendance_Pct",
+    "Global_Importance": 0.30832916498184204,
+    "High_Risk_Importance": 0.27912086248397827
+  },
+  {
+    "Feature": "Prev_Sem_CGPA",
+    "Global_Importance": 0.34487786889076233,
+    "High_Risk_Importance": 0.25488290190696716
   },
   {
     "Feature": "CA3_Marks",
-    "Global_Importance": 0.035213541239500046,
-    "High_Risk_Importance": 0.012945116497576237
+    "Global_Importance": 0.16526345908641815,
+    "High_Risk_Importance": 0.11522496491670609
   },
   {
-    "Feature": "Department_Biotechnology",
-    "Global_Importance": 0.0037890803068876266,
-    "High_Risk_Importance": 0.008393613621592522
+    "Feature": "Assignment_Submission_Rate",
+    "Global_Importance": 0.182989239692688,
+    "High_Risk_Importance": 0.06420401483774185
   },
   {
     "Feature": "CA_Trend",
-    "Global_Importance": 0.008858905173838139,
-    "High_Risk_Importance": 0.007820870727300644
-  },
-  {
-    "Feature": "Department_Information Technology",
-    "Global_Importance": 0.010396752506494522,
-    "High_Risk_Importance": 0.006818217691034079
-  },
-  {
-    "Feature": "Department_Civil Engineering",
-    "Global_Importance": 0.002651411574333906,
-    "High_Risk_Importance": 0.005061860661953688
+    "Global_Importance": 0.02678803727030754,
+    "High_Risk_Importance": 0.04982798919081688
   },
   {
     "Feature": "Department_Computer Science & Engineering",
-    "Global_Importance": 0.0028170007281005383,
-    "High_Risk_Importance": 0.0038692071102559566
+    "Global_Importance": 0.017310135066509247,
+    "High_Risk_Importance": 0.03772673383355141
+  },
+  {
+    "Feature": "Department_Management & Commerce",
+    "Global_Importance": 0.015306740999221802,
+    "High_Risk_Importance": 0.03584643825888634
+  },
+  {
+    "Feature": "Semester",
+    "Global_Importance": 0.05696626752614975,
+    "High_Risk_Importance": 0.028635935857892036
+  },
+  {
+    "Feature": "Department_Information Technology",
+    "Global_Importance": 0.021847538650035858,
+    "High_Risk_Importance": 0.027974648401141167
+  },
+  {
+    "Feature": "CA1_Marks",
+    "Global_Importance": 0.10175783932209015,
+    "High_Risk_Importance": 0.02444980852305889
   },
   {
     "Feature": "Department_Electronics & Communication",
-    "Global_Importance": 0.004112076945602894,
-    "High_Risk_Importance": 0.002670782385393977
+    "Global_Importance": 0.009661341086030006,
+    "High_Risk_Importance": 0.017020132392644882
+  },
+  {
+    "Feature": "Attendance_Shortage_Flag",
+    "Global_Importance": 0.011158101260662079,
+    "High_Risk_Importance": 0.012916895560920238
+  },
+  {
+    "Feature": "Department_Civil Engineering",
+    "Global_Importance": 0.004782631527632475,
+    "High_Risk_Importance": 0.007015842013061047
+  },
+  {
+    "Feature": "Department_Biotechnology",
+    "Global_Importance": 0.0032500699162483215,
+    "High_Risk_Importance": 0.00361225800588727
+  },
+  {
+    "Feature": "Department_Mechanical Engineering",
+    "Global_Importance": 0.007918503135442734,
+    "High_Risk_Importance": 0.0028201665263623
   },
   {
     "Feature": "Active_Backlogs",
     "Global_Importance": 0.0,
-    "High_Risk_Importance": 0.0
-  },
-  {
-    "Feature": "Attendance_Shortage_Flag",
-    "Global_Importance": 0.01183540839701891,
-    "High_Risk_Importance": 0.0
-  },
-  {
-    "Feature": "Department_Management & Commerce",
-    "Global_Importance": 0.0004839923058170825,
     "High_Risk_Importance": 0.0
   }
 ]

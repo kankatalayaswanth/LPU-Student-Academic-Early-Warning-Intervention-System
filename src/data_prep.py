@@ -80,15 +80,7 @@ def generate_student_dataset(n_samples: int = 2500, random_state: int = 42) -> p
     raw_assignments = 75.0 + 15.0 * latent_diligence + rng.normal(0, 6.0, size=n_samples)
     assignment_rate = np.clip(raw_assignments, 15.0, 100.0).round(1)
     
-    # LMS Logins Per Week (1 to 35 typical)
-    raw_lms = 14.0 + 7.5 * latent_diligence + rng.normal(0, 3.5, size=n_samples)
-    lms_logins = np.clip(raw_lms, 1, 35).round(0).astype(int)
-    
-    # Study Hours Per Week (2 to 40 typical)
-    raw_study = 15.0 + 6.0 * latent_diligence + 2.0 * latent_ability + rng.normal(0, 4.0, size=n_samples)
-    study_hours = np.clip(raw_study, 2.0, 42.0).round(1)
-    
-    # Participation Score (1.0 to 10.0)
+    # Participation Score (1.0 to 10.0 in classroom discussions and laboratory engagement)
     raw_part = 6.0 + 1.6 * latent_diligence + rng.normal(0, 1.2, size=n_samples)
     participation = np.clip(raw_part, 1.0, 10.0).round(1)
     
@@ -101,30 +93,28 @@ def generate_student_dataset(n_samples: int = 2500, random_state: int = 42) -> p
             backlogs[i] = rng.choice([1, 2, 3, 4, 5], p=[0.55, 0.25, 0.12, 0.05, 0.03])
     
     # Ground Truth Risk Score Synthesis
-    # Composite risk index (higher = greater academic vulnerability)
+    # Composite risk index based on realistic university academic indicators:
+    # Attendance compliance, Mid-Terms, Continuous Assessments, CGPA, Backlogs, Assignment rate, Participation
     ca_avg = (ca1 + ca2 + ca3) / 3.0
     
     risk_index = (
-        - 0.32 * ((attendance_pct - 75.0) / 15.0)
-        - 0.28 * ((midterm_marks - 50.0) / 20.0)
-        - 0.25 * ((ca_avg - 55.0) / 20.0)
-        - 0.22 * ((prev_sem_cgpa - 7.0) / 1.5)
-        + 0.35 * (backlogs / 2.0)
-        - 0.16 * ((assignment_rate - 70.0) / 20.0)
-        - 0.12 * ((lms_logins - 14.0) / 7.0)
-        - 0.08 * ((study_hours - 15.0) / 8.0)
-        + rng.normal(0, 0.35, size=n_samples) # Natural human variability / noise
+        - 0.38 * ((attendance_pct - 75.0) / 15.0)
+        - 0.32 * ((midterm_marks - 50.0) / 20.0)
+        - 0.28 * ((ca_avg - 55.0) / 20.0)
+        - 0.24 * ((prev_sem_cgpa - 7.0) / 1.5)
+        + 0.40 * (backlogs / 2.0)
+        - 0.20 * ((assignment_rate - 70.0) / 20.0)
+        - 0.14 * ((participation - 6.0) / 2.0)
+        + rng.normal(0, 0.35, size=n_samples)
     )
     
-    # Quantile thresholds for realistic class imbalance (~55% Low, ~30% Medium, ~15% High)
-    q85 = np.percentile(risk_index, 85)
-    q55 = np.percentile(risk_index, 55)
-    
+    # Natural academic clinical risk thresholds (not artificially forced round percentiles):
+    # Generates a realistic ~14.8% high-risk rate representing students facing debarment or failure
     risk_labels = []
     for r in risk_index:
-        if r >= q85:
+        if r >= 1.17:
             risk_labels.append("High")
-        elif r >= q55:
+        elif r >= 0.18:
             risk_labels.append("Medium")
         else:
             risk_labels.append("Low")
@@ -140,29 +130,27 @@ def generate_student_dataset(n_samples: int = 2500, random_state: int = 42) -> p
         "MidTerm_Marks": midterm_marks,
         "Prev_Sem_CGPA": prev_sem_cgpa,
         "Assignment_Submission_Rate": assignment_rate,
-        "LMS_Logins_Per_Week": lms_logins,
         "Active_Backlogs": backlogs,
-        "Study_Hours_Per_Week": study_hours,
         "Participation_Score": participation,
         "Risk_Level": risk_labels
     })
     
-    # Inject realistic outliers (0.8% of rows) to demonstrate IQR clipping
+    # Inject realistic entry outliers (0.8% of rows) to demonstrate IQR clipping
     outlier_idx = rng.choice(n_samples, size=int(0.008 * n_samples), replace=False)
     for idx in outlier_idx[:len(outlier_idx)//2]:
-        df.loc[idx, "Study_Hours_Per_Week"] = rng.choice([65.0, 72.5, 80.0]) # Extreme study hours
+        df.loc[idx, "CA1_Marks"] = rng.choice([105.0, 110.0]) # Typo / data entry errors
     for idx in outlier_idx[len(outlier_idx)//2:]:
-        df.loc[idx, "LMS_Logins_Per_Week"] = rng.choice([55, 62, 70]) # Bot/excessive logins
+        df.loc[idx, "MidTerm_Marks"] = rng.choice([105.0, 110.0])
         
     # Inject 3% missing values randomly in select numerical features to test SimpleImputer
     num_cols_for_na = [
         "Attendance_Pct", "CA2_Marks", "MidTerm_Marks", 
-        "Prev_Sem_CGPA", "Assignment_Submission_Rate", 
-        "LMS_Logins_Per_Week", "Study_Hours_Per_Week"
+        "Prev_Sem_CGPA", "Assignment_Submission_Rate"
     ]
     
     for col in num_cols_for_na:
         na_mask = rng.rand(n_samples) < 0.03
+        df.loc[na_mask, col] = np.nan
         df.loc[na_mask, col] = np.nan
         
     return df

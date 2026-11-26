@@ -40,14 +40,13 @@ class AcademicFeatureEngineer(BaseEstimator, TransformerMixin):
         att = df["Attendance_Pct"].fillna(75.0)
         df["Attendance_Shortage_Flag"] = (att < 75.0).astype(float)
 
-        # Digital & Assignment Engagement Index (0 - 100 scale)
-        lms = df["LMS_Logins_Per_Week"].fillna(14.0)
+        # Academic & Assignment Engagement Index (0 - 100 scale)
+        part = df["Participation_Score"].fillna(6.0)
         asn = df["Assignment_Submission_Rate"].fillna(75.0)
         
-        # LMS logins normalized to 35, assignments normalized to 100
-        lms_norm = np.clip(lms, 0, 35) / 35.0
+        part_norm = np.clip(part, 1.0, 10.0) / 10.0
         asn_norm = np.clip(asn, 0, 100) / 100.0
-        df["Engagement_Index"] = (lms_norm * 40.0 + asn_norm * 60.0).round(2)
+        df["Engagement_Index"] = (asn_norm * 60.0 + part_norm * 40.0).round(2)
 
         return df
 

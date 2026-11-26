@@ -73,7 +73,7 @@ def compute_eda_statistics(df: pd.DataFrame) -> dict:
     num_cols = [
         "Attendance_Pct", "CA1_Marks", "CA2_Marks", "CA3_Marks",
         "MidTerm_Marks", "Prev_Sem_CGPA", "Assignment_Submission_Rate",
-        "LMS_Logins_Per_Week", "Active_Backlogs", "Study_Hours_Per_Week"
+        "Active_Backlogs", "Participation_Score"
     ]
     eda["numerical_summary"] = df[num_cols].describe().round(2).to_dict()
     
@@ -97,8 +97,8 @@ def build_preprocessing_pipeline():
     num_cols = [
         "Semester", "Attendance_Pct", "CA1_Marks", "CA2_Marks", "CA3_Marks",
         "MidTerm_Marks", "Prev_Sem_CGPA", "Assignment_Submission_Rate",
-        "LMS_Logins_Per_Week", "Active_Backlogs", "Study_Hours_Per_Week",
-        "Participation_Score", "CA_Average", "CA_Trend", "Engagement_Index",
+        "Active_Backlogs", "Participation_Score",
+        "CA_Average", "CA_Trend", "Engagement_Index",
         "Attendance_Shortage_Flag"
     ]
     cat_cols = ["Department"]

@@ -102,7 +102,6 @@ def explain_student_risk(student_df: pd.DataFrame, pipeline, explainer, feature_
         "Prev_Sem_CGPA": "Previous CGPA",
         "Assignment_Submission_Rate": "Assignment Submission Rate %",
         "Active_Backlogs": "Active Backlogs Count",
-        "Study_Hours_Per_Week": "Study Hours / Week",
         "Participation_Score": "Class Participation (1-10)",
         "CA_Average": "Continuous Assessment Avg",
         "CA_Trend": "CA Trajectory (CA3 - CA1)",
@@ -138,7 +137,7 @@ def generate_actionable_interventions(student_row: dict) -> list:
     cgpa = float(safe_val(student_row, "Prev_Sem_CGPA", 7.0))
     backlogs = int(safe_val(student_row, "Active_Backlogs", 0))
     assignments = float(safe_val(student_row, "Assignment_Submission_Rate", 75.0))
-    study_hours = float(safe_val(student_row, "Study_Hours_Per_Week", 15.0))
+    participation = float(safe_val(student_row, "Participation_Score", 6.0))
     
     # 1. Debarment & Attendance Non-Compliance (LPU Policy Section 14.1)
     if attendance < 75.0:
@@ -215,15 +214,15 @@ def generate_actionable_interventions(student_row: dict) -> list:
             "metric": f"{cgpa:.2f} CGPA"
         })
 
-    # 7. Low Independent Study Hours
-    if study_hours < 10.0:
+    # 7. Low Class & Laboratory Engagement
+    if participation < 5.0:
         interventions.append({
             "priority": "MEDIUM",
             "priority_color": "#D97706",
-            "category": "Habit & Study Routine",
-            "title": "Structured Study Timetable Restructuring",
-            "action": f"Reported study time ({study_hours:.1f} hrs/week) is inadequate for course load. Mentor to structure a 15-hour weekly timetable allocating 2 hours daily to core engineering subjects.",
-            "metric": f"{study_hours:.1f} hrs/week"
+            "category": "Classroom & Lab Engagement",
+            "title": "Interactive Tutorial & Practical Lab Mentorship",
+            "action": f"Class participation score ({participation:.1f}/10.0) indicates passive classroom and lab engagement. Require attendance in practical hands-on problem-solving sessions and assign active lab group leadership.",
+            "metric": f"{participation:.1f} / 10.0 Score"
         })
 
     # 8. Commendation / Honors if all metrics are healthy
