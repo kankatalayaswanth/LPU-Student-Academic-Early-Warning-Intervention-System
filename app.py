@@ -527,7 +527,7 @@ if "Executive Overview" in page:
 
     st.markdown(f"""
     <div style="margin-bottom: 1rem;">
-        <h1 style="font-size: 1.75rem; font-weight: 700; color: #0F172A; margin-bottom: 0.25rem;">Executive Academic Health Dashboard</h1>
+        <h1 style="font-size: 1.75rem; font-weight: 700; color: #0F172A; margin-bottom: 0.25rem;">Executive Academic Dashboard</h1>
         <p style="font-size: 0.9375rem; color: #475569; margin: 0;">
             Institutional early-warning surveillance across <b>{total_students:,} active enrolled students</b>. Identifies attrition and failure risks before End-Term examinations.
         </p>
