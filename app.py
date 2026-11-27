@@ -38,6 +38,14 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
+# Automated Deployment Cache & Session Invalidator (Forces fresh load on Streamlit Cloud)
+APP_BUILD_RELEASE = "v3.0.0-full-cache-bust"
+if st.session_state.get("_build_release_id") != APP_BUILD_RELEASE:
+    st.session_state.clear()
+    st.session_state["_build_release_id"] = APP_BUILD_RELEASE
+    st.cache_data.clear()
+    st.cache_resource.clear()
+
 # Custom Enterprise-grade CSS (strictly flat, solid colors, NO gradients, NO glassmorphism)
 CUSTOM_CSS = """
 <style>
@@ -977,10 +985,31 @@ elif "Student Risk" in page:
 
     # Prepare DataFrame for Model Inference
     inf_df = pd.DataFrame([student_record])
-    if "Student_ID" in inf_df.columns:
-        inf_df = inf_df.drop(columns=["Student_ID"])
-    if "Risk_Level" in inf_df.columns:
-        inf_df = inf_df.drop(columns=["Risk_Level"])
+    
+    # Strictly guarantee all 11 required domain feature columns exist
+    req_feature_cols = [
+        "Department", "Semester", "Attendance_Pct", "CA1_Marks", "CA2_Marks",
+        "CA3_Marks", "MidTerm_Marks", "Prev_Sem_CGPA", "Assignment_Submission_Rate",
+        "Active_Backlogs", "Participation_Score"
+    ]
+    domain_col_defaults = {
+        "Department": "B.Tech CSE (Core)",
+        "Semester": 1,
+        "Attendance_Pct": 75.0,
+        "CA1_Marks": 50.0,
+        "CA2_Marks": 50.0,
+        "CA3_Marks": 50.0,
+        "MidTerm_Marks": 50.0,
+        "Prev_Sem_CGPA": 7.0,
+        "Assignment_Submission_Rate": 75.0,
+        "Active_Backlogs": 0,
+        "Participation_Score": 6.0
+    }
+    for col in req_feature_cols:
+        if col not in inf_df.columns or pd.isna(inf_df[col].iloc[0]):
+            inf_df[col] = domain_col_defaults[col]
+            
+    inf_df = inf_df[req_feature_cols].copy()
 
     # Compute Inference & SHAP Values
     shap_df, probs, pred_label = explain_student_risk(inf_df, pipeline, explainer, feature_names, class_idx=2)

@@ -46,8 +46,9 @@ ACADEMIC EARLY-WARNING & INTERVENTION SYSTEM/
 │   └── config.toml               # Streamlit enterprise theme settings
 ├── Application Outcome Images/   # High-resolution dashboard outcome screenshots
 │   ├── Executive Overview.png
+│   ├── Faculty Mentorship Portal.png
 │   ├── Student Risk & SHAP Profiler.png
-│   └── Model Performance &EDA Lab.png
+│   └── Model Performance & EDA Lab.png
 ├── artifacts/                    # Pre-computed models & evaluation metrics
 │   ├── best_model_pipeline.joblib# Serialized winning Tuned XGBoost Pipeline
 │   ├── shap_explainer.joblib     # Serialized TreeExplainer SHAP artifact
@@ -60,17 +61,23 @@ ACADEMIC EARLY-WARNING & INTERVENTION SYSTEM/
 │   ├── global_shap.json          # Cohort-wide SHAP feature importance
 │   └── smote_summary.json        # Class distribution before/after SMOTE
 ├── data/
-│   ├── student_academic_data.csv # 2,500 LPU student records with 3% missingness
+│   ├── all_schools_combined.csv  # 4,460 Master University Census records
+│   ├── school_cse.csv            # School of Computer Science & Engineering
+│   ├── school_mechanical.csv     # School of Mechanical Engineering
+│   ├── school_business.csv       # Mittal School of Business
+│   ├── school_law.csv            # School of Law
+│   ├── school_agriculture.csv    # School of Agriculture & Bio-Sciences
+│   ├── student_academic_data.csv # Master compatibility dataset
 │   └── sample_batch_upload.csv   # 50 unlabelled test students for 1-click batch demo
 ├── notebooks/
 │   └── EDA_and_Modeling.ipynb    # Complete documented Jupyter research notebook
 ├── src/
 │   ├── __init__.py
 │   ├── custom_transformers.py   # AcademicFeatureEngineer & IQROutlierCapper
-│   ├── data_prep.py             # Realistic synthetic data generation module
+│   ├── data_prep.py             # Multi-school realistic data generation module
 │   ├── explain.py               # SHAP explainability & rule-based intervention logic
 │   └── train.py                 # Leakage-free training, tuning & serialization pipeline
-├── app.py                       # 4-page interactive Streamlit dashboard
+├── app.py                       # 5-page interactive Streamlit dashboard
 ├── requirements.txt             # Pinned production dependencies
 └── README.md                    # Project documentation & viva defense guide
 ```
@@ -82,11 +89,14 @@ ACADEMIC EARLY-WARNING & INTERVENTION SYSTEM/
 ### Executive Academic Overview Dashboard
 ![Executive Overview Dashboard](Application%20Outcome%20Images/Executive%20Overview.png)
 
+### Faculty Mentorship & Advising Portal
+![Faculty Mentorship Portal](Application%20Outcome%20Images/Faculty%20Mentorship%20Portal.png)
+
 ### Individual Student Risk & TreeSHAP Profiler
 ![Student Risk & SHAP Profiler](Application%20Outcome%20Images/Student%20Risk%20%26%20SHAP%20Profiler.png)
 
 ### Supervised Learning Diagnostic & EDA Laboratory
-![Model Performance & EDA Lab](Application%20Outcome%20Images/Model%20Performance%20%26EDA%20Lab.png)
+![Model Performance & EDA Lab](Application%20Outcome%20Images/Model%20Performance%20%26%20EDA%20Lab.png)
 
 ---
 

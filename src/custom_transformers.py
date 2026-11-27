@@ -28,6 +28,24 @@ class AcademicFeatureEngineer(BaseEstimator, TransformerMixin):
         else:
             raise TypeError("AcademicFeatureEngineer expects a pandas DataFrame input.")
 
+        # Ensure all required domain columns exist with realistic defaults if missing
+        domain_defaults = {
+            "CA1_Marks": 50.0,
+            "CA2_Marks": 50.0,
+            "CA3_Marks": 50.0,
+            "Attendance_Pct": 75.0,
+            "MidTerm_Marks": 50.0,
+            "Prev_Sem_CGPA": 7.0,
+            "Assignment_Submission_Rate": 75.0,
+            "Active_Backlogs": 0,
+            "Participation_Score": 6.0,
+            "Semester": 1,
+            "Department": "B.Tech CSE (Core)"
+        }
+        for col, default_val in domain_defaults.items():
+            if col not in df.columns:
+                df[col] = default_val
+
         # Continuous Assessment metrics
         ca1 = df["CA1_Marks"].fillna(50.0)
         ca2 = df["CA2_Marks"].fillna(50.0)
