@@ -92,9 +92,6 @@ ACADEMIC EARLY-WARNING & INTERVENTION SYSTEM/
 ### Faculty Mentorship & Advising Portal
 ![Faculty Mentorship Portal](Application%20Outcome%20Images/Faculty%20Mentorship%20Portal.png)
 
-### Individual Student Risk & TreeSHAP Profiler
-![Student Risk & SHAP Profiler](Application%20Outcome%20Images/Student%20Risk%20%26%20SHAP%20Profiler.png)
-
 ### Supervised Learning Diagnostic & EDA Laboratory
 ![Model Performance & EDA Lab](Application%20Outcome%20Images/Model%20Performance%20%26%20EDA%20Lab.png)
 
